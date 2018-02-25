@@ -5,5 +5,3 @@ program
   .parse(process.argv)
 
 if (program.module) console.log(`Find root module that requires ${program.module}`)
-
-
