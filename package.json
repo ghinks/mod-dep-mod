@@ -70,6 +70,7 @@
     "debug": "^3.1.0",
     "npm-package-arg": "^6.0.0",
     "read-package-json": "^2.0.12",
+    "registry-url": "^3.1.0",
     "treeify": "^1.1.0"
   }
 }
