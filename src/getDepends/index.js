@@ -7,8 +7,8 @@ const read = async (file) => {
     return Promise.reject(new Error('file not found'))
   }
   const pj = promisify(readPackageJson)
-  const result = await pj(file)
-  return result
+  const { dependencies, devDependencies } = await pj(file)
+  return { dependencies, devDependencies }
 }
 
 export default read

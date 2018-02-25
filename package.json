@@ -32,10 +32,19 @@
     }
   },
   "nyc": {
-    "require": ["babel-core/register"],
-    "include": ["src/**/*.js"],
-    "exclude": ["src/**/test.js"],
-    "report": ["lcov", "text"]
+    "require": [
+      "babel-core/register"
+    ],
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "src/**/test.js"
+    ],
+    "report": [
+      "lcov",
+      "text"
+    ]
   },
   "babel": {
     "presets": [
@@ -58,6 +67,8 @@
     "babel-runtime": "^6.26.0",
     "commander": "^2.14.1",
     "debug": "^3.1.0",
-    "npm-package-arg": "^6.0.0"
+    "npm-package-arg": "^6.0.0",
+    "read-package-json": "^2.0.12",
+    "treeify": "^1.1.0"
   }
 }
