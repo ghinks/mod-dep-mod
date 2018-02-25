@@ -1,6 +1,6 @@
 import program from 'commander'
-import getDepends from './getDepends'
-import collate from './collateDepends'
+import getDepends from './fileDeps'
+import collate from './collate'
 import treeify from 'treeify'
 
 program

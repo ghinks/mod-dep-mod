@@ -1,5 +1,5 @@
 import readPackageJson from 'read-package-json'
-import checkPackageFile from '../checkPackageFile'
+import checkPackageFile from '../checkFile'
 import { promisify } from 'util'
 
 const read = async (file) => {
