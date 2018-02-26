@@ -12,6 +12,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "commander": "^2.14.1",
+    "debug": "^3.1.0",
+    "npm-package-arg": "^6.0.0",
+    "read-package-json": "^2.0.12",
+    "registry-url": "^3.1.0",
+    "request-promise": "^4.2.2",
+    "treeify": "^1.1.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.2",
@@ -22,6 +32,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "mocha": "^5.0.1",
+    "nock": "^9.2.1",
     "nodemon": "^1.15.1",
     "nyc": "^11.4.1",
     "standard": "^11.0.0"
@@ -63,14 +74,5 @@
       "transform-runtime",
       "babel-plugin-rewire"
     ]
-  },
-  "dependencies": {
-    "babel-runtime": "^6.26.0",
-    "commander": "^2.14.1",
-    "debug": "^3.1.0",
-    "npm-package-arg": "^6.0.0",
-    "read-package-json": "^2.0.12",
-    "registry-url": "^3.1.0",
-    "treeify": "^1.1.0"
   }
 }
