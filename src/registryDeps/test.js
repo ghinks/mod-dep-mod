@@ -5,7 +5,7 @@ import nock from 'nock'
 describe('Registry Dependencies', () => {
   const myRegistry = 'http://registry.npmjs.org'
   const module = 'debug'
-  const version = '1.0.1'
+  const version = '~1.0.1'
   describe('Passing', () => {
     const dependencies = {
       name1: '0.0.1',
@@ -48,7 +48,7 @@ describe('Registry Dependencies', () => {
       registryDeps.__ResetDependency__('request')
       nock.cleanAll()
     })
-    it.only('Expect no dependencies', (done) => {
+    it('Expect no dependencies', (done) => {
       registryDeps({module, version})
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')

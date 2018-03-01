@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir lib --ignore test.js",
+    "watch": "babel --watch src --out-dir lib --ignore test.js",
     "lint": "standard --env mocha src/**/*.js",
     "test": "mocha --require babel-core/register src/**/test.js",
     "cover": "nyc npm test"
@@ -17,11 +18,10 @@
     "commander": "^2.14.1",
     "compare-semver": "^1.1.0",
     "debug": "^3.1.0",
+    "isomorphic-fetch": "^2.2.1",
     "npm-package-arg": "^6.0.0",
     "read-package-json": "^2.0.12",
     "registry-url": "^3.1.0",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2",
     "semver": "^5.5.0",
     "treeify": "^1.1.0"
   },
