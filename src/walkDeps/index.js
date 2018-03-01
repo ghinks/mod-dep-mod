@@ -25,11 +25,12 @@ const walkDeps = async (moduleToFind) => {
   // get an array of { module, semver }
   const collatedDeps = collate(packageJsonDeps)
   let results = { depends: collatedDeps }
-  const q = async.queue(async function (depend, cb) {
-    const regDeps = await getRegistryDeps(depend)
+  const q = async.queue(async function (task, cb) {
+    const regDeps = await getRegistryDeps(task.dependency)
+    results[task.dependency.module] = {}
     if (regDeps) {
       Object.keys(regDeps).forEach((k) => {
-        if (k) results[k] = regDeps[k]
+        if (k) results[task.dependency.module][k] = regDeps[k]
       })
     }
     cb()
@@ -38,7 +39,9 @@ const walkDeps = async (moduleToFind) => {
   // from which we wish to find our top level package that
   // is including the moduleToFind
   q.drain = () => console.log(`all finished ${JSON.stringify(results, null, 2)}`)
-  q.push(collatedDeps, () => null)
+  collatedDeps.forEach((d) => {
+    q.push({ dependency: d, results }, () => null)
+  })
 }
 
 export default walkDeps
