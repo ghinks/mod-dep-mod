@@ -1,5 +1,5 @@
 const getMinor = (versions, testValue) => {
-  const regex = /(\d)\.([\d])\.([\dxX])/
+  const regex = /(\d+)\.([\d]+)\.([\d]+)/
   const testValueMatch = testValue.match(regex)
   return versions.reduce((acc, cur) => {
     const versionMatch = cur.match(regex)
@@ -17,7 +17,7 @@ const getMinor = (versions, testValue) => {
 }
 
 const getMajor = (versions, testValue) => {
-  const regex = /(\d)\.([\d])\.([\dxX])/
+  const regex = /(\d+)\.([\d]+)\.([\d]+)/
   const testValueMatch = testValue.match(regex)
   return versions.reduce((acc, cur) => {
     const versionMatch = cur.match(regex)
@@ -52,7 +52,7 @@ const getExact = (versions, testValue) => {
 
 const matcher = (versions, testValue) => {
   // eslint-disable-next-line
-  const regexMajMin = /([\^\~])(\d\.[\dxX]\.[\dxX])/
+  const regexMajMin = /([\^\~])(\d+\.[\d]+\.[\d]+)/
   const match = testValue.match(regexMajMin)
   if (match && match[1] === '~') {
     return getMinor(versions, match[2])

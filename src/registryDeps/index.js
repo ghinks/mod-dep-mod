@@ -11,6 +11,10 @@ const registryDeps = async (dependency) => {
   const response = await data.json()
   if (response.versions) {
     const match = semverMatcher(Object.keys(response.versions), dependency.version)
+    if (!response.versions[match]) {
+      console.error(`no match for ${dependency.module} ${match} in ${Object.keys(response.versions)}`)
+      return {}
+    }
     return response.versions[match].dependencies
   }
   return {}
