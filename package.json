@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.6.0",
     "babel-runtime": "^6.26.0",
     "commander": "^2.14.1",
     "compare-semver": "^1.1.0",

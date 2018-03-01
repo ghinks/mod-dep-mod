@@ -1,8 +1,5 @@
 import program from 'commander'
-import getDepends from './fileDeps'
-import collate from './collate'
-import treeify from 'treeify'
-import registryDeps from './registryDeps'
+import walk from './walkDeps'
 
 program
   .version('1.0.0')
@@ -12,9 +9,7 @@ program
 if (program.module) console.log(`Find root module that requires ${program.module}`)
 
 const getDependencyTree = async () => {
-  let depends = await getDepends('package.json')
-  collate(depends).forEach(d => console.log(treeify.asTree(d, true)))
-  depends = await registryDeps()
+  await walk()
 }
 
 getDependencyTree()
