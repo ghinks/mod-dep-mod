@@ -8,7 +8,7 @@ describe('Collate package.json dependencies', () => {
       otherOne: '1.0.1'
     },
     devDependencies: {
-      eslint: '1.0.0'
+      eslint: '~1.0.0'
     }
   }
   it('Expect to get an array of dependencies', () => {
