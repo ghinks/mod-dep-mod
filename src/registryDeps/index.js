@@ -3,12 +3,21 @@ import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher'
 
+const cache = {}
+
 const registryDeps = async (dependency) => {
   const registry = registryUrl()
   const escapedName = npa(`${dependency.module}`).escapedName
   const url = `${registry}${escapedName}`
-  const data = await fetch(url)
-  const response = await data.json()
+  let response
+  if (!cache[url]) {
+    console.log(`fetch ${url}`)
+    const data = await fetch(url)
+    response = await data.json()
+    cache[url] = response
+  } else {
+    response = cache[url]
+  }
   if (response.versions) {
     const match = semverMatcher(Object.keys(response.versions), dependency.version)
     if (!response.versions[match]) {

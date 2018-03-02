@@ -19,29 +19,36 @@ results tree object should be
   nameN: {}
 }
 */
+// babel-traverse babel-types 'babel-types', version: '^6.9.0'  'babel-traverse', version: '^6.9.0'
+const walker = async (task, cb) => {
+  const regDeps = await getRegistryDeps(task.dependency)
+  task.results[task.dependency.module] = {}
+  if (regDeps) {
+    const depends = []
+    Object.getOwnPropertyNames(regDeps).forEach((depName) => {
+      if (depName) depends.push({ module: depName, version: regDeps[depName] })
+    })
+    if (depends.length > 0) {
+      task.results[task.dependency.module] = { depends }
+      const newDeps = depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q }))
+      newDeps.forEach(nd => task.q.push(nd, (e, n, v) => console.log(n, v)))
+      // depends.forEach(dependency => task.q.push({ dependency, results: task.results[task.dependency.module], q: task.q }, (e, v) => console.log(v)))
+    }
+  }
+  cb(null, task.dependency.module, task.results[task.dependency.module])
+}
 
 const walkDeps = async (moduleToFind) => {
   const packageJsonDeps = await getDepends('package.json')
   // get an array of { module, semver }
   const collatedDeps = collate(packageJsonDeps)
   let results = { depends: collatedDeps }
-  const q = async.queue(async function (task, cb) {
-    const regDeps = await getRegistryDeps(task.dependency)
-    results[task.dependency.module] = {}
-    if (regDeps) {
-      Object.keys(regDeps).forEach((k) => {
-        if (k) results[task.dependency.module][k] = regDeps[k]
-      })
-    }
-    cb()
-  }, 10)
+  const q = async.queue(walker, 1)
   // here we are with a lovely list of modules and semvers
   // from which we wish to find our top level package that
   // is including the moduleToFind
   q.drain = () => console.log(`all finished ${JSON.stringify(results, null, 2)}`)
-  collatedDeps.forEach((d) => {
-    q.push({ dependency: d, results }, () => null)
-  })
+  collatedDeps.forEach((d) => q.push({ dependency: d, results, q }, (e, n, v) => console.log(n, v)))
 }
 
 export default walkDeps
