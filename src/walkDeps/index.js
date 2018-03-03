@@ -72,6 +72,9 @@ const walkDeps = async (moduleToFind, done) => {
     if (done) done(results)
   }
   // TODO cb error handling
+  // TODO add moduleToFind and mark it in objects when found
+  // TODO rename properites with double underscores so we can walk results and ignore some props
+  // TODO take package@version as argument rather than package.json
   collatedDeps.forEach((d) => q.push({ dependency: d, results, q, depth: 1, parent: undefined }, () => null))
 }
 
