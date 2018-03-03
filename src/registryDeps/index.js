@@ -11,6 +11,7 @@ const registryDeps = async (dependency) => {
   const escapedName = npa(`${dependency.module}`).escapedName
   const url = `${registry}${escapedName}`
   let response
+  // TODO handle the case when the call is pending and not yet cached
   if (!cache[url]) {
     console.log(`fetch ${url}`)
     const data = await fetch(url)
