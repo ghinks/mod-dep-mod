@@ -25,7 +25,8 @@ const registryDeps = async (dependency) => {
       console.error(`no match for ${dependency.module} ${match} in ${Object.keys(response.versions)}`)
       return {}
     }
-    return response.versions[match].dependencies
+    // handle no dependencies
+    return response.versions[match].dependencies || {}
   }
   return {}
 }
