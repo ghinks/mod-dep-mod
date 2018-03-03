@@ -3,6 +3,7 @@ import collate from '../collate'
 import getRegistryDeps from '../registryDeps'
 import async from 'async'
 import cleanPrivProps from '../cleanPrivateProps'
+import treeify from 'treeify'
 
 /*
 results tree object should be
@@ -71,7 +72,8 @@ const walkDeps = async (moduleToFind, done) => {
   const q = async.queue(walker, 10)
   q.drain = () => {
     results = cleanPrivProps(results)
-    console.log(`${JSON.stringify(results, null, 2)}`)
+    // console.log(`${JSON.stringify(results, null, 2)}`)
+    console.log(treeify.asTree(results, true))
     if (done) done(results)
   }
   // TODO cb error handling
