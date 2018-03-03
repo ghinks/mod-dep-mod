@@ -2,6 +2,8 @@ import getDepends from '../fileDeps'
 import collate from '../collate'
 import getRegistryDeps from '../registryDeps'
 import async from 'async'
+import cleanPrivProps from '../cleanPrivateProps'
+
 /*
 results tree object should be
 {
@@ -68,7 +70,8 @@ const walkDeps = async (moduleToFind, done) => {
   let results = { __depends: collatedDeps }
   const q = async.queue(walker, 10)
   q.drain = () => {
-    console.log(`all finished ${JSON.stringify(results, null, 2)}`)
+    results = cleanPrivProps(results)
+    console.log(`${JSON.stringify(results, null, 2)}`)
     if (done) done(results)
   }
   // TODO cb error handling
