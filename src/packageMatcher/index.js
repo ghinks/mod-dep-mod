@@ -50,6 +50,7 @@ const getExact = (versions, testValue) => {
   return undefined
 }
 
+// TODO > < range checks in version
 const matcher = (versions, testValue) => {
   // eslint-disable-next-line
   const regexMajMin = /([\^\~])(\d+\.[\d]+\.[\d]+)/
