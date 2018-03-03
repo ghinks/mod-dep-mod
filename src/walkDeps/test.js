@@ -14,15 +14,15 @@ describe('Walk dependency tree', () => {
       expect(result).to.be.equal(false)
     })
     it('Expect no circular dependencies', () => {
-      const parent = { name: undefined }
+      const parent = { __name: undefined }
       const dependency = {}
       const result = isCircularDependency({ parent, dependency })
       expect(result).to.be.equal(false)
     })
     it('Expect to find circular dependencies', () => {
       const parent = {
-        name: 'mom',
-        depends: [{ module: 'debug', version: '1.0.0' }]
+        __name: 'mom',
+        __depends: [{ module: 'debug', version: '1.0.0' }]
       }
       const dependency = { module: 'mom', version: '1.0.0' }
       const result = isCircularDependency({ parent, dependency })
@@ -30,13 +30,13 @@ describe('Walk dependency tree', () => {
     })
     it('Expect to find circular dependencies', () => {
       const grandParent = {
-        name: 'pop',
-        depends: [ {module: 'mom', version: '1.0.0'} ]
+        __name: 'pop',
+        __depends: [ {module: 'mom', version: '1.0.0'} ]
       }
       const parent = {
         parent: grandParent,
-        name: 'mom',
-        depends: [{ module: 'debug', version: '1.0.0' }]
+        __name: 'mom',
+        __depends: [{ module: 'debug', version: '1.0.0' }]
       }
       const dependency = { module: 'pop', version: '1.0.0' }
       const result = isCircularDependency({ parent, dependency })
