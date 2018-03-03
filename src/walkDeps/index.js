@@ -79,6 +79,7 @@ const walkDeps = async (moduleToFind, done) => {
   // TODO cb error handling
   // TODO add moduleToFind and mark it in objects when found
   // TODO take package@version as argument rather than package.json
+  // TODO add package.json name to top of the tree
   collatedDeps.forEach((d) => q.push({ dependency: d, results, q, __depth: 1, parent: undefined }, () => null))
 }
 
