@@ -2,7 +2,6 @@ import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher'
-import fs from 'fs'
 
 const cache = {}
 
