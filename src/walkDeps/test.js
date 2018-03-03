@@ -5,7 +5,7 @@ import { promisify } from 'util'
 
 describe('Walk dependency tree', () => {
   const getFile = promisify(fs.readFile)
-  // when you depend on your parent!
+  // when you depend on your ancestor
   describe('Circular Depeneds', () => {
     it('Expect no circular dependencies', () => {
       const parent = undefined
@@ -14,14 +14,31 @@ describe('Walk dependency tree', () => {
       expect(result).to.be.equal(false)
     })
     it('Expect no circular dependencies', () => {
-      const parent = { depends: undefined }
+      const parent = { name: undefined }
       const dependency = {}
       const result = isCircularDependency({ parent, dependency })
       expect(result).to.be.equal(false)
     })
     it('Expect to find circular dependencies', () => {
-      const parent = { depends: [{ module: 'debug', version: '1.0.0' }] }
-      const dependency = { module: 'debug', version: '1.0.0' }
+      const parent = {
+        name: 'mom',
+        depends: [{ module: 'debug', version: '1.0.0' }]
+      }
+      const dependency = { module: 'mom', version: '1.0.0' }
+      const result = isCircularDependency({ parent, dependency })
+      expect(result).to.be.equal(true)
+    })
+    it('Expect to find circular dependencies', () => {
+      const grandParent = {
+        name: 'pop',
+        depends: [ {module: 'mom', version: '1.0.0'} ]
+      }
+      const parent = {
+        parent: grandParent,
+        name: 'mom',
+        depends: [{ module: 'debug', version: '1.0.0' }]
+      }
+      const dependency = { module: 'pop', version: '1.0.0' }
       const result = isCircularDependency({ parent, dependency })
       expect(result).to.be.equal(true)
     })
@@ -66,6 +83,7 @@ describe('Walk dependency tree', () => {
         ])
         walkDeps.__Rewire__('getRegistryDeps', (dependency) => {
           const path = `./src/walkDeps/testData/${dependency.module}.json`
+          // TODO handle the caret and tildas
           const regexMajMin = /(\^\d)*(\d+\.[\d]+\.[\d]+)/
           const match = dependency.version.match(regexMajMin)
           if (!match) {
@@ -75,6 +93,10 @@ describe('Walk dependency tree', () => {
           return getFile(path, {encoding: 'utf8'})
             .then((data) => {
               const dep = JSON.parse(data)
+              if (!dep.versions[version]) {
+                console.log(`cannot find ${dependency.module} ${version}`)
+                return {}
+              }
               const result = dep.versions[version].dependencies || {}
               return result
             })
@@ -84,7 +106,7 @@ describe('Walk dependency tree', () => {
         // eslint-disable-next-line no-undef
         __rewire_reset_all__()
       })
-      it('Expect to get depends', (done) => {
+      it.only('Expect to get depends', (done) => {
         const finished = (results) => {
           expect(results).to.be.an('Object')
           done()

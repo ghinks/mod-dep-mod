@@ -5,9 +5,11 @@ import async from 'async'
 /*
 results tree object should be
 {
+  name: undefined
   depends: [],
   nameA: {identical to this object},
   nameB: {
+    name: 'nameB',
     depends: [],
     nameC: {}
     nameD: {
@@ -20,13 +22,15 @@ results tree object should be
 }
 */
 // babel-traverse babel-types 'babel-types', version: '^6.9.0'  'babel-traverse', version: '^6.9.0'
-export const isCircularDependency = ({ parent, dependency }) => {
-  if (!parent || !parent.depends) return false
-  const parentsMatchingDepends = parent.depends.filter(parentDependency => parentDependency.module === dependency.module)
-  if (parentsMatchingDepends.length > 0) {
-    return true
+export const isCircularDependency = ({ parent: ancestor, dependency }) => {
+  if (!ancestor || !ancestor.name) return false
+  const match = (ancestor.name === dependency.module)
+  if (match) {
+    console.log(`Circ dep parent ${ancestor.name} to ${dependency.module}`)
+    return match
   }
-  return false
+  if (!ancestor.parent) return false
+  return isCircularDependency({parent: ancestor.parent, dependency})
 }
 
 const walker = async (task, cb) => {
@@ -46,6 +50,15 @@ const walker = async (task, cb) => {
   }
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
+
+/*
+task is
+dependency,
+results Obj
+depth
+parent
+
+ */
 
 const walkDeps = async (moduleToFind, done) => {
   const packageJsonDeps = await getDepends('package.json')
