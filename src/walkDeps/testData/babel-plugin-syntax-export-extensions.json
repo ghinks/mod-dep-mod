@@ -1,0 +1,1887 @@
+{
+  "_id": "babel-plugin-syntax-export-extensions",
+  "_rev": "60-02b6773f520b599d52fae40b5668ae29",
+  "name": "babel-plugin-syntax-export-extensions",
+  "description": "Allow parsing of export extensions",
+  "dist-tags": {
+    "latest": "6.13.0",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.0.2",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-syntax-export-extensions@6.0.2",
+      "scripts": {},
+      "_shasum": "25771fe59b88ce931b19dad1d562067357583512",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "25771fe59b88ce931b19dad1d562067357583512",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.0.14",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.0.14",
+      "scripts": {},
+      "_shasum": "2843fd67d2ce3a5119ec47aa845d33c30efef543",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "2843fd67d2ce3a5119ec47aa845d33c30efef543",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.4",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.4",
+      "scripts": {},
+      "_shasum": "2351ef0b4afd46bcdd6487e310ca18897d033253",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "2351ef0b4afd46bcdd6487e310ca18897d033253",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.5",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.5",
+      "scripts": {},
+      "_shasum": "f5dd36c5dbf7895b9837d40658210625f9952186",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f5dd36c5dbf7895b9837d40658210625f9952186",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.6",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.6"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.6",
+      "scripts": {},
+      "_shasum": "b9710cec166cb6736a49f7bc3003ea7fc99e4ee3",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b9710cec166cb6736a49f7bc3003ea7fc99e4ee3",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.7": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.7",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.7"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.7",
+      "scripts": {},
+      "_shasum": "5567acbaa31fc8806cd127be921c05961a0ec229",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "5567acbaa31fc8806cd127be921c05961a0ec229",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.8",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.8"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.8",
+      "scripts": {},
+      "_shasum": "fa331cf9aab7edc1f6fbbd9bebc379404c0a023a",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "fa331cf9aab7edc1f6fbbd9bebc379404c0a023a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.10",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.10",
+      "scripts": {},
+      "_shasum": "b5def3a867206a3b34742d174c71c44d8adc39d7",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b5def3a867206a3b34742d174c71c44d8adc39d7",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.13",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.13"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.13",
+      "scripts": {},
+      "_shasum": "fca695eac40a514d0c4714ff61327e154f71fbd5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "fca695eac40a514d0c4714ff61327e154f71fbd5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.16",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.16"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.16",
+      "scripts": {},
+      "_shasum": "69eb1a9b9f6fc5bd3b05f866565d4e93e5f3ec48",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "69eb1a9b9f6fc5bd3b05f866565d4e93e5f3ec48",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.17",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.17",
+      "scripts": {},
+      "_shasum": "1ae0faac4a2318a6ac93ebfc064228921faa1a8e",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "1ae0faac4a2318a6ac93ebfc064228921faa1a8e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.1.18",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.1.18",
+      "scripts": {},
+      "_shasum": "33763781e70311226f360b637db7eeb9df2fdd2c",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "33763781e70311226f360b637db7eeb9df2fdd2c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.2.4",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.2.4",
+      "scripts": {},
+      "_shasum": "f4258028da9e01669d2f215747fa24667dd47e35",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f4258028da9e01669d2f215747fa24667dd47e35",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.3.13",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.3.13",
+      "scripts": {},
+      "_shasum": "3494d4721d4aa5eb9050aedd5beb5d117e1cd45d",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3494d4721d4aa5eb9050aedd5beb5d117e1cd45d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.5.0",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.5.0",
+      "scripts": {},
+      "_shasum": "1220e9a2f53447d86038a396af91a1b9f1f57276",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1220e9a2f53447d86038a396af91a1b9f1f57276",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-6.5.0.tgz_1454803636759_0.047529437113553286"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.5.0-1",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.5.0-1",
+      "scripts": {},
+      "_shasum": "a097deea34c8ddeeb2125d3de79660a72a175039",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "a097deea34c8ddeeb2125d3de79660a72a175039",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-6.5.0-1.tgz_1454812802388_0.7430425137281418"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.8.0",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-syntax-export-extensions@6.8.0",
+      "scripts": {},
+      "_shasum": "90891251d58ede69f6c2024f8a632d6f55ad9529",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "90891251d58ede69f6c2024f8a632d6f55ad9529",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-6.8.0.tgz_1462232660903_0.9412910279352218"
+      },
+      "directories": {}
+    },
+    "6.13.0": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "6.13.0",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@6.13.0",
+      "scripts": {},
+      "_shasum": "70a1484f0f9089a4e84ad44bac353c95b9b12721",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "70a1484f0f9089a4e84ad44bac353c95b9b12721",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-6.13.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-6.13.0.tgz_1470353698445_0.5700725177302957"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.1",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "c04a11866159da39e84985561becf73c43a81ca9",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "c04a11866159da39e84985561becf73c43a81ca9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.1.tgz_1488488696432_0.5057392898015678"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.3",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "cf0caca528af0508ee34eb5d3cd9309bbe025f61",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "cf0caca528af0508ee34eb5d3cd9309bbe025f61",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.3.tgz_1490298547136_0.5204584691673517"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.9",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "563924d129942d6209989bba2ee57ee1f602d62e",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "563924d129942d6209989bba2ee57ee1f602d62e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.9.tgz_1492526498636_0.6507813369389623"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.12",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-TvDVm8p53kPfORcxZl+p3XhkWQ5rhRg9OWZkMLGpY2/A0F01/eXVUqfX2IRnlip3J/fe2AzuPa0LqbWbaQ36hQ==",
+        "shasum": "42bd678efde9431d6965748e8753ca4c00d9b878",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.12.tgz_1496265104476_0.8318471445236355"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.13": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.13",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.13",
+      "scripts": {},
+      "_shasum": "aba559824d2fb6d2272b5646e810bec5637d957b",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "aba559824d2fb6d2272b5646e810bec5637d957b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.13.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.13.tgz_1499826486083_0.791495566489175"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.14",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "8c114d0b6142a44a72f96370a2a3d097f8c02e1b",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "8c114d0b6142a44a72f96370a2a3d097f8c02e1b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.14.tgz_1499827998361_0.20321879186667502"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.15",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "e9960f1299cfdcd8875dd819dbd88278bcfb745e",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e9960f1299cfdcd8875dd819dbd88278bcfb745e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.15.tgz_1499830532722_0.28717288421466947"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.16",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "4add882234c64c8f43dceaf4a13276d74ad14c37",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "4add882234c64c8f43dceaf4a13276d74ad14c37",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.16.tgz_1501017444755_0.4913341267965734"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.17",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "226d4bf5a2dac009dd507ab9d892d55e58d104ab",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "226d4bf5a2dac009dd507ab9d892d55e58d104ab",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.17.tgz_1501072734179_0.9896290730684996"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.18",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-nS9X96nQhxhMhBmRpKdFYbRjb3g05jjQyiMw6pzXFge8aQuaRq5PYrDMgfpkuol3YSzECsDP706W0vLbJfvwNA==",
+        "shasum": "d542390c9849f70a571e845278b7f0eb1407769e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.18.tgz_1501798843483_0.1264392731245607"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.19",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-R+DuNuQfidOh79/BsUJNnz4odS5oXx1VkPMj+zPa4nJ/t51AazU7LaR6PLHuMlKCEsAQwPTu9JNZd98b6NOeAg==",
+        "shasum": "aa9d3a2bf6cfb34973f045991c2f8ee76e16443a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.19.tgz_1502144478445_0.6818950520828366"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-alpha.20",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-HsPXvLpv0tw34GSQopFE3P299oy/fuEh8n33MLErZi/j7+5LRnD1HzqDf2QnN2SCpfj+EDf9KLSjm8Y7jqbyWQ==",
+        "shasum": "4138ee9bdd362d6ad7ad8c96fb5b8ca1e55c97d7",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-alpha.20.tgz_1504119105473_0.7312490686308593"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-beta.0",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-p4ifEENxmNLx0XmCVtBBDdQQSJau7eYXmpsb8SeCsteNSn/J+DLUJ+yEvR0quBZXYCGiAy6lY53MlVxR/cP/Wg==",
+        "shasum": "999e1aa78b38f4129897ee4509c70da8ec0976c7",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-beta.0.tgz_1505185311930_0.44441359816119075"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-beta.1",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-/KUgTvaBnL4op8iI29VAGIazcRCzYr79/jw5FMOQotIzmdLzbF3QW+iq04YN+jwIYaJGOW3vEfMbw3a6K8QnHg==",
+        "shasum": "99fbd819827b4bbacc3918fcec3a5e60d933276b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-beta.1.tgz_1505851745645_0.19852815358899534"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-beta.2",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-trHwlV3hGA/qhvVlrpN7nrEoT/rcb6tk4uLPC6LaTsuGhCqx6/ZRhcXqH9x27bTDHPS5CP/YpplqWoC+kKajDg==",
+        "shasum": "765e31e6095a76e5413e682475aed4f8bb88ac1a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-beta.2.tgz_1506438887930_0.3453972153365612"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-syntax-export-extensions",
+      "version": "7.0.0-beta.3",
+      "description": "Allow parsing of export extensions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-export-extensions@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-0xPSnq/39R/kpnKyK0/SfY0Yne3xo6RPhLRrdGEnJUBOvCgiOuQ8ivr2jSV+XK5h+dZYS5+9yWdQiUCkeHQnhA==",
+        "shasum": "eb6891a63f86652e2f09c332f2ff06a83c07da28",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-export-extensions-7.0.0-beta.3.tgz_1508073074188_0.11292759189382195"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-syntax-export-extensions\n\nAllow parsing of export extensions.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-export-extensions\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-export-extensions\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-export-extensions script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-export-extensions\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-10-15T13:11:15.102Z",
+    "created": "2015-10-29T18:11:17.230Z",
+    "6.0.2": "2015-10-29T18:11:17.230Z",
+    "6.0.14": "2015-10-30T23:35:03.666Z",
+    "6.1.4": "2015-11-11T10:08:45.545Z",
+    "6.1.5": "2015-11-12T06:54:17.172Z",
+    "6.1.6": "2015-11-12T07:34:25.129Z",
+    "6.1.7": "2015-11-12T07:38:47.965Z",
+    "6.1.8": "2015-11-12T07:41:54.528Z",
+    "6.1.10": "2015-11-12T07:54:15.468Z",
+    "6.1.13": "2015-11-12T19:59:02.680Z",
+    "6.1.16": "2015-11-12T21:35:10.840Z",
+    "6.1.17": "2015-11-12T21:41:36.709Z",
+    "6.1.18": "2015-11-12T21:48:18.770Z",
+    "6.2.4": "2015-11-25T03:13:45.645Z",
+    "6.3.13": "2015-12-04T11:58:15.161Z",
+    "6.5.0": "2016-02-07T00:07:17.950Z",
+    "6.5.0-1": "2016-02-07T02:40:04.849Z",
+    "6.8.0": "2016-05-02T23:44:23.179Z",
+    "6.13.0": "2016-08-04T23:35:00.625Z",
+    "7.0.0-alpha.1": "2017-03-02T21:04:57.054Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:07.361Z",
+    "7.0.0-alpha.9": "2017-04-18T14:41:38.866Z",
+    "7.0.0-alpha.12": "2017-05-31T21:11:44.554Z",
+    "7.0.0-alpha.13": "2017-07-12T02:28:07.058Z",
+    "7.0.0-alpha.14": "2017-07-12T02:53:19.293Z",
+    "7.0.0-alpha.15": "2017-07-12T03:35:33.803Z",
+    "7.0.0-alpha.16": "2017-07-25T21:17:25.622Z",
+    "7.0.0-alpha.17": "2017-07-26T12:38:55.119Z",
+    "7.0.0-alpha.18": "2017-08-03T22:20:43.579Z",
+    "7.0.0-alpha.19": "2017-08-07T22:21:18.554Z",
+    "7.0.0-alpha.20": "2017-08-30T18:51:45.565Z",
+    "7.0.0-beta.0": "2017-09-12T03:01:52.900Z",
+    "7.0.0-beta.1": "2017-09-19T20:09:05.700Z",
+    "7.0.0-beta.2": "2017-09-26T15:14:48.762Z",
+    "7.0.0-beta.3": "2017-10-15T13:11:15.102Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-extensions"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

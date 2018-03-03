@@ -1,0 +1,2523 @@
+{
+  "_id": "babel-helper-bindify-decorators",
+  "_rev": "83-98c9a2877b0f12353c1e9bfade6c2a36",
+  "name": "babel-helper-bindify-decorators",
+  "description": "Helper function to bindify decorators",
+  "dist-tags": {
+    "latest": "6.24.1",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.0.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.0.0",
+        "babel-types": "^6.0.0"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-helper-bindify-decorators@6.0.0",
+      "scripts": {},
+      "_shasum": "0719480f96a426202e7c7905ab1f0dd076275390",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "0719480f96a426202e7c7905ab1f0dd076275390",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.2": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.0.2",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.2",
+        "babel-traverse": "^6.0.2",
+        "babel-types": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-helper-bindify-decorators@6.0.2",
+      "scripts": {},
+      "_shasum": "e2edb6e83c8aad0990d85ef837e1a3c6e12dee8b",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "e2edb6e83c8aad0990d85ef837e1a3c6e12dee8b",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.0.14",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.0.14",
+        "babel-types": "^6.0.14"
+      },
+      "_id": "babel-helper-bindify-decorators@6.0.14",
+      "scripts": {},
+      "_shasum": "974778063f241e1de4325cf8ac9c140af1a4e199",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "974778063f241e1de4325cf8ac9c140af1a4e199",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.0.15",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.0.14",
+        "babel-types": "^6.0.15"
+      },
+      "_id": "babel-helper-bindify-decorators@6.0.15",
+      "scripts": {},
+      "_shasum": "7762e6feafcf758638de324ac343852f78e4b5b4",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "7762e6feafcf758638de324ac343852f78e4b5b4",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.5",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.5",
+        "babel-types": "^6.1.5"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.5",
+      "scripts": {},
+      "_shasum": "e26c0fc2e000db4c309ee59e2e2bbaf8c0b99fc8",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "e26c0fc2e000db4c309ee59e2e2bbaf8c0b99fc8",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.6",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.6",
+        "babel-types": "^6.1.6"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.6",
+      "scripts": {},
+      "_shasum": "fef34d2f15ca564d4304b94081e06b03599697e7",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "fef34d2f15ca564d4304b94081e06b03599697e7",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.7": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.7",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.7",
+        "babel-types": "^6.1.7"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.7",
+      "scripts": {},
+      "_shasum": "583ffd5dd2b2a14c4ac3f0cc86562e6372d1397f",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "583ffd5dd2b2a14c4ac3f0cc86562e6372d1397f",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.8",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.8",
+        "babel-types": "^6.1.8"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.8",
+      "scripts": {},
+      "_shasum": "75c0a128fa5a69f6cd844f32a097449c0a695772",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "75c0a128fa5a69f6cd844f32a097449c0a695772",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.9": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.9",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.9",
+        "babel-types": "^6.1.9"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.9",
+      "scripts": {},
+      "_shasum": "404b455cdf3247e7a79f6e73f483d3bd343a0c3a",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "404b455cdf3247e7a79f6e73f483d3bd343a0c3a",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.10",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.10",
+        "babel-types": "^6.1.10"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.10",
+      "scripts": {},
+      "_shasum": "bfa97a0de6444d388c71648a9fed0ba76c4e172d",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bfa97a0de6444d388c71648a9fed0ba76c4e172d",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.11": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.11",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.11",
+        "babel-types": "^6.1.11"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.11",
+      "scripts": {},
+      "_shasum": "c221ff5d5a8d7ec163c975893948532d43edcce0",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "c221ff5d5a8d7ec163c975893948532d43edcce0",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.11.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.12": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.12",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.12",
+        "babel-types": "^6.1.12"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.12",
+      "scripts": {},
+      "_shasum": "43e3a17e1670d350c150cc687e467113691029f2",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "43e3a17e1670d350c150cc687e467113691029f2",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.13",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.13",
+        "babel-types": "^6.1.13"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.13",
+      "scripts": {},
+      "_shasum": "3338ddecb393338bc2ae9c85d2e2c7c29615e47a",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3338ddecb393338bc2ae9c85d2e2c7c29615e47a",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.15": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.15",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.15",
+        "babel-types": "^6.1.15"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.15",
+      "scripts": {},
+      "_shasum": "d6eeaa9407f6440981156a8d780c2ab4abd6e9ed",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "d6eeaa9407f6440981156a8d780c2ab4abd6e9ed",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.16",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.16",
+        "babel-types": "^6.1.16"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.16",
+      "scripts": {},
+      "_shasum": "8a4cd37e1b52a91b4061befb2fa838c70ba59ac9",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "8a4cd37e1b52a91b4061befb2fa838c70ba59ac9",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.17",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.17",
+        "babel-types": "^6.1.17"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.17",
+      "scripts": {},
+      "_shasum": "5df169469a76f574e19de4005c0d8c6dd1cca31f",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "5df169469a76f574e19de4005c0d8c6dd1cca31f",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.1.18",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.18",
+        "babel-types": "^6.1.18"
+      },
+      "_id": "babel-helper-bindify-decorators@6.1.18",
+      "scripts": {},
+      "_shasum": "7bf2ad2b65c2897e057879bb133a043ab85fdf74",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "7bf2ad2b65c2897e057879bb133a043ab85fdf74",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.2.4",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.2.4",
+        "babel-types": "^6.2.4"
+      },
+      "_id": "babel-helper-bindify-decorators@6.2.4",
+      "scripts": {},
+      "_shasum": "404e381d951584e9a546f6eeb65c9e9d5ed739bc",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "404e381d951584e9a546f6eeb65c9e9d5ed739bc",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.3.13",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.3.13",
+        "babel-types": "^6.3.13"
+      },
+      "_id": "babel-helper-bindify-decorators@6.3.13",
+      "scripts": {},
+      "_shasum": "2fbe1094eaf79f18fcba29d4f4d26b91d8d2e003",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "2fbe1094eaf79f18fcba29d4f4d26b91d8d2e003",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.5.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.3.13",
+        "babel-types": "^6.3.13"
+      },
+      "_id": "babel-helper-bindify-decorators@6.5.0",
+      "scripts": {},
+      "_shasum": "6222d38811fd9904786113a0b7530a250c4f2206",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6222d38811fd9904786113a0b7530a250c4f2206",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.5.0.tgz_1454803607667_0.11415920243598521"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.5.0-1",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.5.0-1",
+        "babel-types": "^6.5.0-1"
+      },
+      "_id": "babel-helper-bindify-decorators@6.5.0-1",
+      "scripts": {},
+      "_shasum": "e5e41800c52e1342f8a640ca9be85e4e0df755e5",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e5e41800c52e1342f8a640ca9be85e4e0df755e5",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.5.0-1.tgz_1454812774842_0.8902641935274005"
+      },
+      "directories": {}
+    },
+    "6.6.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.6.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.0",
+        "babel-types": "^6.6.0"
+      },
+      "_id": "babel-helper-bindify-decorators@6.6.0",
+      "scripts": {},
+      "_shasum": "978cb1e1c989296982ec16dfd18b339f2ce4eddb",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "978cb1e1c989296982ec16dfd18b339f2ce4eddb",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.6.0.tgz_1456780341395_0.7937911697663367"
+      },
+      "directories": {}
+    },
+    "6.6.4": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.6.4",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.4",
+        "babel-types": "^6.6.4"
+      },
+      "_id": "babel-helper-bindify-decorators@6.6.4",
+      "scripts": {},
+      "_shasum": "df08b9cf56e2718b2d970a515644328e6b2cd529",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "df08b9cf56e2718b2d970a515644328e6b2cd529",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.6.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.6.4.tgz_1456954161220_0.25324623053893447"
+      },
+      "directories": {}
+    },
+    "6.6.5": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.6.5",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.5",
+        "babel-types": "^6.6.5"
+      },
+      "_id": "babel-helper-bindify-decorators@6.6.5",
+      "scripts": {},
+      "_shasum": "afb6e0e170bbc5a3f3a1b58de2c81d43e81ce365",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "afb6e0e170bbc5a3f3a1b58de2c81d43e81ce365",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.6.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-13-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.6.5.tgz_1457133384785_0.4202430995646864"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.8.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.8.0",
+        "babel-types": "^6.8.0"
+      },
+      "_id": "babel-helper-bindify-decorators@6.8.0",
+      "scripts": {},
+      "_shasum": "b34805a30b1433cc0042f7054f88a7133c144909",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "b34805a30b1433cc0042f7054f88a7133c144909",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.8.0.tgz_1462232634409_0.4687562899198383"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.18.0",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.18.0",
+        "babel-types": "^6.18.0"
+      },
+      "_id": "babel-helper-bindify-decorators@6.18.0",
+      "scripts": {},
+      "_shasum": "fc00c573676a6e702fffa00019580892ec8780a5",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "fc00c573676a6e702fffa00019580892ec8780a5",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.18.0.tgz_1477343917917_0.17585339793004096"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.22.0",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.22.0",
+        "babel-traverse": "^6.22.0",
+        "babel-types": "^6.22.0"
+      },
+      "_id": "babel-helper-bindify-decorators@6.22.0",
+      "scripts": {},
+      "_shasum": "d7f5bc261275941ac62acfc4e20dacfb8a3fe952",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d7f5bc261275941ac62acfc4e20dacfb8a3fe952",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.22.0.tgz_1484872406854_0.16815374558791518"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.1",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.1",
+        "babel-types": "7.0.0-alpha.1"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "6eed43fb92e029bbeb3451328b137632f773fcd6",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6eed43fb92e029bbeb3451328b137632f773fcd6",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.1.tgz_1488488734959_0.33196422876790166"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.3",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.3",
+        "babel-types": "7.0.0-alpha.3"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "2b8ed121e4ec39920a9d835ba05d2632b02986ba",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "2b8ed121e4ec39920a9d835ba05d2632b02986ba",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.3.tgz_1490298579349_0.8482784568332136"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.7": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.7",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.7",
+        "babel-types": "7.0.0-alpha.7"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.7",
+      "scripts": {},
+      "_shasum": "646d86e725bd862e9200c9bd371cefc9430d050d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "646d86e725bd862e9200c9bd371cefc9430d050d",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.7.tgz_1491426847846_0.7032885632943362"
+      },
+      "directories": {}
+    },
+    "6.24.1": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "6.24.1",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.22.0",
+        "babel-traverse": "^6.24.1",
+        "babel-types": "^6.24.1"
+      },
+      "_id": "babel-helper-bindify-decorators@6.24.1",
+      "scripts": {},
+      "_shasum": "14c19e5f142d7b47f19a52431e52b1ccbc40a330",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "14c19e5f142d7b47f19a52431e52b1ccbc40a330",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-6.24.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-6.24.1.tgz_1491578352485_0.13133686501532793"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.8": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.8",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.8",
+        "babel-types": "7.0.0-alpha.7"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.8",
+      "scripts": {},
+      "_shasum": "1600a4b5280d172e0cd751d7f00cf646328ee7d6",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1600a4b5280d172e0cd751d7f00cf646328ee7d6",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.8.tgz_1492456383979_0.3918504642788321"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.9",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.9",
+        "babel-types": "7.0.0-alpha.9"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "46b2e90d1c90abdc8b5b1658af31e534fe468284",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "46b2e90d1c90abdc8b5b1658af31e534fe468284",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.9.tgz_1492526529719_0.13022303930483758"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.10": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.10",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.10",
+        "babel-types": "7.0.0-alpha.10"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.10",
+      "scripts": {},
+      "_shasum": "bc633f4412fcc7402cf0bad64bc5224ec487c790",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "bc633f4412fcc7402cf0bad64bc5224ec487c790",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.10.tgz_1495739856972_0.21776130353100598"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.11": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.11",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.11",
+        "babel-types": "7.0.0-alpha.11"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.11",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-Bw6lizr1OzZL0ljs+b2v4MGf7NhC9J18IB4TE4ZqHjBMihOypOfNpD/8uBGv1A6G3DuOgurHgVeZO6ag4F5IKQ==",
+        "shasum": "a2caf7de4004b576beca5a2358aee0a1a758cee5",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.11.tgz_1496263429637_0.40796525147743523"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.12",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.12",
+        "babel-types": "7.0.0-alpha.12"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-KBkYw/RrKOsFbfcmr4Deg1DI6btXOALRP7OcquqT2gmIzdfaM/zMjtq1et1/wtYPh/afk/4osMxSMDGRyLe/aQ==",
+        "shasum": "39455b405345af86ec2398ab69c0a56add843e21",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.12.tgz_1496265124318_0.9431195098441094"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.14",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.14",
+        "babel-types": "7.0.0-alpha.14"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "7980c4dd2e0eab1c923f9a42a7dc22bf26dc9fed",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "7980c4dd2e0eab1c923f9a42a7dc22bf26dc9fed",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.14.tgz_1499828057137_0.041603160090744495"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.15",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.15",
+        "babel-types": "7.0.0-alpha.15"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "3499c99a90988ec0041954e57064f6b04f5fbe72",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "3499c99a90988ec0041954e57064f6b04f5fbe72",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.15.tgz_1499830593923_0.4637182264123112"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.16",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.16",
+        "babel-types": "7.0.0-alpha.16"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "e59e274c31c403479b3435cef27ef688b35417da",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e59e274c31c403479b3435cef27ef688b35417da",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.16.tgz_1501017506708_0.7950039426796138"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.17",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.17",
+        "babel-types": "7.0.0-alpha.17"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "5dc63d8e678b89b13d490ee462efc3f83d54938b",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "5dc63d8e678b89b13d490ee462efc3f83d54938b",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.17.tgz_1501072799237_0.35885566053912044"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.18",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.18",
+        "babel-types": "7.0.0-alpha.18"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-z05eQmg8ngQJOXCykzLd3omfpcrIs7gIr7U/7DWdZ357fIYn0myTCBoc2HOHEHZRtd7OsIitQo/SW5s2ifcrLQ==",
+        "shasum": "8b9cbea9e7f8b4b5ce87ae0ef99f711d79ff084d",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.18.tgz_1501798890913_0.9606348033994436"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.19",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.19",
+        "babel-types": "7.0.0-alpha.19"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-Z9ceKMas/dDV19pHy8ZEqkX9isju/aCGI1mqxtiANez+ISM3Ysqj6hsbk8QOxqw5gyYDfKHwkZtQx47g33GZXw==",
+        "shasum": "442cb30a984519860952de11e6e71b49ba7e62cf",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.19.tgz_1502144534537_0.884375722380355"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-alpha.20",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.20",
+        "babel-types": "7.0.0-alpha.20"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-rYrnPIySZ5mRPrOPYEdyfbx2DrRRmDedMtItRLykyz3KIcdRT6EpVHzalZWydKloJsYsPaCuLnUTTLMrGSsf3A==",
+        "shasum": "336ec7417b2f8ff4ff1f5b14fa0ca834630677e3",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-alpha.20.tgz_1504119874535_0.0411233683116734"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-beta.0",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-beta.0",
+        "babel-types": "7.0.0-beta.0"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-hh807EJc0HXusB0+21qBCloNBh+OJ7oiQ1Ze2YEtIIuKGcuVK9PEQM3/5sBs3nFFxgrKpSTsHwuK2TMgLHGrqA==",
+        "shasum": "e1cddb5f7ebb89b198e150bea1b0d13f7224a8ad",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-beta.0.tgz_1505185379912_0.6100081333424896"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-beta.1",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-beta.1",
+        "babel-types": "7.0.0-beta.1"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-i7FfRdjjnJGwPrueOpOSeYeuZH8gBII8oKpBqmOOFq2dgJdx+UKKxo/SI/MUqblvJu6PAv/cbErgbK2xLkHq+A==",
+        "shasum": "6c607e9f26e6d454006fdf019f3ab0945043fae9",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-beta.1.tgz_1505852689100_0.9473756935913116"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-beta.2",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-beta.2",
+        "babel-types": "7.0.0-beta.2"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-uHp3PyznD4db3IttBZcdxQZTlXH3TGXS/Oc7Z9n+wS/TaMZUrXz+EkGxUnSYKWW2r7fLBUygKQz5TZExdTtScQ==",
+        "shasum": "22ba3d1163aace1b257ac5682fda3d084f3d42de",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-beta.2.tgz_1506438961911_0.8781448183581233"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-helper-bindify-decorators",
+      "version": "7.0.0-beta.3",
+      "description": "Helper function to bindify decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-beta.3",
+        "babel-types": "7.0.0-beta.3"
+      },
+      "_id": "babel-helper-bindify-decorators@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-a+ue2Dzfv7rTrHs6WlvQUbqXlY1dlFqRFqz8Wv1ux1Tdv+cFrvnx3x0dAsNb1KSYk3T6eCPEpmubxlx0IYOPww==",
+        "shasum": "1f6c06845b66f606658687ce433f8c14d032c196",
+        "tarball": "https://registry.npmjs.org/babel-helper-bindify-decorators/-/babel-helper-bindify-decorators-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-bindify-decorators-7.0.0-beta.3.tgz_1508073148057_0.9395444029942155"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-helper-bindify-decorators\n\n## Usage\n\nTODO\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-10-15T13:12:28.965Z",
+    "created": "2015-10-29T17:53:37.648Z",
+    "6.0.0": "2015-10-29T17:53:37.648Z",
+    "6.0.2": "2015-10-29T18:08:05.917Z",
+    "6.0.14": "2015-10-30T23:31:58.021Z",
+    "6.0.15": "2015-11-01T22:08:08.539Z",
+    "6.1.5": "2015-11-12T06:49:47.764Z",
+    "6.1.6": "2015-11-12T07:33:30.141Z",
+    "6.1.7": "2015-11-12T07:37:59.373Z",
+    "6.1.8": "2015-11-12T07:40:59.880Z",
+    "6.1.9": "2015-11-12T07:46:39.073Z",
+    "6.1.10": "2015-11-12T07:53:26.205Z",
+    "6.1.11": "2015-11-12T07:59:09.077Z",
+    "6.1.12": "2015-11-12T08:48:28.277Z",
+    "6.1.13": "2015-11-12T19:58:11.557Z",
+    "6.1.15": "2015-11-12T20:19:03.318Z",
+    "6.1.16": "2015-11-12T21:34:44.129Z",
+    "6.1.17": "2015-11-12T21:40:50.046Z",
+    "6.1.18": "2015-11-12T21:46:55.602Z",
+    "6.2.4": "2015-11-25T03:12:36.766Z",
+    "6.3.13": "2015-12-04T11:57:03.986Z",
+    "6.5.0": "2016-02-07T00:06:50.254Z",
+    "6.5.0-1": "2016-02-07T02:39:37.347Z",
+    "6.6.0": "2016-02-29T21:12:23.436Z",
+    "6.6.4": "2016-03-02T21:29:23.871Z",
+    "6.6.5": "2016-03-04T23:16:28.362Z",
+    "6.8.0": "2016-05-02T23:43:56.824Z",
+    "6.18.0": "2016-10-24T21:18:39.579Z",
+    "6.22.0": "2017-01-20T00:33:27.552Z",
+    "7.0.0-alpha.1": "2017-03-02T21:05:35.829Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:41.295Z",
+    "7.0.0-alpha.7": "2017-04-05T21:14:09.630Z",
+    "6.24.1": "2017-04-07T15:19:12.775Z",
+    "7.0.0-alpha.8": "2017-04-17T19:13:04.238Z",
+    "7.0.0-alpha.9": "2017-04-18T14:42:09.985Z",
+    "7.0.0-alpha.10": "2017-05-25T19:17:37.790Z",
+    "7.0.0-alpha.11": "2017-05-31T20:43:49.775Z",
+    "7.0.0-alpha.12": "2017-05-31T21:12:04.406Z",
+    "7.0.0-alpha.14": "2017-07-12T02:54:17.993Z",
+    "7.0.0-alpha.15": "2017-07-12T03:36:35.200Z",
+    "7.0.0-alpha.16": "2017-07-25T21:18:27.625Z",
+    "7.0.0-alpha.17": "2017-07-26T12:40:00.150Z",
+    "7.0.0-alpha.18": "2017-08-03T22:21:30.994Z",
+    "7.0.0-alpha.19": "2017-08-07T22:22:14.620Z",
+    "7.0.0-alpha.20": "2017-08-30T19:04:34.616Z",
+    "7.0.0-beta.0": "2017-09-12T03:03:00.894Z",
+    "7.0.0-beta.1": "2017-09-19T20:24:49.181Z",
+    "7.0.0-beta.2": "2017-09-26T15:16:02.780Z",
+    "7.0.0-beta.3": "2017-10-15T13:12:28.965Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

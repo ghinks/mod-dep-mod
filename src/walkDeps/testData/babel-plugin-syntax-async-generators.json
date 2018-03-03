@@ -1,0 +1,1929 @@
+{
+  "_id": "babel-plugin-syntax-async-generators",
+  "_rev": "62-02abb414e8a3a897935d4bdc0bc7988c",
+  "name": "babel-plugin-syntax-async-generators",
+  "description": "Allow parsing of async generator functions",
+  "dist-tags": {
+    "latest": "6.13.0",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.0.2",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-syntax-async-generators@6.0.2",
+      "scripts": {},
+      "_shasum": "5070d4245c004dc3204f3f555ef28f53fbd84df4",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "5070d4245c004dc3204f3f555ef28f53fbd84df4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.0.14",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.0.14",
+      "scripts": {},
+      "_shasum": "bc2d6f7f246fbae6751c19f8b524104eadab0b7c",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bc2d6f7f246fbae6751c19f8b524104eadab0b7c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.0.15",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.0.15",
+      "scripts": {},
+      "_shasum": "e71e65d77aee0f2d40ea23f15106258238bdc154",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "e71e65d77aee0f2d40ea23f15106258238bdc154",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.4",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.4",
+      "scripts": {},
+      "_shasum": "3bd52709598a72ec5f8efa9ce0ad41dd02c3e741",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3bd52709598a72ec5f8efa9ce0ad41dd02c3e741",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.5",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.5",
+      "scripts": {},
+      "_shasum": "b896d802f279ec7d30be10341df6e27b4d307e60",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b896d802f279ec7d30be10341df6e27b4d307e60",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.6",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.6"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.6",
+      "scripts": {},
+      "_shasum": "10323682b9abe45634e2adc7d29c3cb4cb5f9161",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "10323682b9abe45634e2adc7d29c3cb4cb5f9161",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.8",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.8"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.8",
+      "scripts": {},
+      "_shasum": "a09341959188aa06bb5c81f4be03682c19b290d5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "a09341959188aa06bb5c81f4be03682c19b290d5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.10",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.10",
+      "scripts": {},
+      "_shasum": "97f335a6257b779a3579797c87b115d7d6e04338",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "97f335a6257b779a3579797c87b115d7d6e04338",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.12": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.12",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.12"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.12",
+      "scripts": {},
+      "_shasum": "daeb562a09bb81d9378d5af3a3c6df8eba218671",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "daeb562a09bb81d9378d5af3a3c6df8eba218671",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.13",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.13"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.13",
+      "scripts": {},
+      "_shasum": "17ed1764978e165a382170ce1c0e8da0e464327e",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "17ed1764978e165a382170ce1c0e8da0e464327e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.16",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.16"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.16",
+      "scripts": {},
+      "_shasum": "31fd930f376591fc5482828b02ebc2faeee1b913",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "31fd930f376591fc5482828b02ebc2faeee1b913",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.17",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.17",
+      "scripts": {},
+      "_shasum": "99856852bce1caa328e01724f5b4859121cce862",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "99856852bce1caa328e01724f5b4859121cce862",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.1.18",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.1.18",
+      "scripts": {},
+      "_shasum": "554cd440e759fdf0bb4e18d78b18ce6f0df4ae91",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "554cd440e759fdf0bb4e18d78b18ce6f0df4ae91",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.2.4",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.2.4",
+      "scripts": {},
+      "_shasum": "bca9675ec9c3aacba48cf5220871184e2f7a809a",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bca9675ec9c3aacba48cf5220871184e2f7a809a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.3.13",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.3.13",
+      "scripts": {},
+      "_shasum": "91e329aecce4d4414f091b6eab1b3d5fb319974c",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "91e329aecce4d4414f091b6eab1b3d5fb319974c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.5.0",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.5.0",
+      "scripts": {},
+      "_shasum": "e1f3ea84f199dd18671304cc7ecc320fe2e29355",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e1f3ea84f199dd18671304cc7ecc320fe2e29355",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-6.5.0.tgz_1454803630598_0.2366608534939587"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.5.0-1",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.5.0-1",
+      "scripts": {},
+      "_shasum": "9e7b8600cf6c096bd5ce39fe93fa6bd3ddcfa37f",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9e7b8600cf6c096bd5ce39fe93fa6bd3ddcfa37f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-6.5.0-1.tgz_1454812796282_0.3111305155325681"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.8.0",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-syntax-async-generators@6.8.0",
+      "scripts": {},
+      "_shasum": "286724b6fb0b6973def29d994fceeb60f21ceaa9",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "286724b6fb0b6973def29d994fceeb60f21ceaa9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-6.8.0.tgz_1462232653723_0.41962400963529944"
+      },
+      "directories": {}
+    },
+    "6.13.0": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "6.13.0",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@6.13.0",
+      "scripts": {},
+      "_shasum": "6bc963ebb16eccbae6b92b596eb7f35c342a8b9a",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6bc963ebb16eccbae6b92b596eb7f35c342a8b9a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.13.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-6.13.0.tgz_1470353692582_0.7918365595396608"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.1",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "979d0bb34b27d80e4ae04d303775ad5a5bd1af08",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "979d0bb34b27d80e4ae04d303775ad5a5bd1af08",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.1.tgz_1488488692565_0.5316502819769084"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.3",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "2b248b8d1d12c26728571f004b0b633f8c192a7f",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "2b248b8d1d12c26728571f004b0b633f8c192a7f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.3.tgz_1490298544041_0.7601259490475059"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.9",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "2e19abfde0da639e6bfae5872ef66e4e1a8a9375",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "2e19abfde0da639e6bfae5872ef66e4e1a8a9375",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.9.tgz_1492526496031_0.9128016671165824"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.12",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-9X5z5xfY6jnheWusKiZlYppZUYMmnrkB471iXkRESQbo6L0FS7BLxUsFxyA/3wACMTLE8Y3Zlh+gf+6pMkdO1w==",
+        "shasum": "0db51b46a9f8636f173b7d1fd43a15dab86a2059",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.12.tgz_1496265102017_0.9089963515289128"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.13": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.13",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.13",
+      "scripts": {},
+      "_shasum": "21b90ca461b78f535386f05a20da09b3f443947e",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "21b90ca461b78f535386f05a20da09b3f443947e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.13.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.13.tgz_1499826481430_0.49638215359300375"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.14",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "96a869bec56636270c6d56b4b7325b33da1fa855",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "96a869bec56636270c6d56b4b7325b33da1fa855",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.14.tgz_1499827993894_0.4516208814457059"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.15",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "053759aba5866145a4cf40a45ba1db3ffeb7ef79",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "053759aba5866145a4cf40a45ba1db3ffeb7ef79",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.15.tgz_1499830527786_0.01211563078686595"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.16",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "0ac0e8ae5114017412030646fba2c89ee00d49fe",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "0ac0e8ae5114017412030646fba2c89ee00d49fe",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.16.tgz_1501017440598_0.7431215040851384"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.17",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "27b405989f3521c5c9dce5577ba1fc3ea7c7909b",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "27b405989f3521c5c9dce5577ba1fc3ea7c7909b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.17.tgz_1501072729346_0.6888184165582061"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.18",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-yOh2ETxkFewoevzDTd+Bp1GeV0x3uZfvrEeqSG1jrEakIdwWiCZUrVHluPacFpdS3Tipb/Eek5BOmBzLzcV6vw==",
+        "shasum": "7980045870ed288d0f0d100c39259c4de47bbf0c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.18.tgz_1501798840664_0.159385985461995"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.19",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-PNnGRizZpOTeM2aoAFHDaETHjeFeJsf1IuF3ILf2u3sA6tdczp1p0AzTPvqUqV6SAWO/2xrZDHL9MvOwPZR0WA==",
+        "shasum": "002fa344785624db995573753b7d078c84452b53",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.19.tgz_1502144474397_0.5320384262595326"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-alpha.20",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-QghpoYzxUSyvXULLz6UD66Ec0QYgSI/BQXXlW61y8CDHQAkOKV0P98/qVEN/LHsInsTHTGBiH7qQdscEAQF4sQ==",
+        "shasum": "73f0e1fb464cd4b1bd51271e0043033c0672cb4d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-alpha.20.tgz_1504119099837_0.14223089115694165"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-beta.0",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-zTEcsYKT3tuh30ijo3Qh7YvemkJdAPrQoI4y8Cei+J8X9emLl2oKA7k9btfwrEwZE/p3rdQRre0IcStcqOp7Cw==",
+        "shasum": "a89061e968d4f4c2ee2f8a5b9c84eed19ec48488",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-beta.0.tgz_1505185307073_0.10340863396413624"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-beta.1",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-lOQKqL1VWndEYCbIMV8un8E0I0N0OP3u3/X39VOHt/Ue1Xr68ZXqdsiKj7bx4gURJt7Zh2NAI+6pRA+tDgAxXg==",
+        "shasum": "9a9a3e2d5e49b42144d263d7f1123d3c922eab30",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-beta.1.tgz_1505851744170_0.15318578202277422"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-beta.2",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-qYGIMuAz0gHPfIPW8Sb5jrhUCZ15S+dSmcDN8QWJ/Gq4J4puChFTmkjCuRWstTkEPWMeQV5hMLXd8sueGh0Xiw==",
+        "shasum": "e7a71351a10f6d3d58df6caf7d4479d401506b7a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-beta.2.tgz_1506438884888_0.4454367330763489"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-syntax-async-generators",
+      "version": "7.0.0-beta.3",
+      "description": "Allow parsing of async generator functions",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-async-generators@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-isPmqPGxMKOoXF+bzIlA+MjwhbLRhLrqc2mA/7HWFuu7fGtTWG9XGlFVd9aR7pTkGMh+cVcFsUCLhvEaojC9xA==",
+        "shasum": "f177f72fc88696911129e1e832e560595244034e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-async-generators-7.0.0-beta.3.tgz_1508073071621_0.15544030372984707"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-syntax-async-generators\n\nAllow parsing of async generator functions.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-async-generators\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-async-generators\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-async-generators script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-async-generators\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-12-24T15:00:03.261Z",
+    "created": "2015-10-29T18:10:26.593Z",
+    "6.0.2": "2015-10-29T18:10:26.593Z",
+    "6.0.14": "2015-10-30T23:34:20.506Z",
+    "6.0.15": "2015-11-01T22:09:41.809Z",
+    "6.1.4": "2015-11-11T10:06:16.825Z",
+    "6.1.5": "2015-11-12T06:53:49.101Z",
+    "6.1.6": "2015-11-12T07:34:12.685Z",
+    "6.1.8": "2015-11-12T07:41:39.441Z",
+    "6.1.10": "2015-11-12T07:54:05.589Z",
+    "6.1.12": "2015-11-12T08:49:24.933Z",
+    "6.1.13": "2015-11-12T19:58:52.741Z",
+    "6.1.16": "2015-11-12T21:34:42.282Z",
+    "6.1.17": "2015-11-12T21:41:27.409Z",
+    "6.1.18": "2015-11-12T21:47:54.886Z",
+    "6.2.4": "2015-11-25T03:13:32.417Z",
+    "6.3.13": "2015-12-04T11:58:03.309Z",
+    "6.5.0": "2016-02-07T00:07:11.746Z",
+    "6.5.0-1": "2016-02-07T02:39:58.852Z",
+    "6.8.0": "2016-05-02T23:44:15.814Z",
+    "6.13.0": "2016-08-04T23:34:54.153Z",
+    "7.0.0-alpha.1": "2017-03-02T21:04:54.310Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:04.258Z",
+    "7.0.0-alpha.9": "2017-04-18T14:41:36.295Z",
+    "7.0.0-alpha.12": "2017-05-31T21:11:42.115Z",
+    "7.0.0-alpha.13": "2017-07-12T02:28:02.340Z",
+    "7.0.0-alpha.14": "2017-07-12T02:53:14.834Z",
+    "7.0.0-alpha.15": "2017-07-12T03:35:28.728Z",
+    "7.0.0-alpha.16": "2017-07-25T21:17:21.627Z",
+    "7.0.0-alpha.17": "2017-07-26T12:38:50.325Z",
+    "7.0.0-alpha.18": "2017-08-03T22:20:40.765Z",
+    "7.0.0-alpha.19": "2017-08-07T22:21:14.453Z",
+    "7.0.0-alpha.20": "2017-08-30T18:51:39.919Z",
+    "7.0.0-beta.0": "2017-09-12T03:01:48.299Z",
+    "7.0.0-beta.1": "2017-09-19T20:09:04.305Z",
+    "7.0.0-beta.2": "2017-09-26T15:14:45.836Z",
+    "7.0.0-beta.3": "2017-10-15T13:11:12.556Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "dennisli87": true
+  },
+  "_attachments": {}
+}

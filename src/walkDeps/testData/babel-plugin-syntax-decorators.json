@@ -1,0 +1,1890 @@
+{
+  "_id": "babel-plugin-syntax-decorators",
+  "_rev": "62-9200a747fd084efcb99125fe32662e8c",
+  "name": "babel-plugin-syntax-decorators",
+  "description": "Allow parsing of decorators",
+  "dist-tags": {
+    "latest": "6.13.0",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.0.2",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-syntax-decorators@6.0.2",
+      "scripts": {},
+      "_shasum": "4bfc6337834fb280f3f4fdb8909a5990737a78d5",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "4bfc6337834fb280f3f4fdb8909a5990737a78d5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.0.14",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.0.14",
+      "scripts": {},
+      "_shasum": "85f875429dba2822182bbab8cbb9e5cdf32e22df",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "85f875429dba2822182bbab8cbb9e5cdf32e22df",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.4",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.4",
+      "scripts": {},
+      "_shasum": "b5b2f823f02dcf50ceffd68be655fa1f87bfa3e3",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b5b2f823f02dcf50ceffd68be655fa1f87bfa3e3",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.5",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.5",
+      "scripts": {},
+      "_shasum": "c6bb3d15fde9f37a03a3426ed0ac3a8305b50918",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "c6bb3d15fde9f37a03a3426ed0ac3a8305b50918",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.6",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.6"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.6",
+      "scripts": {},
+      "_shasum": "3d768ce69d058620264717d04a8941ea5143a945",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3d768ce69d058620264717d04a8941ea5143a945",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.7": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.7",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.7"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.7",
+      "scripts": {},
+      "_shasum": "c055c64aafcfc43a335e6b8fc32b9eadb9213e77",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "c055c64aafcfc43a335e6b8fc32b9eadb9213e77",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.8",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.8"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.8",
+      "scripts": {},
+      "_shasum": "db803fa9359fe262cc61c58f1ea82d120d54aec7",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "db803fa9359fe262cc61c58f1ea82d120d54aec7",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.10",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.10",
+      "scripts": {},
+      "_shasum": "6027b33a1d2db00e187d4af466416ca647205bc8",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "6027b33a1d2db00e187d4af466416ca647205bc8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.13",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.13"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.13",
+      "scripts": {},
+      "_shasum": "bde161a72cc8461ae5bb5ba13e8f59ca689fa677",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bde161a72cc8461ae5bb5ba13e8f59ca689fa677",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.16",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.16"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.16",
+      "scripts": {},
+      "_shasum": "8ee770fb20e217a71e10fffdecaa4fcb3aa51e36",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "8ee770fb20e217a71e10fffdecaa4fcb3aa51e36",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.17",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.17",
+      "scripts": {},
+      "_shasum": "56745a7aec9bfbba64fb17292297c2764a8872dd",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "56745a7aec9bfbba64fb17292297c2764a8872dd",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.1.18",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.1.18",
+      "scripts": {},
+      "_shasum": "f24f2eb73046bbde28de024669e1a58d067e7dbb",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f24f2eb73046bbde28de024669e1a58d067e7dbb",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.2.4",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.2.4",
+      "scripts": {},
+      "_shasum": "384ef6daa216174ff1e4f0fcbaaf46cbde0f8094",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "384ef6daa216174ff1e4f0fcbaaf46cbde0f8094",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.3.13",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.3.13",
+      "scripts": {},
+      "_shasum": "0f11009119488fb9844f36276f8860d5f94eec30",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "0f11009119488fb9844f36276f8860d5f94eec30",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.5.0",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.5.0",
+      "scripts": {},
+      "_shasum": "867ff6425e28b9f2ca11d5c5cf4bfa0e791af16a",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "867ff6425e28b9f2ca11d5c5cf4bfa0e791af16a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-6.5.0.tgz_1454803633279_0.44856528961099684"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.5.0-1",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.5.0-1",
+      "scripts": {},
+      "_shasum": "f6155846b2d6c351d21db8bab22922d86daae383",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "f6155846b2d6c351d21db8bab22922d86daae383",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-6.5.0-1.tgz_1454812801315_0.14316428126767278"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.8.0",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-syntax-decorators@6.8.0",
+      "scripts": {},
+      "_shasum": "f5b0a3d2d8ce6df0441c7c8e54435c7dfba74635",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "f5b0a3d2d8ce6df0441c7c8e54435c7dfba74635",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-6.8.0.tgz_1462232657579_0.873678476549685"
+      },
+      "directories": {}
+    },
+    "6.13.0": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "6.13.0",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@6.13.0",
+      "scripts": {},
+      "_shasum": "312563b4dbde3cc806cee3e416cceeaddd11ac0b",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "312563b4dbde3cc806cee3e416cceeaddd11ac0b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-6.13.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-6.13.0.tgz_1470353695428_0.6339652901515365"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.1",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "34a77d44ad2709464029a3dd61e4ae7f4ee137aa",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "34a77d44ad2709464029a3dd61e4ae7f4ee137aa",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.1.tgz_1488488694572_0.025308280484750867"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.3",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "b7a3c443df608966599e771b4a94a31a7cda3d4f",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "b7a3c443df608966599e771b4a94a31a7cda3d4f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.3.tgz_1490298545495_0.3748070716392249"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.9",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "5b2b6d7c549f5dd10c9c44cdb85a1b8ff62089e6",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "5b2b6d7c549f5dd10c9c44cdb85a1b8ff62089e6",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.9.tgz_1492526497276_0.7098170646931976"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.12",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-hffJTh7o9/h1FI2C62nvF/5ZmqDZ6sFs4SoYJ+2SoCgxbc358R0oXSrE5QoHNYRpplmsJMrM+IfBPhGF2wCvww==",
+        "shasum": "747dcf5d005fdf2179c09edc88b486e84bc26dad",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.12.tgz_1496265103072_0.7947802324779332"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.13": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.13",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.13",
+      "scripts": {},
+      "_shasum": "5b322f6eae1cbe94442db315f2446cf8e9eda0e1",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "5b322f6eae1cbe94442db315f2446cf8e9eda0e1",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.13.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.13.tgz_1499826483722_0.6635263380594552"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.14",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "6e4e7beadc5c5eb5ce148672c15e5442daa3c7aa",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6e4e7beadc5c5eb5ce148672c15e5442daa3c7aa",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.14.tgz_1499827995948_0.1795497047714889"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.15",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "768cccfaa348e1b5490f88878bd34ae6a8a08d60",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "768cccfaa348e1b5490f88878bd34ae6a8a08d60",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.15.tgz_1499830530248_0.8096158383414149"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.16",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "62efdfec60fceb2a2081816fef725ec6d5c2c96c",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "62efdfec60fceb2a2081816fef725ec6d5c2c96c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.16.tgz_1501017442504_0.7741608412470669"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.17",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "8b4f4418ea2340c4f30247f77347c1354feefafe",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "8b4f4418ea2340c4f30247f77347c1354feefafe",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.17.tgz_1501072731760_0.4580635577440262"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.18",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-CzvLrmnt3JTmQilk/eXwBwhGnNOQ0zh+mMYenMLAOW2Mw6HXWdqfuf8xmH4mlKMy0xtvLtO+UpFcoEYax6j7rA==",
+        "shasum": "8056a5c42c2a20dcc5e14ffad9e3c231d77c9c30",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.18.tgz_1501798842095_0.7509030185174197"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.19",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-y7JYXolA7WEkRayCSVKcTZ4hfO2Rf2OZDSPruzS0L5nx4eFgyz+Ln0FvwPpiY/oRB7CgtOXlmhR2+4BV07NKWA==",
+        "shasum": "4250cdc99161bfd121361c1f7cf72f8ebbd9618f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.19.tgz_1502144476358_0.5928364363498986"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-alpha.20",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-+CbnI6BuOpDRhyB0r6R5Op0Gu0vMscrnoSjkxIPRWeQcv7EzabJIQ3R3l5DShSjj64jR65pxycp13Tnn4RsQDg==",
+        "shasum": "0826ddf86d75fec0f79bb4f63f5b348aca56a10a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-alpha.20.tgz_1504119102379_0.7006023623980582"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-beta.0",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-69REeCs0JaWSppv8xXc0eJXph5UHD2iMKYIpfmH5UXh/MhyfR55V427ZlT+bt/lV3VT0asKGnoyBrGxBBxx1aA==",
+        "shasum": "d2dff1f058a732c4fbba078f68e7631d4754d563",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-beta.0.tgz_1505185309483_0.8018066985532641"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-beta.1",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-/RkoRkwnCsb7odmIbhexLBv2QJ9BdkCFWfm7aFIejyuS30z59fFNLm80SCAGdsxrVS/GLQgEvTIyoiXWr0QXIg==",
+        "shasum": "b08b139ddf0d8feb6b3695025434419172dbaafe",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-beta.1.tgz_1505851745441_0.2118508203420788"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-beta.2",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-OmNX9wndiDtUgueoZYoqYgtsfYOMZXy1btksfXzd+xC6jW/pmMI+sjf9bomrE0KdEHuedw7K/mctXdNAEe3ouQ==",
+        "shasum": "8e6116565cbf6479d465f09c1b2d3d00d5357d12",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-beta.2.tgz_1506438887830_0.46729552699252963"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-syntax-decorators",
+      "version": "7.0.0-beta.3",
+      "description": "Allow parsing of decorators",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-decorators@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-rYRoJfguFJ1V6cEZ+m2rQ+cFSghDR15LigADiH1xHmOUfPSEtn5xoijuuZVpoTWP0GCVTDVEimjATTy6BQ5+TQ==",
+        "shasum": "c1c4861f1f76138ab15ca6c28db7146e60d4fc2f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-decorators/-/babel-plugin-syntax-decorators-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-decorators-7.0.0-beta.3.tgz_1508073071698_0.22712026070803404"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-syntax-decorators\n\nAllow parsing of decorators.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-decorators\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-decorators\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-decorators script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-decorators\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-10-15T13:11:12.667Z",
+    "created": "2015-10-29T18:10:52.085Z",
+    "6.0.2": "2015-10-29T18:10:52.085Z",
+    "6.0.14": "2015-10-30T23:34:41.344Z",
+    "6.1.4": "2015-11-11T10:07:30.885Z",
+    "6.1.5": "2015-11-12T06:54:02.745Z",
+    "6.1.6": "2015-11-12T07:34:17.941Z",
+    "6.1.7": "2015-11-12T07:38:42.197Z",
+    "6.1.8": "2015-11-12T07:41:48.661Z",
+    "6.1.10": "2015-11-12T07:54:10.293Z",
+    "6.1.13": "2015-11-12T19:58:57.737Z",
+    "6.1.16": "2015-11-12T21:34:56.641Z",
+    "6.1.17": "2015-11-12T21:41:32.073Z",
+    "6.1.18": "2015-11-12T21:48:09.357Z",
+    "6.2.4": "2015-11-25T03:13:38.937Z",
+    "6.3.13": "2015-12-04T11:58:09.317Z",
+    "6.5.0": "2016-02-07T00:07:16.121Z",
+    "6.5.0-1": "2016-02-07T02:40:03.940Z",
+    "6.8.0": "2016-05-02T23:44:19.712Z",
+    "6.13.0": "2016-08-04T23:34:57.212Z",
+    "7.0.0-alpha.1": "2017-03-02T21:04:55.183Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:05.716Z",
+    "7.0.0-alpha.9": "2017-04-18T14:41:37.536Z",
+    "7.0.0-alpha.12": "2017-05-31T21:11:43.239Z",
+    "7.0.0-alpha.13": "2017-07-12T02:28:04.736Z",
+    "7.0.0-alpha.14": "2017-07-12T02:53:16.921Z",
+    "7.0.0-alpha.15": "2017-07-12T03:35:31.244Z",
+    "7.0.0-alpha.16": "2017-07-25T21:17:23.551Z",
+    "7.0.0-alpha.17": "2017-07-26T12:38:54.052Z",
+    "7.0.0-alpha.18": "2017-08-03T22:20:42.362Z",
+    "7.0.0-alpha.19": "2017-08-07T22:21:16.459Z",
+    "7.0.0-alpha.20": "2017-08-30T18:51:42.454Z",
+    "7.0.0-beta.0": "2017-09-12T03:01:50.513Z",
+    "7.0.0-beta.1": "2017-09-19T20:09:05.509Z",
+    "7.0.0-beta.2": "2017-09-26T15:14:48.841Z",
+    "7.0.0-beta.3": "2017-10-15T13:11:12.667Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "shanewholloway": true
+  },
+  "_attachments": {}
+}

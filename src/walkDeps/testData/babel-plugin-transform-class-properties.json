@@ -1,0 +1,3001 @@
+{
+  "_id": "babel-plugin-transform-class-properties",
+  "_rev": "127-90644238ce84eaf6c93c81bf992dd63a",
+  "name": "babel-plugin-transform-class-properties",
+  "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+  "dist-tags": {
+    "latest": "6.24.1",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.0.2",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.0.2",
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-transform-class-properties@6.0.2",
+      "scripts": {},
+      "_shasum": "a21676b561205c9a6ae95767a7f32de551872272",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "a21676b561205c9a6ae95767a7f32de551872272",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.0.14",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.0.14",
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.0.14",
+      "scripts": {},
+      "_shasum": "8644ebe47bd30df7a268f850d16833174b2fb5c8",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "8644ebe47bd30df7a268f850d16833174b2fb5c8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.4",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.4",
+      "scripts": {},
+      "_shasum": "602a4e3be59d46ff6517b456b8712dc2dac25785",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "602a4e3be59d46ff6517b456b8712dc2dac25785",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.5",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.5",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.5",
+      "scripts": {},
+      "_shasum": "43caaf0068bac0fe66e69e374bed61c781dd3058",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "43caaf0068bac0fe66e69e374bed61c781dd3058",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.10",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.10",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.10",
+      "scripts": {},
+      "_shasum": "f0135b15c6870f45865c0aec7129dfa88d8490c4",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f0135b15c6870f45865c0aec7129dfa88d8490c4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.17",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.17",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.17",
+      "scripts": {},
+      "_shasum": "07eeecaf9e753f4cfd5ef393f58b3b73654dc6b8",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "07eeecaf9e753f4cfd5ef393f58b3b73654dc6b8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.18",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.18",
+      "scripts": {},
+      "_shasum": "474c80dd0d1e1d128d81ce0ddddec7e98c7f1793",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "474c80dd0d1e1d128d81ce0ddddec7e98c7f1793",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.20": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.1.20",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.1.20",
+      "scripts": {},
+      "_shasum": "994133462b82803aab183098f166a41da6b2a67d",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "994133462b82803aab183098f166a41da6b2a67d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.1.20.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.2.2",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.2.2",
+      "scripts": {},
+      "_shasum": "4efdc1c908e9402962f5d07b2e2417ef83d57ca1",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "4efdc1c908e9402962f5d07b2e2417ef83d57ca1",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.2.4",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.2.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.2.4",
+      "scripts": {},
+      "_shasum": "4d155c19756fb65af03fb61881056d147b29af01",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "4d155c19756fb65af03fb61881056d147b29af01",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.3.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.3.0",
+      "scripts": {},
+      "_shasum": "e1f68cc37652a12893ad34ce629dd2f8e863a967",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.2",
+      "_npmUser": {
+        "name": "amasad",
+        "email": "amjad.masad@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "e1f68cc37652a12893ad34ce629dd2f8e863a967",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.3.0.tgz"
+      },
+      "directories": {}
+    },
+    "6.3.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.3.2",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.3.2",
+      "scripts": {},
+      "_shasum": "ddb8a8abda1e8979505fee1e490eb63920af68f9",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "ddb8a8abda1e8979505fee1e490eb63920af68f9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.3.13",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.3.13",
+      "scripts": {},
+      "_shasum": "fecd281d1a2f2866cc020b5b8ef43577922b6dd5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "fecd281d1a2f2866cc020b5b8ef43577922b6dd5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.4.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.4.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.4.0",
+      "scripts": {},
+      "_shasum": "6a301b23605111bf7146dab17534a56b98d0b43f",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6a301b23605111bf7146dab17534a56b98d0b43f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.5.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.5.0",
+      "scripts": {},
+      "_shasum": "cf5b92936e1fbf097f68d3353f677456c3a16bc8",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "cf5b92936e1fbf097f68d3353f677456c3a16bc8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.5.0.tgz_1454803645039_0.4990935865789652"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.5.0-1",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.5.0-1",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.5.0-1",
+      "scripts": {},
+      "_shasum": "66b4cb6645e5d6e559ef1e5fa1bed456ac3f0aa2",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "66b4cb6645e5d6e559ef1e5fa1bed456ac3f0aa2",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.5.0-1.tgz_1454812821592_0.5393190698232502"
+      },
+      "directories": {}
+    },
+    "6.5.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.5.2",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.5.2",
+      "scripts": {},
+      "_shasum": "83e1827df101dae17bd4b2215fee3a20734e4e31",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "83e1827df101dae17bd4b2215fee3a20734e4e31",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.5.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.5.2.tgz_1455294611086_0.015765145188197494"
+      },
+      "directories": {}
+    },
+    "6.6.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.6.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.6.0",
+      "scripts": {},
+      "_shasum": "42341b72eb636fc9acd5837077b8dba190fb4271",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "42341b72eb636fc9acd5837077b8dba190fb4271",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.6.0.tgz_1456780356606_0.7068050636444241"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.8.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.8.0",
+      "scripts": {},
+      "_shasum": "c3a6e39826f5ed30009a843fd292790444a69f8c",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "c3a6e39826f5ed30009a843fd292790444a69f8c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.8.0.tgz_1462232668951_0.5944511832203716"
+      },
+      "directories": {}
+    },
+    "6.9.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.9.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.9.0",
+      "scripts": {},
+      "_shasum": "0f1831b8f78d72e4f816a0b8bd5934623e51266b",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "0f1831b8f78d72e4f816a0b8bd5934623e51266b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.9.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.9.0.tgz_1463510967800_0.5967573693487793"
+      },
+      "directories": {}
+    },
+    "6.9.1": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.9.1",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.9.1",
+      "scripts": {},
+      "_shasum": "d93847fdc6c2b59411054ba6d89bcdae3ab6b3f8",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d93847fdc6c2b59411054ba6d89bcdae3ab6b3f8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.9.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.9.1.tgz_1464551407742_0.8704726975411177"
+      },
+      "directories": {}
+    },
+    "6.10.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.10.2",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.10.2",
+      "scripts": {},
+      "_shasum": "849c20334cac2917267e03fcc37b88d98bf3de0d",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "849c20334cac2917267e03fcc37b88d98bf3de0d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.10.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.10.2.tgz_1466199917961_0.4827615097165108"
+      },
+      "directories": {}
+    },
+    "6.11.5": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.11.5",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.8.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.11.5",
+      "scripts": {},
+      "_shasum": "429c7a4e7d8ac500448eb14ec502604bc568c91c",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "429c7a4e7d8ac500448eb14ec502604bc568c91c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.11.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.11.5.tgz_1469297376722_0.10285039595328271"
+      },
+      "directories": {}
+    },
+    "6.16.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.16.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.8.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.16.0",
+      "scripts": {},
+      "_shasum": "969bca24d34e401d214f36b8af5c1346859bc904",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "969bca24d34e401d214f36b8af5c1346859bc904",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.16.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.16.0.tgz_1475091533457_0.43348515941761434"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.18.0",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.18.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.18.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.18.0",
+      "scripts": {},
+      "_shasum": "bc1266a39d4c8726e0bd7b15c56235177e6ede57",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "bc1266a39d4c8726e0bd7b15c56235177e6ede57",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.18.0.tgz_1477343938063_0.4417587583884597"
+      },
+      "directories": {}
+    },
+    "6.19.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.19.0",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.18.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.9.1",
+        "babel-template": "^6.15.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.18.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.19.0",
+      "scripts": {},
+      "_shasum": "1274b349abaadc835164e2004f4a2444a2788d5f",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1274b349abaadc835164e2004f4a2444a2788d5f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.19.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.19.0.tgz_1479312925861_0.2576622653286904"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.22.0",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.22.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.22.0",
+        "babel-template": "^6.22.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.22.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.22.0",
+      "scripts": {},
+      "_shasum": "aa78f8134495c7de06c097118ba061844e1dc1d8",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "aa78f8134495c7de06c097118ba061844e1dc1d8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.22.0.tgz_1484872424930_0.5656662199180573"
+      },
+      "directories": {}
+    },
+    "6.23.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.23.0",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.23.0",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.22.0",
+        "babel-template": "^6.23.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.22.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.23.0",
+      "scripts": {},
+      "_shasum": "187b747ee404399013563c993db038f34754ac3b",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.1",
+      "_npmUser": {
+        "name": "loganfsmyth",
+        "email": "loganfsmyth@gmail.com"
+      },
+      "dist": {
+        "shasum": "187b747ee404399013563c993db038f34754ac3b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.23.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.23.0.tgz_1487034868992_0.894500924507156"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.1",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.1",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.1",
+        "babel-template": "7.0.0-alpha.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.1"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "30042230d9b7bbf726d2021c5a71dba88fba719b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "30042230d9b7bbf726d2021c5a71dba88fba719b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.1.tgz_1488488752869_0.5534899369813502"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.3",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.3",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.3",
+        "babel-template": "7.0.0-alpha.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.3"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "74b48911411c2e000a74c0c8a08bb8e36afb17df",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "74b48911411c2e000a74c0c8a08bb8e36afb17df",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.3.tgz_1490298592663_0.22962157404981554"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.7": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.7",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.7",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.3",
+        "babel-template": "7.0.0-alpha.7"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.7"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.7",
+      "scripts": {},
+      "_shasum": "001c0ec773e52d2203f088b7484363df259242fe",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "001c0ec773e52d2203f088b7484363df259242fe",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.7.tgz_1491426863781_0.47119707125239074"
+      },
+      "directories": {}
+    },
+    "6.24.1": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "6.24.1",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "^6.24.1",
+        "babel-plugin-syntax-class-properties": "^6.8.0",
+        "babel-runtime": "^6.22.0",
+        "babel-template": "^6.24.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.24.1"
+      },
+      "_id": "babel-plugin-transform-class-properties@6.24.1",
+      "scripts": {},
+      "_shasum": "6a79763ea61d33d36f37b611aa9def81a81b46ac",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6a79763ea61d33d36f37b611aa9def81a81b46ac",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.24.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-6.24.1.tgz_1491578371395_0.3040936642792076"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.8": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.8",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.8",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.3",
+        "babel-template": "7.0.0-alpha.8"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.8"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.8",
+      "scripts": {},
+      "_shasum": "a4bd24d02c76301492f91ef686a5fb8f0aca3c05",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "a4bd24d02c76301492f91ef686a5fb8f0aca3c05",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.8.tgz_1492456398350_0.7676087233703583"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.9",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.9",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.9",
+        "babel-template": "7.0.0-alpha.9"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.9"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "2beb155476d7db0c26c4d548d3fe53ce8af1dcb5",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "2beb155476d7db0c26c4d548d3fe53ce8af1dcb5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.9.tgz_1492526544458_0.13556474773213267"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.10": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.10",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.10",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.9",
+        "babel-template": "7.0.0-alpha.10"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.10"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.10",
+      "scripts": {},
+      "_shasum": "97098a24e5cfc7ece9732217c9e1951a5f963595",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "97098a24e5cfc7ece9732217c9e1951a5f963595",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.10.tgz_1495739868413_0.0051935233641415834"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.11": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.11",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.11",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.9",
+        "babel-template": "7.0.0-alpha.11"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.11"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.11",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-9lGf55ZHux1oKb0FIXrbSfWUzfoZaww5HKt+QmGpj6ENRAVrwahrawTY211apyKMQGjLQKeuPVkNMWfQjUDTBQ==",
+        "shasum": "083c291814b0fb0036033fcb925ece03b9b3cbe2",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.11.tgz_1496263437948_0.15117200859822333"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.12",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.12",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.12",
+        "babel-template": "7.0.0-alpha.12"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.12"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-hI/ZeGLySkxtsaZWIxESj4IryRn9Xdpd1AH15FltbEWvWQA3V+eSPX2bATXho4I4LzxPRFkJFVU8fYtoNEinmw==",
+        "shasum": "f7092def18f154d1b299b8db4f3e8c74c41c97ee",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.12.tgz_1496265133085_0.37053120881319046"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.14",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.14",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.14",
+        "babel-template": "7.0.0-alpha.14"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.14"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "31d55664041ea222b20639d89c27edfd08f76ba3",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "31d55664041ea222b20639d89c27edfd08f76ba3",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.14.tgz_1499828064552_0.6161054384429008"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.15",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.15",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.15",
+        "babel-template": "7.0.0-alpha.15"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.15"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "d877e03c208615044f07ebc85f39332f0b46a6c6",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d877e03c208615044f07ebc85f39332f0b46a6c6",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.15.tgz_1499830601676_0.9323649278376251"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.16",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.16",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.16",
+        "babel-template": "7.0.0-alpha.16"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.16"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "20096f1af814a3ccd1aa016428e8eae839c7d4f1",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "20096f1af814a3ccd1aa016428e8eae839c7d4f1",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.16.tgz_1501017514217_0.6504977117292583"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.17",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.17",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.17",
+        "babel-template": "7.0.0-alpha.17"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.17"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "1d5a5b258ae0c1a70d8243c05ba1bc25f7cfa8c0",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1d5a5b258ae0c1a70d8243c05ba1bc25f7cfa8c0",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.17.tgz_1501072807422_0.8553112526424229"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.18",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.18",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.18",
+        "babel-template": "7.0.0-alpha.18"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.18"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-zyi1KTVcQGMnT77ZpTjQmO7lbK2urSCke2M6B8G9y+w8wVPeKK3gRxcAwi9/sFamayjmRcVTYAZQV7rhMmdkHw==",
+        "shasum": "a4f05e66762e2835f3d8e914840e55813c58f2a4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.18.tgz_1501798897140_0.27418701304122806"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.19",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.19",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.19",
+        "babel-template": "7.0.0-alpha.19"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.19"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-fM4Ls8MMeiqIrEaLwIzysiZuXF7k1C1ra7QurlN4FtQYh6BGMB9u2+FvDCRaI2n+Nl0Q9Dawl5lRrjjoEazUVA==",
+        "shasum": "4641c8f99649e1726207ccc671e78a5857bc1c1d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.19.tgz_1502144540193_0.4689945054706186"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-alpha.20",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-alpha.20",
+        "babel-plugin-syntax-class-properties": "7.0.0-alpha.20",
+        "babel-template": "7.0.0-alpha.20"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.20"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-nmtsxvtYcV3sqJz0vU6cg4jljNsMx8zq/aJykEkS+7hrHsZHjN7eUNgOotofYGuvIxL0dv0YHSYsIsvOwmq1VA==",
+        "shasum": "8d7d4f5c04af4981a66b62572205813b042bea7a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-alpha.20.tgz_1504119886787_0.8725667756516486"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-beta.0",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-beta.0",
+        "babel-plugin-syntax-class-properties": "7.0.0-beta.0",
+        "babel-template": "7.0.0-beta.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.0"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-SPH1UIUr+TI2VjPaKllaYGym7OuWOmI1nawSgRB2wmAMLvzv3WPP/KkfiVojPo/oFJgCNfT4w6X+WWh0PY2S/Q==",
+        "shasum": "8ddce6f6e700c1036817d24703af6ff01e66d7a8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-beta.0.tgz_1505185387444_0.6316313666757196"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-beta.1",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-beta.1",
+        "babel-plugin-syntax-class-properties": "7.0.0-beta.1",
+        "babel-template": "7.0.0-beta.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.1"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-a1l6Xy8Jvhpbwn5WNr+tXrN17XwQrWqHQZ4DL3KxeJNTy1GLqrftSl1b1u9rjhzcK0Y+DR3OQQmzVgVFjfXFqQ==",
+        "shasum": "6d6ccecde9a15d1a482b30934b23a89c2c0d864c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-beta.1.tgz_1505852694365_0.33754047309048474"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-beta.2",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-beta.2",
+        "babel-plugin-syntax-class-properties": "7.0.0-beta.2",
+        "babel-template": "7.0.0-beta.2"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.2"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-AKY8nX7Am8GiyYWc3Nayck2RDHOQeI4HyHyJOpXMnsRD6/aMV/mEhEq5lbIpvlJIhxA6Kyebs0wz4/bsB6HOAw==",
+        "shasum": "1c8d8c76531b52aab1849d6b791329b44413af2a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-beta.2.tgz_1506438970828_0.7018775579053909"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-transform-class-properties",
+      "version": "7.0.0-beta.3",
+      "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-helper-function-name": "7.0.0-beta.3",
+        "babel-plugin-syntax-class-properties": "7.0.0-beta.3",
+        "babel-template": "7.0.0-beta.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.3"
+      },
+      "_id": "babel-plugin-transform-class-properties@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-12n5QjNKJlbhRmAfVcM5D+rGpxsDa0AP+ufa5Xylvwcgjpq4YjEQc8L5VBBFLFmByAcXKsknNsAVuSfOIGHNDw==",
+        "shasum": "d7cf0e431512262499421d53582969503f24581a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-class-properties-7.0.0-beta.3.tgz_1508073156515_0.3290719776414335"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-transform-class-properties\n\n> This plugin transforms es2015 static class properties as well as properties declared with the es2016 property initializer syntax.\n\n## Example\n\nBelow is a class with four class properties which will be transformed.\n\n```js\n  class Bork {\n    //Property initializer syntax\n    instanceProperty = \"bork\";\n    boundFunction = () => {\n      return this.instanceProperty;\n    }\n\n    //Static class properties\n    static staticProperty = \"babelIsCool\";\n    static staticFunction = function() {\n      return Bork.staticProperty;\n    }\n  }\n\n  let myBork = new Bork;\n\n  //Property initializers are not on the prototype.\n  console.log(myBork.prototype.boundFunction); // > undefined\n\n  //Bound functions are bound to the class instance.\n  console.log(myBork.boundFunction.call(undefined)); // > \"bork\"\n\n  //Static function exists on the class.\n  console.log(Bork.staticFunction()); // > \"babelIsCool\"\n```\n\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-class-properties\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n// without options\n{\n  \"plugins\": [\"transform-class-properties\"]\n}\n\n// with options\n{\n  \"plugins\": [\n    [\"transform-class-properties\", { \"spec\": true }]\n  ]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-class-properties script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-class-properties\"]\n});\n```\n\n## Options\n\n### `spec`\n\n`boolean`, defaults to `false`.\n\nClass properties are compiled to use `Object.defineProperty`. Static fields are now defined even if they are not initialized.\n\n## References\n\n* [Proposal: ES Class Fields & Static Properties](https://github.com/jeffmo/es-class-static-properties-and-fields)\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-23T09:22:51.078Z",
+    "created": "2015-10-29T18:12:42.058Z",
+    "6.0.2": "2015-10-29T18:12:42.058Z",
+    "6.0.14": "2015-10-30T23:36:15.793Z",
+    "6.1.4": "2015-11-11T10:15:45.661Z",
+    "6.1.5": "2015-11-12T06:55:04.705Z",
+    "6.1.10": "2015-11-12T07:54:41.460Z",
+    "6.1.17": "2015-11-12T21:41:51.304Z",
+    "6.1.18": "2015-11-12T21:50:24.201Z",
+    "6.1.20": "2015-11-13T11:39:15.705Z",
+    "6.2.2": "2015-11-19T22:47:20.441Z",
+    "6.2.4": "2015-11-25T03:14:04.661Z",
+    "6.3.0": "2015-11-30T22:59:02.314Z",
+    "6.3.2": "2015-12-04T03:48:15.042Z",
+    "6.3.13": "2015-12-04T11:58:45.377Z",
+    "6.4.0": "2016-01-06T20:34:35.012Z",
+    "6.5.0": "2016-02-07T00:07:27.639Z",
+    "6.5.0-1": "2016-02-07T02:40:22.741Z",
+    "6.5.2": "2016-02-12T16:30:14.734Z",
+    "6.6.0": "2016-02-29T21:12:39.024Z",
+    "6.8.0": "2016-05-02T23:44:31.194Z",
+    "6.9.0": "2016-05-17T18:49:31.955Z",
+    "6.9.1": "2016-05-29T19:50:10.100Z",
+    "6.10.2": "2016-06-17T21:45:20.630Z",
+    "6.11.5": "2016-07-23T18:09:39.653Z",
+    "6.16.0": "2016-09-28T19:38:55.108Z",
+    "6.18.0": "2016-10-24T21:19:00.104Z",
+    "6.19.0": "2016-11-16T16:15:28.049Z",
+    "6.22.0": "2017-01-20T00:33:46.107Z",
+    "6.23.0": "2017-02-14T01:14:30.876Z",
+    "7.0.0-alpha.1": "2017-03-02T21:05:54.801Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:52.922Z",
+    "7.0.0-alpha.7": "2017-04-05T21:14:24.661Z",
+    "6.24.1": "2017-04-07T15:19:33.202Z",
+    "7.0.0-alpha.8": "2017-04-17T19:13:20.117Z",
+    "7.0.0-alpha.9": "2017-04-18T14:42:26.525Z",
+    "7.0.0-alpha.10": "2017-05-25T19:17:49.255Z",
+    "7.0.0-alpha.11": "2017-05-31T20:43:58.022Z",
+    "7.0.0-alpha.12": "2017-05-31T21:12:13.162Z",
+    "7.0.0-alpha.14": "2017-07-12T02:54:25.487Z",
+    "7.0.0-alpha.15": "2017-07-12T03:36:42.685Z",
+    "7.0.0-alpha.16": "2017-07-25T21:18:35.114Z",
+    "7.0.0-alpha.17": "2017-07-26T12:40:08.291Z",
+    "7.0.0-alpha.18": "2017-08-03T22:21:37.274Z",
+    "7.0.0-alpha.19": "2017-08-07T22:22:20.262Z",
+    "7.0.0-alpha.20": "2017-08-30T19:04:46.868Z",
+    "7.0.0-beta.0": "2017-09-12T03:03:08.299Z",
+    "7.0.0-beta.1": "2017-09-19T20:24:54.433Z",
+    "7.0.0-beta.2": "2017-09-26T15:16:11.746Z",
+    "7.0.0-beta.3": "2017-10-15T13:12:37.405Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "wirehive": true,
+    "geduardcatalin": true,
+    "borasta": true,
+    "hugojosefson": true,
+    "usex": true,
+    "serge-nikitin": true,
+    "tedyhy": true,
+    "donecharlton": true,
+    "mrzmmr": true,
+    "aleclarson": true,
+    "dwqs": true,
+    "reberan": true
+  },
+  "_attachments": {}
+}

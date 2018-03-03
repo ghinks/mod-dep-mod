@@ -1,0 +1,1184 @@
+{
+  "_id": "babel-plugin-syntax-class-constructor-call",
+  "_rev": "45-4d037ae98a2475df174b7f4ccf9519ac",
+  "name": "babel-plugin-syntax-class-constructor-call",
+  "description": "Allow parsing of class constructor calls (deprecated)",
+  "dist-tags": {
+    "latest": "6.18.0"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.0.2",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-syntax-class-constructor-call@6.0.2",
+      "scripts": {},
+      "_shasum": "48b91fc60c7d8182260580561ae0bd27efe3082e",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "48b91fc60c7d8182260580561ae0bd27efe3082e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.12": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.0.12",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.12"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-syntax-class-constructor-call@6.0.12",
+      "scripts": {},
+      "_shasum": "b787766b696d28a3b1fc07f841f4a5e4ae9b3478",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b787766b696d28a3b1fc07f841f4a5e4ae9b3478",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.0.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.0.14",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.14"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.0.14",
+      "scripts": {},
+      "_shasum": "1b6a53cfdcb91c557587bea38428f305a7482726",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "1b6a53cfdcb91c557587bea38428f305a7482726",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.0.15",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.0.15",
+      "scripts": {},
+      "_shasum": "a61ab510cf9591262e578624e830bbb8a6575c01",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "a61ab510cf9591262e578624e830bbb8a6575c01",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.4",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.4",
+      "scripts": {},
+      "_shasum": "119546c7097f648d3a42ecb9f7ec169204f5a103",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "119546c7097f648d3a42ecb9f7ec169204f5a103",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.5",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.5",
+      "scripts": {},
+      "_shasum": "ab65dfc2a66a72ba0f42cc8aef783dfccb623aad",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "ab65dfc2a66a72ba0f42cc8aef783dfccb623aad",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.6",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.6"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.6",
+      "scripts": {},
+      "_shasum": "3a655464e4b66fca0bd7cd7e57dce0bfd85fbd38",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3a655464e4b66fca0bd7cd7e57dce0bfd85fbd38",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.7": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.7",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.7"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.7",
+      "scripts": {},
+      "_shasum": "86597d2e3fc3c34fe4b41b708206152c0ce6313e",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "86597d2e3fc3c34fe4b41b708206152c0ce6313e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.8",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.8"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.8",
+      "scripts": {},
+      "_shasum": "7aa4bf578d4b1576e2f58a4addd939e4a45f812c",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "7aa4bf578d4b1576e2f58a4addd939e4a45f812c",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.10",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.10",
+      "scripts": {},
+      "_shasum": "d4c1c545a8d2b573b3e7602fdc6e215299a71c90",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "d4c1c545a8d2b573b3e7602fdc6e215299a71c90",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.12": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.12",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.12"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.12",
+      "scripts": {},
+      "_shasum": "bb69c630de3574ce6db4cd0cf102b2eb0db44544",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bb69c630de3574ce6db4cd0cf102b2eb0db44544",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.13",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.13"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.13",
+      "scripts": {},
+      "_shasum": "11c564df7258509c2730fcb616940f7f346e970f",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "11c564df7258509c2730fcb616940f7f346e970f",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.16",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.16"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.16",
+      "scripts": {},
+      "_shasum": "bc3df34268dac3e0f1f6d47bdedc671b1a30ddb5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bc3df34268dac3e0f1f6d47bdedc671b1a30ddb5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.17",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.17",
+      "scripts": {},
+      "_shasum": "9698e23c2a022eef56dd0b1af35b149b366eb48d",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "9698e23c2a022eef56dd0b1af35b149b366eb48d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.1.18",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.1.18",
+      "scripts": {},
+      "_shasum": "8edcebaf4fc910d2418e80e52b0a77fa9082e9fd",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "8edcebaf4fc910d2418e80e52b0a77fa9082e9fd",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.2.4",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.2.4",
+      "scripts": {},
+      "_shasum": "dad6b4543eef166e6ed9ecf1e8cf510ca0662f15",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "dad6b4543eef166e6ed9ecf1e8cf510ca0662f15",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.3.13",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.3.13",
+      "scripts": {},
+      "_shasum": "bb3468b7e06ae1bc62bf2d41f12baee5f0d3b4b8",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "bb3468b7e06ae1bc62bf2d41f12baee5f0d3b4b8",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.5.0",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.5.0",
+      "scripts": {},
+      "_shasum": "d3551cbb398d2c0194703205128c3737d64a9c25",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d3551cbb398d2c0194703205128c3737d64a9c25",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-class-constructor-call-6.5.0.tgz_1454803631914_0.1785373843740672"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.5.0-1",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.5.0-1",
+      "scripts": {},
+      "_shasum": "1db880e84b9791e6566514cc96b1f919fd4e1308",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1db880e84b9791e6566514cc96b1f919fd4e1308",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-class-constructor-call-6.5.0-1.tgz_1454812797793_0.5315752611495554"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.8.0",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-syntax-class-constructor-call@6.8.0",
+      "scripts": {},
+      "_shasum": "97c753be78093e6456394f59c547e911c54e478d",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "97c753be78093e6456394f59c547e911c54e478d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-class-constructor-call-6.8.0.tgz_1462232655149_0.5888081334996969"
+      },
+      "directories": {}
+    },
+    "6.13.0": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.13.0",
+      "description": "Allow parsing of class constructor calls",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-class-constructor-call@6.13.0",
+      "scripts": {},
+      "_shasum": "96fb2e9f177dca22824065de4392f2fe3486b765",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "96fb2e9f177dca22824065de4392f2fe3486b765",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.13.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-class-constructor-call-6.13.0.tgz_1470353692660_0.9738259608857334"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-plugin-syntax-class-constructor-call",
+      "version": "6.18.0",
+      "description": "Allow parsing of class constructor calls (deprecated)",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-class-constructor-call@6.18.0",
+      "scripts": {},
+      "_shasum": "9cb9d39fe43c8600bec8146456ddcbd4e1a76416",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9cb9d39fe43c8600bec8146456ddcbd4e1a76416",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-class-constructor-call/-/babel-plugin-syntax-class-constructor-call-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-class-constructor-call-6.18.0.tgz_1477343934180_0.13973436132073402"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-syntax-class-constructor-call\n\nAllow parsing of do expressions.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-class-constructor-call\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-class-constructor-call\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-class-constructor-call script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-class-constructor-call\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "npm-public@jessemccarthy.net",
+      "name": "jmm"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "amjad.masad@gmail.com",
+      "name": "amasad"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    }
+  ],
+  "time": {
+    "modified": "2017-07-23T03:33:48.327Z",
+    "created": "2015-10-29T18:10:34.883Z",
+    "6.0.2": "2015-10-29T18:10:34.883Z",
+    "6.0.12": "2015-10-30T04:55:14.746Z",
+    "6.0.14": "2015-10-30T23:34:27.980Z",
+    "6.0.15": "2015-11-01T22:09:46.777Z",
+    "6.1.4": "2015-11-11T10:07:22.066Z",
+    "6.1.5": "2015-11-12T06:53:53.649Z",
+    "6.1.6": "2015-11-12T07:34:13.241Z",
+    "6.1.7": "2015-11-12T07:38:37.617Z",
+    "6.1.8": "2015-11-12T07:41:44.101Z",
+    "6.1.10": "2015-11-12T07:54:05.857Z",
+    "6.1.12": "2015-11-12T08:49:25.185Z",
+    "6.1.13": "2015-11-12T19:58:54.849Z",
+    "6.1.16": "2015-11-12T21:34:47.209Z",
+    "6.1.17": "2015-11-12T21:41:27.921Z",
+    "6.1.18": "2015-11-12T21:47:59.482Z",
+    "6.2.4": "2015-11-25T03:13:37.375Z",
+    "6.3.13": "2015-12-04T11:58:03.437Z",
+    "6.5.0": "2016-02-07T00:07:13.081Z",
+    "6.5.0-1": "2016-02-07T02:40:00.363Z",
+    "6.8.0": "2016-05-02T23:44:16.288Z",
+    "6.13.0": "2016-08-04T23:34:54.255Z",
+    "6.18.0": "2016-10-24T21:18:56.006Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-constructor-call"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

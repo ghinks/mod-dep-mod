@@ -1,0 +1,2523 @@
+{
+  "_id": "babel-helper-explode-class",
+  "_rev": "82-29043332ef37e39584e56a3c18b7f3a9",
+  "name": "babel-helper-explode-class",
+  "description": "Helper function to explode class",
+  "dist-tags": {
+    "latest": "6.24.1",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.0.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.0.0",
+        "babel-types": "^6.0.0",
+        "babel-helper-bindify-decorators": "^6.0.0"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-helper-explode-class@6.0.0",
+      "scripts": {},
+      "_shasum": "7db8d114acb3ee07d679e40ee7fae5785d30f83a",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "7db8d114acb3ee07d679e40ee7fae5785d30f83a",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.2": {
+      "name": "babel-helper-explode-class",
+      "version": "6.0.2",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.2",
+        "babel-traverse": "^6.0.2",
+        "babel-types": "^6.0.2",
+        "babel-helper-bindify-decorators": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-helper-explode-class@6.0.2",
+      "scripts": {},
+      "_shasum": "036a1870c0808736ae0486ee161106e919038687",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "036a1870c0808736ae0486ee161106e919038687",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-helper-explode-class",
+      "version": "6.0.14",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.0.14",
+        "babel-types": "^6.0.14",
+        "babel-helper-bindify-decorators": "^6.0.14"
+      },
+      "_id": "babel-helper-explode-class@6.0.14",
+      "scripts": {},
+      "_shasum": "2caa5f7fa6b38e3f237f859e8cb274b03e1ffbf1",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "2caa5f7fa6b38e3f237f859e8cb274b03e1ffbf1",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-helper-explode-class",
+      "version": "6.0.15",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.0.14",
+        "babel-types": "^6.0.15",
+        "babel-helper-bindify-decorators": "^6.0.15"
+      },
+      "_id": "babel-helper-explode-class@6.0.15",
+      "scripts": {},
+      "_shasum": "afda51e294eafcca4361b9adcaccf554c9fdf177",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "afda51e294eafcca4361b9adcaccf554c9fdf177",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.5",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.5",
+        "babel-types": "^6.1.5",
+        "babel-helper-bindify-decorators": "^6.1.5"
+      },
+      "_id": "babel-helper-explode-class@6.1.5",
+      "scripts": {},
+      "_shasum": "33604e58d8ac86079c1d7088db2a95b9ddedb27a",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "33604e58d8ac86079c1d7088db2a95b9ddedb27a",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.6": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.6",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.6",
+        "babel-types": "^6.1.6",
+        "babel-helper-bindify-decorators": "^6.1.6"
+      },
+      "_id": "babel-helper-explode-class@6.1.6",
+      "scripts": {},
+      "_shasum": "21ff706f92c5374e5990acd803329c04984002d5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "21ff706f92c5374e5990acd803329c04984002d5",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.7": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.7",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.7",
+        "babel-types": "^6.1.7",
+        "babel-helper-bindify-decorators": "^6.1.7"
+      },
+      "_id": "babel-helper-explode-class@6.1.7",
+      "scripts": {},
+      "_shasum": "5287091ba97bff036687122290bb7c1582ff7807",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "5287091ba97bff036687122290bb7c1582ff7807",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.8": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.8",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.8",
+        "babel-types": "^6.1.8",
+        "babel-helper-bindify-decorators": "^6.1.8"
+      },
+      "_id": "babel-helper-explode-class@6.1.8",
+      "scripts": {},
+      "_shasum": "07e8112efa2b7439b589b662c46370e901c80583",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "07e8112efa2b7439b589b662c46370e901c80583",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.9": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.9",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.9",
+        "babel-types": "^6.1.9",
+        "babel-helper-bindify-decorators": "^6.1.9"
+      },
+      "_id": "babel-helper-explode-class@6.1.9",
+      "scripts": {},
+      "_shasum": "ee3e9710c8082d2fbeb83864643f98862c830d14",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "ee3e9710c8082d2fbeb83864643f98862c830d14",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.10",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.10",
+        "babel-types": "^6.1.10",
+        "babel-helper-bindify-decorators": "^6.1.10"
+      },
+      "_id": "babel-helper-explode-class@6.1.10",
+      "scripts": {},
+      "_shasum": "e78fc00be2e410615babca54d45fffae86755a77",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "e78fc00be2e410615babca54d45fffae86755a77",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.11": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.11",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.11",
+        "babel-types": "^6.1.11",
+        "babel-helper-bindify-decorators": "^6.1.11"
+      },
+      "_id": "babel-helper-explode-class@6.1.11",
+      "scripts": {},
+      "_shasum": "dae1342816c745ec22cbd1b23bacdc6ed9065908",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "dae1342816c745ec22cbd1b23bacdc6ed9065908",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.11.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.12": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.12",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.12",
+        "babel-types": "^6.1.12",
+        "babel-helper-bindify-decorators": "^6.1.12"
+      },
+      "_id": "babel-helper-explode-class@6.1.12",
+      "scripts": {},
+      "_shasum": "c0d68dcadcca8d3af3233bf35b0922bde0c78298",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "c0d68dcadcca8d3af3233bf35b0922bde0c78298",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.13",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.13",
+        "babel-types": "^6.1.13",
+        "babel-helper-bindify-decorators": "^6.1.13"
+      },
+      "_id": "babel-helper-explode-class@6.1.13",
+      "scripts": {},
+      "_shasum": "9b03e604385b569a6769bee07fb658b111deef22",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "9b03e604385b569a6769bee07fb658b111deef22",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.16": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.16",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.16",
+        "babel-types": "^6.1.16",
+        "babel-helper-bindify-decorators": "^6.1.16"
+      },
+      "_id": "babel-helper-explode-class@6.1.16",
+      "scripts": {},
+      "_shasum": "794059899c58b8e0152c1297499d7abd5610e98f",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "794059899c58b8e0152c1297499d7abd5610e98f",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.16.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.17",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.17",
+        "babel-types": "^6.1.17",
+        "babel-helper-bindify-decorators": "^6.1.17"
+      },
+      "_id": "babel-helper-explode-class@6.1.17",
+      "scripts": {},
+      "_shasum": "6b0d7c16831f962053e865a56ab407718137469c",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "6b0d7c16831f962053e865a56ab407718137469c",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-helper-explode-class",
+      "version": "6.1.18",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.1.18",
+        "babel-types": "^6.1.18",
+        "babel-helper-bindify-decorators": "^6.1.18"
+      },
+      "_id": "babel-helper-explode-class@6.1.18",
+      "scripts": {},
+      "_shasum": "08d38653d295a774dae5554ef4ac22bd0e6ebc89",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "08d38653d295a774dae5554ef4ac22bd0e6ebc89",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-helper-explode-class",
+      "version": "6.2.4",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.2.4",
+        "babel-types": "^6.2.4",
+        "babel-helper-bindify-decorators": "^6.2.4"
+      },
+      "_id": "babel-helper-explode-class@6.2.4",
+      "scripts": {},
+      "_shasum": "3fb395b3320214feda1e7f429f4ebca838038a10",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3fb395b3320214feda1e7f429f4ebca838038a10",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-helper-explode-class",
+      "version": "6.3.13",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.3.13",
+        "babel-types": "^6.3.13",
+        "babel-helper-bindify-decorators": "^6.3.13"
+      },
+      "_id": "babel-helper-explode-class@6.3.13",
+      "scripts": {},
+      "_shasum": "f5ef31e8ac53c3127e9da6c77f29391f6a1fdbe9",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f5ef31e8ac53c3127e9da6c77f29391f6a1fdbe9",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.5.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.3.13",
+        "babel-types": "^6.3.13",
+        "babel-helper-bindify-decorators": "^6.3.13"
+      },
+      "_id": "babel-helper-explode-class@6.5.0",
+      "scripts": {},
+      "_shasum": "b7da8b2240c918f1fad4be7168fc0705ae8694a2",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "b7da8b2240c918f1fad4be7168fc0705ae8694a2",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.5.0.tgz_1454803615675_0.1366098194848746"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-helper-explode-class",
+      "version": "6.5.0-1",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.5.0-1",
+        "babel-types": "^6.5.0-1",
+        "babel-helper-bindify-decorators": "^6.5.0-1"
+      },
+      "_id": "babel-helper-explode-class@6.5.0-1",
+      "scripts": {},
+      "_shasum": "d69c94772c1115da5b4d78a0df03232eb33ab43d",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d69c94772c1115da5b4d78a0df03232eb33ab43d",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.5.0-1.tgz_1454812781394_0.9932041661813855"
+      },
+      "directories": {}
+    },
+    "6.6.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.6.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.0",
+        "babel-types": "^6.6.0",
+        "babel-helper-bindify-decorators": "^6.6.0"
+      },
+      "_id": "babel-helper-explode-class@6.6.0",
+      "scripts": {},
+      "_shasum": "6c37bd6bcf5e318d0edfb3ca3aeae34b38d77a0e",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "6c37bd6bcf5e318d0edfb3ca3aeae34b38d77a0e",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.6.0.tgz_1456780346024_0.5989207762759179"
+      },
+      "directories": {}
+    },
+    "6.6.4": {
+      "name": "babel-helper-explode-class",
+      "version": "6.6.4",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.4",
+        "babel-types": "^6.6.4",
+        "babel-helper-bindify-decorators": "^6.6.4"
+      },
+      "_id": "babel-helper-explode-class@6.6.4",
+      "scripts": {},
+      "_shasum": "be4978624041311d4fe019575fa68d208a8ba427",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "be4978624041311d4fe019575fa68d208a8ba427",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.6.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.6.4.tgz_1456954169619_0.1611377028748393"
+      },
+      "directories": {}
+    },
+    "6.6.5": {
+      "name": "babel-helper-explode-class",
+      "version": "6.6.5",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^5.0.0",
+        "babel-traverse": "^6.6.5",
+        "babel-types": "^6.6.5",
+        "babel-helper-bindify-decorators": "^6.6.5"
+      },
+      "_id": "babel-helper-explode-class@6.6.5",
+      "scripts": {},
+      "_shasum": "c201bf2b1fff72668f9c9665e7549cd98bce1dab",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "c201bf2b1fff72668f9c9665e7549cd98bce1dab",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.6.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-13-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.6.5.tgz_1457133391317_0.8962168463040143"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.8.0",
+      "description": "## Usage",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.8.0",
+        "babel-types": "^6.8.0",
+        "babel-helper-bindify-decorators": "^6.8.0"
+      },
+      "_id": "babel-helper-explode-class@6.8.0",
+      "scripts": {},
+      "_shasum": "196a228cc69ea57308695e4ebd1a36cf3f8eca3d",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "196a228cc69ea57308695e4ebd1a36cf3f8eca3d",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.8.0.tgz_1462232639916_0.6421866654418409"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.18.0",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.0.0",
+        "babel-traverse": "^6.18.0",
+        "babel-types": "^6.18.0",
+        "babel-helper-bindify-decorators": "^6.18.0"
+      },
+      "_id": "babel-helper-explode-class@6.18.0",
+      "scripts": {},
+      "_shasum": "c44f76f4fa23b9c5d607cbac5d4115e7a76f62cb",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "c44f76f4fa23b9c5d607cbac5d4115e7a76f62cb",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.18.0.tgz_1477343924572_0.7694853253196925"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-helper-explode-class",
+      "version": "6.22.0",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.22.0",
+        "babel-traverse": "^6.22.0",
+        "babel-types": "^6.22.0",
+        "babel-helper-bindify-decorators": "^6.22.0"
+      },
+      "_id": "babel-helper-explode-class@6.22.0",
+      "scripts": {},
+      "_shasum": "646304924aa6388a516843ba7f1855ef8dfeb69b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "646304924aa6388a516843ba7f1855ef8dfeb69b",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.22.0.tgz_1484872410130_0.8826658844482154"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.1",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.1",
+        "babel-types": "7.0.0-alpha.1",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.1"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "8da9a3c182db18e8dff61e70601b8e2d40901f57",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "8da9a3c182db18e8dff61e70601b8e2d40901f57",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.1.tgz_1488488742179_0.1765573974698782"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.3",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.3",
+        "babel-types": "7.0.0-alpha.3",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.3"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "a77152bca16024af3cb70f2523818c2d9a1d5581",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "a77152bca16024af3cb70f2523818c2d9a1d5581",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.3.tgz_1490298583946_0.7473362206947058"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.7": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.7",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.7",
+        "babel-types": "7.0.0-alpha.7",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.7"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.7",
+      "scripts": {},
+      "_shasum": "495b1349cf82fc90361a3e24430e7b5a3239303c",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "495b1349cf82fc90361a3e24430e7b5a3239303c",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.7.tgz_1491426854199_0.49337681964971125"
+      },
+      "directories": {}
+    },
+    "6.24.1": {
+      "name": "babel-helper-explode-class",
+      "version": "6.24.1",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-runtime": "^6.22.0",
+        "babel-traverse": "^6.24.1",
+        "babel-types": "^6.24.1",
+        "babel-helper-bindify-decorators": "^6.24.1"
+      },
+      "_id": "babel-helper-explode-class@6.24.1",
+      "scripts": {},
+      "_shasum": "7dc2a3910dee007056e1e31d640ced3d54eaa9eb",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "7dc2a3910dee007056e1e31d640ced3d54eaa9eb",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-6.24.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-6.24.1.tgz_1491578357517_0.5706195309758186"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.8": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.8",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.8",
+        "babel-types": "7.0.0-alpha.7",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.8"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.8",
+      "scripts": {},
+      "_shasum": "35d2d566e4ff4a3a035823f6179bbd52550997f7",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "35d2d566e4ff4a3a035823f6179bbd52550997f7",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.8.tgz_1492456389041_0.3118969665374607"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.9",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.9",
+        "babel-types": "7.0.0-alpha.9",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.9"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "48e9559a51a02b259e3da219d962144e98854a7a",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "48e9559a51a02b259e3da219d962144e98854a7a",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.9.tgz_1492526535983_0.40155243198387325"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.10": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.10",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-traverse": "7.0.0-alpha.10",
+        "babel-types": "7.0.0-alpha.10",
+        "babel-helper-bindify-decorators": "7.0.0-alpha.10"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.10",
+      "scripts": {},
+      "_shasum": "43f05ea6aac38dc21fa005ab7b9fb5eee97f6f1e",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "43f05ea6aac38dc21fa005ab7b9fb5eee97f6f1e",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.10.tgz_1495739861154_0.006533996667712927"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.11": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.11",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.11",
+        "babel-traverse": "7.0.0-alpha.11",
+        "babel-types": "7.0.0-alpha.11"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.11",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-EErBJawsQZ5SnL0b56nMqkMTCmH8F77jRnsz8qyyMylk98MH3J71AYP0SRQq56aEX30j59Yvv+AwLPTaPOTXfw==",
+        "shasum": "5a92ee1e8a1d965c2f1bd709eca6789a89516d04",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.11.tgz_1496263432208_0.4420003886334598"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.12",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.12",
+        "babel-traverse": "7.0.0-alpha.12",
+        "babel-types": "7.0.0-alpha.12"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-BO31oGDcA7pcLuWMkDfmq9kUHCC2Qr989wcpZ2+3m1iMEhy6saSxIJxl9zlCPohHQzy4DsXFC3DcMdUscF0Iuw==",
+        "shasum": "070ecfa3bb120cd62988c4bb39d1b692859c187e",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.12.tgz_1496265128616_0.43890852318145335"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.14",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.14",
+        "babel-traverse": "7.0.0-alpha.14",
+        "babel-types": "7.0.0-alpha.14"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "a4dce0fd44875212a0f022d1e224ca2eebb89f22",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "a4dce0fd44875212a0f022d1e224ca2eebb89f22",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.14.tgz_1499828062048_0.2359176955651492"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.15",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.15",
+        "babel-traverse": "7.0.0-alpha.15",
+        "babel-types": "7.0.0-alpha.15"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "705399010ed9c49021e4f1421e3a950b73da6c21",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "705399010ed9c49021e4f1421e3a950b73da6c21",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.15.tgz_1499830599118_0.19187384936958551"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.16",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.16",
+        "babel-traverse": "7.0.0-alpha.16",
+        "babel-types": "7.0.0-alpha.16"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "cb52b5e2e80d1cfb51b09ff6d964245eec76a041",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "cb52b5e2e80d1cfb51b09ff6d964245eec76a041",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.16.tgz_1501017511670_0.30965758115053177"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.17",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.17",
+        "babel-traverse": "7.0.0-alpha.17",
+        "babel-types": "7.0.0-alpha.17"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "47d74216a4d00a5172b322bbe1d09e8d3c00c1c6",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "47d74216a4d00a5172b322bbe1d09e8d3c00c1c6",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.17.tgz_1501072804563_0.8173442906700075"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.18",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.18",
+        "babel-traverse": "7.0.0-alpha.18",
+        "babel-types": "7.0.0-alpha.18"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-AXS6dkU2s5vCzZU5wQyLBqicMzSPacXxv1Bg1CkWNjpeTjyG/uDqb3m4F+tp4i1aSo1xDL+A5L8DW5k8V/yZBQ==",
+        "shasum": "2e2423e44705e0627affeade4c1596ac796e658a",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.18.tgz_1501798895208_0.4141421162057668"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.19",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.19",
+        "babel-traverse": "7.0.0-alpha.19",
+        "babel-types": "7.0.0-alpha.19"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-yHLmGMdwe3Xytxbva4sGeM3utqCtG8PYaHBc9UHobMu7wcdQkqZAHKm1AilRb9Z8CtU9ca49nfT61sdA3RJ0ZQ==",
+        "shasum": "919294c1a7c032717fb7fbec6f5cd0086cd3c4ad",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.19.tgz_1502144538272_0.9388536838814616"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-alpha.20",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-alpha.20",
+        "babel-traverse": "7.0.0-alpha.20",
+        "babel-types": "7.0.0-alpha.20"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-p1bp7yB0Iart/Iwj6iXqrZMxO6BNAubX4lsdZCIXjGnix3SOMhi3kbh3sVJ51dBMjaaEJmSEcEjn7hlhvYPfsQ==",
+        "shasum": "51fa00f2fc1348a69b0e1cc7df0865b6f60e30ad",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-alpha.20.tgz_1504119882451_0.7642002506181598"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-beta.0",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-beta.0",
+        "babel-traverse": "7.0.0-beta.0",
+        "babel-types": "7.0.0-beta.0"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-PRPv7QH9feS+/mMFCSflkBubj/Ah72iqkhF2SYyHwmvZBw0yurqK7NdFpViwSZ7KO5vUpy/m2mSvyX5Gyp+Wkg==",
+        "shasum": "166b7cdae71babc8d596f368f4dcce7b99926a9e",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-beta.0.tgz_1505185385030_0.027041638270020485"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-beta.1",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-beta.1",
+        "babel-traverse": "7.0.0-beta.1",
+        "babel-types": "7.0.0-beta.1"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-SIc0RhNqs/K/w5OeaASIPgVnEY0RCt1ZkOXGsY2hRMRrimMx4u2vlESVtDTfo/VkPeMK0JFBoxPixakOP7qOKw==",
+        "shasum": "9b45176d9b41bc590b159534a306f2752240bb0e",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-beta.1.tgz_1505852692623_0.9999259791802615"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-beta.2",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-beta.2",
+        "babel-traverse": "7.0.0-beta.2",
+        "babel-types": "7.0.0-beta.2"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-LyNe7REG2P2f6lI50FFWsC8L/RZ0PqVb7HJ9vPycNkJFL5fiRyKZE5KXkEbMFIio/Q2fX2MmJin5UFKzeD1zuw==",
+        "shasum": "cd2d7f3471159c2c28950b52548299bd6dfe21a4",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-beta.2.tgz_1506438968217_0.4740670423489064"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-helper-explode-class",
+      "version": "7.0.0-beta.3",
+      "description": "Helper function to explode class",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-helper-bindify-decorators": "7.0.0-beta.3",
+        "babel-traverse": "7.0.0-beta.3",
+        "babel-types": "7.0.0-beta.3"
+      },
+      "_id": "babel-helper-explode-class@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-/ZgtN/bM0IrE+ddz/AsLafTBLQyKvZjTJtVf7AjKoN3qR9gwiDjNYK7xLDnk9yqXBdE3+6QaYmzVATNwtGeXkg==",
+        "shasum": "723ce223b0206215db0ec42783d51e93c4c905dd",
+        "tarball": "https://registry.npmjs.org/babel-helper-explode-class/-/babel-helper-explode-class-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-helper-explode-class-7.0.0-beta.3.tgz_1508073153686_0.13021847582422197"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-helper-explode-class\n\n## Usage\n\nTODO\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-10-15T13:12:34.653Z",
+    "created": "2015-10-29T17:54:37.516Z",
+    "6.0.0": "2015-10-29T17:54:37.516Z",
+    "6.0.2": "2015-10-29T18:08:54.194Z",
+    "6.0.14": "2015-10-30T23:32:48.127Z",
+    "6.0.15": "2015-11-01T22:08:42.966Z",
+    "6.1.5": "2015-11-12T06:50:19.409Z",
+    "6.1.6": "2015-11-12T07:33:44.533Z",
+    "6.1.7": "2015-11-12T07:38:10.909Z",
+    "6.1.8": "2015-11-12T07:41:15.661Z",
+    "6.1.9": "2015-11-12T07:46:56.433Z",
+    "6.1.10": "2015-11-12T07:53:37.969Z",
+    "6.1.11": "2015-11-12T07:59:43.005Z",
+    "6.1.12": "2015-11-12T08:48:46.381Z",
+    "6.1.13": "2015-11-12T19:58:27.517Z",
+    "6.1.16": "2015-11-12T21:34:03.141Z",
+    "6.1.17": "2015-11-12T21:41:03.461Z",
+    "6.1.18": "2015-11-12T21:47:17.450Z",
+    "6.2.4": "2015-11-25T03:12:59.021Z",
+    "6.3.13": "2015-12-04T11:57:16.853Z",
+    "6.5.0": "2016-02-07T00:06:58.401Z",
+    "6.5.0-1": "2016-02-07T02:39:44.133Z",
+    "6.6.0": "2016-02-29T21:12:30.750Z",
+    "6.6.4": "2016-03-02T21:29:32.295Z",
+    "6.6.5": "2016-03-04T23:16:34.820Z",
+    "6.8.0": "2016-05-02T23:44:02.269Z",
+    "6.18.0": "2016-10-24T21:18:46.585Z",
+    "6.22.0": "2017-01-20T00:33:31.993Z",
+    "7.0.0-alpha.1": "2017-03-02T21:05:43.110Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:45.700Z",
+    "7.0.0-alpha.7": "2017-04-05T21:14:15.104Z",
+    "6.24.1": "2017-04-07T15:19:18.249Z",
+    "7.0.0-alpha.8": "2017-04-17T19:13:09.321Z",
+    "7.0.0-alpha.9": "2017-04-18T14:42:18.001Z",
+    "7.0.0-alpha.10": "2017-05-25T19:17:41.930Z",
+    "7.0.0-alpha.11": "2017-05-31T20:43:52.471Z",
+    "7.0.0-alpha.12": "2017-05-31T21:12:08.706Z",
+    "7.0.0-alpha.14": "2017-07-12T02:54:22.921Z",
+    "7.0.0-alpha.15": "2017-07-12T03:36:40.065Z",
+    "7.0.0-alpha.16": "2017-07-25T21:18:32.591Z",
+    "7.0.0-alpha.17": "2017-07-26T12:40:05.652Z",
+    "7.0.0-alpha.18": "2017-08-03T22:21:35.284Z",
+    "7.0.0-alpha.19": "2017-08-07T22:22:18.381Z",
+    "7.0.0-alpha.20": "2017-08-30T19:04:42.538Z",
+    "7.0.0-beta.0": "2017-09-12T03:03:05.936Z",
+    "7.0.0-beta.1": "2017-09-19T20:24:52.692Z",
+    "7.0.0-beta.2": "2017-09-26T15:16:09.170Z",
+    "7.0.0-beta.3": "2017-10-15T13:12:34.653Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

@@ -1,0 +1,1893 @@
+{
+  "_id": "babel-plugin-transform-function-bind",
+  "_rev": "63-a1fe60a8196c68daf8ce7b12881ad19d",
+  "name": "babel-plugin-transform-function-bind",
+  "description": "Compile function bind operator to ES5",
+  "dist-tags": {
+    "latest": "6.22.0",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.2": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.0.2",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.0.2",
+        "babel-runtime": "^6.0.2"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-transform-function-bind@6.0.2",
+      "scripts": {},
+      "_shasum": "f95b27a6c99011d9ad6659cbba0a9bac02ef4cc9",
+      "_from": ".",
+      "_npmVersion": "2.14.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f95b27a6c99011d9ad6659cbba0a9bac02ef4cc9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.0.14",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.0.14",
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.0.14",
+      "scripts": {},
+      "_shasum": "f22a4cc0040ae6437a2df30126907796b3a8d6ad",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f22a4cc0040ae6437a2df30126907796b3a8d6ad",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.1.4",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.1.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.1.4",
+      "scripts": {},
+      "_shasum": "8b8f01a118de84005863b27bafe51f52e6ae2dab",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "8b8f01a118de84005863b27bafe51f52e6ae2dab",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.1.17",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.1.17",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.1.17",
+      "scripts": {},
+      "_shasum": "e66d64a59ea208571469038980f80affbc31941e",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "e66d64a59ea208571469038980f80affbc31941e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.1.18",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.1.18",
+      "scripts": {},
+      "_shasum": "9ef93a56fdbb44fd5e225096a91d992e1dbe5ba9",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "9ef93a56fdbb44fd5e225096a91d992e1dbe5ba9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.2.4",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.2.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.2.4",
+      "scripts": {},
+      "_shasum": "d89314a5e4e5cac7530eb7b5e0c393d00ab0ebdd",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "d89314a5e4e5cac7530eb7b5e0c393d00ab0ebdd",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.3.13",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.3.13",
+      "scripts": {},
+      "_shasum": "9404fb5e6d8cdea646632b236b89a9a3a131b3de",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "9404fb5e6d8cdea646632b236b89a9a3a131b3de",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.5.0",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.5.0",
+      "scripts": {},
+      "_shasum": "562ba890317a902184bf658a9892e88fdd4bd31e",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "562ba890317a902184bf658a9892e88fdd4bd31e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-6.5.0.tgz_1454803675240_0.0810055227484554"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.5.0-1",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.5.0-1",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.5.0-1",
+      "scripts": {},
+      "_shasum": "e7b0e795c4d5bc5551fc3de1d27f8f7cd3bb3a6e",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e7b0e795c4d5bc5551fc3de1d27f8f7cd3bb3a6e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-6.5.0-1.tgz_1454812875946_0.44123950437642634"
+      },
+      "directories": {}
+    },
+    "6.5.2": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.5.2",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.5.2",
+      "scripts": {},
+      "_shasum": "9368c3e36debbee0a25a54555687ff68866d9576",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9368c3e36debbee0a25a54555687ff68866d9576",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.5.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-6.5.2.tgz_1455294616124_0.4611143204383552"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.8.0",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.8.0",
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.8.0",
+      "scripts": {},
+      "_shasum": "e7f334ce69f50d28fe850a822eaaab9fa4f4d821",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "e7f334ce69f50d28fe850a822eaaab9fa4f4d821",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-6.8.0.tgz_1462232700023_0.6315890217665583"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "6.22.0",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "^6.8.0",
+        "babel-runtime": "^6.22.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.22.0"
+      },
+      "_id": "babel-plugin-transform-function-bind@6.22.0",
+      "scripts": {},
+      "_shasum": "c6fb8e96ac296a310b8cf8ea401462407ddf6a97",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "c6fb8e96ac296a310b8cf8ea401462407ddf6a97",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-6.22.0.tgz_1484872449182_0.9843610317911953"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.1",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.1"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "ac5d897f501f52ecd2880e7e2416c2a4426cafb3",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "ac5d897f501f52ecd2880e7e2416c2a4426cafb3",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.1.tgz_1488488727284_0.8634926632512361"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.3",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.3"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "1f10da630b4aeb2dc88ed368cd13cd54c70e7cec",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1f10da630b4aeb2dc88ed368cd13cd54c70e7cec",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.3.tgz_1490298572022_0.5211320235393941"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.7": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.7",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.7"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.7",
+      "scripts": {},
+      "_shasum": "02f466c3a5c5fa584ffb5847024397fed7b2bbc1",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "02f466c3a5c5fa584ffb5847024397fed7b2bbc1",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.7.tgz_1491426826254_0.04045319324359298"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.8": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.8",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.8"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.8",
+      "scripts": {},
+      "_shasum": "5160f6e813edb8f912d8c35560120a4f177c5a30",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "5160f6e813edb8f912d8c35560120a4f177c5a30",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.8.tgz_1492456366428_0.5164400772191584"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.9",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.9"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.9"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "e8c55c154d6c2992251ddff82ff2c03189e2d78a",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e8c55c154d6c2992251ddff82ff2c03189e2d78a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.9.tgz_1492526523974_0.6938644663896412"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.10": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.10",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.9"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.10"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.10",
+      "scripts": {},
+      "_shasum": "9c6e2c802743cb4b4e4f2ed6cecf6c49b03c0747",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9c6e2c802743cb4b4e4f2ed6cecf6c49b03c0747",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.10.tgz_1495739840003_0.6140878824517131"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.11": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.11",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.9"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.11"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.11",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-uy0UfClbsvhGt8RrGgN+SqR/3CSBfyYTYZxFLPs8bktS5q3YnkTBbsU9Wlzdm5CTdwdVLsAX2paHpQDnibkj6w==",
+        "shasum": "791132eb30b5842468f3ded0cd17186b7fbe9696",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.11.tgz_1496263418328_0.6069119945168495"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.12",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.12"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.12"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-wDAGaXjyfVyQn2kW+Xr1ZyzcXulD6kMU5XXhZQopY8kpHEqvv52gLiOBlViRqdRYw8D4UgYRMx0K3B+BseyJkg==",
+        "shasum": "74fa161205232e20b8a38e655d07e2775e8b14e4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.12.tgz_1496265120989_0.33644779142923653"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.14",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.14"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.14"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "e9ac68a92037cbff1ed7f42a30623908b9b646cd",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "e9ac68a92037cbff1ed7f42a30623908b9b646cd",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.14.tgz_1499828028236_0.0538318227045238"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.15",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.15"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.15"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "2b5f653b1a472b519fe7192066bfcd9d985f1314",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "2b5f653b1a472b519fe7192066bfcd9d985f1314",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.15.tgz_1499830563388_0.632457057479769"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.16",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.16"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.16"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "03e97d7aaa62f845a674ec9d8644264fc8573201",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "03e97d7aaa62f845a674ec9d8644264fc8573201",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.16.tgz_1501017476681_0.5845525118056685"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.17",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.17"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.17"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "440e15d0b15f1e9b31e661fb7a18507bbacba145",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "440e15d0b15f1e9b31e661fb7a18507bbacba145",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.17.tgz_1501072767771_0.9714853512123227"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.18",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.18"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.18"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-X3CkJ4q+kYsi+uS0BLNlGXvuG2DFlzQ5h/9pIuvRRIJqK/Y9a4ehvVykqVPnTmvB6we/VzJQ0GO/2kMelX6WEQ==",
+        "shasum": "9f105fc8370d61bff4e06f8e323ce8c2f6dfa473",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.18.tgz_1501798869649_0.9216272511985153"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.19",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.19"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.19"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-A4SONOxrVCMtm2GPfdDGd4Zogn3jddEkWZpnZdJoBfWi1dnVjd3E24OlnNznAVxutKkeb9IxDYtceOtMJKyheQ==",
+        "shasum": "5a8869fd7b235d2e8ac73fa3ce38fb1852b2a89a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.19.tgz_1502144509049_0.23466753121465445"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-alpha.20",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-alpha.20"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-alpha.20"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-jdr6mkLEhfQQepoGbYNG3hH1Qkuz3HfKzqmMT+h+K2BIn8CXcq4fdFVu/gqWHZBIow0GE5MPmzOGqRK88NDJJQ==",
+        "shasum": "f40c35a493c611d7d29267665ef91b034b9b7ac4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-alpha.20.tgz_1504119832348_0.8535956027917564"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-beta.0",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-beta.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.0"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-FsUMZ72LTvFuuobVNvtV1285cXg5L1qi3DGxnkpQd9Kqob6XpYK+D1bo478r0ZXkPkFCgMOFWtHkbCdIRkdAgw==",
+        "shasum": "8fff2f31c3eb0b62e2480f6a36c7ea0253d6dee4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-beta.0.tgz_1505185348679_0.8215487459674478"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-beta.1",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-beta.1"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.1"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-X056SOsE+3YzAc12whoLUiGyoRGVx1YyTF5tKXjRb8gQgKXNhkzM4GuzxVqzrbGCAPq/FehCJhUBTh2LQ2PQ8g==",
+        "shasum": "1bff3d3def663e53adfea6a2260d5adfa7469628",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-beta.1.tgz_1505851799938_0.16703281411901116"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-beta.2",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-beta.2"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.2"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-8V/3b4tOndmpL6blVlVXoSdeuF9lJHdekqCH7AnFUugIT31I+Qc4if8SA5dYdn78hdaEP8ylgDpTnaOL9+Xy5Q==",
+        "shasum": "e8a558be01acc25f0f08bed3e86cd7c5487d88d4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-beta.2.tgz_1506438927625_0.5285014442633837"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-transform-function-bind",
+      "version": "7.0.0-beta.3",
+      "description": "Compile function bind operator to ES5",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-plugin-syntax-function-bind": "7.0.0-beta.3"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "7.0.0-beta.3"
+      },
+      "_id": "babel-plugin-transform-function-bind@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-Qvvm79vu6AZETTEMCSQrdiZLzwv+KCQoeZLCs5J1Lwbttj7zCBuJsQ3a3RNZtcrmAj5YJmzV+T/26C3e5ifvdQ==",
+        "shasum": "905f34f2b4f584f931d13e06df3c5fe09a3a2000",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-function-bind/-/babel-plugin-transform-function-bind-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-transform-function-bind-7.0.0-beta.3.tgz_1508073115312_0.7957757019903511"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-transform-function-bind\n\nCompile function bind operator to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-function-bind\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-function-bind\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-function-bind script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-function-bind\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2017-12-16T23:00:32.736Z",
+    "created": "2015-10-29T18:18:00.302Z",
+    "6.0.2": "2015-10-29T18:18:00.302Z",
+    "6.0.14": "2015-10-30T23:40:09.136Z",
+    "6.1.4": "2015-11-11T10:32:41.145Z",
+    "6.1.17": "2015-11-12T21:42:43.204Z",
+    "6.1.18": "2015-11-12T21:51:00.937Z",
+    "6.2.4": "2015-11-25T03:14:57.692Z",
+    "6.3.13": "2015-12-04T11:59:53.297Z",
+    "6.5.0": "2016-02-07T00:07:57.902Z",
+    "6.5.0-1": "2016-02-07T02:41:18.540Z",
+    "6.5.2": "2016-02-12T16:30:19.922Z",
+    "6.8.0": "2016-05-02T23:45:02.261Z",
+    "6.22.0": "2017-01-20T00:34:10.974Z",
+    "7.0.0-alpha.1": "2017-03-02T21:05:27.939Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:32.256Z",
+    "7.0.0-alpha.7": "2017-04-05T21:13:47.013Z",
+    "7.0.0-alpha.8": "2017-04-17T19:12:48.256Z",
+    "7.0.0-alpha.9": "2017-04-18T14:42:04.206Z",
+    "7.0.0-alpha.10": "2017-05-25T19:17:20.824Z",
+    "7.0.0-alpha.11": "2017-05-31T20:43:38.408Z",
+    "7.0.0-alpha.12": "2017-05-31T21:12:01.053Z",
+    "7.0.0-alpha.14": "2017-07-12T02:53:49.321Z",
+    "7.0.0-alpha.15": "2017-07-12T03:36:04.330Z",
+    "7.0.0-alpha.16": "2017-07-25T21:17:57.567Z",
+    "7.0.0-alpha.17": "2017-07-26T12:39:29.020Z",
+    "7.0.0-alpha.18": "2017-08-03T22:21:10.164Z",
+    "7.0.0-alpha.19": "2017-08-07T22:21:49.167Z",
+    "7.0.0-alpha.20": "2017-08-30T19:03:52.410Z",
+    "7.0.0-beta.0": "2017-09-12T03:02:29.649Z",
+    "7.0.0-beta.1": "2017-09-19T20:10:00.001Z",
+    "7.0.0-beta.2": "2017-09-26T15:15:28.504Z",
+    "7.0.0-beta.3": "2017-10-15T13:11:56.286Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mikestaub": true,
+    "usex": true,
+    "alex-cory": true,
+    "nraibaud": true
+  },
+  "_attachments": {}
+}

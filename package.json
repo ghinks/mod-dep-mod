@@ -14,32 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.6.0",
-    "babel-runtime": "^6.26.0",
-    "commander": "^2.14.1",
-    "compare-semver": "^1.1.0",
-    "debug": "^3.1.0",
-    "isomorphic-fetch": "^2.2.1",
-    "npm-package-arg": "^6.0.0",
-    "read-package-json": "^2.0.12",
-    "registry-url": "^3.1.0",
-    "semver": "^5.5.0",
-    "treeify": "^1.1.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.2",
-    "babel-plugin-rewire": "^1.1.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "chai": "^4.1.2",
-    "mocha": "^5.0.1",
-    "nock": "^9.2.1",
-    "nodemon": "^1.15.1",
-    "nyc": "^11.4.1",
-    "standard": "^11.0.0"
+    "babel-preset-stage-0": "^6.24.1"
   },
   "standard": {
     "parser": "babel-eslint",

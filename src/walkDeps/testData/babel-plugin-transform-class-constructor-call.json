@@ -1,0 +1,1240 @@
+{
+  "_id": "babel-plugin-transform-class-constructor-call",
+  "_rev": "50-b1d2a4754e3a40afcbbf1046460974c5",
+  "name": "babel-plugin-transform-class-constructor-call",
+  "description": "This plugin allows Babel to transform class constructors (deprecated)",
+  "dist-tags": {
+    "latest": "6.24.1"
+  },
+  "versions": {
+    "6.0.12": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.0.12",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/babel/babel.git"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.0.12",
+        "babel-plugin-syntax-class-constructor-call": "^6.0.12",
+        "babel-runtime": "^6.0.12"
+      },
+      "bugs": {
+        "url": "https://github.com/babel/babel/issues"
+      },
+      "homepage": "https://github.com/babel/babel#readme",
+      "_id": "babel-plugin-transform-class-constructor-call@6.0.12",
+      "scripts": {},
+      "_shasum": "f7291061fe8d2152b977a0ac1f1aa8fa46058947",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "f7291061fe8d2152b977a0ac1f1aa8fa46058947",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.0.12.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.14": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.0.14",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.0.14",
+        "babel-plugin-syntax-class-constructor-call": "^6.0.14",
+        "babel-runtime": "^6.0.14"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.0.14",
+      "scripts": {},
+      "_shasum": "b0f42bedf4568731f6141a1f33d039ce108caab4",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b0f42bedf4568731f6141a1f33d039ce108caab4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.0.15",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.0.15",
+        "babel-plugin-syntax-class-constructor-call": "^6.0.15",
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.0.15",
+      "scripts": {},
+      "_shasum": "eac608ba93355af465aa0a5a36fac91bf889f1d0",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "eac608ba93355af465aa0a5a36fac91bf889f1d0",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.20": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.0.20",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.0.15",
+        "babel-plugin-syntax-class-constructor-call": "^6.0.15",
+        "babel-runtime": "^5.0.0"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.0.20",
+      "scripts": {},
+      "_shasum": "d37333d55f2e91c4eaf96bc61339435cbb72e7fe",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "d37333d55f2e91c4eaf96bc61339435cbb72e7fe",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.0.20.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.4": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.4",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.0.15",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.4"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.4",
+      "scripts": {},
+      "_shasum": "82276c62562cefca23d5a41f28635904c0e5a5a6",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "82276c62562cefca23d5a41f28635904c0e5a5a6",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.5": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.5",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.1.5",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.5",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.5"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.5",
+      "scripts": {},
+      "_shasum": "a803c3f2c4cd6ce05cf57c172f978b3375864d3e",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "a803c3f2c4cd6ce05cf57c172f978b3375864d3e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.10": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.10",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.1.10",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.10",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.10"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.10",
+      "scripts": {},
+      "_shasum": "62db1435970753579361a9b3d0356c909abfd9b5",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "62db1435970753579361a9b3d0356c909abfd9b5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.13": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.13",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.1.13",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.13",
+      "scripts": {},
+      "_shasum": "61d4da10687d893b6b5c1ad29b03dc1cd5f28b45",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "61d4da10687d893b6b5c1ad29b03dc1cd5f28b45",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.17",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.1.17",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.17",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.17"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.17",
+      "scripts": {},
+      "_shasum": "b03fd53f18ced17ebacc093305df9dd7cc04753d",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "b03fd53f18ced17ebacc093305df9dd7cc04753d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.1.18",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.1.18",
+        "babel-plugin-syntax-class-constructor-call": "^6.1.18",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.1.18"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.1.18",
+      "scripts": {},
+      "_shasum": "48a930790a3d982bbdbe2505c1dedc1621c3f998",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "48a930790a3d982bbdbe2505c1dedc1621c3f998",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.2.4",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.2.4",
+        "babel-plugin-syntax-class-constructor-call": "^6.2.4",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.2.4"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.2.4",
+      "scripts": {},
+      "_shasum": "67c53831addca0c98dd1cfeb5861fd30cd23991b",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "67c53831addca0c98dd1cfeb5861fd30cd23991b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.3.13",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.3.13",
+        "babel-plugin-syntax-class-constructor-call": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.3.13",
+      "scripts": {},
+      "_shasum": "05813f21f047475576de1a0734c9ef447a99d674",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "05813f21f047475576de1a0734c9ef447a99d674",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.4.0": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.4.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.3.13",
+        "babel-plugin-syntax-class-constructor-call": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.4.0",
+      "scripts": {},
+      "_shasum": "897934f6411878cdedea5aeccec3c04678f95676",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "897934f6411878cdedea5aeccec3c04678f95676",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.5.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.3.13",
+        "babel-plugin-syntax-class-constructor-call": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.5.0",
+      "scripts": {},
+      "_shasum": "0e00d1b1207b2f6fd2405a4e87a02a126c8f3a6d",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "0e00d1b1207b2f6fd2405a4e87a02a126c8f3a6d",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.5.0.tgz_1454803644258_0.9573283810168505"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.5.0-1",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.5.0-1",
+        "babel-plugin-syntax-class-constructor-call": "^6.5.0-1",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.5.0-1"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.5.0-1",
+      "scripts": {},
+      "_shasum": "7bea5a53eab9dfd51d2e85cf742f499e024703a5",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "7bea5a53eab9dfd51d2e85cf742f499e024703a5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.5.0-1.tgz_1454812817556_0.8134379822295159"
+      },
+      "directories": {}
+    },
+    "6.6.4": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.6.4",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.6.4",
+        "babel-plugin-syntax-class-constructor-call": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.6.4",
+      "scripts": {},
+      "_shasum": "7ddf7e2183c6a147ddda1c72f288de81a7a37e49",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "7ddf7e2183c6a147ddda1c72f288de81a7a37e49",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.6.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-13-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.6.4.tgz_1456954174879_0.32569322967901826"
+      },
+      "directories": {}
+    },
+    "6.6.5": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.6.5",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.6.5",
+        "babel-plugin-syntax-class-constructor-call": "^6.3.13",
+        "babel-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.3.13"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.6.5",
+      "scripts": {},
+      "_shasum": "50331bcdb1d33e37a39a6426db1de03e9f78a066",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "50331bcdb1d33e37a39a6426db1de03e9f78a066",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.6.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-13-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.6.5.tgz_1457133404627_0.638566522160545"
+      },
+      "directories": {}
+    },
+    "6.8.0": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.8.0",
+      "description": "## Installation",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.8.0",
+        "babel-plugin-syntax-class-constructor-call": "^6.8.0",
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.8.0"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.8.0",
+      "scripts": {},
+      "_shasum": "6e740bc80f16d295fa598d92518666020a906192",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "dist": {
+        "shasum": "6e740bc80f16d295fa598d92518666020a906192",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.8.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.8.0.tgz_1462232668541_0.30146347475238144"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.18.0",
+      "description": "This plugin allows Babel to transform class constructors (deprecated)",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.8.0",
+        "babel-plugin-syntax-class-constructor-call": "^6.18.0",
+        "babel-runtime": "^6.0.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.18.0"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.18.0",
+      "scripts": {},
+      "_shasum": "80855e38a1ab47b8c6c647f8ea1bcd2c00ca3aae",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "80855e38a1ab47b8c6c647f8ea1bcd2c00ca3aae",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.18.0.tgz_1477343937169_0.992085614008829"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.22.0",
+      "description": "This plugin allows Babel to transform class constructors (deprecated)",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.22.0",
+        "babel-plugin-syntax-class-constructor-call": "^6.18.0",
+        "babel-runtime": "^6.22.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.22.0"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.22.0",
+      "scripts": {},
+      "_shasum": "11a4d2216abb5b0eef298b493748f4f2f4869120",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "11a4d2216abb5b0eef298b493748f4f2f4869120",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.22.0.tgz_1484872424947_0.21156827732920647"
+      },
+      "directories": {}
+    },
+    "6.24.1": {
+      "name": "babel-plugin-transform-class-constructor-call",
+      "version": "6.24.1",
+      "description": "This plugin allows Babel to transform class constructors (deprecated)",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {
+        "babel-template": "^6.24.1",
+        "babel-plugin-syntax-class-constructor-call": "^6.18.0",
+        "babel-runtime": "^6.22.0"
+      },
+      "devDependencies": {
+        "babel-helper-plugin-test-runner": "^6.24.1"
+      },
+      "_id": "babel-plugin-transform-class-constructor-call@6.24.1",
+      "scripts": {},
+      "_shasum": "80dc285505ac067dcb8d6c65e2f6f11ab7765ef9",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "80dc285505ac067dcb8d6c65e2f6f11ab7765ef9",
+        "tarball": "https://registry.npmjs.org/babel-plugin-transform-class-constructor-call/-/babel-plugin-transform-class-constructor-call-6.24.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-transform-class-constructor-call-6.24.1.tgz_1491578360795_0.9142510667443275"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-transform-class-constructor-call (deprecated)\n\n> Proposal Withdrawn: can be solved with decorators.\n\nThis plugin allows Babel to transform class constructors.\n\nIt basically allows to use the [new.target](http://mdn.io/new.target) feature on ES2015 classes:\n\n```js\nclass Point {\n\n  constructor(x, y) {\n    this.x = x;\n    this.y = y;\n  }\n\n  call constructor(x, y) {\n    return new Point(x, y);\n  }\n\n}\n\nlet p1 = new Point(1, 2); // OK\nlet p2 = Point(3, 4); // OK\n```\n\n## Example\n\n### Date example\nThe javascript [Date](http://mdn.io/date) works this way:\n\n```js\n// You can get a Date instance using the new keyword\nlet now = new Date();\nconsole.log(now.getMonth()); // Prints '3'\nconsole.log(now.toString()); // Prints 'Mon Apr 11 2016 13:26:07 GMT+0100 (BST)'\n\n// You can get a string of the current date using Date as a function:\nlet nowStr = Date();\nconsole.log(nowStr); // Prints 'Mon Apr 11 2016 13:26:07 GMT+0100 (BST)'\n```\n\nIt is currently possible to implement something like that using [new.target](http://mdn.io/new.target) (see [example in proposal](https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md#motivating-example)) and this new feature makes it available for ES2015 classes.\n\nA date implementation could be:\n\n```js\nclass Date {\n  constructor() {\n    // ...\n  }\n\n  call constructor() {\n    let date = new Date();\n    return date.toString();\n  }\n}\n\nlet now = new Date(); // Get a Date instance\nlet nowStr = Date(); // Use the 'call constructor()' part to get a string value of the current date\n```\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-class-constructor-call\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-class-constructor-call\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-class-constructor-call script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-class-constructor-call\"]\n});\n```\n\n## References\n\n* [Inactive Proposals](https://github.com/tc39/proposals/blob/master/inactive-proposals.md)\n* [Proposal: Call Constructor](https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md)\n* [Blog post: ECMAScript proposal: function-callable classes](http://www.2ality.com/2015/10/call-constructor-esprop.html)\n",
+  "maintainers": [
+    {
+      "email": "npm-public@jessemccarthy.net",
+      "name": "jmm"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "amjad.masad@gmail.com",
+      "name": "amasad"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    }
+  ],
+  "time": {
+    "modified": "2017-07-23T03:33:49.469Z",
+    "created": "2015-10-30T04:55:23.314Z",
+    "6.0.12": "2015-10-30T04:55:23.314Z",
+    "6.0.14": "2015-10-30T23:36:07.608Z",
+    "6.0.15": "2015-11-01T22:09:51.893Z",
+    "6.0.20": "2015-11-03T04:22:07.579Z",
+    "6.1.4": "2015-11-11T10:14:40.433Z",
+    "6.1.5": "2015-11-12T06:55:00.169Z",
+    "6.1.10": "2015-11-12T07:54:41.416Z",
+    "6.1.13": "2015-11-12T19:59:18.269Z",
+    "6.1.17": "2015-11-12T21:41:50.846Z",
+    "6.1.18": "2015-11-12T21:49:10.129Z",
+    "6.2.4": "2015-11-25T03:14:04.589Z",
+    "6.3.13": "2015-12-04T11:58:44.401Z",
+    "6.4.0": "2016-01-06T20:34:33.182Z",
+    "6.5.0": "2016-02-07T00:07:26.816Z",
+    "6.5.0-1": "2016-02-07T02:40:20.131Z",
+    "6.6.4": "2016-03-02T21:29:37.822Z",
+    "6.6.5": "2016-03-04T23:16:47.885Z",
+    "6.8.0": "2016-05-02T23:44:29.546Z",
+    "6.18.0": "2016-10-24T21:18:59.085Z",
+    "6.22.0": "2017-01-20T00:33:46.009Z",
+    "6.24.1": "2017-04-07T15:19:21.024Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

@@ -21,8 +21,7 @@ results tree object should be
 */
 // babel-traverse babel-types 'babel-types', version: '^6.9.0'  'babel-traverse', version: '^6.9.0'
 export const isCircularDependency = ({ parent, dependency }) => {
-  if (!parent) return false
-  if (!parent.depends) return false
+  if (!parent || !parent.depends) return false
   const parentsMatchingDepends = parent.depends.filter(parentDependency => parentDependency.module === dependency.module)
   if (parentsMatchingDepends.length > 0) {
     return true
@@ -48,16 +47,16 @@ const walker = async (task, cb) => {
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
 
-const walkDeps = async (moduleToFind) => {
+const walkDeps = async (moduleToFind, done) => {
   const packageJsonDeps = await getDepends('package.json')
   // get an array of { module, semver }
   const collatedDeps = collate(packageJsonDeps)
   let results = { depends: collatedDeps }
   const q = async.queue(walker, 10)
-  // here we are with a lovely list of modules and semvers
-  // from which we wish to find our top level package that
-  // is including the moduleToFind
-  q.drain = () => console.log(`all finished ${JSON.stringify(results, null, 2)}`)
+  q.drain = () => {
+    console.log(`all finished ${JSON.stringify(results, null, 2)}`)
+    if (done) done(results)
+  }
   collatedDeps.forEach((d) => q.push({ dependency: d, results, q, depth: 1, parent: undefined }, (e, n, v) => null))
 }
 

@@ -1,0 +1,971 @@
+{
+  "_id": "babel-plugin-syntax-dynamic-import",
+  "_rev": "62-f4eedb45beb21d5e7f114b9a9999de22",
+  "name": "babel-plugin-syntax-dynamic-import",
+  "description": "Allow parsing of import()",
+  "dist-tags": {
+    "latest": "6.18.0",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.18.0": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "6.18.0",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@6.18.0",
+      "scripts": {},
+      "_shasum": "8d6a26229c83745a9982a441051572caa179b1da",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "8d6a26229c83745a9982a441051572caa179b1da",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-6.18.0.tgz_1477343934992_0.1571790436282754"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.1",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "b5f9c887f55b0ad97fc485c9d2a33779fe64fcc3",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "b5f9c887f55b0ad97fc485c9d2a33779fe64fcc3",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.1.tgz_1488488695512_0.11001044232398272"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.3",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "c181227705398ea333071ca7ff59196d8ba6d953",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "c181227705398ea333071ca7ff59196d8ba6d953",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.3.tgz_1490298546562_0.3148527273442596"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.9",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "84cc7ad10524082a59fe6c5dd1714fb5d8fac226",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "84cc7ad10524082a59fe6c5dd1714fb5d8fac226",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "babeljs",
+          "email": "asciiguyfieri@gmail.com"
+        },
+        {
+          "name": "boopathi",
+          "email": "me@boopathi.in"
+        },
+        {
+          "name": "danez",
+          "email": "daniel@tschinder.de"
+        },
+        {
+          "name": "existentialism",
+          "email": "bng412@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "vignesh.shanmugam",
+          "email": "vignesh.shanmugam22@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.9.tgz_1492526497367_0.2188437469303608"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.12",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-YV/Vu5sZ1XLiYvUZkUxNhKQWg7x2BLpueCA4dG21omCsinzVKsx2RbIMFtPt19+K2p8wqt0XF7G+HQQYe3tCOg==",
+        "shasum": "7f547c6989505becb4b3b730b7b4b324e4e309e5",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.12.tgz_1496265103349_0.06875690910965204"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.13": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.13",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.13",
+      "scripts": {},
+      "_shasum": "07aa7556ee074d7d915b909d9b2dad8c0b9c7c01",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "07aa7556ee074d7d915b909d9b2dad8c0b9c7c01",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.13.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.13.tgz_1499826483669_0.816023958614096"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.14",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "f0d624936cfbf367c59a828929234e4903188b5b",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "f0d624936cfbf367c59a828929234e4903188b5b",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.14.tgz_1499827996089_0.755864642560482"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.15",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "d05865b7b033ec730a1049792798cf7e52c07018",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d05865b7b033ec730a1049792798cf7e52c07018",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.15.tgz_1499830530133_0.48775344365276396"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.16",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "42bce5a11bf363e7d3a9f7473641eff36de8a505",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "42bce5a11bf363e7d3a9f7473641eff36de8a505",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.16.tgz_1501017442898_0.4688382598105818"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.17",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "cdb614aef8124bce2158080215d14e324f35f43e",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "cdb614aef8124bce2158080215d14e324f35f43e",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.17.tgz_1501072731650_0.006536377826705575"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.18",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "dependencies": {},
+      "devDependencies": {},
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-ku3TMxnwIbHJSxvqUVZGrdx9MD02hL5JrLF/kuEq2eeK2TpxhZlHe6me5f0bDWhy9Z4jAjkTbrgz42ORSPCe6A==",
+        "shasum": "3fff6074d123883de0de2d403d1872fe34ce0fb4",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.18.tgz_1501798842577_0.5934491057414562"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.19",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-c81zfbY40/PK1vcrfVViqs/7A/6uwXzyeq3n9+xRNk6r9B74Sh5rJCg299yFCriAoV4HpKp8e6itj2YzAWykHg==",
+        "shasum": "bb6c3d5270a0e176cf1a4a0e7e6f14bd0cf3e63a",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.19.tgz_1502144476375_0.43167577288113534"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-alpha.20",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-JnlRGGEsaeea0I5LZnmXIoGA2avY+ern4g58jSTWMTjVg0XPQW1tiO1sXscFa5imYtBV+e0Qy/Kxu4SwruIZxA==",
+        "shasum": "7af9161e5cfbdea0f43ffcc3fa1238231cd629ee",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-alpha.20.tgz_1504119102390_0.9373401196207851"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-beta.0",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-LO1fCfFNTb+Zaq+oqe4apYKnY2oqutqsknsUXfWwcnnkAN6My8lZke+MJsfVL3qezi2nroa18PWMvRV1KMYNnw==",
+        "shasum": "3ba4f629948d1427bb9a520ebe102c990bcd8b14",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-beta.0.tgz_1505185309477_0.7537181284278631"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-beta.1",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-i87H+bYfPx/CfrXQDQfcDgdXxCCvGrc5Pe5WPh290NIHQj/zRvbSUfCcdovZKyIuAB6hGSs1qPIPEnRtQCq4PA==",
+        "shasum": "76af119e59c9953723089093f3a61365f1b00156",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-beta.1.tgz_1505851745650_0.9417543059680611"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-beta.2",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-I77/OP7JQdNHKmamnAVxXIQ6U1TQFYIxUCL6o1ByfHuRHU0ozT31+W41L6Wbg10poNDn/x+KHsc/8S0heOqoFg==",
+        "shasum": "50bc4d7884cb94e93dc79deae62f84e048298c60",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-beta.2.tgz_1506438887877_0.30864708847366273"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-plugin-syntax-dynamic-import",
+      "version": "7.0.0-beta.3",
+      "description": "Allow parsing of import()",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+      },
+      "license": "MIT",
+      "main": "lib/index.js",
+      "keywords": [
+        "babel-plugin"
+      ],
+      "_id": "babel-plugin-syntax-dynamic-import@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-VkgGtnUW8daX4lJkqJRONq3DTr9X+G0qyv4sR5ZoCeZohhSn4FoddypLRAGH4dWw+dzhvImxD027OyRU+sAmOQ==",
+        "shasum": "4f2e87a6ac12947422392b76a526cdc766a607ac",
+        "tarball": "https://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-plugin-syntax-dynamic-import-7.0.0-beta.3.tgz_1508073074149_0.5063443698454648"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-plugin-syntax-dynamic-import\n\nAllow parsing of `import()`.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-dynamic-import\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-dynamic-import\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-dynamic-import script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-dynamic-import\"]\n});\n```\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-11T07:14:21.074Z",
+    "created": "2016-10-24T21:18:56.762Z",
+    "6.18.0": "2016-10-24T21:18:56.762Z",
+    "7.0.0-alpha.1": "2017-03-02T21:04:56.188Z",
+    "7.0.0-alpha.3": "2017-03-23T19:49:06.798Z",
+    "7.0.0-alpha.9": "2017-04-18T14:41:39.479Z",
+    "7.0.0-alpha.12": "2017-05-31T21:11:43.423Z",
+    "7.0.0-alpha.13": "2017-07-12T02:28:04.622Z",
+    "7.0.0-alpha.14": "2017-07-12T02:53:17.078Z",
+    "7.0.0-alpha.15": "2017-07-12T03:35:31.109Z",
+    "7.0.0-alpha.16": "2017-07-25T21:17:23.849Z",
+    "7.0.0-alpha.17": "2017-07-26T12:38:52.650Z",
+    "7.0.0-alpha.18": "2017-08-03T22:20:42.643Z",
+    "7.0.0-alpha.19": "2017-08-07T22:21:16.451Z",
+    "7.0.0-alpha.20": "2017-08-30T18:51:42.463Z",
+    "7.0.0-beta.0": "2017-09-12T03:01:50.408Z",
+    "7.0.0-beta.1": "2017-09-19T20:09:05.719Z",
+    "7.0.0-beta.2": "2017-09-26T15:14:48.812Z",
+    "7.0.0-beta.3": "2017-10-15T13:11:15.100Z"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "btd": true,
+    "usex": true,
+    "tedyhy": true,
+    "yeming": true,
+    "muzi131313": true,
+    "dwqs": true,
+    "everywill": true,
+    "princetoad": true,
+    "ostgals": true,
+    "ycjcl868": true
+  },
+  "_attachments": {}
+}

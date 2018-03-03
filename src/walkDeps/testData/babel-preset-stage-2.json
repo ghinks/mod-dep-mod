@@ -1,0 +1,2207 @@
+{
+  "_id": "babel-preset-stage-2",
+  "_rev": "86-b787ca6e074ff706ca01b78bdac10630",
+  "name": "babel-preset-stage-2",
+  "description": "Babel preset for stage 2 plugins",
+  "dist-tags": {
+    "latest": "6.24.1",
+    "next": "7.0.0-beta.3"
+  },
+  "versions": {
+    "6.0.14": {
+      "name": "babel-preset-stage-2",
+      "version": "6.0.14",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.0.14",
+        "babel-plugin-transform-object-rest-spread": "^6.0.14",
+        "babel-preset-stage-3": "^6.0.14"
+      },
+      "_id": "babel-preset-stage-2@6.0.14",
+      "scripts": {},
+      "_shasum": "059635d5c05ee9089eabfc421d4774e7b12f49e9",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "059635d5c05ee9089eabfc421d4774e7b12f49e9",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.0.14.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.0.15": {
+      "name": "babel-preset-stage-2",
+      "version": "6.0.15",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.0.14",
+        "babel-plugin-transform-object-rest-spread": "^6.0.14",
+        "babel-preset-stage-3": "^6.0.15"
+      },
+      "_id": "babel-preset-stage-2@6.0.15",
+      "scripts": {},
+      "_shasum": "37e0955590dcaa5b936c1cc5d5406a6efe0852f7",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "37e0955590dcaa5b936c1cc5d5406a6efe0852f7",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.0.15.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.2": {
+      "name": "babel-preset-stage-2",
+      "version": "6.1.2",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.0.14",
+        "babel-plugin-transform-object-rest-spread": "^6.0.14",
+        "babel-preset-stage-3": "^6.1.2"
+      },
+      "_id": "babel-preset-stage-2@6.1.2",
+      "scripts": {},
+      "_shasum": "dfce2fb84e30050747e85768502043edeaf86338",
+      "_from": ".",
+      "_npmVersion": "2.14.9",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "dfce2fb84e30050747e85768502043edeaf86338",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.17": {
+      "name": "babel-preset-stage-2",
+      "version": "6.1.17",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.1.17",
+        "babel-plugin-transform-object-rest-spread": "^6.1.17",
+        "babel-preset-stage-3": "^6.1.17"
+      },
+      "_id": "babel-preset-stage-2@6.1.17",
+      "scripts": {},
+      "_shasum": "51bcf4f5cc1241c5491523b106b631a3be597184",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "51bcf4f5cc1241c5491523b106b631a3be597184",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.1.17.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.1.18": {
+      "name": "babel-preset-stage-2",
+      "version": "6.1.18",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.1.18",
+        "babel-plugin-transform-object-rest-spread": "^6.1.18",
+        "babel-preset-stage-3": "^6.1.18"
+      },
+      "_id": "babel-preset-stage-2@6.1.18",
+      "scripts": {},
+      "_shasum": "240d9a33aadd0aba9cc4c43c74e59ee6b3107b0c",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "240d9a33aadd0aba9cc4c43c74e59ee6b3107b0c",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.1.18.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.2.4": {
+      "name": "babel-preset-stage-2",
+      "version": "6.2.4",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.2.4",
+        "babel-plugin-transform-object-rest-spread": "^6.2.4",
+        "babel-preset-stage-3": "^6.2.4"
+      },
+      "_id": "babel-preset-stage-2@6.2.4",
+      "scripts": {},
+      "_shasum": "9272c7f65454e4f5afddf1d9793070e310a97260",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "9272c7f65454e4f5afddf1d9793070e310a97260",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.3.13": {
+      "name": "babel-preset-stage-2",
+      "version": "6.3.13",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.3.13",
+        "babel-plugin-transform-object-rest-spread": "^6.3.13",
+        "babel-preset-stage-3": "^6.3.13"
+      },
+      "_id": "babel-preset-stage-2@6.3.13",
+      "scripts": {},
+      "_shasum": "3657db63d11806456f64d4d0b0e9a817837aeea7",
+      "_from": ".",
+      "_npmVersion": "3.3.10",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sebmck",
+        "email": "sebmck@gmail.com"
+      },
+      "dist": {
+        "shasum": "3657db63d11806456f64d4d0b0e9a817837aeea7",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.3.13.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "directories": {}
+    },
+    "6.5.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.5.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.3.13",
+        "babel-plugin-transform-object-rest-spread": "^6.3.13",
+        "babel-preset-stage-3": "^6.3.13"
+      },
+      "_id": "babel-preset-stage-2@6.5.0",
+      "scripts": {},
+      "_shasum": "04c921f7cee176a96699a7185f539898d8c374d7",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "04c921f7cee176a96699a7185f539898d8c374d7",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.5.0.tgz_1454803702432_0.7023218055255711"
+      },
+      "directories": {}
+    },
+    "6.5.0-1": {
+      "name": "babel-preset-stage-2",
+      "version": "6.5.0-1",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-syntax-trailing-function-commas": "^6.5.0-1",
+        "babel-plugin-transform-object-rest-spread": "^6.5.0-1",
+        "babel-preset-stage-3": "^6.5.0-1"
+      },
+      "_id": "babel-preset-stage-2@6.5.0-1",
+      "scripts": {},
+      "_shasum": "eb696cdc76058516ecaabd9bb136dcb50708e7a9",
+      "_from": ".",
+      "_npmVersion": "3.6.0",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "eb696cdc76058516ecaabd9bb136dcb50708e7a9",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.5.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.5.0-1.tgz_1454812904353_0.6332232565619051"
+      },
+      "directories": {}
+    },
+    "6.11.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.11.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-transform-object-rest-spread": "^6.3.13",
+        "babel-preset-stage-3": "^6.11.0"
+      },
+      "_id": "babel-preset-stage-2@6.11.0",
+      "scripts": {},
+      "_shasum": "30edcaf9e93da718e8e45fe8c68142242471f644",
+      "_from": ".",
+      "_npmVersion": "3.8.6",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "30edcaf9e93da718e8e45fe8c68142242471f644",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.11.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.11.0.tgz_1466986892144_0.19590198108926415"
+      },
+      "directories": {}
+    },
+    "6.13.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.13.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "^6.3.13",
+        "babel-plugin-transform-decorators": "^6.13.0",
+        "babel-plugin-transform-object-rest-spread": "^6.3.13",
+        "babel-preset-stage-3": "^6.11.0"
+      },
+      "_id": "babel-preset-stage-2@6.13.0",
+      "scripts": {},
+      "_shasum": "7a3d9e24209a8621dac4b0c2a163a5477ff410e3",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "7a3d9e24209a8621dac4b0c2a163a5477ff410e3",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.13.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.13.0.tgz_1470353705201_0.28560536354780197"
+      },
+      "directories": {}
+    },
+    "6.16.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.16.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-async-generator-functions": "^6.16.0",
+        "babel-plugin-transform-class-properties": "^6.16.0",
+        "babel-plugin-transform-decorators": "^6.13.0",
+        "babel-plugin-transform-object-rest-spread": "^6.16.0",
+        "babel-preset-stage-3": "^6.16.0"
+      },
+      "_id": "babel-preset-stage-2@6.16.0",
+      "scripts": {},
+      "_shasum": "bc2a59c329bf4c8a148f7dd69ffba4caf7b57ffb",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "bc2a59c329bf4c8a148f7dd69ffba4caf7b57ffb",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.16.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.16.0.tgz_1475091543312_0.7669357717968524"
+      },
+      "directories": {}
+    },
+    "6.17.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.17.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "^6.16.0",
+        "babel-plugin-transform-decorators": "^6.13.0",
+        "babel-preset-stage-3": "^6.17.0"
+      },
+      "_id": "babel-preset-stage-2@6.17.0",
+      "scripts": {},
+      "_shasum": "dc4f84582781353cef36c41247eae5e36c4cae0d",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "5.11.1",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "dc4f84582781353cef36c41247eae5e36c4cae0d",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.17.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.17.0.tgz_1475349804231_0.0974016657564789"
+      },
+      "directories": {}
+    },
+    "6.18.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.18.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "^6.18.0",
+        "babel-plugin-transform-decorators": "^6.13.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-preset-stage-3": "^6.17.0"
+      },
+      "_id": "babel-preset-stage-2@6.18.0",
+      "scripts": {},
+      "_shasum": "9eb7bf9a8e91c68260d5ba7500493caaada4b5b5",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9eb7bf9a8e91c68260d5ba7500493caaada4b5b5",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.18.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.18.0.tgz_1477343950612_0.7897514707874507"
+      },
+      "directories": {}
+    },
+    "6.22.0": {
+      "name": "babel-preset-stage-2",
+      "version": "6.22.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "^6.22.0",
+        "babel-plugin-transform-decorators": "^6.22.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-preset-stage-3": "^6.22.0"
+      },
+      "_id": "babel-preset-stage-2@6.22.0",
+      "scripts": {},
+      "_shasum": "ccd565f19c245cade394b21216df704a73b27c07",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "ccd565f19c245cade394b21216df704a73b27c07",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.22.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.22.0.tgz_1484872464578_0.10239938390441239"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.1": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.1",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-syntax-dynamic-import": "7.0.0-alpha.1",
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.1",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.1"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.1",
+      "scripts": {},
+      "_shasum": "3d669ef6190db60f7a23b0924cd109b277cd1d5a",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "3d669ef6190db60f7a23b0924cd109b277cd1d5a",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.1.tgz_1488488767658_0.9583651525899768"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.3": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.3",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-syntax-dynamic-import": "7.0.0-alpha.3",
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.3",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.3"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.3",
+      "scripts": {},
+      "_shasum": "96fab02bced0c6f3a9fda031185abd23ae69a60b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "96fab02bced0c6f3a9fda031185abd23ae69a60b",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.3.tgz_1490298603960_0.5127711317036301"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.7": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.7",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-syntax-dynamic-import": "7.0.0-alpha.3",
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.7",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.7"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.7",
+      "scripts": {},
+      "_shasum": "351aeccb9c02c7cd99ea3341b7d8dafe66efdce4",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "351aeccb9c02c7cd99ea3341b7d8dafe66efdce4",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.7.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.7.tgz_1491426885293_0.4213450497481972"
+      },
+      "directories": {}
+    },
+    "6.24.1": {
+      "name": "babel-preset-stage-2",
+      "version": "6.24.1",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-decorators": "^6.24.1",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-preset-stage-3": "^6.24.1"
+      },
+      "_id": "babel-preset-stage-2@6.24.1",
+      "scripts": {},
+      "_shasum": "d9e2960fb3d71187f0e64eec62bc07767219bdc1",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d9e2960fb3d71187f0e64eec62bc07767219bdc1",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-6.24.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-6.24.1.tgz_1491578384762_0.4845991665497422"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.8": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.8",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.8",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.8"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.8",
+      "scripts": {},
+      "_shasum": "d9b5fa0f9ad7fd800e964c213a765e36af9dcf39",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "d9b5fa0f9ad7fd800e964c213a765e36af9dcf39",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.8.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.8.tgz_1492456414964_0.4977124377619475"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.9": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.9",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.9",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.9"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.9",
+      "scripts": {},
+      "_shasum": "9e08dcae2163389ceab90019ab1f9f6839987b6b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "9e08dcae2163389ceab90019ab1f9f6839987b6b",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.9.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "amasad",
+          "email": "amjad.masad@gmail.com"
+        },
+        {
+          "name": "hzoo",
+          "email": "hi@henryzoo.com"
+        },
+        {
+          "name": "jmm",
+          "email": "npm-public@jessemccarthy.net"
+        },
+        {
+          "name": "loganfsmyth",
+          "email": "loganfsmyth@gmail.com"
+        },
+        {
+          "name": "sebmck",
+          "email": "sebmck@gmail.com"
+        },
+        {
+          "name": "thejameskyle",
+          "email": "me@thejameskyle.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.9.tgz_1492526563214_0.6467290178406984"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.10": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.10",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.10",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.10"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.10",
+      "scripts": {},
+      "_shasum": "96c4e3b5770c920d6e606f33f940c603051335cb",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "96c4e3b5770c920d6e606f33f940c603051335cb",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.10.tgz_1495739884204_0.2842774484306574"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.11": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.11",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.11",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.11"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.11",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-CdZD4qN8IunRuhQZ/++Df9H0eQbXmWFC98lVD+tw1YsQZ6JHcs8cvi2By8TUgjb2/HkFDXnk5zfhIt0VyJLuzQ==",
+        "shasum": "f82925b1b7b4b42afbc209c821c7409e81b0cd59",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.11.tgz_1496263448789_0.14662680076435208"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.12": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.12",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.12",
+        "babel-plugin-transform-unicode-property-regex": "^2.0.0",
+        "babel-preset-stage-3": "7.0.0-alpha.12"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.12",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-CDw4S0PCECgNuUWaS5thl4v9ietZzbuXG3knPe9NCx70mRf6uyHt2lcgGdGABrOIqsEeQpfX+lIs63oCPxbETA==",
+        "shasum": "e1f8203ef617bf4ea91d77e2df06c11cc0019d32",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.12.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.12.tgz_1496265143010_0.2684129106346518"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.14": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.14",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.14",
+        "babel-preset-stage-3": "7.0.0-alpha.14"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.14",
+      "scripts": {},
+      "_shasum": "35041b30aba1f72b6e222f66f5ac6ef402c996b9",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "35041b30aba1f72b6e222f66f5ac6ef402c996b9",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.14.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.14.tgz_1499828081522_0.8096811973955482"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.15": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.15",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.15",
+        "babel-preset-stage-3": "7.0.0-alpha.15"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.15",
+      "scripts": {},
+      "_shasum": "1d9ca1a3be774ed602ff8d736b7d42a81da60246",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "1d9ca1a3be774ed602ff8d736b7d42a81da60246",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.15.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.15.tgz_1499830614326_0.5311224679462612"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.16": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.16",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.16",
+        "babel-plugin-transform-function-sent": "7.0.0-alpha.15",
+        "babel-preset-stage-3": "7.0.0-alpha.16"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.16",
+      "scripts": {},
+      "_shasum": "ee95270de862be7a45eb86336b8f53cdbc23d678",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "ee95270de862be7a45eb86336b8f53cdbc23d678",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.16.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.16.tgz_1501018595363_0.6248118868097663"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.17": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.17",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.17",
+        "babel-plugin-transform-function-sent2": "7.0.0-alpha.17",
+        "babel-preset-stage-3": "7.0.0-alpha.17"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.17",
+      "scripts": {},
+      "_shasum": "0f33ced47be146602c846ec7a558786974fff2fc",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.0",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "shasum": "0f33ced47be146602c846ec7a558786974fff2fc",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.17.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.17.tgz_1501072826540_0.8479025128763169"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.18": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.18",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.18",
+        "babel-plugin-transform-function-sent": "7.0.0-alpha.18",
+        "babel-preset-stage-3": "7.0.0-alpha.18"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.18",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-OBiTcRTVfH50LHNS8agdym701bZR0uZ4ltmBYAy7DkmhAotks1f4DdVSAT6zhlVNOQWUA9kMSA6GaGAmCuQHEQ==",
+        "shasum": "92058c333db80768ca3db1c13233fc3aa55fd710",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.18.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.18.tgz_1501798910973_0.1647396923508495"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.19": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.19",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-class-properties": "7.0.0-alpha.19",
+        "babel-plugin-transform-function-sent": "7.0.0-alpha.19",
+        "babel-preset-stage-3": "7.0.0-alpha.19"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.19",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-K6IGMUD50/L+av9sCknksrYJiA6yFBGAFHWhWvAmOMbkPTpkVhipwM877vATt/8ertevWbvyZjJeE7VuW5gSaw==",
+        "shasum": "fbb009f6f8e72e7e7cc2cfdedb7ee72336e00974",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.19.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.19.tgz_1502144554244_0.3212975701317191"
+      },
+      "directories": {}
+    },
+    "7.0.0-alpha.20": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-alpha.20",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-export-namespace": "7.0.0-alpha.20",
+        "babel-plugin-transform-function-sent": "7.0.0-alpha.20",
+        "babel-plugin-transform-numeric-separator": "7.0.0-alpha.20",
+        "babel-preset-stage-3": "7.0.0-alpha.20"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-alpha.20",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-MaRBxdpAKNUImu6VAnvD32l9Tt4BSmWCo+FXjujdO2R5+A2Ej80loTDSpVzfjf4qmH2OX1PDXsqp5xBtFa2SFA==",
+        "shasum": "7df2c0bb981162cc537f60c010caa632ffeb87d7",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-alpha.20.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-alpha.20.tgz_1504119912205_0.3416454438120127"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.0": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-beta.0",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-export-namespace": "7.0.0-beta.0",
+        "babel-plugin-transform-function-sent": "7.0.0-beta.0",
+        "babel-plugin-transform-numeric-separator": "7.0.0-beta.0",
+        "babel-preset-stage-3": "7.0.0-beta.0"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-beta.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-Wx2RBJOApxX591QMN9H35sGssLfNvJJZIdcfeLOq2sYeLAzS1OZERoshU1ANBRDLfCkDO3XEpUadU2udmbOsGQ==",
+        "shasum": "8183b68378cc1ee0ef44307ea4214023ebed72c1",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-beta.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-beta.0.tgz_1505185405798_0.07398556126281619"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.1": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-beta.1",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-export-namespace": "7.0.0-beta.1",
+        "babel-plugin-transform-function-sent": "7.0.0-beta.1",
+        "babel-plugin-transform-numeric-separator": "7.0.0-beta.1",
+        "babel-preset-stage-3": "7.0.0-beta.1"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-beta.1",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-dfOrO2c81TdwHynRByKzqahQpYkbAKovCpRLsGbHEp+1omQGeqsMevrHmDL1fNl2cdckRZ0tKiD2t75RWAYd2A==",
+        "shasum": "f9bd13325e27ed65c711d25f6463d655a555a2c7",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-beta.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-beta.1.tgz_1505852705943_0.36110038845799863"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.2": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-beta.2",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-export-namespace": "7.0.0-beta.2",
+        "babel-plugin-transform-function-sent": "7.0.0-beta.2",
+        "babel-plugin-transform-numeric-separator": "7.0.0-beta.2",
+        "babel-preset-stage-3": "7.0.0-beta.2"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-beta.2",
+      "_npmVersion": "5.4.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-OQe5OpH8FMjBSkQDPKEEwptQ0JKnm0I11CXElnbCYWculsUCIdGF8BjHSuOTmpF2LZo3Op0G901N4wSjBhDeUA==",
+        "shasum": "12f3166d325d1aabbd43f62744ae85b64e3088bd",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-beta.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-beta.2.tgz_1506438993557_0.9443212230689824"
+      },
+      "directories": {}
+    },
+    "7.0.0-beta.3": {
+      "name": "babel-preset-stage-2",
+      "version": "7.0.0-beta.3",
+      "description": "Babel preset for stage 2 plugins",
+      "author": {
+        "name": "Sebastian McKenzie",
+        "email": "sebmck@gmail.com"
+      },
+      "homepage": "https://babeljs.io/",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+      },
+      "main": "lib/index.js",
+      "dependencies": {
+        "babel-plugin-transform-export-namespace": "7.0.0-beta.3",
+        "babel-plugin-transform-function-sent": "7.0.0-beta.3",
+        "babel-plugin-transform-numeric-separator": "7.0.0-beta.3",
+        "babel-plugin-transform-throw-expressions": "7.0.0-beta.3",
+        "babel-preset-stage-3": "7.0.0-beta.3"
+      },
+      "_id": "babel-preset-stage-2@7.0.0-beta.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "hzoo",
+        "email": "hi@henryzoo.com"
+      },
+      "dist": {
+        "integrity": "sha512-glntMt6d4T8Q8dXXkKLN2MLSFwwm9eDbTDYe0+bboKFaifguTOP+8LPlQlQ/XH085meDY8NssRCx+lo2f1TyvA==",
+        "shasum": "219016653baac15e3137d8ce153718fd5cd696f5",
+        "tarball": "https://registry.npmjs.org/babel-preset-stage-2/-/babel-preset-stage-2-7.0.0-beta.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "bng412@gmail.com",
+          "name": "existentialism"
+        },
+        {
+          "email": "me@thejameskyle.com",
+          "name": "thejameskyle"
+        },
+        {
+          "email": "sebmck@gmail.com",
+          "name": "sebmck"
+        },
+        {
+          "email": "daniel@tschinder.de",
+          "name": "danez"
+        },
+        {
+          "email": "hi@henryzoo.com",
+          "name": "hzoo"
+        },
+        {
+          "email": "loganfsmyth@gmail.com",
+          "name": "loganfsmyth"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/babel-preset-stage-2-7.0.0-beta.3.tgz_1508073176932_0.7552876686677337"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# babel-preset-stage-2\n\n> Babel preset for stage 2 plugins.\n\nThe gist of Stage 2 is:\n\n> **Stage 2:** draft\n> \n> **What is it?** A first version of what will be in the specification. At this point, an eventual inclusion of the feature in the standard is likely.\n> \n> **What’s required?** The proposal must now additionally have a formal description of the syntax and semantics of the feature (using the formal language of the ECMAScript specification). The description should be as complete as possible, but can contain todos and placeholders. Two experimental implementations of the feature are needed, but one of them can be in a transpiler such as Babel.\n>\n> **What’s next?** Only incremental changes are expected from now on.\n\n\n\n## Install\n\n```sh\nnpm install --save-dev babel-preset-stage-2\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"presets\": [\"stage-2\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel script.js --presets stage-2\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  presets: [\"stage-2\"]\n});\n```\n## References\n\n- Chapter \"[The TC39 process for ECMAScript features](http://exploringjs.com/es2016-es2017/ch_tc39-process.html)\" in \"Exploring ES2016 and ES2017\" by Axel Rauschmayer\n",
+  "maintainers": [
+    {
+      "email": "bng412@gmail.com",
+      "name": "existentialism"
+    },
+    {
+      "email": "me@thejameskyle.com",
+      "name": "thejameskyle"
+    },
+    {
+      "email": "sebmck@gmail.com",
+      "name": "sebmck"
+    },
+    {
+      "email": "daniel@tschinder.de",
+      "name": "danez"
+    },
+    {
+      "email": "hi@henryzoo.com",
+      "name": "hzoo"
+    },
+    {
+      "email": "loganfsmyth@gmail.com",
+      "name": "loganfsmyth"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-23T09:22:46.245Z",
+    "created": "2015-10-30T23:43:53.715Z",
+    "6.0.14": "2015-10-30T23:43:53.715Z",
+    "6.0.15": "2015-11-01T22:11:00.688Z",
+    "6.1.2": "2015-11-05T11:12:15.762Z",
+    "6.1.17": "2015-11-12T21:43:53.756Z",
+    "6.1.18": "2015-11-12T21:53:01.861Z",
+    "6.2.4": "2015-11-25T03:15:51.625Z",
+    "6.3.13": "2015-12-04T12:01:12.497Z",
+    "6.5.0": "2016-02-07T00:08:24.917Z",
+    "6.5.0-1": "2016-02-07T02:41:45.572Z",
+    "6.11.0": "2016-06-27T00:21:34.589Z",
+    "6.13.0": "2016-08-04T23:35:07.163Z",
+    "6.16.0": "2016-09-28T19:39:03.994Z",
+    "6.17.0": "2016-10-01T19:23:26.057Z",
+    "6.18.0": "2016-10-24T21:19:12.178Z",
+    "6.22.0": "2017-01-20T00:34:25.400Z",
+    "7.0.0-alpha.1": "2017-03-02T21:06:09.564Z",
+    "7.0.0-alpha.3": "2017-03-23T19:50:05.811Z",
+    "7.0.0-alpha.7": "2017-04-05T21:14:46.288Z",
+    "6.24.1": "2017-04-07T15:19:45.006Z",
+    "7.0.0-alpha.8": "2017-04-17T19:13:35.197Z",
+    "7.0.0-alpha.9": "2017-04-18T14:42:45.178Z",
+    "7.0.0-alpha.10": "2017-05-25T19:18:04.963Z",
+    "7.0.0-alpha.11": "2017-05-31T20:44:09.108Z",
+    "7.0.0-alpha.12": "2017-05-31T21:12:23.083Z",
+    "7.0.0-alpha.14": "2017-07-12T02:54:42.455Z",
+    "7.0.0-alpha.15": "2017-07-12T03:36:55.370Z",
+    "7.0.0-alpha.16": "2017-07-25T21:36:36.463Z",
+    "7.0.0-alpha.17": "2017-07-26T12:40:27.786Z",
+    "7.0.0-alpha.18": "2017-08-03T22:21:51.047Z",
+    "7.0.0-alpha.19": "2017-08-07T22:22:34.322Z",
+    "7.0.0-alpha.20": "2017-08-30T19:05:12.292Z",
+    "7.0.0-beta.0": "2017-09-12T03:03:26.767Z",
+    "7.0.0-beta.1": "2017-09-19T20:25:06.013Z",
+    "7.0.0-beta.2": "2017-09-26T15:16:34.385Z",
+    "7.0.0-beta.3": "2017-10-15T13:12:57.933Z"
+  },
+  "homepage": "https://babeljs.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2"
+  },
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mswanson1524": true,
+    "fenrir": true,
+    "8code": true,
+    "panlw": true,
+    "xueboren": true,
+    "bsara": true,
+    "paulkolesnyk": true,
+    "tyus512": true,
+    "fakefarm": true,
+    "maddas": true,
+    "geofftech": true,
+    "sternelee": true,
+    "johnsoct": true,
+    "gpmetheny": true,
+    "reberan": true
+  },
+  "_attachments": {}
+}

@@ -1,12 +1,12 @@
 import { expect } from 'chai'
-import getDepeneds from './index'
+import getDepends from './index'
 
 describe('Read Package JSON', () => {
   describe('Passing tests', () => {
-    beforeEach(() => getDepeneds.__Rewire__('checkPackageFile', () => true))
-    afterEach(() => getDepeneds.__ResetDependency__('checkPackageFile'))
+    beforeEach(() => getDepends.__Rewire__('checkPackageFile', () => true))
+    afterEach(() => getDepends.__ResetDependency__('checkPackageFile'))
     it('Expect to read file', (done) => {
-      getDepeneds('package.json')
+      getDepends('package.json')
         .then(result => {
           expect(result).to.be.an('Object')
           done()
@@ -23,11 +23,11 @@ describe('Read Package JSON', () => {
           eslint: '1.0.0'
         }
       }
-      beforeEach(() => getDepeneds.__Rewire__('promisify', () => () => Promise.resolve(data)))
-      afterEach(() => getDepeneds.__ResetDependency__('promisify'))
+      beforeEach(() => getDepends.__Rewire__('promisify', () => () => Promise.resolve(data)))
+      afterEach(() => getDepends.__ResetDependency__('promisify'))
 
       it('Expect to get dependencies', (done) => {
-        getDepeneds('package.json')
+        getDepends('package.json')
           .then(result => {
             expect(result).to.have.property('dependencies')
             done()
@@ -38,10 +38,10 @@ describe('Read Package JSON', () => {
   })
 
   describe('Failing tests no package.json', () => {
-    beforeEach(() => getDepeneds.__Rewire__('checkPackageFile', () => false))
-    afterEach(() => getDepeneds.__ResetDependency__('checkPackageFile'))
+    beforeEach(() => getDepends.__Rewire__('checkPackageFile', () => false))
+    afterEach(() => getDepends.__ResetDependency__('checkPackageFile'))
     it('Expect not to read the file', (done) => {
-      getDepeneds('')
+      getDepends('')
         .then(() => done(new Error('not expected')))
         .catch(() => done())
     })
