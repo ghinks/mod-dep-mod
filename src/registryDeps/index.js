@@ -12,7 +12,7 @@ const registryDeps = async (dependency) => {
   let response
   // TODO handle the case when the call is pending and not yet cached
   if (!cache[url]) {
-    console.log(`fetch ${url}`)
+    // console.log(`fetch ${url}`)
     const data = await fetch(url)
     response = await data.json()
     cache[url] = response
@@ -22,7 +22,7 @@ const registryDeps = async (dependency) => {
   if (response.versions) {
     const match = semverMatcher(Object.keys(response.versions), dependency.version)
     if (!response.versions[match]) {
-      console.error(`no match for ${dependency.module} ${match} in ${Object.keys(response.versions)}`)
+      console.error(`no match for ${dependency.module} ${dependency.version} in ${Object.keys(response.versions)}`)
       return {}
     }
     // handle no dependencies

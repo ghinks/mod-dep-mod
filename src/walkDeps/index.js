@@ -21,20 +21,21 @@ results tree object should be
   nameN: {}
 }
 */
-// babel-traverse babel-types 'babel-types', version: '^6.9.0'  'babel-traverse', version: '^6.9.0'
-export const isCircularDependency = ({ parent: ancestor, dependency }) => {
+// TODO add circular dependency breadcrumb trail
+export const isCircularDependency = ({ parent: ancestor, dependency, chain }) => {
   if (!ancestor || !ancestor.name) return false
   const match = (ancestor.name === dependency.module)
-  if (match) {
-    console.log(`Circ dep parent ${ancestor.name} to ${dependency.module}`)
-    return match
-  }
+  if (match) return `Circular dependency parent ${ancestor.name}`
   if (!ancestor.parent) return false
   return isCircularDependency({parent: ancestor.parent, dependency})
 }
 
 const walker = async (task, cb) => {
-  if (isCircularDependency(task)) return cb(null, null, null, null)
+  const circular = isCircularDependency(task)
+  if (circular) {
+    task.results[task.dependency.module] = { circular }
+    return cb(null, null, null, null)
+  }
   const regDeps = await getRegistryDeps(task.dependency)
   task.results[task.dependency.module] = {}
   if (regDeps) {
@@ -45,7 +46,8 @@ const walker = async (task, cb) => {
     if (depends.length > 0) {
       task.results[task.dependency.module] = { name: task.dependency.module, depends, depth: task.depth }
       const newDeps = depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, depth: task.depth + 1, parent: task.results }))
-      newDeps.forEach(nd => task.q.push(nd, (e, n, v, p) => true))
+      // TODO cd error handling
+      newDeps.forEach(nd => task.q.push(nd, () => null))
     }
   }
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
@@ -62,7 +64,6 @@ parent
 
 const walkDeps = async (moduleToFind, done) => {
   const packageJsonDeps = await getDepends('package.json')
-  // get an array of { module, semver }
   const collatedDeps = collate(packageJsonDeps)
   let results = { depends: collatedDeps }
   const q = async.queue(walker, 10)
@@ -70,7 +71,8 @@ const walkDeps = async (moduleToFind, done) => {
     console.log(`all finished ${JSON.stringify(results, null, 2)}`)
     if (done) done(results)
   }
-  collatedDeps.forEach((d) => q.push({ dependency: d, results, q, depth: 1, parent: undefined }, (e, n, v) => null))
+  // TODO cb error handling
+  collatedDeps.forEach((d) => q.push({ dependency: d, results, q, depth: 1, parent: undefined }, () => null))
 }
 
 export default walkDeps
