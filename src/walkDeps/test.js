@@ -26,7 +26,7 @@ describe('Walk dependency tree', () => {
       }
       const dependency = { module: 'mom', version: '1.0.0' }
       const result = isCircularDependency({ parent, dependency })
-      expect(result).to.be.equal(true)
+      expect(result).not.to.be.equal(false)
     })
     it('Expect to find circular dependencies', () => {
       const grandParent = {
@@ -40,7 +40,7 @@ describe('Walk dependency tree', () => {
       }
       const dependency = { module: 'pop', version: '1.0.0' }
       const result = isCircularDependency({ parent, dependency })
-      expect(result).to.be.equal(true)
+      expect(result).not.to.be.equal(false)
     })
   })
   describe('Walking', () => {
@@ -106,7 +106,7 @@ describe('Walk dependency tree', () => {
         // eslint-disable-next-line no-undef
         __rewire_reset_all__()
       })
-      it.only('Expect to get depends', (done) => {
+      it('Expect to get depends', (done) => {
         const finished = (results) => {
           expect(results).to.be.an('Object')
           done()

@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import registryDeps from './index'
+import registryDeps, { __RewireAPI__ as registryDepsRewireAPI } from './index'
 import nock from 'nock'
 
 describe('Registry Dependencies', () => {
@@ -20,6 +20,7 @@ describe('Registry Dependencies', () => {
     }
     beforeEach(() => {
       registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
+      registryDepsRewireAPI.__Rewire__('cache', {})
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
@@ -41,6 +42,7 @@ describe('Registry Dependencies', () => {
   describe('Failing', () => {
     beforeEach(() => {
       registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
+      registryDepsRewireAPI.__Rewire__('cache', {})
       nock(`${myRegistry}`).get('/debug').reply(200, {})
     })
     afterEach(() => {
