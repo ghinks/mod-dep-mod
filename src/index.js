@@ -9,7 +9,7 @@ program
 if (program.module) console.log(`Find root module that requires ${program.module}`)
 
 const getDependencyTree = async () => {
-  await walk()
+  await walk(program.module)
 }
 
 getDependencyTree()

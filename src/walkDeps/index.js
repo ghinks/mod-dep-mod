@@ -4,6 +4,7 @@ import getRegistryDeps from '../registryDeps'
 import async from 'async'
 import cleanPrivProps from '../cleanPrivateProps'
 import treeify from 'treeify'
+import findNamedModule from '../findNamedModule'
 
 /*
 results tree object should be
@@ -74,6 +75,8 @@ const walkDeps = async (moduleToFind, done) => {
     results = cleanPrivProps(results)
     // console.log(`${JSON.stringify(results, null, 2)}`)
     console.log(treeify.asTree(results, true))
+    const matches = findNamedModule(results, moduleToFind, undefined)
+    matches.forEach(m => console.log(`match => ${m}`))
     if (done) done(results)
   }
   // TODO cb error handling
