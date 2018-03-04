@@ -19,7 +19,7 @@ describe('Given an object with __propNames remove prv props', () => {
       realProp1: 1
     }
     const result = cleanPrvProps(testObj)
-    expect(result).deep.equal({ realProp1: 1})
+    expect(result).deep.equal({realProp1: 1})
   })
   it('expect empty object', () => {
     const testObj = {
