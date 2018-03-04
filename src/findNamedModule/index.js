@@ -1,12 +1,9 @@
 const findNamedModule = (obj, name, tree) => {
   if (!obj || !name) return []
-  const keys = Object.keys(obj)
   const regex = new RegExp(name)
-  const keyMatch = keys.filter(k => k.match(regex))
-  let matchingKeys = keyMatch.map(k => `${tree ? tree + '.' + k : k}`)
+  let matchingKeys = Object.keys(obj).filter(k => k.match(regex)).map(k => `${tree ? tree + '.' + k : k}`)
   Object.keys(obj).filter(k => !k.match(regex) && obj[k] instanceof Object).forEach((k) => {
-    let nextTree = `${tree ? tree + '.' + k : k}`
-    const newMatchingKeys = findNamedModule(obj[k], name, nextTree)
+    const newMatchingKeys = findNamedModule(obj[k], name, `${tree ? tree + '.' + k : k}`)
     if (newMatchingKeys.length > 0) {
       matchingKeys = [...matchingKeys, ...newMatchingKeys]
     }
