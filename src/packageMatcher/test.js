@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import matcher, {getMinor, getMajor, getExact} from './index'
+import matcher, {getMinor, getMajor, getExact, getSingle} from './index'
 
 describe('package matching', () => {
   const versions = ['1.0.0', '1.0.1', '1.0.9', '1.1.0', '1.1.1', '1.1.5', '1.2.0', '1.2.1', '1.2.9', '2.0.1', '2.0.1', '3.1.0', '4.0.0', '7.2.1']
@@ -79,6 +79,16 @@ describe('package matching', () => {
       expect(result).to.be.equal('2.14.1')
     })
   })
+  describe('single digit', () => {
+    it('expect single digit match 1', () => {
+      const result = getSingle(versions, '1')
+      expect(result).to.be.equal('1.2.9')
+    })
+    it('expect single digit match 7', () => {
+      const result = getSingle(versions, '7')
+      expect(result).to.be.equal('7.2.1')
+    })
+  })
   describe('exact', () => {
     it('expect exact match 1.0.1', () => {
       const result = getExact(versions, '1.0.1')
@@ -110,6 +120,10 @@ describe('package matching', () => {
       it('Expect to match 7.2.1 on ^7.2.1', () => {
         const result = matcher(versions, '^7.2.1')
         expect(result).to.be.equal('7.2.1')
+      })
+      it('expect single digit match 1', () => {
+        const result = matcher(versions, '1')
+        expect(result).to.be.equal('1.2.9')
       })
     })
     describe('Use decrementing versions', () => {
