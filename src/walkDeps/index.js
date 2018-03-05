@@ -1,30 +1,12 @@
+#!/usr/bin/env node
+
 import getDepends from '../fileDeps'
 import collate from '../collate'
 import getRegistryDeps from '../registryDeps'
 import async from 'async'
 import cleanPrivProps from '../cleanPrivateProps'
-import treeify from 'treeify'
 import findNamedModule from '../findNamedModule'
 
-/*
-results tree object should be
-{
-  name: undefined
-  depends: [],
-  nameA: {identical to this object},
-  nameB: {
-    name: 'nameB',
-    depends: [],
-    nameC: {}
-    nameD: {
-      depends: [],
-      nameE: {}
-    }
-  },
-  ...
-  nameN: {}
-}
-*/
 export const isCircularDependency = ({ parent: ancestor, dependency }) => {
   if (!ancestor || !ancestor.__name) return false
   const match = (ancestor.__name === dependency.module)
@@ -55,15 +37,6 @@ const walker = async (task, cb) => {
   }
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
-
-/*
-task is
-dependency,
-results Obj
-depth
-parent
-
- */
 
 const walkDeps = async (moduleToFind, done) => {
   const packageJsonDeps = await getDepends('package.json')

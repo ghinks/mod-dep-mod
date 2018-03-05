@@ -1,14 +1,18 @@
 {
   "name": "mod-dep-mod",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --ignore test.js",
     "watch": "babel --watch src --out-dir lib --ignore test.js",
     "lint": "standard --env mocha src/**/*.js",
     "test": "mocha --require babel-core/register src/**/test.js",
     "cover": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghinks/mod-dep-mod.git"
   },
   "keywords": [],
   "author": "",
