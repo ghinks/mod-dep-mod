@@ -1,3 +1,5 @@
+import { rcompare } from 'semver'
+
 const getMinor = (versions, testValue) => {
   const regex = /(\d+)\.([\d]+)\.([\dxX]+)/
   const testValueMatch = testValue.replace(/x/ig, '0').match(regex)
@@ -56,8 +58,11 @@ const getSingle = (versions, testValue) => {
   if (match[2]) return getMajor(versions, `${match[2]}.x.x`)
 }
 
-// TODO > < range checks in version
+// TODO npm tool came back with highest 1.x.x, investigate
+const getHighestMatch = (versions) => versions.sort(rcompare)[0]
+
 const matcher = (versions, testValue) => {
+  // TODO check versions and length
   // eslint-disable-next-line
   const regexMajMin = /([\^\~]?)(\d+\.[\dxX]+\.[\dxX]+)/
   const match = testValue.match(regexMajMin)
@@ -65,11 +70,15 @@ const matcher = (versions, testValue) => {
     return getMinor(versions, match[2])
   } else if (match && match[1] === '^') {
     return getMajor(versions, match[2])
-  } else if (match) {
+  } else if (match && !testValue.match(/([\^\~]?)(\d+\.[xX]+\.[xX]+)/) && !testValue.match(/\>\=.*/)) {
     return getExact(versions, testValue)
   } else if (testValue.match(/(\^?)(\d+)/)) {
     return getSingle(versions, testValue)
+  } else if (testValue === '*') {
+    return getHighestMatch(versions)
+  } else if (testValue.match(/>=.*/)) {
+    return getHighestMatch(versions)
   }
 }
 
-export { matcher as default, getMinor, getMajor, getExact, getSingle }
+export { matcher as default, getMinor, getMajor, getExact, getSingle, getHighestMatch }

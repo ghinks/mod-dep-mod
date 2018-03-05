@@ -1,8 +1,8 @@
 import {expect} from 'chai'
-import matcher, {getMinor, getMajor, getExact, getSingle} from './index'
+import matcher, {getMinor, getMajor, getExact, getSingle, getHighestMatch } from './index'
 
 describe('package matching', () => {
-  const versions = ['1.0.0', '1.0.1', '1.0.9', '1.1.0', '1.1.1', '1.1.5', '1.2.0', '1.2.1', '1.2.9', '2.0.1', '2.0.1', '3.1.0', '4.0.0', '7.2.1']
+  const versions = ['0.0.1', '0.1.0', '0.2.0', '0.3.0', '0.3.1', '1.0.0', '1.0.1', '1.0.9', '1.1.0', '1.1.1', '1.1.5', '1.2.0', '1.2.1', '1.2.9', '2.0.1', '2.0.1', '3.1.0', '4.0.0', '7.2.1']
   const increasingVersions = [
     '0.0.1',
     '0.0.3',
@@ -84,6 +84,10 @@ describe('package matching', () => {
       const result = getSingle(versions, '1')
       expect(result).to.be.equal('1.2.9')
     })
+    it('expect single digit match ^1', () => {
+      const result = getSingle(versions, '^1')
+      expect(result).to.be.equal('1.2.9')
+    })
     it('expect single digit match 7', () => {
       const result = getSingle(versions, '7')
       expect(result).to.be.equal('7.2.1')
@@ -100,6 +104,12 @@ describe('package matching', () => {
     })
     it('expect exact match 7.2.1', () => {
       const result = getExact(versions, '7.2.1')
+      expect(result).to.be.equal('7.2.1')
+    })
+  })
+  describe('highest (*)', () => {
+    it('expect highest version *', () => {
+      const result = getHighestMatch(versions, '*')
       expect(result).to.be.equal('7.2.1')
     })
   })
@@ -124,6 +134,30 @@ describe('package matching', () => {
       it('expect single digit match 1', () => {
         const result = matcher(versions, '1')
         expect(result).to.be.equal('1.2.9')
+      })
+      it('expect single digit match ^1', () => {
+        const result = matcher(versions, '^1')
+        expect(result).to.be.equal('1.2.9')
+      })
+      it('expect max major version 1.x', () => {
+        const result = matcher(versions, '1.x')
+        expect(result).to.be.equal('1.2.9')
+      })
+      it('expect max major version 1.x.x.', () => {
+        const result = matcher(versions, '1.x.x')
+        expect(result).to.be.equal('1.2.9')
+      })
+      it('expect major version match on 0.3', () => {
+        const result = matcher(versions, '0.3')
+        expect(result).to.be.equal('0.3.1')
+      })
+      it('expect highest version *', () => {
+        const result = matcher(versions, '*')
+        expect(result).to.be.equal('7.2.1')
+      })
+      it('expect highest version >=2.0.0', () => {
+        const result = matcher(versions, '>=2.0.0')
+        expect(result).to.be.equal('2.0.1')
       })
     })
     describe('Use decrementing versions', () => {

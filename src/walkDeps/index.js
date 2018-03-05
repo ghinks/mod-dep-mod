@@ -78,6 +78,7 @@ const walkDeps = async (moduleToFind, done) => {
     const matches = findNamedModule(results, moduleToFind, undefined)
     matches.forEach(m => console.log(`match => ${m}`))
     if (done) done(results)
+    process.exit()
   }
   // TODO cb error handling
   // TODO add moduleToFind and mark it in objects when found
