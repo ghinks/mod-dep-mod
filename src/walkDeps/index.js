@@ -25,8 +25,7 @@ results tree object should be
   nameN: {}
 }
 */
-// TODO add circular dependency breadcrumb trail
-export const isCircularDependency = ({ parent: ancestor, dependency, chain }) => {
+export const isCircularDependency = ({ parent: ancestor, dependency }) => {
   if (!ancestor || !ancestor.__name) return false
   const match = (ancestor.__name === dependency.module)
   if (match) return `Circular dependency parent ${ancestor.__name}`
@@ -74,14 +73,13 @@ const walkDeps = async (moduleToFind, done) => {
   q.drain = () => {
     results = cleanPrivProps(results)
     // console.log(`${JSON.stringify(results, null, 2)}`)
-    console.log(treeify.asTree(results, true))
+    // console.log(treeify.asTree(results, true))
     const matches = findNamedModule(results, moduleToFind, undefined)
     matches.forEach(m => console.log(`match => ${m}`))
     if (done) done(results)
     process.exit()
   }
   // TODO cb error handling
-  // TODO add moduleToFind and mark it in objects when found
   // TODO take package@version as argument rather than package.json
   // TODO add package.json name to top of the tree
   collatedDeps.forEach((d) => q.push({ dependency: d, results, q, __depth: 1, parent: undefined }, () => null))
