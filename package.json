@@ -18,7 +18,6 @@
     "babel-runtime": "^6.26.0",
     "commander": "^2.14.1",
     "compare-semver": "^1.1.0",
-    "debug": "^3.1.0",
     "isomorphic-fetch": "^2.2.1",
     "npm-package-arg": "^6.0.0",
     "read-package-json": "^2.0.12",

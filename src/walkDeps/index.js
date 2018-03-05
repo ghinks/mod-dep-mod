@@ -67,15 +67,14 @@ parent
 
 const walkDeps = async (moduleToFind, done) => {
   const packageJsonDeps = await getDepends('package.json')
+  const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }
   const q = async.queue(walker, 10)
   q.drain = () => {
     results = cleanPrivProps(results)
-    // console.log(`${JSON.stringify(results, null, 2)}`)
-    // console.log(treeify.asTree(results, true))
     const matches = findNamedModule(results, moduleToFind, undefined)
-    matches.forEach(m => console.log(`match => ${m}`))
+    matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
     if (done) done(results)
     process.exit()
   }
