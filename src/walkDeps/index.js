@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import getDepends from '../fileDeps'
 import collate from '../collate'
 import getRegistryDeps from '../registryDeps'
