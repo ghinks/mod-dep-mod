@@ -5,6 +5,8 @@ A tool to list which dependencies depend on a module.
 ## Usage
 
 ```
+npm install -g mod-dep-mod
+
 cd rootFolderWithPackageJson
 
 mod-dep-mod -m debug
@@ -19,6 +21,12 @@ mod-dep-mod => nyc --> test-exclude --> micromatch --> nanomatch --> snapdragon 
 mod-dep-mod => nock --> debug
 mod-dep-mod => mocha --> debug
 ```
+## features
+
+- uses the registry set by npm
+- takes regular expression string
+- fetches the dependency data from the registry not locally installed modules
+- isolates rogue module inclusion path quickly
 
 ## help
 

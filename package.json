@@ -71,7 +71,7 @@
         "env",
         {
           "targets": {
-            "node": "9"
+            "node": "4"
           }
         }
       ],
