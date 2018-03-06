@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import program from 'commander'
-import walk from './walkDeps'
+var program = require('commander')
+var walk = require('../lib/walkDeps').default
 
 program
   .version('0.0.3')
@@ -10,12 +10,14 @@ program
 
 if (program.module) console.log(`Find root module that requires ${program.module}`)
 
-const getDependencyTree = async () => {
+var getDependencyTree = function run() {
   if (!program.module) {
     console.log('useage -m or --module moduleName')
     process.exit(0)
   }
-  await walk(program.module)
+  walk(program.module)
+    .then(() => null)
+    .catch(err => console.log(err.message))
 }
 
 getDependencyTree()
