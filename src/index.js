@@ -4,7 +4,7 @@ import program from 'commander'
 import walk from './walkDeps'
 
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .option('-m, --module [value]', 'find root module that requires this module')
   .parse(process.argv)
 
