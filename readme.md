@@ -2,8 +2,6 @@
 
 A tool to list which dependencies depend on a module.
 
-**Note this package is deprecated due to a recursive bug, please come back later when it is fixed**
-
 ## Usage
 
 ```
