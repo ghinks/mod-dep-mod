@@ -10,10 +10,8 @@ const circulars = []
 export const isCircularDependency = ({ parent: ancestor, dependency }) => {
   if (!ancestor || !ancestor.__name) return false
   if (circulars.includes(dependency.module)) return true
-  // console.log(`check circular ${dependency.module} vs ${ancestor.__name}`)
   const match = (ancestor.__name === dependency.module)
   if (match) {
-    // console.log(`CIRCULAR ${dependency.module} vs ${ancestor.__name}`)
     circulars.push(dependency.module)
     return `Circular dependency parent ${ancestor.__name}`
   }
@@ -27,7 +25,6 @@ const walker = async (task, cb) => {
     task.results[task.dependency.module] = { circular }
     return cb(null, null, null, null)
   }
-  // console.log(`walk the module ${task.dependency.module}`)
 
   let regDeps
   try {
@@ -45,10 +42,8 @@ const walker = async (task, cb) => {
       })
       if (__depends.length > 0) {
         task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
-        // console.log(`results = ${JSON.stringify(task.results[task.dependency.module], null, 2)}`)
         const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, parent: task.results }))
         // TODO cd error handling
-        // console.log(`create ${newDeps.length} tasks qLen before=${task.q.length()}`)
         newDeps.forEach(nd => task.q.push(nd, () => null))
       }
     }

@@ -2,8 +2,6 @@ import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher'
-// import promisify from 'pify'
-// import fs from 'fs'
 
 const cache = {}
 
@@ -15,10 +13,8 @@ const registryDeps = async (dependency) => {
   // TODO handle the case when the call is pending and not yet cached
   if (!cache[url]) {
     try {
-      // console.log(`fetch ${url}`)
       const data = await fetch(url)
       response = await data.json()
-      // await promisify(fs.writeFile)(`./data/${dependency.module}.json`, JSON.stringify(response, null, 2), 'utf8')
       cache[url] = response
     } catch (err) {
       console.error(`Module ${dependency.module} was not found`)
