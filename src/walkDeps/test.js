@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import walkDeps, { isCircularDependency } from './index'
 import fs from 'fs'
-import { promisify } from 'util'
+import promisify from 'pify'
 
 describe('Walk dependency tree', () => {
   const getFile = promisify(fs.readFile)
@@ -48,7 +48,6 @@ describe('Walk dependency tree', () => {
       beforeEach(() => {
         walkDeps.__Rewire__('getRegistryDeps', (dependency) => {
           let result
-          if (dependency.module === 'debug') result = {}
           if (dependency.module === 'name1') result = {}
           if (dependency.module === 'name2') result = {}
           if (dependency.module === 'name3') result = {}

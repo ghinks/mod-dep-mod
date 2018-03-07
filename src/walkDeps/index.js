@@ -47,7 +47,7 @@ const walkDeps = async (moduleToFind, done) => {
     const matches = findNamedModule(results, moduleToFind, undefined)
     matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
     if (done) done(results)
-    process.exit()
+    if (process.env.NODE_ENV !== 'test') process.exit()
   }
   // TODO cb error handling
   // TODO take package@version as argument rather than package.json
