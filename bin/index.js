@@ -4,7 +4,7 @@ var program = require('commander')
 var walk = require('../lib/walkDeps').default
 
 program
-  .version('0.0.4')
+  .version('0.0.5')
   .option('-m, --module [value]', 'find root module that requires this module')
   .parse(process.argv)
 
