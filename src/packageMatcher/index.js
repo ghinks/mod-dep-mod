@@ -66,7 +66,7 @@ const matcher = (versions, testValue) => {
   // eslint-disable-next-line
   const regexMajMin = /([\^\~]?)(\d+\.[\dxX]+\.[\dxX]+)/
   const match = testValue.match(regexMajMin)
-  if (match && match[1] === '~') {
+  if (match && (match[1] === '~') || (testValue.match(/(\d+\.\d+\.[xX]+)/))) {
     return getMinor(versions, match[2])
   } else if (match && match[1] === '^') {
     return getMajor(versions, match[2])

@@ -159,6 +159,10 @@ describe('package matching', () => {
         const result = matcher(versions, '>=2.0.0')
         expect(result).to.be.equal('2.0.1')
       })
+      it('expect highest version 1.1.x', () => {
+        const result = matcher(versions, '1.1.x')
+        expect(result).to.be.equal('1.1.5')
+      })
     })
     describe('Use decrementing versions', () => {
       it('Expect to match 1.1.5 exactly', () => {
