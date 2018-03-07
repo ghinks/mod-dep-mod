@@ -1,0 +1,2996 @@
+{
+  "_id": "conventional-changelog-writer",
+  "_rev": "44-7a4c032cdb7573d60882b683dc8c3b6a",
+  "name": "conventional-changelog-writer",
+  "description": "Write logs based on conventional commits and templates",
+  "dist-tags": {
+    "latest": "3.0.4"
+  },
+  "versions": {
+    "0.0.16": {
+      "name": "conventional-changelog-writer",
+      "version": "0.0.16",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "0.0.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^4.3.3",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "fe67adcfb08b7d866d408c5c2664947a67bfb3ae",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.0.16",
+      "_shasum": "67843955e7515206089d265770c32f72360eb170",
+      "_from": ".",
+      "_npmVersion": "2.12.0",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "67843955e7515206089d265770c32f72360eb170",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.0.16.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.17": {
+      "name": "conventional-changelog-writer",
+      "version": "0.0.17",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "0.0.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "7fb7c8d725c6688f2b4a1ef1ead4374870bd7084",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.0.17",
+      "_shasum": "c0971d65d5af3920fb9cd50b39bc942ed10948ee",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "c0971d65d5af3920fb9cd50b39bc942ed10948ee",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.0.17.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.18": {
+      "name": "conventional-changelog-writer",
+      "version": "0.0.18",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "0.0.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "c6ca68c7b4ed08d3644685fcd7bc76628287ed6c",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.0.18",
+      "_shasum": "9e63713a88c7ea28446d98503d3d5e607b033fba",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "9e63713a88c7ea28446d98503d3d5e607b033fba",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.0.18.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-writer",
+      "version": "0.1.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "0.0.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "93dc73b8c8793e7a821ccd0efbb80bad426284ef",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.1.0",
+      "_shasum": "34f85c5dbd924b05119f0749071f27e8b4821c0b",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "34f85c5dbd924b05119f0749071f27e8b4821c0b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "conventional-changelog-writer",
+      "version": "0.1.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "0bd59830508f134dadd9d97eeb1318daad5a39e3",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.1.1",
+      "_shasum": "a11799488cd158fe72b0f3f9df509d9323af51e1",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "a11799488cd158fe72b0f3f9df509d9323af51e1",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.1.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-writer",
+      "version": "0.2.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "2f967df851962805bca5b8b36c8e3f8c34a3625e",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.2.0",
+      "_shasum": "5e6cd63bf0dd050856a324eb72faa8eb3d18148a",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "5e6cd63bf0dd050856a324eb72faa8eb3d18148a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.2.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-writer",
+      "version": "0.2.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "684d1ebe5fbdffd7252b3e4641db00be86487097",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.2.1",
+      "_shasum": "5f232bef14dc8a03339cde1414d8dfca5d0020d2",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "5f232bef14dc8a03339cde1414d8dfca5d0020d2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.2.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-writer",
+      "version": "0.3.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "fea92f273d13e1e506254c2573216c3c2cc7c71f",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.3.0",
+      "_shasum": "1d4ef798f0c5f0dbbdcd03eca8ddbc4a2eaaf73e",
+      "_from": ".",
+      "_npmVersion": "2.13.2",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "1d4ef798f0c5f0dbbdcd03eca8ddbc4a2eaaf73e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.3.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "conventional-changelog-writer",
+      "version": "0.3.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "b1ef276ff12b07cbf011e52a0b670e6d900bfeee",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.3.1",
+      "_shasum": "dcd2a9fb6b7bc0d0f8f7c34d217a7a243efd32dc",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "dcd2a9fb6b7bc0d0f8f7c34d217a7a243efd32dc",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.3.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.3.2": {
+      "name": "conventional-changelog-writer",
+      "version": "0.3.2",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^3.0.3",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "ab4a74dd280c743fbb8c9e3086fb26bc8385fe42",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.3.2",
+      "_shasum": "ef42ff6b962e96c5bc11a296f4e80426e2e63bef",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "ef42ff6b962e96c5bc11a296f4e80426e2e63bef",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.3.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.4.0": {
+      "name": "conventional-changelog-writer",
+      "version": "0.4.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^2.1.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "66a44a46e539cbb673227020a7551f60a69904a2",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.4.0",
+      "_shasum": "d254ae83cd6cf2d3ad34e23bf31f8b5565474f99",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "d254ae83cd6cf2d3ad34e23bf31f8b5565474f99",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.4.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.4.1": {
+      "name": "conventional-changelog-writer",
+      "version": "0.4.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^3.8.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^2.1.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "851eaddaa1d2f6ef213d0cd8fdf9c16ef2ade42b",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.4.1",
+      "_shasum": "14a7bb353f218a445d7336a96908cd9d96c18408",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.1.1",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "14a7bb353f218a445d7336a96908cd9d96c18408",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.4.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.4.2": {
+      "name": "conventional-changelog-writer",
+      "version": "0.4.2",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "b3b1247c83b5736824b0c6d420f8da0df945dae0",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.4.2",
+      "_shasum": "ccb03c5ebd17ceb94a236cb80b27f4ef6bee7731",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "ccb03c5ebd17ceb94a236cb80b27f4ef6bee7731",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.4.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "directories": {}
+    },
+    "0.5.0": {
+      "name": "conventional-changelog-writer",
+      "version": "0.5.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "9dc6c64dd71d9a06206d08e1def0eb5a7ad8dce3",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.5.0",
+      "_shasum": "77ee9c69dfebfa524d46e4c477dcf872b14a88c0",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "77ee9c69dfebfa524d46e4c477dcf872b14a88c0",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-0.5.0.tgz_1454411689427_0.8000067546963692"
+      },
+      "directories": {}
+    },
+    "0.5.1": {
+      "name": "conventional-changelog-writer",
+      "version": "0.5.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "b58c57c15dd66c94f3dc9d75af8e23f81439433e",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@0.5.1",
+      "_shasum": "d9fc0428fbf5361d4100e2bbefb5373bf13e3ac4",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "d9fc0428fbf5361d4100e2bbefb5373bf13e3ac4",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-0.5.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-0.5.1.tgz_1454494780999_0.12985672149807215"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog-writer",
+      "version": "1.0.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "a698b9e9a33c249b05dde0eda64f1d0b88e8d786",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.0.0",
+      "_shasum": "8ee442d8462fa01be461252c996d7222048b155f",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "8ee442d8462fa01be461252c996d7222048b155f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.0.0.tgz_1454675822766_0.5689266812987626"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "conventional-changelog-writer",
+      "version": "1.0.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "a582d89bc2bf988ab66bd3cb87949313788a2d05",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.0.1",
+      "_shasum": "b96e6904b643dca9ab594296b07f28c169e95665",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "b96e6904b643dca9ab594296b07f28c169e95665",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.0.1.tgz_1454750235341_0.1102734764572233"
+      },
+      "directories": {}
+    },
+    "1.0.2": {
+      "name": "conventional-changelog-writer",
+      "version": "1.0.2",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "734606fdf40b3c9bba543ed6abb6d4440035f15d",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.0.2",
+      "_shasum": "0de6e74cb3f02c1ca89f5c6dd2d2089a405ebad2",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0de6e74cb3f02c1ca89f5c6dd2d2089a405ebad2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.0.2.tgz_1454763125388_0.7997650941833854"
+      },
+      "directories": {}
+    },
+    "1.0.3": {
+      "name": "conventional-changelog-writer",
+      "version": "1.0.3",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "282bc30567fdb1ca830f43c5e2292f61752e2f0d",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.0.3",
+      "_shasum": "d99a8a1e9cbb4a8ac997f0d15dd139364868b094",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "d99a8a1e9cbb4a8ac997f0d15dd139364868b094",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.0.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.0.3.tgz_1454765390243_0.1160828247666359"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-changelog-writer",
+      "version": "1.1.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "a5bac09cfada37d471e668d1029b53febe598744",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.1.0",
+      "_shasum": "4ecb8d974bb402d9416dccfc57ca0b37859a1d18",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "4ecb8d974bb402d9416dccfc57ca0b37859a1d18",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.1.0.tgz_1454936131648_0.18001554789952934"
+      },
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "conventional-changelog-writer",
+      "version": "1.1.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/stevemao/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.1.1",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "e9885522b1c975d5e47992a8757c9b66d6a6117a",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.1.1",
+      "_shasum": "c0d6e7111d2e9e276f9b405a594d1f2b2877ed37",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.3.1",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "c0d6e7111d2e9e276f9b405a594d1f2b2877ed37",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.1.1.tgz_1456739503485_0.5492440511006862"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "conventional-changelog-writer",
+      "version": "1.2.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "3ece7fd71c7fffe61fb98ea72843a8c61d753fac",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.2.0",
+      "_shasum": "e608108b6d71f92e872707b2320f3652a7c8761e",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "e608108b6d71f92e872707b2320f3652a7c8761e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.2.0.tgz_1460872261968_0.3651808174327016"
+      },
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "conventional-changelog-writer",
+      "version": "1.2.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "6f291b0a430e47adecba10da330011189be8697e",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.2.1",
+      "_shasum": "5fe224022f62b8083cd1dc131faf80f6d66e39ef",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "5fe224022f62b8083cd1dc131faf80f6d66e39ef",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.2.1.tgz_1461061807327_0.6318658937234432"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "conventional-changelog-writer",
+      "version": "1.3.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "3ba7edda7067b5ae77f1629a427418672ba5e2f5",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.3.0",
+      "_shasum": "1d45db92cbff5df371f07436ca6f1d7507bd0c40",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1d45db92cbff5df371f07436ca6f1d7507bd0c40",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.3.0.tgz_1462711368453_0.2779835634864867"
+      },
+      "directories": {}
+    },
+    "1.4.0": {
+      "name": "conventional-changelog-writer",
+      "version": "1.4.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "1a20f2ae87445bbaf510e001508f8b7ee77403d8",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.4.0",
+      "_shasum": "2fe84a726192ea613586de96dbe4fa35ea75569e",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "2fe84a726192ea613586de96dbe4fa35ea75569e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.4.0.tgz_1462881373279_0.053344767075031996"
+      },
+      "directories": {}
+    },
+    "1.4.1": {
+      "name": "conventional-changelog-writer",
+      "version": "1.4.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "gitHead": "8b21226e4c1b4861d3737e6bd57125fb03be3c7f",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@1.4.1",
+      "_shasum": "3f4cb4d003ebb56989d30d345893b52a43639c8e",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "3f4cb4d003ebb56989d30d345893b52a43639c8e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-1.4.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-writer-1.4.1.tgz_1462885613270_0.931440262356773"
+      },
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "conventional-changelog-writer",
+      "version": "2.0.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@2.0.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-7dc8fh01pce/G8glLS09OzAvlTDBaw8VG1us+dBlDdz5kuCMLjeEKwp8Ug0pJpXti8qg4+Q8KgM43OvcqckJsw==",
+        "shasum": "6e4e3a7c3ed2f581e75b4bf8e92cb7cabe8bac4c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer-2.0.0.tgz_1500334225628_0.7687282075639814"
+      },
+      "directories": {}
+    },
+    "2.0.1": {
+      "name": "conventional-changelog-writer",
+      "version": "2.0.1",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.0.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@2.0.1",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-X4qC758celQOKw0iUPAsH5sJX6fH6N5dboFc3elXb1/SIKhsYMukhhaxWmxRdtVUSqGt9rZg8giwBQG5B2GeKg==",
+        "shasum": "47c10d0faba526b78d194389d1e931d09ee62372",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-2.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer-2.0.1.tgz_1504235787531_0.994380832882598"
+      },
+      "directories": {}
+    },
+    "2.0.2": {
+      "name": "conventional-changelog-writer",
+      "version": "2.0.2",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.0",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@2.0.2",
+      "_shasum": "b5857ded1b001daf9a78b9cd40926f45c134949b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "b5857ded1b001daf9a78b9cd40926f45c134949b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-2.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer-2.0.2.tgz_1510532238570_0.74356818664819"
+      },
+      "directories": {}
+    },
+    "2.0.3": {
+      "name": "conventional-changelog-writer",
+      "version": "2.0.3",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@2.0.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-2E1h7UXL0fhRO5h0CxDZ5EBc5sfBZEQePvuZ+gPvApiRrICUyNDy/NQIP+2TBd4wKZQf2Zm7TxbzXHG5HkPIbA==",
+        "shasum": "073b0c39f1cc8fc0fd9b1566e93833f51489c81c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-2.0.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer-2.0.3.tgz_1512717195969_0.6031064707785845"
+      },
+      "directories": {}
+    },
+    "3.0.0": {
+      "name": "conventional-changelog-writer",
+      "version": "3.0.0",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.1",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@3.0.0",
+      "_shasum": "e106154ed94341e387d717b61be2181ff53254cc",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "e106154ed94341e387d717b61be2181ff53254cc",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer-3.0.0.tgz_1517191957717_0.8717358305584639"
+      },
+      "directories": {}
+    },
+    "3.0.2": {
+      "name": "conventional-changelog-writer",
+      "version": "3.0.2",
+      "description": "Write logs based on conventional commits and templates",
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-writer",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-writer.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.3",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-writer/issues"
+      },
+      "_id": "conventional-changelog-writer@3.0.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-eYXmYxT1IUuzzfpQuFA2/t3ex+7rFBbJchDIWyDTAs7OFkPBAfAs3EG04cDkEAG6Tn3wnwrtDKVZL9sMfA3kIw==",
+        "shasum": "f3f934028379c0cab90aecfcaf009bf8a187ef14",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-3.0.2.tgz",
+        "fileCount": 10,
+        "unpackedSize": 48657
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer_3.0.2_1518539274531_0.13256930266177291"
+      }
+    },
+    "3.0.3": {
+      "name": "conventional-changelog-writer",
+      "version": "3.0.3",
+      "description": "Write logs based on conventional commits and templates",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.4",
+        "dateformat": "^1.0.11",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.0.0",
+        "meow": "^3.3.0",
+        "semver": "^5.0.1",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.8",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1-rc3",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "_id": "conventional-changelog-writer@3.0.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-gzkAFnFxjEOBCwISTBUJ6DnthMwzqY1MRyElN6S25VYBcRV/6DOVbbZgbBL1KdsogO6Z/QuJlSnIH7OteVd5lQ==",
+        "shasum": "2faa65739370769639fff1c0008722162936d46c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-3.0.3.tgz",
+        "fileCount": 10,
+        "unpackedSize": 49122
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer_3.0.3_1519100434578_0.46317563075657"
+      }
+    },
+    "3.0.4": {
+      "name": "conventional-changelog-writer",
+      "version": "3.0.4",
+      "description": "Write logs based on conventional commits and templates",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib",
+        "templates"
+      ],
+      "keywords": [
+        "conventional-changelog-writer",
+        "changelog",
+        "conventional",
+        "commits",
+        "templates",
+        "writer",
+        "writing",
+        "logs"
+      ],
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "conventional-commits-filter": "^1.1.5",
+        "dateformat": "^3.0.0",
+        "handlebars": "^4.0.2",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.2.1",
+        "meow": "^4.0.0",
+        "semver": "^5.5.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "concat-stream": "^1.6.0"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout 30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-changelog-writer": "cli.js"
+      },
+      "_id": "conventional-changelog-writer@3.0.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-EUf/hWiEj3IOa5Jk8XDzM6oS0WgijlYGkUfLc+mDnLH9RwpZqhYIBwgJHWHzEB4My013wx2FhmUu45P6tQrucw==",
+        "shasum": "705b46a8b8277bd7fd79cad8032095b5d803864c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-writer/-/conventional-changelog-writer-3.0.4.tgz",
+        "fileCount": 10,
+        "unpackedSize": 49279
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-writer_3.0.4_1519510366101_0.6208699253062604"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Write logs based on conventional commits and templates\n\n\n## Install\n\n```sh\n$ npm install --save conventional-changelog-writer\n```\n\n\n## Usage\n\n```js\nvar conventionalChangelogWriter = require('conventional-changelog-writer');\n\nconventionalChangelogWriter(context, options);\n```\n\nIt returns a transform stream.\n\nIt expects an object mode upstream that looks something like this:\n\n```js\n{ hash: '9b1aff905b638aa274a5fc8f88662df446d374bd',\n  header: 'feat(scope): broadcast $destroy event on scope destruction',\n  type: 'feat',\n  scope: 'scope',\n  subject: 'broadcast $destroy event on scope destruction',\n  body: null,\n  footer: 'Closes #1',\n  notes: [],\n  references: [ { action: 'Closes', owner: null, repository: null, issue: '1', raw: '#1' } ] }\n{ hash: '13f31602f396bc269076ab4d389cfd8ca94b20ba',\n  header: 'feat(ng-list): Allow custom separator',\n  type: 'feat',\n  scope: 'ng-list',\n  subject: 'Allow custom separator',\n  body: 'bla bla bla',\n  footer: 'BREAKING CHANGE: some breaking change',\n  notes: [ { title: 'BREAKING CHANGE', text: 'some breaking change' } ],\n  references: [] }\n```\n\nEach chunk should be a commit. Json object is also **valid**. Parts of the objects will be formatted and combined into a log based on the handlebars context, templates and options.\n\nThe downstream might look something like this:\n\n```js\n<a name=\"0.0.1\"></a>\n## 0.0.1 \"this is a title\" (2015-05-29)\n\n\n### Features\n\n* **ng-list:** Allow custom separator ([13f3160](https://github.com/a/b/commits/13f3160))\n* **scope:** broadcast $destroy event on scope destruction ([9b1aff9](https://github.com/a/b/commits/9b1aff9)), closes [#1](https://github.com/a/b/issues/1)\n\n\n### BREAKING CHANGES\n\n* some breaking change\n```\n\n\n## API\n\n### conventionalChangelogWriter([context, [options]])\n\nReturns a transform stream.\n\n#### context\n\nVariables that will be interpolated to the template. This object contains, but not limits to the following fields.\n\n##### version\n\nType: `string`\n\nVersion number of the up-coming release. If `version` is found in the last commit before generating logs, it will be overwritten.\n\n##### title\n\nType: `string`\n\n##### isPatch\n\nType: `boolean` Default: `semver.patch(context.version) !== 0`\n\nBy default, this value is true if `version`'s patch is `0`.\n\n##### host\n\nType: `string`\n\nThe hosting website. Eg: `'https://github.com'` or `'https://bitbucket.org'`\n\n##### owner\n\nType: `string`\n\nThe owner of the repository. Eg: `'stevemao'`.\n\n##### repository\n\nType: `string`\n\nThe repository name on `host`. Eg: `'conventional-changelog-writer'`.\n\n##### repoUrl\n\nType: `string`\n\nThe whole repository url. Eg: `'https://github.com/conventional-changelog/conventional-changelog-writer'`.\nThe should be used as a fallback when `context.repository` doesn't exist.\n\n##### linkReferences\n\nType: `boolean` Default: `true` if (`context.repository` or `context.repoUrl`), `context.commit` and `context.issue` are truthy\n\nShould all references be linked?\n\n##### commit\n\nType: `string` Default: `'commits'`\n\nCommit keyword in the url if `context.linkReferences === true`.\n\n##### issue\n\nType: `string` Default: `'issues'`\n\nIssue or pull request keyword in the url if `context.linkReferences === true`.\n\n##### date\n\nType: `string` Default: `dateFormat(new Date(), 'yyyy-mm-dd', true)`\n\nDefault to formatted (`'yyyy-mm-dd'`) today's date. [dateformat](https://github.com/felixge/node-dateformat) is used for formatting the date. If `version` is found in the last commit, `committerDate` will overwrite this.\n\n#### options\n\nType: `object`\n\n##### transform\n\nType: `object` or `function` Default: get the first 7 digits of hash, and `committerDate` will be formatted as `'yyyy-mm-dd'`.\n\nReplace with new values in each commit.\n\nIf this is an object, the keys are paths to a nested object property. the values can be a string (static) and a function (dynamic) with the old value and path passed as arguments. This value is merged with your own transform object.\n\nIf this is a function, the commit chunk will be passed as the argument and the returned value would be the new commit object. This is a handy function if you can't provide a transform stream as an upstream of this one. If returns a falsy value this commit is ignored.\n\na `raw` object that is originally poured form upstream is attached to `commit`.\n\n##### groupBy\n\nType: `string` Default: `'type'`\n\nHow to group the commits. EG: based on the same type. If this value is falsy, commits are not grouped.\n\n##### commitGroupsSort\n\nType: `function`, `string` or `array`\n\nA compare function used to sort commit groups. If it's a string or array, it sorts on the property(ies) by `localeCompare`. Will not sort if this is a falsy value.\n\nThe string can be a dot path to a nested object property.\n\n##### commitsSort\n\nType: `function`, `string` or `array` Default: `'header'`\n\nA compare function used to sort commits. If it's a string or array, it sorts on the property(ies) by `localeCompare`. Will not sort if this is a falsy value.\n\nThe string can be a dot path to a nested object property.\n\n##### noteGroupsSort\n\nType: `function`, `string` or `array` Default: `'title'`\n\nA compare function used to sort note groups. If it's a string or array, it sorts on the property(ies) by `localeCompare`. Will not sort if this is a falsy value.\n\nThe string can be a dot path to a nested object property.\n\n##### notesSort\n\nType: `function`, `string` or `array` Default: `'text'`\n\nA compare function used to sort note groups. If it's a string or array, it sorts on the property(ies) by `localeCompare`. Will not sort if this is a falsy value.\n\nThe string can be a dot path to a nested object property.\n\n##### generateOn\n\nType: `function`, `string` or `any` Default: if `commit.version` is a valid semver.\n\nWhen the upstream finishes pouring the commits it will generate a block of logs if `doFlush` is `true`. However, you can generate more than one block based on this criteria (usually a version) even if there are still commits from the upstream.\n\n###### generateOn(commit, commits, context, options)\n\n####### commit\n\nCurrent commit.\n\n####### commits\n\nCurrent collected commits.\n\n####### context\n\nThe generated context based on original input `context` and `options`.\n\n####### options\n\nNormalized options.\n\n**NOTE**: It checks on the transformed commit chunk instead of the original one (you can check on the original by access the `raw` object on the `commit`). However, if the transformed commit is ignored it falls back to the original commit.\n\nIf this value is a `string`, it checks the existence of the field. Set to other type to disable it.\n\n##### finalizeContext\n\nType: `function` Default: pass through\n\nLast chance to modify your context before generating a changelog.\n\n###### finalizeContext(context, options, commits, keyCommit)\n\n####### context\n\nThe generated context based on original input `context` and `options`.\n\n####### options\n\nNormalized options.\n\n####### commits\n\nFiltered commits from your git metadata.\n\n####### keyCommit\n\nThe commit that triggers to generate the log.\n\n##### debug\n\nType: `function` Default: `function() {}`\n\nA function to get debug information.\n\n##### reverse\n\nType: `boolean` Default: `false`\n\nThe normal order means reverse chronological order. `reverse` order means chronological order. Are the commits from upstream in the reverse order? You should only worry about this when generating more than one blocks of logs based on `generateOn`. If you find the last commit is in the wrong block inverse this value.\n\n##### includeDetails\n\nType: `boolean` Default: `false`\n\nIf this value is `true`, instead of emitting strings of changelog, it emits objects containing the details the block.\n\n*NOTE:* The downstream must be in object mode if this is `true`.\n\n##### ignoreReverted\n\nType: `boolean` Default: `true`\n\nIf `true`, reverted commits will be ignored.\n\n##### doFlush\n\nType: `boolean` Default: `true`\n\nIf `true`, the stream will flush out the last bit of commits (could be empty) to changelog.\n\n##### mainTemplate\n\nType: `string` Default: [template.hbs](templates/template.hbs)\n\nThe main handlebars template.\n\n##### headerPartial\n\nType: `string` Default: [header.hbs](templates/header.hbs)\n\n##### commitPartial\n\nType: `string` Default: [commit.hbs](templates/commit.hbs)\n\n##### footerPartial\n\nType: `string` Default: [footer.hbs](templates/footer.hbs)\n\n##### partials\n\nType: `object`\n\nPartials that used in the main template, if any. The key should be the partial name and the value should be handlebars template strings. If you are using handlebars template files, read files by yourself.\n\n\n## Customization Guide\n\nIt is possible to customize this the changelog to suit your needs. Templates are written in [handlebars](http://handlebarsjs.com). You can customize all partials or the whole template. Template variables are from either `upstream` or `context`. The following are a suggested way of defining variables.\n\n### upstream\n\nVariables in upstream are commit specific and should be used per commit. Eg: *commit date* and *commit username*. You can think of them as \"local\" or \"isolate\" variables. A \"raw\" commit message (original commit poured from upstream) is attached to `commit`. `transform` can be used to modify a commit.\n\n### context\n\ncontext should be module specific and can be used across the whole log. Thus these variables should not be related to any single commit and should be generic information of the module or all commits. Eg: *repository url* and *author names*, etc. You can think of them as \"global\" or \"root\" variables.\n\nBasically you can make your own templates and define all your template context. Extra context are based on commits from upstream and `options`. For more details, please checkout [handlebars](http://handlebarsjs.com) and the source code of this module. `finalizeContext` can be used at last to modify context before generating a changelog.\n\n\n## CLI\n\n```sh\n$ npm install --global conventional-changelog-writer\n$ conventional-changelog-writer --help # for more details\n```\n\nIt works with [Line Delimited JSON](http://en.wikipedia.org/wiki/Line_Delimited_JSON).\n\nIf you have commits.ldjson\n\n```js\n{\"hash\":\"9b1aff905b638aa274a5fc8f88662df446d374bd\",\"header\":\"feat(ngMessages): provide support for dynamic message resolution\",\"type\":\"feat\",\"scope\":\"ngMessages\",\"subject\":\"provide support for dynamic message resolution\",\"body\":\"Prior to this fix it was impossible to apply a binding to a the ngMessage directive to represent the name of the error.\",\"footer\":\"BREAKING CHANGE: The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\\nCloses #10036\\nCloses #9338\",\"notes\":[{\"title\":\"BREAKING CHANGE\",\"text\":\"The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\"}],\"references\":[{\"action\":\"Closes\",\"owner\",null,\"repository\":null,\"issue\":\"10036\",\"raw\":\"#10036\"},{\"action\":\"Closes\",\"owner\":null,\"repository\":null,\"issue\":\"9338\",\"raw\":\"#9338\"}]}\n```\n\nAnd you run\n\n```sh\n$ conventional-changelog-writer commits.ldjson -o options.js\n```\n\nThe output might look something like this\n\n```md\n<a name=\"1.0.0\"></a>\n# 1.0.0 (2015-04-09)\n\n\n### Features\n\n* **ngMessages:** provide support for dynamic message resolution 9b1aff9, closes #10036 #9338\n\n\n### BREAKING CHANGES\n\n* The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\n```\n\nIt is printed to stdout.\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-writer.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-writer\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-writer.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-writer\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-writer.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-writer\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-writer/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-writer\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:47.608Z",
+    "created": "2015-07-03T12:34:45.439Z",
+    "0.0.16": "2015-07-03T12:34:45.439Z",
+    "0.0.17": "2015-07-14T03:48:58.019Z",
+    "0.0.18": "2015-07-17T10:45:32.278Z",
+    "0.1.0": "2015-07-23T05:58:03.214Z",
+    "0.1.1": "2015-07-23T12:04:41.683Z",
+    "0.2.0": "2015-07-23T12:39:06.026Z",
+    "0.2.1": "2015-07-24T06:36:26.129Z",
+    "0.3.0": "2015-08-03T11:21:29.891Z",
+    "0.3.1": "2015-08-06T06:34:08.732Z",
+    "0.3.2": "2015-08-07T06:17:50.295Z",
+    "0.4.0": "2015-09-23T00:10:25.822Z",
+    "0.4.1": "2015-09-30T07:11:36.275Z",
+    "0.4.2": "2016-01-18T12:53:25.540Z",
+    "0.5.0": "2016-02-02T11:14:50.174Z",
+    "0.5.1": "2016-02-03T10:19:41.858Z",
+    "1.0.0": "2016-02-05T12:37:03.323Z",
+    "1.0.1": "2016-02-06T09:17:16.110Z",
+    "1.0.2": "2016-02-06T12:52:07.541Z",
+    "1.0.3": "2016-02-06T13:29:54.268Z",
+    "1.1.0": "2016-02-08T12:55:32.635Z",
+    "1.1.1": "2016-02-29T09:51:44.650Z",
+    "1.2.0": "2016-04-17T05:51:02.410Z",
+    "1.2.1": "2016-04-19T10:30:10.026Z",
+    "1.3.0": "2016-05-08T12:42:48.833Z",
+    "1.4.0": "2016-05-10T11:56:13.716Z",
+    "1.4.1": "2016-05-10T13:06:53.719Z",
+    "2.0.0": "2017-07-17T23:30:25.719Z",
+    "2.0.1": "2017-09-01T03:16:27.678Z",
+    "2.0.2": "2017-11-13T00:17:19.740Z",
+    "2.0.3": "2017-12-08T07:13:17.036Z",
+    "3.0.0": "2018-01-29T02:12:38.664Z",
+    "3.0.2": "2018-02-13T16:27:54.718Z",
+    "3.0.3": "2018-02-20T04:20:34.677Z",
+    "3.0.4": "2018-02-24T22:12:46.149Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer#readme",
+  "keywords": [
+    "conventional-changelog-writer",
+    "changelog",
+    "conventional",
+    "commits",
+    "templates",
+    "writer",
+    "writing",
+    "logs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

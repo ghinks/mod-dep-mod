@@ -1,0 +1,1400 @@
+{
+  "_id": "git-semver-tags",
+  "_rev": "29-7ac5bedd12264098bb16790d2b6822bd",
+  "name": "git-semver-tags",
+  "description": "Get all git semver tags of your repository in reverse chronological order",
+  "dist-tags": {
+    "latest": "1.3.4",
+    "next": "1.2.0-alpha.1"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "git-semver-tags",
+      "version": "0.0.0",
+      "description": "Get all git semver tag of your repository in the latest to oldest order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "recent",
+        "semver",
+        "tag",
+        "git-tag"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^4.3.6"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "6dec38537e9fa75bf1d51f658a077a4411f7a7e8",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@0.0.0",
+      "_shasum": "d0c5804d558698ff9b5908a27bcc3e5222e935e4",
+      "_from": ".",
+      "_npmVersion": "2.11.3",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "d0c5804d558698ff9b5908a27bcc3e5222e935e4",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "git-semver-tags",
+      "version": "0.0.1",
+      "description": "Get all git semver tag of your repository in the latest to oldest order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^4.3.6"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "d6d305b68c4b040302b3b4476993da7f7710f165",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@0.0.1",
+      "_shasum": "57f30758933fe3d2eb518f879feada18adb1e3a8",
+      "_from": ".",
+      "_npmVersion": "2.11.3",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "57f30758933fe3d2eb518f879feada18adb1e3a8",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-0.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "git-semver-tags",
+      "version": "1.0.0",
+      "description": "Get all git semver tag of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "83427edee6e92b7f32fc50581836e9042fad62f5",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.0.0",
+      "_shasum": "7ded34e8c6c809814905960db170385fbcb2c56e",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "7ded34e8c6c809814905960db170385fbcb2c56e",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "git-semver-tags",
+      "version": "1.1.0",
+      "description": "Get all git semver tag of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "b4a7b5e0c4f95265c374b70a8105661cb7af36e1",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.1.0",
+      "_shasum": "0541ae71d469cf458de613a347f41c456f4d5433",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0541ae71d469cf458de613a347f41c456f4d5433",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "git-semver-tags",
+      "version": "1.1.1",
+      "description": "Get all git semver tag of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 10000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "71983fe393705b764773ed054c8342ee154562d1",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.1.1",
+      "_shasum": "8e542f20523cbbe79ec50e5d3eb83459ba0aa4a2",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "8e542f20523cbbe79ec50e5d3eb83459ba0aa4a2",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.2": {
+      "name": "git-semver-tags",
+      "version": "1.1.2",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 10000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "5390b10a9c82a88ebd91b86b89611ea9f452fa94",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.1.2",
+      "_shasum": "aecf9b1b2447a6b548d48647f53edba0acad879f",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "aecf9b1b2447a6b548d48647f53edba0acad879f",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "directories": {}
+    },
+    "1.2.0-alpha.1": {
+      "name": "git-semver-tags",
+      "version": "1.2.0-alpha.1",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 10000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "gitHead": "ce686c9b1259e0151489f3a9c2d912156a5c4248",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.2.0-alpha.1",
+      "_shasum": "c11e598922333582c3f844e5326e73e5f590f8de",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "c11e598922333582c3f844e5326e73e5f590f8de",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.2.0-alpha.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/git-semver-tags-1.2.0-alpha.1.tgz_1488690065407_0.21380895050242543"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "git-semver-tags",
+      "version": "1.2.0",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.2.0",
+      "_shasum": "b31fd02c8ab578bd6c9b5cacca5e1c64c1177ac1",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "b31fd02c8ab578bd6c9b5cacca5e1c64c1177ac1",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/git-semver-tags-1.2.0.tgz_1489125632554_0.24565216898918152"
+      },
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "git-semver-tags",
+      "version": "1.2.1",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.2.1",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-fFyxtzTHCTQKwB4clA2AInVrlflBbVbbJD4NWwmxKXHUgsU/K9kmHNlkPLqFiuy9xu9q3lNopghR4VXeQwZbTQ==",
+        "shasum": "6ccd2a52e735b736748dc762444fcd9588e27490",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags-1.2.1.tgz_1500334226333_0.08401523670181632"
+      },
+      "directories": {}
+    },
+    "1.2.2": {
+      "name": "git-semver-tags",
+      "version": "1.2.2",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.2.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-fhINopzKBQ8m6YlQt7gPf6T6hFnTF84O7U+8kYJmfjjKk7gbmKGj+BLcKNWi+japPbBwCeXXnfKwThpJpR9ZnQ==",
+        "shasum": "a2139be1bf6e337e125f3eb8bb8fc6f5d4d6445f",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags-1.2.2.tgz_1506836369682_0.05372115736827254"
+      },
+      "directories": {}
+    },
+    "1.2.3": {
+      "name": "git-semver-tags",
+      "version": "1.2.3",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.2.3",
+      "_shasum": "188b453882bf9d7a23afd31baba537dab7388d5d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "188b453882bf9d7a23afd31baba537dab7388d5d",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags-1.2.3.tgz_1510532236466_0.27181078656576574"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "git-semver-tags",
+      "version": "1.3.0",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.3.0",
+      "_shasum": "b154833a6ab5c360c0ad3b1aa9b8f12ea06de919",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "b154833a6ab5c360c0ad3b1aa9b8f12ea06de919",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags-1.3.0.tgz_1517191960751_0.602565796347335"
+      },
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "git-semver-tags",
+      "version": "1.3.1",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.3.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-0Eyk6xpjJ2zuilN6Bx8Rn28/1kso1UluTLnIZmJDdslBtuT2jkuFD6TZqOBaJiSkZ4A9XvE9p3C2G5PePWJ++A==",
+        "shasum": "6347ab8b36a89b44cec28f8a4b277e23c680aa2e",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.3.1.tgz",
+        "fileCount": 5,
+        "unpackedSize": 6721
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags_1.3.1_1518539029262_0.8592146731364709"
+      }
+    },
+    "1.3.2": {
+      "name": "git-semver-tags",
+      "version": "1.3.2",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "homepage": "https://github.com/stevemao/git-semver-tags",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-semver-tags.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/stevemao/git-semver-tags/issues"
+      },
+      "_id": "git-semver-tags@1.3.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-CXQJ4GdxkUya1YQaEKGcYIJ9RiuX4RTWnRIhiMlTItl8czRix4akE0CpoUSLmljuxEnUM/pFpd2FFwo+nV0SPA==",
+        "shasum": "94afa43c9070ae527a3ab86b978e59ae207803cc",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.3.2.tgz",
+        "fileCount": 5,
+        "unpackedSize": 6926
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags_1.3.2_1518539269455_0.21620710218124528"
+      }
+    },
+    "1.3.3": {
+      "name": "git-semver-tags",
+      "version": "1.3.3",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-semver-tags#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.1.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "_id": "git-semver-tags@1.3.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-FK/ZQeFwANfsoo+3FFhO1XRVVKgSZgcO0ABtydFrPQj7U2N5ELVr8MxBqlXa5TdpRKTp6/H5ki1cK2Anxr2kJw==",
+        "shasum": "0b0416c43285adfdc93a8038ea25502a09319245",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.3.3.tgz",
+        "fileCount": 5,
+        "unpackedSize": 7399
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags_1.3.3_1519100431004_0.12217107511030911"
+      }
+    },
+    "1.3.4": {
+      "name": "git-semver-tags",
+      "version": "1.3.4",
+      "description": "Get all git semver tags of your repository in reverse chronological order",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-semver-tags#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-semver-tags",
+        "order",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^4.0.0",
+        "semver": "^5.5.0"
+      },
+      "devDependencies": {
+        "git-dummy-commit": "^1.2.0",
+        "shelljs": "^0.8.0"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bin": {
+        "git-semver-tags": "cli.js"
+      },
+      "_id": "git-semver-tags@1.3.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-Xe2Z74MwXZfAezuaO6e6cA4nsgeCiARPzaBp23gma325c/OXdt//PhrknptIaynNeUp2yWtmikV7k5RIicgGIQ==",
+        "shasum": "2ceb2a355c6d7514c123c35e297067d08caf3a92",
+        "tarball": "https://registry.npmjs.org/git-semver-tags/-/git-semver-tags-1.3.4.tgz",
+        "fileCount": 5,
+        "unpackedSize": 7495
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/git-semver-tags_1.3.4_1519510362957_0.2501437345956474"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Get all git semver tags of your repository in reverse chronological order\n\n*Note:* since lightweight tags do not store date information, the date of a tag is the date of the commit that is tagged on. If two tags on one commit, the order is not guaranteed.\n\n\n## Install\n\n```sh\n$ npm install --save git-semver-tags\n```\n\n\n## Usage\n\n```js\nvar gitSemverTags = require('git-semver-tags', [options]);\n\ngitSemverTags(function(err, tags) {\n  console.log(tags);\n  //=> [ 'v2.0.0', 'v1.0.0' ]\n});\n```\n\n```sh\n$ npm install --global git-semver-tags\n$ git-semver-tags\nv2.0.0\nv1.0.0\n```\n\n## Options\n\n* `opts.lernaTags`: extract lerna style tags (`foo-package@2.0.0`) from the\n  git history, rather than `v1.0.0` format.\n* `opts.package`: what package should lerna style tags be listed for, e.g.,\n  `foo-package`.\n* `opts.tagPrefix`: specify a prefix for the git tag to be ignored from the semver checks\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/git-semver-tags.svg\n[npm-url]: https://npmjs.org/package/git-semver-tags\n[travis-image]: https://travis-ci.org/conventional-changelog/git-semver-tags.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/git-semver-tags\n[daviddm-image]: https://david-dm.org/stevemao/git-semver-tags.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/git-semver-tags\n[coveralls-image]: https://coveralls.io/repos/stevemao/git-semver-tags/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/git-semver-tags\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:43.961Z",
+    "created": "2015-06-30T06:09:42.584Z",
+    "0.0.0": "2015-06-30T06:09:42.584Z",
+    "0.0.1": "2015-06-30T06:27:26.871Z",
+    "1.0.0": "2015-07-23T00:59:35.004Z",
+    "1.1.0": "2015-12-25T11:31:37.409Z",
+    "1.1.1": "2015-12-31T22:50:28.781Z",
+    "1.1.2": "2016-01-30T03:36:52.029Z",
+    "1.2.0-alpha.1": "2017-03-05T05:01:05.641Z",
+    "1.2.0": "2017-03-10T06:00:32.784Z",
+    "1.2.1": "2017-07-17T23:30:26.410Z",
+    "1.2.2": "2017-10-01T05:39:29.763Z",
+    "1.2.3": "2017-11-13T00:17:16.531Z",
+    "1.3.0": "2018-01-29T02:12:41.580Z",
+    "1.3.1": "2018-02-13T16:23:49.313Z",
+    "1.3.2": "2018-02-13T16:27:49.504Z",
+    "1.3.3": "2018-02-20T04:20:31.052Z",
+    "1.3.4": "2018-02-24T22:12:43.004Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-semver-tags#readme",
+  "keywords": [
+    "git-semver-tags",
+    "order",
+    "semver",
+    "tag",
+    "git-tag",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "jimco": true
+  },
+  "_attachments": {}
+}

@@ -1,0 +1,806 @@
+{
+  "_id": "conventional-changelog-express",
+  "_rev": "17-a8c0bfdd32fa7a8b2f7df1ea1cb8434f",
+  "name": "conventional-changelog-express",
+  "description": "conventional-changelog express preset",
+  "dist-tags": {
+    "latest": "0.3.4"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-express",
+      "version": "0.0.0",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "d7f2677ec98ef5c5179c5835e4d242ffca183ac4",
+      "_id": "conventional-changelog-express@0.0.0",
+      "_shasum": "1c5295184a0599af9b1ee3433025080b69b36792",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1c5295184a0599af9b1ee3433025080b69b36792",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-express",
+      "version": "0.1.0",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "b55f57e7b8a4384919d018713b19fbcdc00f68e6",
+      "_id": "conventional-changelog-express@0.1.0",
+      "_shasum": "55c6c841c811962036c037bdbd964a54ae310fce",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "55c6c841c811962036c037bdbd964a54ae310fce",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-express",
+      "version": "0.2.0",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-ujSEmbWfozC1iIjH5Pl7AKtREowvAl10whs1q6c7nZLnoNZK5CmdB2PQ/V42O6rCgUzaLX+ACRW2+g0A/Htqvw==",
+        "shasum": "8d666ad41b10ebf964a4602062ddd2e00deb518d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express-0.2.0.tgz_1500334224543_0.22843083390034735"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-express",
+      "version": "0.2.1",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.2.1",
+      "_shasum": "838d9e1e6c9099703b150b9c19aa2d781742bd6c",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "838d9e1e6c9099703b150b9c19aa2d781742bd6c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express-0.2.1.tgz_1510532235335_0.9934864919632673"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-express",
+      "version": "0.3.0",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.3.0",
+      "_shasum": "5ed006f48682d8615ee0ab5f53cacb26fbd3e1c8",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "5ed006f48682d8615ee0ab5f53cacb26fbd3e1c8",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express-0.3.0.tgz_1513607138732_0.023238450288772583"
+      },
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "conventional-changelog-express",
+      "version": "0.3.1",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.3.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-Nv/bvKkzEnO8AjHF38mlNLxT5iQy/Fnf12doBWLco+ifEGiojpCGQ2+v7saPcqmvf9IsMLUW88BfMxgHX2yd9A==",
+        "shasum": "0d40ddd3ddee67c9e09d26bfd09e6bb8e04a5abc",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.3.1.tgz",
+        "fileCount": 11,
+        "unpackedSize": 7580
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express_0.3.1_1518539019716_0.08415256133411542"
+      }
+    },
+    "0.3.2": {
+      "name": "conventional-changelog-express",
+      "version": "0.3.2",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-express.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-express/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.3.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-QQU7t/Ec5bgRSoJL5gHmTfsRCrJOZHfVkbX2NNWl+EU91nAT28HgOAlD6ymH5EYMP/skpVkIwQyT9myVjxcJew==",
+        "shasum": "f5af4770a31f147986db548b49f9952fc55e3eb6",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.3.2.tgz",
+        "fileCount": 11,
+        "unpackedSize": 7845
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express_0.3.2_1518539264494_0.6587953055953666"
+      }
+    },
+    "0.3.3": {
+      "name": "conventional-changelog-express",
+      "version": "0.3.3",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-express#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-express@0.3.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-ivIa/9a05xxcA4bH1jQFpzwCEJywDirHhcQ6OQwYvAy0/ekRfGXA9U2ULVqE1WRqcmpFuayfAuysE9BJjqthEQ==",
+        "shasum": "25aef42a30b5457f97681a94f2ac9b0ee515484a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.3.3.tgz",
+        "fileCount": 11,
+        "unpackedSize": 8182
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express_0.3.3_1519100430186_0.9258317961844766"
+      }
+    },
+    "0.3.4": {
+      "name": "conventional-changelog-express",
+      "version": "0.3.4",
+      "description": "conventional-changelog express preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "express",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-express#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "0.0.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-express@0.3.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-M+UUb715TXT6l9vyMf4HYvAepnQn0AYTcPi6KHrFsd80E0HErjQnqStBg8i3+Qm7EV9+RyATQEnIhSzHbdQ7+A==",
+        "shasum": "812a9cf778677e12f978ac9c40d85297c0bfcca9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-express/-/conventional-changelog-express-0.3.4.tgz",
+        "fileCount": 11,
+        "unpackedSize": 8367
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-express_0.3.4_1519510356658_0.3689503876575335"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [express](https://github.com/strongloop/express) preset\n\n**Issues with the convention itself should be reported on the Express issue tracker.**\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-express.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-express\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-express.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-express\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-express.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-express\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-express/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-express\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:38.496Z",
+    "created": "2015-12-26T10:17:53.964Z",
+    "0.0.0": "2015-12-26T10:17:53.964Z",
+    "0.1.0": "2016-01-30T09:36:18.153Z",
+    "0.2.0": "2017-07-17T23:30:24.614Z",
+    "0.2.1": "2017-11-13T00:17:15.403Z",
+    "0.3.0": "2017-12-18T14:25:39.682Z",
+    "0.3.1": "2018-02-13T16:23:39.764Z",
+    "0.3.2": "2018-02-13T16:27:44.545Z",
+    "0.3.3": "2018-02-20T04:20:30.239Z",
+    "0.3.4": "2018-02-24T22:12:36.708Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-express#readme",
+  "keywords": [
+    "conventional-changelog",
+    "express",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

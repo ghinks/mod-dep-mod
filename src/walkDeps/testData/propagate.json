@@ -1,0 +1,566 @@
+{
+  "_id": "propagate",
+  "_rev": "17-ac1abb1dd23790d6df5e3fe594b342ef",
+  "name": "propagate",
+  "description": "Propagate events",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "0.1.0": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.1.0",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "_id": "propagate@0.1.0",
+      "dist": {
+        "shasum": "01341832a88f1b91732beaee6910339e2796e1ae",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.1.0.tgz"
+      },
+      "_npmVersion": "1.1.65",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.1.1",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "_id": "propagate@0.1.1",
+      "dist": {
+        "shasum": "730dc38d0d17e03792d0b43ad2631255f519c9a2",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.1.1.tgz"
+      },
+      "_npmVersion": "1.1.65",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.2.0",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "_id": "propagate@0.2.0",
+      "dist": {
+        "shasum": "5814ee9bfc0c52cc917269515d5bf00bdc36a398",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.2.0.tgz"
+      },
+      "_npmVersion": "1.1.65",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.2.1",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "_id": "propagate@0.2.1",
+      "dist": {
+        "shasum": "0f2817e56bf07ac9ffc7cda0e903b269ba44f104",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.2.1.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.11",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.2": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.2.2",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "_id": "propagate@0.2.2",
+      "dist": {
+        "shasum": "17a116d25daf2094426d7d6844d26232c9d6926b",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.2.2.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.11",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.3.0",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "homepage": "https://github.com/pgte/propagate",
+      "_id": "propagate@0.3.0",
+      "dist": {
+        "shasum": "2997587c28c793a4b1848b58d5850af5d5f87ae9",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.3.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.14",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.3.1",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "http://github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "license": "MIT",
+      "gitHead": "072a306e38856c807406b1507f81e79b54dd238f",
+      "homepage": "https://github.com/pgte/propagate",
+      "_id": "propagate@0.3.1",
+      "_shasum": "e3a84404a7ece820dd6bbea9f6d924e3135ae09c",
+      "_from": ".",
+      "_npmVersion": "1.4.28",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "e3a84404a7ece820dd6bbea9f6d924e3135ae09c",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.3.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.4.0": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "0.4.0",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "license": "MIT",
+      "gitHead": "b5fa750dfba9d325cfa53c0a0abc25161607da8e",
+      "homepage": "https://github.com/pgte/propagate#readme",
+      "_id": "propagate@0.4.0",
+      "_shasum": "f3fcca0a6fe06736a7ba572966069617c130b481",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "f3fcca0a6fe06736a7ba572966069617c130b481",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-0.4.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-13-west.internal.npmjs.com",
+        "tmp": "tmp/propagate-0.4.0.tgz_1458034009065_0.30376055743545294"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "propagate",
+      "description": "Propagate events",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pedro Teixeira",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "contributors": [
+        {
+          "name": "Pedro Teixeira"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/pgte/propagate.git"
+      },
+      "bugs": {
+        "url": "http://github.com/pgte/propagate/issues"
+      },
+      "engines": [
+        "node >= 0.8.1"
+      ],
+      "main": "./index.js",
+      "dependencies": {},
+      "devDependencies": {
+        "tap": "0.3.x"
+      },
+      "scripts": {
+        "test": "node node_modules/tap/bin/tap.js tests/index.js"
+      },
+      "tags": [
+        "event",
+        "emitter",
+        "propagation"
+      ],
+      "license": "MIT",
+      "gitHead": "553cd5f4320932bdff9fca52db91be921f76c14f",
+      "homepage": "https://github.com/pgte/propagate#readme",
+      "_id": "propagate@1.0.0",
+      "_shasum": "00c2daeedda20e87e3782b344adba1cddd6ad709",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "pgte",
+        "email": "pedro.teixeira@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "pgte",
+          "email": "pedro.teixeira@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "00c2daeedda20e87e3782b344adba1cddd6ad709",
+        "tarball": "https://registry.npmjs.org/propagate/-/propagate-1.0.0.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/propagate-1.0.0.tgz_1470212050490_0.8792572012171149"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# propagate\n\n[![Build Status](https://travis-ci.org/pgte/propagate.svg?branch=master)](https://travis-ci.org/pgte/propagate)\n\nPropagate events from one event emitter into another\n\n## Install\n\n```bash\n$ npm install propagate\n```\n\n## Propagate\n\n```javascript\n  var ee1 = new EventEmitter();\n  var ee2 = new EventEmitter();\n  propagate(ee1, ee2);\n\n  ee2.on('event', function(a, b) {\n    console.log('got propagated event', a, b);\n  });\n\n  ee1.emit('event', 'a', 'b');\n```\n\n## Unpropagate\n\nYou can unpropagate by ending the propagation like this:\n\n```javascript\n  var ee1 = new EventEmitter();\n  var ee2 = new EventEmitter();\n  var p = propagate(ee1, ee2);\n\n  // ...\n\n  p.end();\n```\n\n## Only propagate certain events:\n\n```javascript\n  var ee1 = new EventEmitter();\n  var ee2 = new EventEmitter();\n  var p = propagate(['event1', 'event2'], ee1, ee2);\n```\n\n## Propagate certain events as other events:\n\n```javascript\n  var ee1 = new EventEmitter();\n  var ee2 = new EventEmitter();\n  var p = propagate({\n    'event1': 'other-event1',\n    'event2': 'other-event2'\n  }, ee1, ee2);\n```\n\n# License\n\nMIT",
+  "maintainers": [
+    {
+      "name": "pgte",
+      "email": "pedro.teixeira@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2016-08-03T08:14:12.065Z",
+    "created": "2013-01-08T16:40:44.294Z",
+    "0.1.0": "2013-01-08T16:40:49.044Z",
+    "0.1.1": "2013-01-08T16:46:18.152Z",
+    "0.2.0": "2013-01-09T21:19:01.338Z",
+    "0.2.1": "2013-03-01T18:57:19.241Z",
+    "0.2.2": "2013-03-01T18:58:59.033Z",
+    "0.3.0": "2014-01-30T12:14:46.167Z",
+    "0.3.1": "2015-02-03T09:18:14.205Z",
+    "0.4.0": "2016-03-15T09:26:53.142Z",
+    "1.0.0": "2016-08-03T08:14:12.065Z"
+  },
+  "author": {
+    "name": "Pedro Teixeira",
+    "email": "pedro.teixeira@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pgte/propagate.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/pgte/propagate#readme",
+  "contributors": [
+    {
+      "name": "Pedro Teixeira"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/pgte/propagate/issues"
+  },
+  "license": "MIT",
+  "_attachments": {}
+}

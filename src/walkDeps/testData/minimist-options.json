@@ -1,0 +1,563 @@
+{
+  "_id": "minimist-options",
+  "_rev": "9-1d125ed4b618463a19e60c63e6be40bf",
+  "name": "minimist-options",
+  "description": "Pretty options for minimist",
+  "dist-tags": {
+    "latest": "3.0.2"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "minimist-options",
+      "version": "1.0.0",
+      "description": "Pretty options for minimist",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vdemedes/minimist-options.git"
+      },
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/vdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vdemedes/minimist-options#readme",
+      "devDependencies": {
+        "chai": "^3.2.0",
+        "make-lint": "^1.0.1",
+        "mocha": "^2.2.5"
+      },
+      "dependencies": {
+        "is_js": "^0.7.4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "gitHead": "3f70958a1bfe13e3f25e6c9b9993cb492a7ebe8c",
+      "_id": "minimist-options@1.0.0",
+      "_shasum": "09cbee909caa3cccaf1cab42f7890b0cafc1389d",
+      "_from": ".",
+      "_npmVersion": "2.13.5",
+      "_nodeVersion": "2.4.0",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "shasum": "09cbee909caa3cccaf1cab42f7890b0cafc1389d",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "minimist-options",
+      "version": "2.0.0",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.16.0",
+        "xo": "^0.16.0"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "5c58d7cd390770d0c28072bef78bc5680459e76e",
+      "bugs": {
+        "url": "https://github.com/vdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vdemedes/minimist-options#readme",
+      "_id": "minimist-options@2.0.0",
+      "_shasum": "17b3308e7fa6d9e02e612f2c731e8620ad2c8346",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "6.3.1",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "shasum": "17b3308e7fa6d9e02e612f2c731e8620ad2c8346",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/minimist-options-2.0.0.tgz_1471091733170_0.5391001340467483"
+      },
+      "directories": {}
+    },
+    "2.0.1": {
+      "name": "minimist-options",
+      "version": "2.0.1",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.16.0",
+        "xo": "^0.16.0"
+      },
+      "xo": {
+        "esnext": true
+      },
+      "gitHead": "1bc892502334edc97f7b8d0f16ee320bb3304820",
+      "bugs": {
+        "url": "https://github.com/vdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vdemedes/minimist-options#readme",
+      "_id": "minimist-options@2.0.1",
+      "_shasum": "1a73f3956a892247406f36d216902052c03fad4b",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "6.3.1",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "shasum": "1a73f3956a892247406f36d216902052c03fad4b",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-2.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/minimist-options-2.0.1.tgz_1471196051568_0.42703775269910693"
+      },
+      "directories": {}
+    },
+    "2.0.2": {
+      "name": "minimist-options",
+      "version": "2.0.2",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "engines": {
+        "node": ">= 4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.18.2",
+        "xo": "^0.16.0"
+      },
+      "gitHead": "caff53db654f74d0fe953a5d0dcfba394a1b6ea3",
+      "bugs": {
+        "url": "https://github.com/vadimdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+      "_id": "minimist-options@2.0.2",
+      "_shasum": "83f9adf1a3429f8db9782dec618a7705f04b9c0b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.0",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "shasum": "83f9adf1a3429f8db9782dec618a7705f04b9c0b",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-2.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/minimist-options-2.0.2.tgz_1487884917164_0.16559386532753706"
+      },
+      "directories": {}
+    },
+    "2.1.0": {
+      "name": "minimist-options",
+      "version": "2.1.0",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "engines": {
+        "node": ">= 4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.18.2",
+        "xo": "^0.16.0"
+      },
+      "gitHead": "8398de563dcda1efc9027d4072481396c75ad907",
+      "bugs": {
+        "url": "https://github.com/vadimdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+      "_id": "minimist-options@2.1.0",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-1oAZFcbHvbsX/PvA/MlyG8ZdkkfX1MskY0TgvlH1SE9B0urEu/VYyu1Ds7IXpGeLGBFb3cUdPGoCsbnLRSspMA==",
+        "shasum": "3be271dc336e01040ec59e855018cca8ddba7a00",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-2.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/minimist-options-2.1.0.tgz_1496214015395_0.3882784149609506"
+      },
+      "directories": {}
+    },
+    "3.0.0": {
+      "name": "minimist-options",
+      "version": "3.0.0",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "engines": {
+        "node": ">= 4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.18.2",
+        "xo": "^0.16.0"
+      },
+      "gitHead": "ea07c250efabf9241e05db6b8e2096e59161d830",
+      "bugs": {
+        "url": "https://github.com/vadimdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+      "_id": "minimist-options@3.0.0",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-FRXywE8uVPh6fLOSPyU7CaWe/grR0cpnvCpVEnMUXgv+3Wdja2lennIw7XJxK9JKsbx7pFnrA/eYeYtZ3xEJWQ==",
+        "shasum": "b699293cd049e3d83fb035a0dec99a058159bad5",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/minimist-options-3.0.0.tgz_1496215355365_0.9505781570915133"
+      },
+      "directories": {}
+    },
+    "3.0.1": {
+      "name": "minimist-options",
+      "version": "3.0.1",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "engines": {
+        "node": ">= 4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.18.2",
+        "xo": "^0.18.2"
+      },
+      "gitHead": "9137c5b9645ae083c2fb763e2c778c72c7025e1a",
+      "bugs": {
+        "url": "https://github.com/vadimdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+      "_id": "minimist-options@3.0.1",
+      "_npmVersion": "5.0.0",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-8HL6Knl0h9ChvBvxqURNJWAixPh1NMhxFM+ot11de/kpEHI38kkv4UWXCYvzaIt+qP0JX2JZ1SHdCiflL4/9dA==",
+        "shasum": "b97b58dadc7b3c62899e2aefd186f2501e464182",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-3.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/minimist-options-3.0.1.tgz_1496217274089_0.9482421886641532"
+      },
+      "directories": {}
+    },
+    "3.0.2": {
+      "name": "minimist-options",
+      "version": "3.0.2",
+      "description": "Pretty options for minimist",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+      },
+      "author": {
+        "name": "Vadim Demedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "minimist",
+        "argv",
+        "args"
+      ],
+      "scripts": {
+        "test": "xo && ava"
+      },
+      "engines": {
+        "node": ">= 4"
+      },
+      "files": [
+        "index.js"
+      ],
+      "dependencies": {
+        "arrify": "^1.0.1",
+        "is-plain-obj": "^1.1.0"
+      },
+      "devDependencies": {
+        "ava": "^0.18.2",
+        "xo": "^0.18.2"
+      },
+      "gitHead": "a4db950bf5586578c3ba1b6997467d6b2663c76c",
+      "bugs": {
+        "url": "https://github.com/vadimdemedes/minimist-options/issues"
+      },
+      "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+      "_id": "minimist-options@3.0.2",
+      "_npmVersion": "5.0.3",
+      "_nodeVersion": "8.1.4",
+      "_npmUser": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-FyBrT/d0d4+uiZRbqznPXqw3IpZZG3gl3wKWiX784FycUKVwBt0uLBFkQrtE4tZOrgo78nZp2jnKz3L65T5LdQ==",
+        "shasum": "fba4c8191339e13ecf4d61beb03f070103f3d954",
+        "tarball": "https://registry.npmjs.org/minimist-options/-/minimist-options-3.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "vdemedes",
+          "email": "vdemedes@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/minimist-options-3.0.2.tgz_1502296098360_0.5703347495291382"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# minimist-options [![Build Status](https://travis-ci.org/vadimdemedes/minimist-options.svg?branch=master)](https://travis-ci.org/vadimdemedes/minimist-options)\n\n> Write options for [minimist](https://npmjs.org/package/minimist) in a comfortable way.\n\n## Installation\n\n```\n$ npm install --save minimist-options\n```\n\n## Usage\n\n```js\nconst buildOptions = require('minimist-options');\nconst minimist = require('minimist');\n\nconst options = buildOptions({\n\tname: {\n\t\ttype: 'string',\n\t\talias: 'n',\n\t\tdefault: 'john'\n\t},\n\n\tforce: {\n\t\ttype: 'boolean',\n\t\talias: ['f', 'o'],\n\t\tdefault: false\n\t},\n\n\tpublished: 'boolean',\n\n\t// special option for positional arguments (`_` in minimist)\n\targuments: 'string'\n});\n\nconst args = minimist(options);\n```\n\ninstead of:\n\n```js\nconst minimist = require('minimist');\n\nconst options = {\n\tstring: ['name', '_'],\n\tboolean: ['force', 'published'],\n\talias: {\n\t\tn: 'name',\n\t\tf: 'force',\n\t\to: 'force'\n\t},\n\tdefault: {\n\t\tname: 'john',\n\t\tf: false\n\t}\n};\n\nconst args = minimist(options);\n```\n\n## License\n\nMIT © [Vadim Demedes](https://vadimdemedes.com)\n",
+  "maintainers": [
+    {
+      "name": "vdemedes",
+      "email": "vdemedes@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-08-09T16:28:19.261Z",
+    "created": "2015-08-26T09:41:17.644Z",
+    "1.0.0": "2015-08-26T09:41:17.644Z",
+    "2.0.0": "2016-08-13T12:35:35.087Z",
+    "2.0.1": "2016-08-14T17:34:13.123Z",
+    "2.0.2": "2017-02-23T21:21:59.019Z",
+    "2.1.0": "2017-05-31T07:00:15.486Z",
+    "3.0.0": "2017-05-31T07:22:35.533Z",
+    "3.0.1": "2017-05-31T07:54:34.186Z",
+    "3.0.2": "2017-08-09T16:28:19.261Z"
+  },
+  "homepage": "https://github.com/vadimdemedes/minimist-options#readme",
+  "keywords": [
+    "minimist",
+    "argv",
+    "args"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimdemedes/minimist-options.git"
+  },
+  "author": {
+    "name": "Vadim Demedes",
+    "email": "vdemedes@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vadimdemedes/minimist-options/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "dvl": true
+  },
+  "_attachments": {}
+}

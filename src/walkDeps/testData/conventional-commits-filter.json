@@ -1,0 +1,906 @@
+{
+  "_id": "conventional-commits-filter",
+  "_rev": "17-f101e9003a8a04e7385c2339bfd92e3d",
+  "name": "conventional-commits-filter",
+  "description": "Filter out reverted commits parsed by conventional-commits-parser",
+  "dist-tags": {
+    "latest": "1.1.5"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-commits-filter",
+      "version": "0.0.0",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@0.0.0",
+      "_shasum": "011cb5d446b877d5b1838bdec2acd4f268e4c5e0",
+      "_from": ".",
+      "_npmVersion": "2.12.0",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "011cb5d446b877d5b1838bdec2acd4f268e4c5e0",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "conventional-commits-filter",
+      "version": "0.0.1",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "license": "MIT",
+      "gitHead": "39eafeb5b2066e90d14c9e2682e961e5457fa20d",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@0.0.1",
+      "_shasum": "628484e1903df9127997f72c56b0b6a563726dab",
+      "_from": ".",
+      "_npmVersion": "2.12.0",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "628484e1903df9127997f72c56b0b6a563726dab",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-0.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-commits-filter",
+      "version": "0.1.0",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "license": "MIT",
+      "gitHead": "b833f8cf0fdb65a8f32e4bdf4418c839109f3844",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@0.1.0",
+      "_shasum": "56fdc5bc11fb6f956718f513475d5b1410edb1e2",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "56fdc5bc11fb6f956718f513475d5b1410edb1e2",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-0.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "conventional-commits-filter",
+      "version": "0.1.1",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.17",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "license": "MIT",
+      "gitHead": "f6b2d40291aaa7f53222a7be27b47e477106256a",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@0.1.1",
+      "_shasum": "d9d26c7599f89de3d249cba3def7911fc51c0dab",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "d9d26c7599f89de3d249cba3def7911fc51c0dab",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-0.1.1.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-commits-filter",
+      "version": "1.0.0",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "license": "MIT",
+      "gitHead": "a0776438c23b88b75a8b01c8f0f54938e83f516c",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@1.0.0",
+      "_shasum": "6fc2a659372bc3f2339cf9ffff7e1b0344b93039",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "6fc2a659372bc3f2339cf9ffff7e1b0344b93039",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-filter-1.0.0.tgz_1454938546759_0.20571616431698203"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.0",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@1.1.0",
+      "_shasum": "1fc29af30b5edab76f54e229c411b0c663d0f9eb",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1fc29af30b5edab76f54e229c411b0c663d0f9eb",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter-1.1.0.tgz_1510532235817_0.845973472809419"
+      },
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.1",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@1.1.1",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-bQyatySNKHhcaeKVr9vFxYWA1W1Tdz6ybVMYDmv4/FhOXY1+fchiW07TzRbIQZhVa4cvBwrEaEUQBbCncFSdJQ==",
+        "shasum": "72172319c0c88328a015b30686b55527b3a5e54a",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter-1.1.1.tgz_1512717191638_0.8993276099208742"
+      },
+      "directories": {}
+    },
+    "1.1.2": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.2",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@1.1.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-wdhpv4NU0dWrF50qLe0X01/aS9Z85XIRNspmuk7s1hYrjxR/iopy+89458Zo7bT6BaoAFhAyujK2jRDyJdKnfA==",
+        "shasum": "4fdea1e508cb241c1f293f520a24268cafc4393e",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.2.tgz",
+        "fileCount": 5,
+        "unpackedSize": 8779
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter_1.1.2_1518539025409_0.6341335815173863"
+      }
+    },
+    "1.1.3": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.3",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "homepage": "https://github.com/stevemao/conventional-commits-filter",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-filter.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-filter/issues"
+      },
+      "_id": "conventional-commits-filter@1.1.3",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-kwGGg0xCHR51YIVjtoCTNgx9I1qEMETerTdSK4XsH2OxNLigDn6XKXnPMFZ+gfoUxaqbnpFSJqs4jYVpuJ1XAg==",
+        "shasum": "5bf591bc4882fc8c9bd329e5a83ca1fa8721d9fb",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.3.tgz",
+        "fileCount": 5,
+        "unpackedSize": 9032
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter_1.1.3_1518539268972_0.8134395966853047"
+      }
+    },
+    "1.1.4": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.4",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-filter#readme",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "devDependencies": {
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "_id": "conventional-commits-filter@1.1.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-VaLmHo+P1IYQenZwkgp21y9z5tyU8sH3GKI/AfthQYPK9IYhT4lNbATGW9Iona+BU3fmWw/9S3L5vMopMI+jkA==",
+        "shasum": "8b5be3979c372e4f7440180d5c655a94ac5a134a",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.4.tgz",
+        "fileCount": 5,
+        "unpackedSize": 9529
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter_1.1.4_1519100428406_0.5020067948598923"
+      }
+    },
+    "1.1.5": {
+      "name": "conventional-commits-filter",
+      "version": "1.1.5",
+      "description": "Filter out reverted commits parsed by conventional-commits-parser",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-filter#readme",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "filter",
+        "conventional",
+        "changelog",
+        "commits"
+      ],
+      "dependencies": {
+        "is-subset": "^0.1.1",
+        "modify-values": "^1.0.0"
+      },
+      "scripts": {
+        "lint": "jshint *.js && jscs *.js",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "license": "MIT",
+      "_id": "conventional-commits-filter@1.1.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-mj3+WLj8UZE72zO9jocZjx8+W4Bwnx/KHoIz1vb4F8XUXj0XSjp8Y3MFkpRyIpsRiCBX+DkDjxGKF/nfeu7BGw==",
+        "shasum": "77aac065e3de9c1a74b801e8e25c9affb3184f65",
+        "tarball": "https://registry.npmjs.org/conventional-commits-filter/-/conventional-commits-filter-1.1.5.tgz",
+        "fileCount": 5,
+        "unpackedSize": 9674
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-filter_1.1.5_1519510360878_0.7471795286277008"
+      }
+    }
+  },
+  "readme": "# conventional-commits-filter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]\n> Filter out reverted commits parsed by conventional-commits-parser\n\n\n## Install\n\n```sh\n$ npm install --save conventional-commits-filter\n```\n\n\n## Usage\n\n```js\nvar conventionalCommitsFilter = require('conventional-commits-filter');\n\nvar commits = [{\n  type: 'revert',\n  scope: null,\n  subject: 'feat(): amazing new module',\n  header: 'revert: feat(): amazing new module\\n',\n  body: 'This reverts commit 56185b7356766d2b30cfa2406b257080272e0b7a.\\n',\n  footer: null,\n  notes: [],\n  references: [],\n  revert: {\n    header: 'feat(): amazing new module',\n    hash: '56185b7356766d2b30cfa2406b257080272e0b7a',\n    body: null\n  },\n  hash: '789d898b5f8422d7f65cc25135af2c1a95a125ac\\n',\n  raw: {\n    type: 'revert',\n    scope: null,\n    subject: 'feat(): amazing new module',\n    header: 'revert: feat(): amazing new module\\n',\n    body: 'This reverts commit 56185b7356766d2b30cfa2406b257080272e0b7a.\\n',\n    footer: null,\n    notes: [],\n    references: [],\n    revert: {\n      header: 'feat(): amazing new module',\n      hash: '56185b7356766d2b30cfa2406b257080272e0b7a',\n      body: null\n    },\n    hash: '789d898b5f8422d7f65cc25135af2c1a95a125ac\\n'\n  }\n}, {\n  type: 'Features',\n  scope: null,\n  subject: 'wow',\n  header: 'amazing new module\\n',\n  body: null,\n  footer: 'BREAKING CHANGE: Not backward compatible.\\n',\n  notes: [],\n  references: [],\n  revert: null,\n  hash: '56185b',\n  raw: {\n    type: 'feat',\n    scope: null,\n    subject: 'amazing new module',\n    header: 'feat(): amazing new module\\n',\n    body: null,\n    footer: 'BREAKING CHANGE: Not backward compatible.\\n',\n    notes: [],\n    references: [],\n    revert: null,\n    hash: '56185b7356766d2b30cfa2406b257080272e0b7a\\n'\n  }\n}, {\n  type: 'What',\n  scope: null,\n  subject: 'new feature',\n  header: 'feat(): new feature\\n',\n  body: null,\n  footer: null,\n  notes: [],\n  references: [],\n  revert: null,\n  hash: '815a3f0',\n  raw: {\n    type: 'feat',\n    scope: null,\n    subject: 'new feature',\n    header: 'feat(): new feature\\n',\n    body: null,\n    footer: null,\n    notes: [],\n    references: [],\n    revert: null,\n    hash: '815a3f0717bf1dfce007bd076420c609504edcf3\\n'\n  }\n}, {\n  type: 'Chores',\n  scope: null,\n  subject: 'first commit',\n  header: 'chore: first commit\\n',\n  body: null,\n  footer: null,\n  notes: [],\n  references: [],\n  revert: null,\n  hash: '74a3e4d6d25',\n  raw: {\n    type: 'chore',\n    scope: null,\n    subject: 'first commit',\n    header: 'chore: first commit\\n',\n    body: null,\n    footer: null,\n    notes: [],\n    references: [],\n    revert: null,\n    hash: '74a3e4d6d25dee2c0d6483a0a3887417728cbe0a\\n'\n  }\n}];\n\ncommits = conventionalCommitsFilter(commits);\nconsole.log(commits);\n/*=>\n[{\n  type: 'What',\n  scope: null,\n  subject: 'new feature',\n  header: 'feat(): new feature\\n',\n  body: null,\n  footer: null,\n  notes: [],\n  references: [],\n  revert: null,\n  hash: '815a3f0',\n  raw: {\n    type: 'feat',\n    scope: null,\n    subject: 'new feature',\n    header: 'feat(): new feature\\n',\n    body: null,\n    footer: null,\n    notes: [],\n    references: [],\n    revert: null,\n    hash: '815a3f0717bf1dfce007bd076420c609504edcf3\\n'\n  }\n}, {\n  type: 'Chores',\n  scope: null,\n  subject: 'first commit',\n  header: 'chore: first commit\\n',\n  body: null,\n  footer: null,\n  notes: [],\n  references: [],\n  revert: null,\n  hash: '74a3e4d6d25',\n  raw: {\n    type: 'chore',\n    scope: null,\n    subject: 'first commit',\n    header: 'chore: first commit\\n',\n    body: null,\n    footer: null,\n    notes: [],\n    references: [],\n    revert: null,\n    hash: '74a3e4d6d25dee2c0d6483a0a3887417728cbe0a\\n'\n  }\n}]\n*/\n```\n\n## License\n\nMIT © [Steve Mao]()\n\n\n[npm-image]: https://badge.fury.io/js/conventional-commits-filter.svg\n[npm-url]: https://npmjs.org/package/conventional-commits-filter\n[travis-image]: https://travis-ci.org/stevemao/conventional-commits-filter.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-commits-filter\n[daviddm-image]: https://david-dm.org/stevemao/conventional-commits-filter.svg\n[daviddm-url]: https://david-dm.org/stevemao/conventional-commits-filter\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-commits-filter/badge.svg?branch=master\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-commits-filter\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:41.715Z",
+    "created": "2015-07-03T11:27:02.307Z",
+    "0.0.0": "2015-07-03T11:27:02.307Z",
+    "0.0.1": "2015-07-03T11:41:39.343Z",
+    "0.1.0": "2015-07-23T11:55:50.505Z",
+    "0.1.1": "2015-08-12T11:56:46.105Z",
+    "1.0.0": "2016-02-08T13:35:49.267Z",
+    "1.1.0": "2017-11-13T00:17:15.875Z",
+    "1.1.1": "2017-12-08T07:13:11.796Z",
+    "1.1.2": "2018-02-13T16:23:45.498Z",
+    "1.1.3": "2018-02-13T16:27:49.026Z",
+    "1.1.4": "2018-02-20T04:20:28.446Z",
+    "1.1.5": "2018-02-24T22:12:40.963Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-filter#readme",
+  "keywords": [
+    "filter",
+    "conventional",
+    "changelog",
+    "commits"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

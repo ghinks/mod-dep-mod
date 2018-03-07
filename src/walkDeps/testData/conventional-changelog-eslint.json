@@ -1,0 +1,996 @@
+{
+  "_id": "conventional-changelog-eslint",
+  "_rev": "19-c19974904726890d3a83d0e80f13db19",
+  "name": "conventional-changelog-eslint",
+  "description": "conventional-changelog eslint preset",
+  "dist-tags": {
+    "latest": "1.0.5"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-eslint",
+      "version": "0.0.0",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "f486044839ee3a219f012f04cac4fe8de9005ae8",
+      "_id": "conventional-changelog-eslint@0.0.0",
+      "_shasum": "c8488de0b46287c68cc8e8c590fad11b7b6158e5",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "c8488de0b46287c68cc8e8c590fad11b7b6158e5",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-eslint",
+      "version": "0.1.0",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "7d881a43f6f708e4d0a6abbba36c6fefec529941",
+      "_id": "conventional-changelog-eslint@0.1.0",
+      "_shasum": "a52411e999e0501ce500b856b0a643d0330907e2",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a52411e999e0501ce500b856b0a643d0330907e2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-eslint",
+      "version": "0.2.0",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@0.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-WGKnC0bGPD6BHGiRBfYqNGfy6DZDn2jGs1yxPRT8I2796wYdGqsbDF4477o4fdsxUJvckoW2OFPqkmRMQaCHSA==",
+        "shasum": "b4b9b5dc09417844d87c7bcfb16bdcc686c4b1c1",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint-0.2.0.tgz_1500334223923_0.4808654384687543"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-eslint",
+      "version": "0.2.1",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@0.2.1",
+      "_shasum": "2c2a11beb216f80649ba72834180293b687c0662",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "2c2a11beb216f80649ba72834180293b687c0662",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-0.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint-0.2.1.tgz_1510532234485_0.41789502184838057"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-eslint",
+      "version": "0.3.0",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@0.3.0",
+      "_shasum": "16021688acc87b1bea60643a02fd20e7ca29d057",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "16021688acc87b1bea60643a02fd20e7ca29d057",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint-0.3.0.tgz_1513607130874_0.21425924776121974"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.0",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.0",
+      "_shasum": "c63cd9d6f09d4e204530ae7369d7a20a167bc6bc",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "c63cd9d6f09d4e204530ae7369d7a20a167bc6bc",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint-1.0.0.tgz_1517191957449_0.48416502377949655"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.1",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-b1XIpoN5Ldby9VqXTqSdoJGzzd+TIuDYGRz9B738qqkKSnoEx/CSvJmUHnlSIoqIzkLDLQWAS/l5GnEXISrDHw==",
+        "shasum": "796dd59afad5b1c01dbb4a8e2ac8f76299c8178e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.1.tgz",
+        "fileCount": 11,
+        "unpackedSize": 9621
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint_1.0.1_1518539020882_0.6904742735669773"
+      }
+    },
+    "1.0.2": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.2",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-eslint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-eslint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-WDs2etoKFNRv3rFgbg3LqPbVWn89OL8bsRbU1NNAnpPVmWcQEGkg/Tny9BjJl++JjxmWqYY+xtPPdnvd63WIYw==",
+        "shasum": "3f9e6b0b60f98042f6f4dfc85a611a50b5e79cf9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.2.tgz",
+        "fileCount": 11,
+        "unpackedSize": 9882
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint_1.0.2_1518539264249_0.21049494448600314"
+      }
+    },
+    "1.0.3": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.3",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-4Y1/9TX16RvWiOdMnJQ8flxZ+hdDGVm1E4yrWvyr1L1UBWM56CJobMRg7nf+LqqVnKj0kkuyhwf3WV9//luYHg==",
+        "shasum": "023002a3f776266c501e4d4def7b0bb24130f29d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.3.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10218
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint_1.0.3_1519100425017_0.09833907879530446"
+      }
+    },
+    "1.0.4": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.4",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "0.0.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-93ZGrElD1e/5dIxTWBPGluWup0vRoM9W5e1jajsY/QLd86rLIfkOUC2cL+pgHpHtG3beUsDupm4kbTtiGdw0/w==",
+        "shasum": "333456d1884d96f3a49cc0984a745095e9d56288",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.4.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10374
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint_1.0.4_1519510356933_0.44956266110536114"
+      }
+    },
+    "1.0.5": {
+      "name": "conventional-changelog-eslint",
+      "version": "1.0.5",
+      "description": "conventional-changelog eslint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "eslint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "0.0.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-eslint@1.0.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.6.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-7NUv+gMOS8Y49uPFRgF7kuLZqpnrKa2bQMZZsc62NzvaJmjUktnV03PYHuXhTDEHt5guvV9gyEFtUpgHCDkojg==",
+        "shasum": "8bae05ebbf574e6506caf7b37dc51ca21b74d220",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.5.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10985
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-eslint_1.0.5_1520046905904_0.20851509611232122"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [eslint](https://github.com/eslint/eslint) preset\n\n**Issues with the convention itself should be reported on the ESLint issue tracker.**\n\n## ESLint Convention\n\nMake the changes to the code and tests and then commit to your branch. Be sure to follow the commit message conventions.\n\nCommit message summaries must follow this basic format:\n\n```\nTag: Message (fixes #1234)\n```\n\n`Tag` should not be confused with git tag.\n`Message` should not be confused with git commit message.\n\nThe `Tag` is one of the following:\n\n* `Fix` - for a bug fix.\n* `Update` - for a backwards-compatible enhancement.\n* `Breaking` - for a backwards-incompatible enhancement.\n* `Docs` - changes to documentation only.\n* `Build` - changes to build process only.\n* `New` - implemented a new feature.\n* `Upgrade` - for a dependency upgrade.\n\nThe message summary should be a one-sentence description of the change. The issue number should be mentioned at the end. * The commit message should say \"(fixes #1234)\" at the end of the description if it closes out an existing issue (replace 1234 with the issue number). If the commit doesn't completely fix the issue, then use `(refs #1234)` instead of `(fixes #1234)`.\n\nHere are some good commit message summary examples:\n\n```\nBuild: Update Travis to only test Node 0.10 (refs #734)\nFix: Semi rule incorrectly flagging extra semicolon (fixes #840)\nUpgrade: Esprima to 1.2, switch to using Esprima comment attachment (fixes #730)\n```\n\nThe commit message format is important because these messages are used to create a changelog for each release. The tag and issue number help to create more consistent and useful changelogs.\n\nBased on https://github.com/eslint/eslint.github.io/blob/master/docs/developer-guide/contributing.md#step-2-make-your-changes\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-eslint.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-eslint\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-eslint.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-eslint\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-eslint.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-eslint\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-eslint/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-eslint\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-03-03T03:15:06.959Z",
+    "created": "2015-12-26T07:57:28.018Z",
+    "0.0.0": "2015-12-26T07:57:28.018Z",
+    "0.1.0": "2016-01-30T07:08:23.345Z",
+    "0.2.0": "2017-07-17T23:30:24.000Z",
+    "0.2.1": "2017-11-13T00:17:14.604Z",
+    "0.3.0": "2017-12-18T14:25:31.739Z",
+    "1.0.0": "2018-01-29T02:12:38.351Z",
+    "1.0.1": "2018-02-13T16:23:41.192Z",
+    "1.0.2": "2018-02-13T16:27:44.294Z",
+    "1.0.3": "2018-02-20T04:20:25.508Z",
+    "1.0.4": "2018-02-24T22:12:36.982Z",
+    "1.0.5": "2018-03-03T03:15:06.000Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint#readme",
+  "keywords": [
+    "conventional-changelog",
+    "eslint",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

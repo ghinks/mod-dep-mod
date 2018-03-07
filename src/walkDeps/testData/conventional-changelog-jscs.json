@@ -1,0 +1,188 @@
+{
+  "_id": "conventional-changelog-jscs",
+  "_rev": "8-f364f7b72aed2027086921c18c5b7405",
+  "name": "conventional-changelog-jscs",
+  "description": "conventional-changelog jscs preset",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-jscs",
+      "version": "0.0.0",
+      "description": "conventional-changelog jscs preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jscs.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jscs",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jscs/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jscs#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "402facc3cac3681a55358fffae93ed369969fdfb",
+      "_id": "conventional-changelog-jscs@0.0.0",
+      "_shasum": "d322e1b9eeff5ef5740f0ed1f9e54a4b67f12aaa",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "d322e1b9eeff5ef5740f0ed1f9e54a4b67f12aaa",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jscs/-/conventional-changelog-jscs-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-jscs",
+      "version": "0.1.0",
+      "description": "conventional-changelog jscs preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jscs.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jscs",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jscs/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jscs#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "45182cb207c9bb69c9bd6374e797ccb540b4ee24",
+      "_id": "conventional-changelog-jscs@0.1.0",
+      "_shasum": "0479eb443cc7d72c58bf0bcf0ef1d444a92f0e5c",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0479eb443cc7d72c58bf0bcf0ef1d444a92f0e5c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jscs/-/conventional-changelog-jscs-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [jscs](https://github.com/jscs-dev/node-jscs) preset\n\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-jscs.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-jscs\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-jscs.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-jscs\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-jscs.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-jscs\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-jscs/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-jscs\n",
+  "maintainers": [
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    },
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    }
+  ],
+  "time": {
+    "modified": "2017-12-16T13:04:24.504Z",
+    "created": "2015-12-26T10:44:20.506Z",
+    "0.0.0": "2015-12-26T10:44:20.506Z",
+    "0.1.0": "2016-01-30T09:22:52.457Z"
+  },
+  "homepage": "https://github.com/stevemao/conventional-changelog-jscs#readme",
+  "keywords": [
+    "conventional-changelog",
+    "jscs",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/conventional-changelog-jscs.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/stevemao/conventional-changelog-jscs/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "readme.md",
+  "_attachments": {}
+}

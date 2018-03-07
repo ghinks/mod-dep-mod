@@ -12,6 +12,8 @@ program
 if (program.module) console.log(`Find root module that requires ${program.module}`)
 if (program.package) console.log(`Use ${program.package} as dependency source`)
 
+process.on('unhandledRejection', up => { throw new Error('uncaught!') })
+
 var getDependencyTree = function run() {
   if (!program.module) {
     console.log('useage -m or --module moduleName')

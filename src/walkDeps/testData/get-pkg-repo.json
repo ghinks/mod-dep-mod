@@ -1,0 +1,1340 @@
+{
+  "_id": "get-pkg-repo",
+  "_rev": "22-16fe126defb9b4b9c5e047984fb3f1e6",
+  "name": "get-pkg-repo",
+  "description": "Get normalized repository from package json data",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "get-pkg-repo",
+      "version": "0.0.0",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^2.0.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "ce869f54f6faadab11ef6d2dfc6b2bf63f9beb4c",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.0",
+      "_shasum": "4c0240ac9876d367c7b1705e25a2e56694e9f77e",
+      "_from": ".",
+      "_npmVersion": "2.6.0",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "4c0240ac9876d367c7b1705e25a2e56694e9f77e",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "get-pkg-repo",
+      "version": "0.0.1",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^2.0.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "dc48c6aed993754fa435bdadab55407db192b702",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.1",
+      "_shasum": "32f29415bd647edab9aa28838c4a2303ffcfc3ae",
+      "_from": ".",
+      "_npmVersion": "2.6.0",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "32f29415bd647edab9aa28838c4a2303ffcfc3ae",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "get-pkg-repo",
+      "version": "0.0.2",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^3.1.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "bc627fb0207fdf3a6adf8f0e14dcad185811f88f",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.2",
+      "_shasum": "952ab9d5538aa3dcc7dcd29ae9dd7c84a65c7941",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "952ab9d5538aa3dcc7dcd29ae9dd7c84a65c7941",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "get-pkg-repo",
+      "version": "0.0.3",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^3.1.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.7",
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "7e2410b0f20136885b022537d74cce57473d24eb",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.3",
+      "_shasum": "59869ccb18a1ccba4bdd122d433c8ffa952080fc",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "59869ccb18a1ccba4bdd122d433c8ffa952080fc",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.3.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.4": {
+      "name": "get-pkg-repo",
+      "version": "0.0.4",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^3.1.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.7",
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "a5639f5172e51207f8d09b0017d108a479eb050c",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.4",
+      "_shasum": "a92bf0b4527ae5f17c42dfe904c614dcb4b1ae7e",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "a92bf0b4527ae5f17c42dfe904c614dcb4b1ae7e",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.4.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.5": {
+      "name": "get-pkg-repo",
+      "version": "0.0.5",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^3.1.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.7",
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "0e822e64dae3e3d782edd0e6b384660403ac181c",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.5",
+      "_shasum": "c9f2388199fe505095bcb3b8657c9aa836acb0cd",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "c9f2388199fe505095bcb3b8657c9aa836acb0cd",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.5.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.6": {
+      "name": "get-pkg-repo",
+      "version": "0.0.6",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/get-pkg-repo"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "url",
+        "package",
+        "repository"
+      ],
+      "dependencies": {
+        "github-url-from-git": "^1.4.0",
+        "lodash.foreach": "^3.0.1",
+        "meow": "^3.1.0",
+        "normalize-package-data": "^1.0.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.7",
+        "mocha": "*"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "26d02f613e1212228ba6d2fd11aa65a635dcbf90",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.0.6",
+      "_shasum": "b0c665e8cda4b9e199006ef0f59491ae2a9e3c13",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "b0c665e8cda4b9e199006ef0f59491ae2a9e3c13",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.0.6.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "get-pkg-repo",
+      "version": "0.1.0",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "f2d42e3a1f4808fc97c8323b941669fb437ab2ee",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@0.1.0",
+      "_shasum": "7f04d968564bf9cd2e901810577f84c37f2b03bd",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "7f04d968564bf9cd2e901810577f84c37f2b03bd",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-0.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "get-pkg-repo",
+      "version": "1.0.0",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "dd1d49b850586a19795c76274e3abfc72ef39862",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.0.0",
+      "_shasum": "88ce552985636b56b354fa3c787c69af65010872",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "88ce552985636b56b354fa3c787c69af65010872",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.0.0.tgz_1454503098152_0.6547742809634656"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "get-pkg-repo",
+      "version": "1.1.0",
+      "description": "Get repository url from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "@bahmutov/parse-github-repo-url": "^0.1.1",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "a000309eb862c358d4c3ada02c61d7f2ae028494",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.1.0",
+      "_shasum": "f667ae9052a4af9573e162da03871bba47a3d753",
+      "_from": ".",
+      "_npmVersion": "3.8.3",
+      "_nodeVersion": "5.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "f667ae9052a4af9573e162da03871bba47a3d753",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.1.0.tgz_1460503867790_0.31512916716746986"
+      },
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "get-pkg-repo",
+      "version": "1.1.1",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.2.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "8afd6b6753c9f14475c655477ea34ca7aa2b9a1d",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.1.1",
+      "_shasum": "9da711295f3e47f448f92e51052d7582af4c6bf2",
+      "_from": ".",
+      "_npmVersion": "3.8.3",
+      "_nodeVersion": "5.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "9da711295f3e47f448f92e51052d7582af4c6bf2",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.1.1.tgz_1460592652606_0.7977594621479511"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "get-pkg-repo",
+      "version": "1.2.0",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.2.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "f9ed40281b73f12db6c9360442c4ff5549336fb1",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.2.0",
+      "_shasum": "f8cf55923871f0686057522603a7fb177f9386e7",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "f8cf55923871f0686057522603a7fb177f9386e7",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.2.0.tgz_1460866295121_0.9602493068668991"
+      },
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "get-pkg-repo",
+      "version": "1.2.1",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.2.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "a3bd20ef755b05ef381dbebff659314498cc95eb",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.2.1",
+      "_shasum": "dbede69bedb223194e209cc6286f512f60235812",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "dbede69bedb223194e209cc6286f512f60235812",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.2.1.tgz_1462881268771_0.9441392072476447"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "get-pkg-repo",
+      "version": "1.3.0",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.3.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "1041094ceef6e9762af8dc4da156adf11a6ba870",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.3.0",
+      "_shasum": "43c6b4c048b75dd604fc5388edecde557f6335df",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "43c6b4c048b75dd604fc5388edecde557f6335df",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/get-pkg-repo-1.3.0.tgz_1471611531138_0.23611192498356104"
+      },
+      "directories": {}
+    },
+    "1.4.0": {
+      "name": "get-pkg-repo",
+      "version": "1.4.0",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "typos.json"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.3.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "46e448b6274ce2786808251a5772a3329b7b4040",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@1.4.0",
+      "_shasum": "c73b489c06d80cc5536c2c853f9e05232056972d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "c73b489c06d80cc5536c2c853f9e05232056972d",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-1.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "hbetts",
+          "email": "hutson@hyper-expanse.net"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/get-pkg-repo-1.4.0.tgz_1498138533288_0.9815060121472925"
+      },
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "get-pkg-repo",
+      "version": "2.0.0",
+      "description": "Get normalized repository from package json data",
+      "homepage": "https://github.com/stevemao/get-pkg-repo",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "get-pkg-repo",
+        "normalize",
+        "fix",
+        "typo",
+        "hosted-git-info",
+        "repo",
+        "npm",
+        "git",
+        "info",
+        "url",
+        "package",
+        "pkg",
+        "repository"
+      ],
+      "dependencies": {
+        "parse-github-repo-url": "^1.3.0",
+        "hosted-git-info": "^2.1.4",
+        "meow": "^3.3.0",
+        "normalize-package-data": "^2.3.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.8.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run lint && npm run coverage"
+      },
+      "bin": {
+        "get-pkg-repo": "cli.js"
+      },
+      "gitHead": "546211fdc30f8f06139a6163e6173c9d80c0022d",
+      "bugs": {
+        "url": "https://github.com/stevemao/get-pkg-repo/issues"
+      },
+      "_id": "get-pkg-repo@2.0.0",
+      "_shasum": "afe80c3370b2576bbe69aa78aedbfb96d2d025f1",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "afe80c3370b2576bbe69aa78aedbfb96d2d025f1",
+        "tarball": "https://registry.npmjs.org/get-pkg-repo/-/get-pkg-repo-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "hbetts",
+          "email": "hutson@hyper-expanse.net"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/get-pkg-repo-2.0.0.tgz_1512758004697_0.2942334362305701"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Get normalized repository URL from package json data\n\n\n## Synopsis\n\nPeople write the repository URL in their `package.json` file using different formats, and sometimes there is even a typo.\n\nThis module extracts the code from the [npm package manager](https://github.com/npm/npm/blob/master/lib/repo.js), and uses [normalize-package-data](https://github.com/npm/normalize-package-data), [hosted-git-info](https://github.com/npm/hosted-git-info) and [parse-github-repo-url](https://github.com/repo-utils/parse-github-repo-url), to parse the provided package input and return a repository URL object.\n\nIf you are interested, please check those other packages for more details.\n\nCommon misspelling of the [repository](https://docs.npmjs.com/files/package.json#repository) field are also corrected (Please see the source code for available corrections.).\n\n**This module mutates/normalizes the input using `normalize-package-data`.**\n\n**If you find the returned repository URL object is not correct, it's likely an issue with one of the libraries listed earlier. Please try to triage the problem before you open an issue here.**\n\n## Install\n\n```sh\n$ npm install --save get-pkg-repo\n```\n\n\n## Usage\n\n```js\nvar fs = require('fs');\nvar getPkgRepo = require('get-pkg-repo');\n\nfs.readFile('package.json', function(err, pkgData) {\n  if (err) {\n    ...\n  }\n\n  // Contents of `pkgData` are mutated/normalized by `normalize-package-data`.\n  var repo = getPkgRepo(pkgData);\n  console.log(repo)\n  /*=>\n  { type: 'github',\n    protocols: [ 'git', 'http', 'git+ssh', 'git+https', 'ssh', 'https' ],\n    domain: 'github.com',\n    treepath: 'tree',\n    filetemplate: 'https://{auth@}raw.githubusercontent.com/{user}/{project}/{committish}/{path}',\n    bugstemplate: 'https://{domain}/{user}/{project}/issues',\n    gittemplate: 'git://{auth@}{domain}/{user}/{project}.git{#committish}',\n    sshtemplate: 'git@{domain}:{user}/{project}.git{#committish}',\n    sshurltemplate: 'git+ssh://git@{domain}/{user}/{project}.git{#committish}',\n    browsetemplate: 'https://{domain}/{user}/{project}{/tree/committish}',\n    docstemplate: 'https://{domain}/{user}/{project}{/tree/committish}#readme',\n    httpstemplate: 'git+https://{auth@}{domain}/{user}/{project}.git{#committish}',\n    shortcuttemplate: '{type}:{user}/{project}{#committish}',\n    pathtemplate: '{user}/{project}{#committish}',\n    pathmatch: /^[\\/]([^\\/]+)[\\/]([^\\/]+?)(?:[.]git)?$/,\n    protocols_re: /^(git|http|git\\+ssh|git\\+https|ssh|https):$/,\n    user: 'stevemao',\n    auth: null,\n    project: 'get-pkg-repo',\n    committish: null,\n    default: 'https' }\n  */\n})\n```\n\n\n## API\n\n`getPkgRepo(pkgData, [fixTypo])`\n\nReturns a [`hosted-git-info`](https://github.com/npm/hosted-git-info) returned object if it matches a git host. If not, it returns a `url.parse` object with a `browse` function which returns the url that can be browsed.\n\n### pkgData\n\nType: `object` or `json`\n\nShould be the contents of a `package.json` file.\n\nContents of `pkgData` are mutated/normalized by `normalize-package-data`.\n\n### fixTypo\n\nType: `boolean`\n\nIf you want to fix your typical typos automatically pass `true`.\n\n> Please keep in mind that this feature may be removed in the future. The [`repository`](https://docs.npmjs.com/files/package.json#repository) field in `package.json` is well documented and it should be correctly spelled.\n\n## CLI\n\n```sh\n$ npm install --global get-pkg-repo\n```\n\nYou can use cli to see what your url will look like after being parsed.\n\nYou can enter interactive mode by typing\n\n```sh\n$ get-pkg-repo\nhttps://github.com/stevemao/get-pkg-repo\n{ type: 'github',\n  protocols: [ 'git', 'http', 'git+ssh', 'git+https', 'ssh', 'https' ],\n  domain: 'github.com',\n  treepath: 'tree',\n  filetemplate: 'https://{auth@}raw.githubusercontent.com/{user}/{project}/{committish}/{path}',\n  bugstemplate: 'https://{domain}/{user}/{project}/issues',\n  gittemplate: 'git://{auth@}{domain}/{user}/{project}.git{#committish}',\n  sshtemplate: 'git@{domain}:{user}/{project}.git{#committish}',\n  sshurltemplate: 'git+ssh://git@{domain}/{user}/{project}.git{#committish}',\n  browsetemplate: 'https://{domain}/{user}/{project}{/tree/committish}',\n  docstemplate: 'https://{domain}/{user}/{project}{/tree/committish}#readme',\n  httpstemplate: 'git+https://{auth@}{domain}/{user}/{project}.git{#committish}',\n  shortcuttemplate: '{type}:{user}/{project}{#committish}',\n  pathtemplate: '{user}/{project}{#committish}',\n  pathmatch: /^[\\/]([^\\/]+)[\\/]([^\\/]+?)(?:[.]git)?$/,\n  protocols_re: /^(git|http|git\\+ssh|git\\+https|ssh|https):$/,\n  user: 'stevemao',\n  auth: null,\n  project: 'get-pkg-repo',\n  committish: null,\n  default: 'https' }\n```\n\nYou can also validate the repository url in your package.json by using the command followed by a package.json path. You can specify more than one path at a time.\n\n```sh\n$ get-pkg-repo package.json\n{ type: 'github',\n  protocols: [ 'git', 'http', 'git+ssh', 'git+https', 'ssh', 'https' ],\n...\n# or\n$ cat package.json | get-pkg-repo --fix-typo\n{ type: 'github',\n  protocols: [ 'git', 'http', 'git+ssh', 'git+https', 'ssh', 'https' ],\n...\n```\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n[npm-image]: https://badge.fury.io/js/get-pkg-repo.svg\n[npm-url]: https://npmjs.org/package/get-pkg-repo\n[travis-image]: https://travis-ci.org/stevemao/get-pkg-repo.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/get-pkg-repo\n[daviddm-image]: https://david-dm.org/stevemao/get-pkg-repo.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/get-pkg-repo\n[coveralls-image]: https://coveralls.io/repos/stevemao/get-pkg-repo/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/get-pkg-repo\n",
+  "maintainers": [
+    {
+      "name": "hbetts",
+      "email": "hutson@hyper-expanse.net"
+    },
+    {
+      "name": "stevemao",
+      "email": "maochenyan@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-12-08T18:33:25.621Z",
+    "created": "2015-02-26T07:37:16.582Z",
+    "0.0.0": "2015-02-26T07:37:16.582Z",
+    "0.0.1": "2015-02-26T07:45:17.169Z",
+    "0.0.2": "2015-03-07T05:21:19.928Z",
+    "0.0.3": "2015-03-07T13:14:09.153Z",
+    "0.0.4": "2015-03-23T04:34:09.342Z",
+    "0.0.5": "2015-03-27T00:39:49.064Z",
+    "0.0.6": "2015-04-02T12:50:48.442Z",
+    "0.1.0": "2015-07-16T10:12:00.014Z",
+    "1.0.0": "2016-02-03T12:38:20.342Z",
+    "1.1.0": "2016-04-12T23:31:11.626Z",
+    "1.1.1": "2016-04-14T00:10:55.555Z",
+    "1.2.0": "2016-04-17T04:11:37.381Z",
+    "1.2.1": "2016-05-10T11:54:31.303Z",
+    "1.3.0": "2016-08-19T12:58:53.213Z",
+    "1.4.0": "2017-06-22T13:35:34.238Z",
+    "2.0.0": "2017-12-08T18:33:25.621Z"
+  },
+  "homepage": "https://github.com/stevemao/get-pkg-repo",
+  "keywords": [
+    "get-pkg-repo",
+    "normalize",
+    "fix",
+    "typo",
+    "hosted-git-info",
+    "repo",
+    "npm",
+    "git",
+    "info",
+    "url",
+    "package",
+    "pkg",
+    "repository"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/get-pkg-repo.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/stevemao/get-pkg-repo/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

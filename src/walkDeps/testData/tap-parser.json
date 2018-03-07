@@ -1,0 +1,5660 @@
+{
+  "_id": "tap-parser",
+  "_rev": "93-91445fb230b7baf77f51cb3a088a247d",
+  "name": "tap-parser",
+  "description": "parse the test anything protocol",
+  "dist-tags": {
+    "latest": "7.0.0"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "tap-parser",
+      "version": "0.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.0"
+      },
+      "devDependencies": {
+        "tap": "~0.3.0",
+        "tape": "~0.2.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "_id": "tap-parser@0.0.0",
+      "dist": {
+        "shasum": "c4fd7ab417fea3d86460f55fc9c79859f2f286c4",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.0.0.tgz"
+      },
+      "_npmVersion": "1.1.59",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "tap-parser",
+      "version": "0.0.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.0"
+      },
+      "devDependencies": {
+        "tap": "~0.3.0",
+        "tape": "~0.2.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "_id": "tap-parser@0.0.1",
+      "dist": {
+        "shasum": "14079fed1cf28dfa132d90545f0c055e7a1c2f8d",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.0.1.tgz"
+      },
+      "_npmVersion": "1.1.59",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "tap-parser",
+      "version": "0.0.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.2"
+      },
+      "devDependencies": {
+        "tap": "~0.3.0",
+        "tape": "~0.2.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "_id": "tap-parser@0.0.2",
+      "dist": {
+        "shasum": "f5f020f36a90596d17c1f85c1d43ac81e2f46292",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.0.2.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.2",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "tap-parser",
+      "version": "0.1.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.2"
+      },
+      "devDependencies": {
+        "tap": "~0.3.0",
+        "tape": "~0.2.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.1.0",
+      "dist": {
+        "shasum": "596d102c18c005323d4427be9da0be0ef5494105",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.1.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.7",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "tap-parser",
+      "version": "0.2.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.2"
+      },
+      "devDependencies": {
+        "tap": "~0.3.0",
+        "tape": "~0.2.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.2.0",
+      "dist": {
+        "shasum": "3db91f2759e6bb53602ba757b81d38d0d0a92d7e",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.2.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.7",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "tap-parser",
+      "version": "0.2.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "split": "~0.1.2"
+      },
+      "devDependencies": {
+        "tap": "~0.4.6",
+        "tape": "~2.3.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8",
+          "ie/9",
+          "chrome/23",
+          "firefox/17",
+          "opera/12",
+          "safari/5.1"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.2.1",
+      "dist": {
+        "shasum": "8e1e823f2114ee21d032e2f31e4fb642a296f50b",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.2.1.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.14",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "tap-parser",
+      "version": "0.3.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.3.0",
+      "dist": {
+        "shasum": "38d2b866cb7f45ffb01ab5cb9e5db5aef9eec7b1",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.3.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.21",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.4.0": {
+      "name": "tap-parser",
+      "version": "0.4.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/8..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.4.0",
+      "dist": {
+        "shasum": "0d59cfe95ed5cf09c3d6d0952563fd08a8127e40",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.4.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.21",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.4.1": {
+      "name": "tap-parser",
+      "version": "0.4.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.4.1",
+      "dist": {
+        "shasum": "4e509e8bbd4bc407603c728c5c2e5e3a29eb6eb9",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.4.1.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.21",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.4.2": {
+      "name": "tap-parser",
+      "version": "0.4.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "readable-stream": "~1.0.25"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.4.2",
+      "dist": {
+        "shasum": "19448c8bd83312572e626618307fa764229e04c4",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.4.2.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.30",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.4.3": {
+      "name": "tap-parser",
+      "version": "0.4.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.4.3",
+      "dist": {
+        "shasum": "a4eae190c10d76c7a111921ff38bbe4d58f09eea",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.4.3.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.30",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.5.0": {
+      "name": "tap-parser",
+      "version": "0.5.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.5.0",
+      "dist": {
+        "shasum": "a43e24d0350a9aff1e46886d60f0b2a5147649e3",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.5.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.6",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "directories": {}
+    },
+    "0.6.0": {
+      "name": "tap-parser",
+      "version": "0.6.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "minimist": "^0.2.0",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "a1fc3f2c8f6e9d0eba19d03d174c983ff238942a",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.6.0",
+      "_shasum": "ba9abaef8e5fda035ef53aa691f009c06f5b4fdc",
+      "_from": ".",
+      "_npmVersion": "1.4.15",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "dist": {
+        "shasum": "ba9abaef8e5fda035ef53aa691f009c06f5b4fdc",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.6.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.6.1": {
+      "name": "tap-parser",
+      "version": "0.6.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "minimist": "^0.2.0",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "db5ecaf3ad772326a3c6c1aec0363ef61faf7327",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.6.1",
+      "_shasum": "023233e3f3af1a819a9df7c20f3852ab47f509db",
+      "_from": ".",
+      "_npmVersion": "1.4.15",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "dist": {
+        "shasum": "023233e3f3af1a819a9df7c20f3852ab47f509db",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.6.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.6.2": {
+      "name": "tap-parser",
+      "version": "0.6.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "minimist": "^0.2.0",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "b48ea786e8cb3d27fcef86540001fca49638e85d",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.6.2",
+      "_shasum": "112bd98e1ef616b4a14b23b3835b7b49048dda5c",
+      "_from": ".",
+      "_npmVersion": "1.4.15",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "dist": {
+        "shasum": "112bd98e1ef616b4a14b23b3835b7b49048dda5c",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.6.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.7.0": {
+      "name": "tap-parser",
+      "version": "0.7.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "inherits": "~2.0.1",
+        "minimist": "^0.2.0",
+        "readable-stream": "~1.1.11"
+      },
+      "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.6"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "b80725adc41e9ce88a3a90fac5bc4e714fa8be9f",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@0.7.0",
+      "_shasum": "728a61d64680a5b48d5dbd9dbd0a4d48f5c35bcb",
+      "_from": ".",
+      "_npmVersion": "1.4.15",
+      "_npmUser": {
+        "name": "substack",
+        "email": "mail@substack.net"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        }
+      ],
+      "dist": {
+        "shasum": "728a61d64680a5b48d5dbd9dbd0a4d48f5c35bcb",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-0.7.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "tap-parser",
+      "version": "1.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "eb92cda34f0702f5f40576403c8b1cd23c361d01",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.0.0",
+      "_shasum": "1d004e3049dfd3fc74bfff92ea612eb8c43b17a1",
+      "_from": ".",
+      "_npmVersion": "2.7.1",
+      "_nodeVersion": "1.4.2",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "dist": {
+        "shasum": "1d004e3049dfd3fc74bfff92ea612eb8c43b17a1",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "tap-parser",
+      "version": "1.0.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "cee61760d595e6a0dd5844c2741d0a0c3fd32be1",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.0.1",
+      "_shasum": "5e822eb59ace34aa898a0d79bc5a1b64b1e789ea",
+      "_from": ".",
+      "_npmVersion": "2.7.1",
+      "_nodeVersion": "1.4.2",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "dist": {
+        "shasum": "5e822eb59ace34aa898a0d79bc5a1b64b1e789ea",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.2": {
+      "name": "tap-parser",
+      "version": "1.0.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "34dae091fd99e6ecb52290258176686795aa67e1",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.0.2",
+      "_shasum": "0d1e48161e61f552bd6c0e1aea9ad6c8861c8f13",
+      "_from": ".",
+      "_npmVersion": "2.7.1",
+      "_nodeVersion": "1.4.2",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "dist": {
+        "shasum": "0d1e48161e61f552bd6c0e1aea9ad6c8861c8f13",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.0.2.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.4": {
+      "name": "tap-parser",
+      "version": "1.0.4",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "040f4a43af2e1153883bf32d8c4604861dcbbeef",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.0.4",
+      "_shasum": "bc5d898c68bb6f0289c2329f45b3034b5498ebe7",
+      "_from": ".",
+      "_npmVersion": "2.7.4",
+      "_nodeVersion": "1.4.2",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "dist": {
+        "shasum": "bc5d898c68bb6f0289c2329f45b3034b5498ebe7",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.0.4.tgz"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "tap-parser",
+      "version": "1.1.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "ce376baa7504bf709575c7a58ecda4295ac405ce",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.0",
+      "_shasum": "8d7e565d79de4907128aa159912165c8a5b7b977",
+      "_from": ".",
+      "_npmVersion": "2.7.6",
+      "_nodeVersion": "1.7.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "8d7e565d79de4907128aa159912165c8a5b7b977",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "tap-parser",
+      "version": "1.1.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "6f01e30d938ea81fcbdde22344475eed1770b3df",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.1",
+      "_shasum": "ab603b4e84f21e77794f949238254d4cd75a3c88",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "ab603b4e84f21e77794f949238254d4cd75a3c88",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.2": {
+      "name": "tap-parser",
+      "version": "1.1.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "gitHead": "72e6fd99d13952bb891ddcb34bc010305c52d9a2",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.2",
+      "_shasum": "f65df02be5fb53b44cea658dc08747e364f860a0",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "f65df02be5fb53b44cea658dc08747e364f860a0",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.3": {
+      "name": "tap-parser",
+      "version": "1.1.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^1.1.13"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^1.1.13"
+      },
+      "gitHead": "a7ae76be5de71ab3f834846b8419737474b8aa3e",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.3",
+      "_shasum": "89d1f8d86a798dbbf1210183ba0e0fdb2b0d54f4",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "89d1f8d86a798dbbf1210183ba0e0fdb2b0d54f4",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.4": {
+      "name": "tap-parser",
+      "version": "1.1.4",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^1.1.13"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "~0.4.6",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^1.1.13"
+      },
+      "gitHead": "281603690aa80f104398f6a7fc4a0b1829fcc552",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.4",
+      "_shasum": "abf879fd4325c840b5815a69850757c9f7a43aa5",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "abf879fd4325c840b5815a69850757c9f7a43aa5",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.5": {
+      "name": "tap-parser",
+      "version": "1.1.5",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^1.1.13"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^1.1.13"
+      },
+      "gitHead": "5205f6a5d8dfd1b6efa981ea8d498031cc67ee60",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.5",
+      "_shasum": "06f1c5d54d6b997b03c6552317c48fb7990693e3",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "06f1c5d54d6b997b03c6552317c48fb7990693e3",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.1.6": {
+      "name": "tap-parser",
+      "version": "1.1.6",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^1.1.13"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^1.1.13"
+      },
+      "gitHead": "2fbe649bce1c6033ed5ac4e655ae4bee63424168",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.1.6",
+      "_shasum": "64cd200edd1124210f437a1f793eee6c5d4b658a",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "2.0.1",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "64cd200edd1124210f437a1f793eee6c5d4b658a",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "tap-parser",
+      "version": "1.2.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "gitHead": "01943a9fb9e06c59fd43594cc51aec9b0159f929",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.2.0",
+      "_shasum": "8c424741eddd11faeadf6a45edb0a6566c0e9a0c",
+      "_from": ".",
+      "_npmVersion": "3.3.1",
+      "_nodeVersion": "2.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "8c424741eddd11faeadf6a45edb0a6566c0e9a0c",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "tap-parser",
+      "version": "1.2.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "gitHead": "7aa002a82e13fa05813b01755f35a15d0603774a",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.2.1",
+      "_shasum": "24a2a15171d44e85ab468606a60b69c3673a6922",
+      "_from": ".",
+      "_npmVersion": "3.3.1",
+      "_nodeVersion": "2.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "24a2a15171d44e85ab468606a60b69c3673a6922",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.2.2": {
+      "name": "tap-parser",
+      "version": "1.2.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "f7ec0cb9626673a17334814ee409c3c4791e8093",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.2.2",
+      "_shasum": "5e2f6970611f079c7cf857de1dc7aa1b480de7a5",
+      "_from": ".",
+      "_npmVersion": "3.3.1",
+      "_nodeVersion": "2.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "5e2f6970611f079c7cf857de1dc7aa1b480de7a5",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "tap-parser",
+      "version": "1.3.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^6.3.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --cov",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "bdebc46cfb7406593f579b0eb2742ed95f8f23e3",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.3.0",
+      "_shasum": "e7b6adb1341fbbc11f43c5926b09a19e759f7daa",
+      "_from": ".",
+      "_npmVersion": "3.10.6",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "e7b6adb1341fbbc11f43c5926b09a19e759f7daa",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-1.3.0.tgz_1470814911049_0.42732518375851214"
+      },
+      "deprecated": "this version has a regression bug, please upgrade",
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "tap-parser",
+      "version": "1.3.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^6.3.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --cov",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "24e1bc4addba5168cffc656e80b53c01f101415f",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.3.1",
+      "_shasum": "616af17de316a368b4ffd6df626aeb4e1a674435",
+      "_from": ".",
+      "_npmVersion": "3.10.6",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "616af17de316a368b4ffd6df626aeb4e1a674435",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-1.3.1.tgz_1470815266434_0.7534851103555411"
+      },
+      "deprecated": "this version has a regression bug, please upgrade",
+      "directories": {}
+    },
+    "1.3.2": {
+      "name": "tap-parser",
+      "version": "1.3.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "inherits": "~2.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^5.0.2",
+        "tap": "^1.2.0",
+        "tape": "^3.5.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "8a5751a9404742b0a46dc1233a67bd66ed01d94d",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@1.3.2",
+      "_shasum": "120c5089c88c3c8a793ef288867de321e18f8c22",
+      "_from": ".",
+      "_npmVersion": "3.10.6",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "120c5089c88c3c8a793ef288867de321e18f8c22",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-1.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-1.3.2.tgz_1470936914647_0.9486940626520663"
+      },
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "tap-parser",
+      "version": "2.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^6.3.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --cov",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "70e7b3eecb48c7d9165d0c22d2b7ba3561d82ba1",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.0.0",
+      "_shasum": "9ec53f6b6cabad9cd7604116a6a915f7d34156c1",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "9ec53f6b6cabad9cd7604116a6a915f7d34156c1",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.0.0.tgz_1471506226816_0.6518651281949133"
+      },
+      "directories": {}
+    },
+    "2.1.0": {
+      "name": "tap-parser",
+      "version": "2.1.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "e2f47c8168db9fa2acfe2e84f7c42cd964572a49",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.1.0",
+      "_shasum": "d4b67f0b81eddc42122aa986ce14a196376c8cc1",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "d4b67f0b81eddc42122aa986ce14a196376c8cc1",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.1.0.tgz_1473136334489_0.3203387535177171"
+      },
+      "directories": {}
+    },
+    "2.2.0": {
+      "name": "tap-parser",
+      "version": "2.2.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "b87c6bb46d739c9a5b02ca1f61222f7675bc9c11",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.2.0",
+      "_shasum": "27bab8eb094332d66e8f20ef93f10411ab7d40bb",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "27bab8eb094332d66e8f20ef93f10411ab7d40bb",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.2.0.tgz_1473137496512_0.1560566918924451"
+      },
+      "directories": {}
+    },
+    "2.2.1": {
+      "name": "tap-parser",
+      "version": "2.2.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "e1acdcb6a02290d2123901e76615f31b96682dd1",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.2.1",
+      "_shasum": "360f3938ede2e47a4471467fdafabae0542cbd67",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "360f3938ede2e47a4471467fdafabae0542cbd67",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.2.1.tgz_1473228410903_0.9976313952356577"
+      },
+      "directories": {}
+    },
+    "2.2.2": {
+      "name": "tap-parser",
+      "version": "2.2.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "75ecf0dd7560eb4cd2f2b5de797f3c83369963df",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.2.2",
+      "_shasum": "41453bda1684800d1311c42e31bf4eeb4a171e2a",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "41453bda1684800d1311c42e31bf4eeb4a171e2a",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.2.2.tgz_1473283273819_0.9651450579985976"
+      },
+      "directories": {}
+    },
+    "2.2.3": {
+      "name": "tap-parser",
+      "version": "2.2.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "453f53509527c93447c7dff2722baac1f2e2ffaf",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@2.2.3",
+      "_shasum": "ade6e96e37bfd38ce0f162da067f34034f068b01",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "ade6e96e37bfd38ce0f162da067f34034f068b01",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-2.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-2.2.3.tgz_1473719436404_0.7427373630926013"
+      },
+      "directories": {}
+    },
+    "3.0.0": {
+      "name": "tap-parser",
+      "version": "3.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "c0b402520f6067c611ae9389bb787fff959dbcb2",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.0",
+      "_shasum": "36c423882143de795b93e820b8bea8dc9ebaae0c",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "36c423882143de795b93e820b8bea8dc9ebaae0c",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.0.tgz_1473787592696_0.17057639989070594"
+      },
+      "directories": {}
+    },
+    "3.0.1": {
+      "name": "tap-parser",
+      "version": "3.0.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "e151ccb48f37dba399714d7c924e87d37977b3f0",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.1",
+      "_shasum": "66ce7f83e7026312d700478fe318d3145c32f912",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "66ce7f83e7026312d700478fe318d3145c32f912",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.1.tgz_1473806257544_0.9827700261957943"
+      },
+      "directories": {}
+    },
+    "3.0.2": {
+      "name": "tap-parser",
+      "version": "3.0.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "2c10f67487cfa8447a5750e23fdd33ffcb16f7fe",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.2",
+      "_shasum": "cca8a9ed0115d7ce2f2af5234fd98810a4b1a27a",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "cca8a9ed0115d7ce2f2af5234fd98810a4b1a27a",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.2.tgz_1473807101249_0.5292992156464607"
+      },
+      "directories": {}
+    },
+    "3.0.3": {
+      "name": "tap-parser",
+      "version": "3.0.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^7.0.0"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "abad14f65b0a0aac05fc15e30f891a513033ce7d",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.3",
+      "_shasum": "6066a0256a185c158a1a6f2de89558c178aa1b47",
+      "_from": ".",
+      "_npmVersion": "3.10.7",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "6066a0256a185c158a1a6f2de89558c178aa1b47",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.3.tgz_1473812886998_0.12631105235777795"
+      },
+      "directories": {}
+    },
+    "3.0.4": {
+      "name": "tap-parser",
+      "version": "3.0.4",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "e1ffd5e147c78ae825330a56dc4c2d43946dc70a",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.4",
+      "_shasum": "3d8fcce8aa3792276afd7d75a1b791981630b83f",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "3d8fcce8aa3792276afd7d75a1b791981630b83f",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.4.tgz_1479773066748_0.42936701187863946"
+      },
+      "directories": {}
+    },
+    "3.0.5": {
+      "name": "tap-parser",
+      "version": "3.0.5",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "329827c504b15efe24b65548ebe43b5577b7734f",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@3.0.5",
+      "_shasum": "b947f69e0b3e53d4b92011f6cc552e16dadc7ec9",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "b947f69e0b3e53d4b92011f6cc552e16dadc7ec9",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-3.0.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-3.0.5.tgz_1483427983999_0.1068063285201788"
+      },
+      "directories": {}
+    },
+    "4.0.0": {
+      "name": "tap-parser",
+      "version": "4.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "832dd54da53b2c8f436f452da45ad84535705dd3",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.0.0",
+      "_shasum": "ec58e2917c8496a6fe5859c840fbf3d2b4000a61",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "ec58e2917c8496a6fe5859c840fbf3d2b4000a61",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.0.0.tgz_1483579185649_0.139249496627599"
+      },
+      "directories": {}
+    },
+    "4.1.0": {
+      "name": "tap-parser",
+      "version": "4.1.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "0bb20bcc7cfec02a2b1ef99a35e9388eb25d50f6",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.1.0",
+      "_shasum": "dc2c60358d06b2156ea81837350d45e2376b76bd",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "dc2c60358d06b2156ea81837350d45e2376b76bd",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.1.0.tgz_1483579916846_0.7281573594082147"
+      },
+      "directories": {}
+    },
+    "4.2.0": {
+      "name": "tap-parser",
+      "version": "4.2.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "b8f8b16fc6ca8895c92083acec01c8490eba4ee8",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.2.0",
+      "_shasum": "1c30ebf58366d491b6dc303db44cc7269b19bfc3",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "1c30ebf58366d491b6dc303db44cc7269b19bfc3",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.2.0.tgz_1483818772368_0.18449715431779623"
+      },
+      "directories": {}
+    },
+    "4.2.2": {
+      "name": "tap-parser",
+      "version": "4.2.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "b23881767677a380cb2cf7992535a77a0d6f3cc5",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.2.2",
+      "_shasum": "08fe2772c45a3fd0be928bb74a1629f47da51218",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "08fe2772c45a3fd0be928bb74a1629f47da51218",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.2.2.tgz_1483827124208_0.9609724343754351"
+      },
+      "directories": {}
+    },
+    "4.2.3": {
+      "name": "tap-parser",
+      "version": "4.2.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "b70488ee0828086fee332f6dfbac50d89ad55d03",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.2.3",
+      "_shasum": "fe2b30b61ceec17615f1fbed97a3e1fee44ee3d3",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "fe2b30b61ceec17615f1fbed97a3e1fee44ee3d3",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.2.3.tgz_1483828306734_0.7760439235717058"
+      },
+      "directories": {}
+    },
+    "4.2.4": {
+      "name": "tap-parser",
+      "version": "4.2.4",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^8.0.1"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "da25f4be4a3369cd6f39863d3d3d84de3ef9dfc3",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@4.2.4",
+      "_shasum": "65a2a602e49e17db83fa1f295f53fad03025cc4d",
+      "_from": ".",
+      "_npmVersion": "3.10.9",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "65a2a602e49e17db83fa1f295f53fad03025cc4d",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-4.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-4.2.4.tgz_1483849544679_0.04159993561916053"
+      },
+      "directories": {}
+    },
+    "5.0.0": {
+      "name": "tap-parser",
+      "version": "5.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "7fd9a8576bfe6bb8412de4e8c0a50fa5cfe17561",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.0.0",
+      "_shasum": "caf581163115afc84a3b5046a533cbc7dbe26dbe",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "caf581163115afc84a3b5046a533cbc7dbe26dbe",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.0.0.tgz_1484368388270_0.41526429867371917"
+      },
+      "directories": {}
+    },
+    "5.0.1": {
+      "name": "tap-parser",
+      "version": "5.0.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "aa4507741e1c2eb4b1b3023bba14db0ab28d779c",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.0.1",
+      "_shasum": "f8f4fcec22c82e597753f96970d8fdf09c0bde22",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "f8f4fcec22c82e597753f96970d8fdf09c0bde22",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.0.1.tgz_1484378603531_0.058972015511244535"
+      },
+      "directories": {}
+    },
+    "5.1.0": {
+      "name": "tap-parser",
+      "version": "5.1.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "2df57fd4049b8a509d923e5aeab64f224f34b582",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.1.0",
+      "_shasum": "6f93f4ebbc41414d5ab968c1c7c90c4a55a3d4d3",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "6f93f4ebbc41414d5ab968c1c7c90c4a55a3d4d3",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.1.0.tgz_1484633570863_0.8218988757580519"
+      },
+      "directories": {}
+    },
+    "5.1.1": {
+      "name": "tap-parser",
+      "version": "5.1.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "d808f0c118e5c996130fb5ed166274310f162bf8",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.1.1",
+      "_shasum": "e90b01086db1605213783b3a45e1548c74ad6f97",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "e90b01086db1605213783b3a45e1548c74ad6f97",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.1.1.tgz_1484867908905_0.769159592455253"
+      },
+      "directories": {}
+    },
+    "5.1.2": {
+      "name": "tap-parser",
+      "version": "5.1.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "4c95983834564580b173bbc6f4f8062179526075",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.1.2",
+      "_shasum": "37c8382249eb4f17032cb4512064b2faad200383",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "37c8382249eb4f17032cb4512064b2faad200383",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.1.2.tgz_1484937697300_0.1623274756129831"
+      },
+      "directories": {}
+    },
+    "5.1.3": {
+      "name": "tap-parser",
+      "version": "5.1.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "8ef70b9f578061129218f96f3cf926a6ae3a5c1a",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.1.3",
+      "_shasum": "2dcfba5236b36b60b2aed42b3e948d948d5220df",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "2dcfba5236b36b60b2aed42b3e948d948d5220df",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.1.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.1.3.tgz_1484946918035_0.3394736412446946"
+      },
+      "directories": {}
+    },
+    "5.1.4": {
+      "name": "tap-parser",
+      "version": "5.1.4",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "cb95444e665dd389583d8ae3404492b3ab6b6386",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.1.4",
+      "_shasum": "6990eeb97d1c64b5f393fef097cd04bb2ddfe0a5",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "6990eeb97d1c64b5f393fef097cd04bb2ddfe0a5",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.1.4.tgz_1484985196886_0.7570285580586642"
+      },
+      "directories": {}
+    },
+    "5.2.0": {
+      "name": "tap-parser",
+      "version": "5.2.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "979aa69662982a6b362baa0fbe386a6a05df4b13",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.2.0",
+      "_shasum": "63516fa3d59a11c6c3495d73cd265261a3da0702",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "63516fa3d59a11c6c3495d73cd265261a3da0702",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.2.0.tgz_1485065828996_0.09954994171857834"
+      },
+      "directories": {}
+    },
+    "5.3.0": {
+      "name": "tap-parser",
+      "version": "5.3.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "e0f159e86496dc9fd623f2a83034800312ac09b8",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.3.0",
+      "_shasum": "232b702b7fe5fc9cf357b6a04181bf051783ca9c",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "232b702b7fe5fc9cf357b6a04181bf051783ca9c",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.3.0.tgz_1485287248080_0.2853397782891989"
+      },
+      "directories": {}
+    },
+    "5.3.1": {
+      "name": "tap-parser",
+      "version": "5.3.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "9311dfe4aae93ec6d3ed512045bf79fb0bf1cdfe",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.3.1",
+      "_shasum": "01c0237ee45bde1878cf2cfc8e8186f5a8a18340",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "01c0237ee45bde1878cf2cfc8e8186f5a8a18340",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.3.1.tgz_1485294205838_0.4666800007689744"
+      },
+      "directories": {}
+    },
+    "5.3.2": {
+      "name": "tap-parser",
+      "version": "5.3.2",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "6449c7646519ec14d7f67652947be50f78f5b5d7",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.3.2",
+      "_shasum": "241e1a7c6c66c9a4047c9e16c43d96ae61e9be89",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "241e1a7c6c66c9a4047c9e16c43d96ae61e9be89",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.3.2.tgz_1485408022761_0.37333245924673975"
+      },
+      "directories": {}
+    },
+    "5.3.3": {
+      "name": "tap-parser",
+      "version": "5.3.3",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^9.0.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "efe98749780c8ab509b570af67b1f126962c5d62",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.3.3",
+      "_shasum": "53ec8a90f275d6fff43f169e56a679502a741185",
+      "_from": ".",
+      "_npmVersion": "4.3.0",
+      "_nodeVersion": "8.0.0-pre",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "shasum": "53ec8a90f275d6fff43f169e56a679502a741185",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.3.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/tap-parser-5.3.3.tgz_1486714517278_0.3808360346592963"
+      },
+      "directories": {}
+    },
+    "5.4.0": {
+      "name": "tap-parser",
+      "version": "5.4.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "readable-stream": "^2"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^10.3.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {
+        "readable-stream": "^2"
+      },
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "4645b0713572dcc3517edea1cc8ca7cd20094273",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@5.4.0",
+      "_npmVersion": "5.0.3",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "integrity": "sha512-BIsIaGqv7uTQgTW1KLTMNPSEQf4zDDPgYOBRdgOfuB+JFOLRBfEu6cLa/KvMvmqggu1FKXDfitjLwsq4827RvA==",
+        "shasum": "6907e89725d7b7fa6ae41ee2c464c3db43188aec",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-5.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/tap-parser-5.4.0.tgz_1497041998683_0.6618471667170525"
+      },
+      "directories": {}
+    },
+    "6.0.0": {
+      "name": "tap-parser",
+      "version": "6.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "minipass": "^2.2.0"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^10.3.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {},
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "17f06c28c56f0d6cd59f691b749e564d3728e361",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@6.0.0",
+      "_npmVersion": "5.1.0",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "integrity": "sha512-PNYjtj3dOzQfYyJ3UbUNni2NdmbnBfy2ljzlMnERgSdq1hzRbWcPqoKRFwOc2DhqnIG436aLrp3IFbGTK0msNA==",
+        "shasum": "a6bb018d335b94a89d28359f808e3ed61566a72f",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-6.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/tap-parser-6.0.0.tgz_1499640993166_0.8519424046389759"
+      },
+      "directories": {}
+    },
+    "6.0.1": {
+      "name": "tap-parser",
+      "version": "6.0.1",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "minipass": "^2.2.0"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^10.3.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {},
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "b5a133d505d44ffb4d659994ab22207d5b778f9f",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@6.0.1",
+      "_npmVersion": "5.1.0",
+      "_nodeVersion": "8.0.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "integrity": "sha512-1H9S4sE0etZqr0Ox3d5eCai5xrIk1zbR4pXxuNXAWo8PtoZDGsj2qrsOM1qaAW9JhwDgfAhllWaqCnysf4uVBg==",
+        "shasum": "9aac4e292461236be6ce3ac7acd4123db8809566",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-6.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/tap-parser-6.0.1.tgz_1499662578905_0.6220372670795768"
+      },
+      "directories": {}
+    },
+    "7.0.0": {
+      "name": "tap-parser",
+      "version": "7.0.0",
+      "description": "parse the test anything protocol",
+      "main": "index.js",
+      "bin": {
+        "tap-parser": "bin/cmd.js"
+      },
+      "dependencies": {
+        "events-to-array": "^1.0.1",
+        "js-yaml": "^3.2.7",
+        "minipass": "^2.2.0"
+      },
+      "devDependencies": {
+        "glob": "^7.0.5",
+        "tap": "^10.3.3"
+      },
+      "scripts": {
+        "test": "tap test/*.js --100 -J",
+        "regen-fixtures": "node scripts/generate-test.js test/fixtures/*.tap",
+        "preversion": "npm test",
+        "postversion": "npm publish",
+        "postpublish": "git push origin --all; git push origin --tags"
+      },
+      "testling": {
+        "files": "test/*.js",
+        "browsers": [
+          "ie/6..latest",
+          "chrome/10",
+          "chrome/latest",
+          "firefox/3.5",
+          "firefox/latest",
+          "opera/latest",
+          "safari/latest"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/tap-parser.git"
+      },
+      "homepage": "https://github.com/substack/tap-parser",
+      "keywords": [
+        "tap",
+        "test",
+        "parser"
+      ],
+      "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+      },
+      "license": "MIT",
+      "optionalDependencies": {},
+      "files": [
+        "index.js",
+        "bin/cmd.js",
+        "bin/usage.txt"
+      ],
+      "gitHead": "2e400d65f00fb199ae557ffb412edffbdfa92f82",
+      "bugs": {
+        "url": "https://github.com/substack/tap-parser/issues"
+      },
+      "_id": "tap-parser@7.0.0",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.7.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "i@izs.me"
+      },
+      "dist": {
+        "integrity": "sha512-05G8/LrzqOOFvZhhAk32wsGiPZ1lfUrl+iV7+OkKgfofZxiceZWMHkKmow71YsyVQ8IvGBP2EjcIjE5gL4l5lA==",
+        "shasum": "54db35302fda2c2ccc21954ad3be22b2cba42721",
+        "tarball": "https://registry.npmjs.org/tap-parser/-/tap-parser-7.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "substack",
+          "email": "mail@substack.net"
+        },
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/tap-parser-7.0.0.tgz_1510333542844_0.2292915810830891"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# tap-parser\n\nparse the [test anything protocol](http://testanything.org/)\n\n[![build status](https://secure.travis-ci.org/tapjs/tap-parser.png)](http://travis-ci.org/tapjs/tap-parser)\n\n[![browser support](http://ci.testling.com/substack/tap-parser.png)](http://ci.testling.com/substack/tap-parser)\n\n[![coverage status](https://coveralls.io/repos/tapjs/tap-parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/tapjs/tap-parser?branch=master)\n\n# example\n\n``` js\nvar Parser = require('tap-parser');\nvar p = new Parser(function (results) {\n    console.dir(results);\n});\n\nprocess.stdin.pipe(p);\n```\n\ngiven some [TAP](http://testanything.org/)-formatted input:\n\n```\n$ node test.js\nTAP version 13\n# beep\nok 1 should be equal\nok 2 should be equivalent\n# boop\nok 3 should be equal\nok 4 (unnamed assert)\n\n1..4\n# tests 4\n# pass  4\n\n# ok\n```\n\nparse the output:\n\n```\n$ node test.js | node parse.js\n{ ok: true, count: 4, pass: 4, plan: { start: 1, end: 4 } }\n```\n\n# usage\n\nThis package also has a `tap-parser` command.\n\n```\nUsage:\n  tap-parser <options>\n\nParses TAP data from stdin, and outputs the parsed result\nin the format specified by the options.  Default output is\nuses node's `util.format()` method.\n\nOptions:\n\n  -j [<indent>] | --json[=indent]\n    Output event data as JSON with the specified indentation (default=2)\n\n  -t | --tap\n    Output data as reconstituted TAP based on parsed results\n\n  -l | --lines\n    Output each parsed line as it is recognized by the parser\n\n  -b | --bail\n    Emit a `Bail out!` at the first failed test point encountered\n\n  -w | --ignore-all-whitespace\n    Skip over blank lines outside of YAML blocks\n\n  -o | --omit-version\n    Ignore the `TAP version 13` line at the start of tests\n```\n\n# methods\n\n``` js\nvar Parser = require('tap-parser')\n```\n\n## var p = new Parser(options, cb)\n\nReturn a writable stream `p` that emits parse events.\n\nIf `cb` is given it will listen for the `'complete'` event.\n\nIf `options` is given, it may contain the following flags:\n\n- `preserveWhitespace` boolean which is `false` by default and will\n  cause the parser to emit `line` events even for lines containing\n  only whitespace.  (Whitespace lines in yaml blocks are always\n  emitted, because whitespace is semantically relevant for yaml.)\n\n- `strict` boolean which is `false` by default and causes the parser\n  to treat non-TAP input as a failure.  Strictness is heritable to\n  child subtests.  You can also turn strictness on or off by using the\n  `pragma +strict` line in the TAP data to turn strictness on, or\n  `pragma -strict` to turn strictness off.\n\n- `bail` boolean which is `false` by default and will cause the parser\n  to bail out (including emitting a synthetic `Bail out!` line)\n  whenever a failed test point is encountered.\n\n- `omitVersion` boolean which is `false` by default and will cause the\n  parser to ignore `TAP version 13` lines.  Version lines in subtests\n  cause problems with some parsers, so they are always ignored.\n\n- `passes` boolean which is false by default and will add \"passes\" property for that contains the result of all passed tests\n\nThe `parent`, `level` and `buffered` options are reserved for internal\nuse.\n\n# events\n\n## p.on('complete', function (results) {})\n\nThe `results` object contains a summary of the number of tests\nskipped, failed, passed, etc., as well as a boolean `ok` member which\nis true if and only if the planned test were all found, and either\n\"ok\" or marked as \"TODO\".\n\n## p.on('line', function (line) {})\n\nAs each line of input is parsed, a `line` event is emitted.\n\n\"Synthetic\" line events will be emitted to support the `bail`\nbehavior, and to inject `1..0` plan lines in subtests that have no\ntest points.  They can be used as a sort of \"passthrough stream\" to\nsanitize and filter a TAP stream, with the caveat that, while `line`\nevents will be semantically equivalent to the TAP input, they will not\nbe a perfect replica of the input.\n\n## p.on('assert', function (assert) {})\n\nEvery `/^(not )?ok\\b/` line will emit an `'assert'` event.\n\nEvery `assert` object has these keys:\n\n* `assert.ok` - true if the assertion succeeded, false if failed\n* `assert.id` - the assertion number\n* `assert.name` - optional short description of the assertion\n\nand may also have\n\n* `assert.todo` - optional description of why the assertion failure is\n  not a problem.  (Boolean `true` if no explaination provided)\n* `assert.skip` - optional description of why this assertion was\n  skipped (boolean `true` if no explanation provided)\n* `assert.diag` - a diagnostic object with additional information\n  about the test point.\n\n## p.on('comment', function (comment) {})\n\nEvery `/^# (.+)/` line will emit the string contents of `comment`.\n\n## p.on('plan', function (plan) {})\n\nEvery `/^\\d+\\.\\.\\d+/` line emits a `'plan'` event for the test numbers\n`plan.start` through `plan.end`, inclusive.\n\nIf the test is [completely\nskipped](http://podwiki.hexten.net/TAP/TAP.html?page=TAP#Skippingeverything)\nthe result will look like\n\n```\n{ ok: true,\n  count: 0,\n  pass: 0,\n  plan:\n   { start: 1,\n     end: 0,\n     skipAll: true,\n     skipReason: 'This code has no seat belt' } }\n```\n\n## p.on('version', function (version) {})\n\nA `/^TAP version (\\d+)/` line emits a `'version'` event with a version\nnumber or string.\n\n## p.on('bailout', function (reason) {})\n\nA `bail out!` line will cause the parser to completely stop doing\nanything.  Child parser bailouts will bail out their parents as well.\n\n## p.on('child', function (childParser) {})\n\nIf a child test set is embedded in the stream like this:\n\n```\nTAP Version 13\n1..2\n# nesting\n    1..2\n    ok 1 - true is ok\n    ok 2 - doag is also okay\nok 1 - nesting\nok 2 - second\n```\n\nthen the child stream will be parsed and events will be raised on the\n`childParser` object.\n\nSince TAP streams with child tests *must* follow child test sets\nwith a pass or fail assert based on the child test's results, failing\nto handle child tests should always result in the same end result.\nHowever, additional information from those child tests will obviously\nbe lost.\n\nSee `Subtests` below for more information on which sorts of subtest\nformats are supported by this parser.\n\n## p.on('extra', function (extra) {})\n\nAll other lines will trigger an `'extra'` event with the line text.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install tap-parser\n```\n\nYou can use [browserify](http://browserify.org) to `require('tap-parser')` in\nthe browser.\n\n# license\n\nMIT\n\n# subtests\n\n5 flavors of Subtests are suppored by this parser.\n\n1. Unadorned.\n   Indented TAP data with no comment, followed by a test\n   point at the parent level.\n\n    ```\n        ok 1\n        1..1\n    ok 1 - child test\n    1..1\n    ```\n\n2. Indented comment.\n   An indented `# Subtest: <name>` comment, followed by indented TAP\n   data, and then a not-indented test point with a matching name.\n   The summary test point may have yaml diagnostics.\n\n    ```\n        # Subtest: child test\n        ok 1\n        1..1\n    ok 1 - child test\n    1..1\n    ```\n\n3. Unindented comment.\n   A not-indented `# Subtest: <name>` comment, followed by indented TAP\n   content, followed by a test point with a matching name.\n   The summary test point may have yaml diagnostics.\n\n    ```\n    # Subtest: child test\n        ok 1\n        1..1\n    ok 1 - child test\n    1..1\n    ```\n\n4. Buffered, without diagnostics.\n   A test point line ending in {, followed by indented TAP content, ended\n   with a } to close the block.  todo/skip directives may come *either*\n   before or after the `{` character.  Yaml diagnostics are not allowed.\n\n    ```\n    ok 1 - child test {\n        ok 1\n        1..1\n    }\n    1..1\n    ```\n\n5. Buffered, with diagnostics.\n   A test point line with yaml diagnostics, followed by `{` alone on a\n   line, indented TAP data, and then a `}`.\n\n    ```\n    ok 1 - child test\n      ---\n      some: diagnostic\n      data: true\n      ...\n    {\n        ok 1\n        1..1\n    }\n    ```\n\nIn all cases, the parsed behavior is identical:\n\n1. The parent emits a `child` event with the `childParser` as an\n   argument.\n2. The `childParser` emits a `comment` with `# Subtest: <name>` (or\n   `(anonymous)` for Unadorned subtests.)\n3. When the test is over, the closing test point is emitted on parent\n   test.\n\nThat is, buffered and nonindented/indented comment subtests are parsed\nas if they are identical input, since their semantics are the same.  This\nsimplifies implementation of test harness and reporter modules.\n\nSince unadorned subtests have no introduction, a child event is not\nemitted until the first \"relevant tap\" line is encountered.  This can\ncause confusion if the test output contains a spurious \"    1..2\" line\nor something, but such cases are rare.\n\nSimilarly, this means that a test point ending in `{` needs to wait to\nemit *either* the 'assert' or 'child' events until an indented line is\nencountered.  *Any* test point with yaml diagnostics needs to wait to\nsee if it will be followed by a `{` indicating a subtest.\n",
+  "maintainers": [
+    {
+      "name": "substack",
+      "email": "mail@substack.net"
+    },
+    {
+      "name": "isaacs",
+      "email": "isaacs@npmjs.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-11-10T17:05:42.939Z",
+    "created": "2013-01-18T07:50:33.468Z",
+    "0.0.0": "2013-01-18T07:50:35.795Z",
+    "0.0.1": "2013-01-18T12:13:54.608Z",
+    "0.0.2": "2013-01-23T03:28:10.967Z",
+    "0.1.0": "2013-11-06T16:08:04.864Z",
+    "0.2.0": "2013-11-06T16:13:29.796Z",
+    "0.2.1": "2013-12-07T18:46:06.390Z",
+    "0.3.0": "2013-12-26T02:21:20.693Z",
+    "0.4.0": "2013-12-26T15:47:03.424Z",
+    "0.4.1": "2013-12-30T22:02:42.091Z",
+    "0.4.2": "2014-03-04T20:43:16.389Z",
+    "0.4.3": "2014-03-04T21:31:01.485Z",
+    "0.5.0": "2014-04-10T23:14:23.606Z",
+    "0.6.0": "2014-07-01T02:05:55.213Z",
+    "0.6.1": "2014-07-01T02:31:53.630Z",
+    "0.6.2": "2014-07-01T02:33:41.330Z",
+    "0.7.0": "2014-07-01T03:00:28.097Z",
+    "1.0.0": "2015-03-12T00:52:01.977Z",
+    "1.0.1": "2015-03-13T01:04:40.439Z",
+    "1.0.2": "2015-03-15T01:58:22.031Z",
+    "1.0.4": "2015-03-24T22:50:30.876Z",
+    "1.1.0": "2015-04-29T19:40:14.375Z",
+    "1.1.1": "2015-05-06T18:40:49.129Z",
+    "1.1.2": "2015-05-06T18:45:08.655Z",
+    "1.1.3": "2015-05-07T18:18:12.044Z",
+    "1.1.4": "2015-05-29T21:59:08.175Z",
+    "1.1.5": "2015-06-01T00:46:42.742Z",
+    "1.1.6": "2015-06-04T22:13:36.544Z",
+    "1.2.0": "2015-09-07T05:46:36.333Z",
+    "1.2.1": "2015-09-07T06:01:51.898Z",
+    "1.2.2": "2015-09-07T06:20:51.801Z",
+    "1.3.0": "2016-08-10T07:41:51.316Z",
+    "1.3.1": "2016-08-10T07:47:46.676Z",
+    "1.3.2": "2016-08-11T17:35:16.983Z",
+    "2.0.0": "2016-08-18T07:43:48.795Z",
+    "2.1.0": "2016-09-06T04:32:14.737Z",
+    "2.2.0": "2016-09-06T04:51:36.760Z",
+    "2.2.1": "2016-09-07T06:06:52.774Z",
+    "2.2.2": "2016-09-07T21:21:14.084Z",
+    "2.2.3": "2016-09-12T22:30:39.397Z",
+    "3.0.0": "2016-09-13T17:26:36.193Z",
+    "3.0.1": "2016-09-13T22:37:39.291Z",
+    "3.0.2": "2016-09-13T22:51:41.481Z",
+    "3.0.3": "2016-09-14T00:28:07.232Z",
+    "3.0.4": "2016-11-22T00:04:28.397Z",
+    "3.0.5": "2017-01-03T07:19:44.233Z",
+    "4.0.0": "2017-01-05T01:19:45.873Z",
+    "4.1.0": "2017-01-05T01:31:58.940Z",
+    "4.2.0": "2017-01-07T19:52:52.625Z",
+    "4.2.2": "2017-01-07T22:12:06.360Z",
+    "4.2.3": "2017-01-07T22:31:48.653Z",
+    "4.2.4": "2017-01-08T04:25:44.905Z",
+    "5.0.0": "2017-01-14T04:33:10.222Z",
+    "5.0.1": "2017-01-14T07:23:25.498Z",
+    "5.1.0": "2017-01-17T06:12:51.117Z",
+    "5.1.1": "2017-01-19T23:18:29.154Z",
+    "5.1.2": "2017-01-20T18:41:39.057Z",
+    "5.1.3": "2017-01-20T21:15:18.264Z",
+    "5.1.4": "2017-01-21T07:53:18.648Z",
+    "5.2.0": "2017-01-22T06:17:10.576Z",
+    "5.3.0": "2017-01-24T19:47:28.318Z",
+    "5.3.1": "2017-01-24T21:43:26.240Z",
+    "5.3.2": "2017-01-26T05:20:24.487Z",
+    "5.3.3": "2017-02-10T08:15:19.430Z",
+    "5.4.0": "2017-06-09T20:59:58.827Z",
+    "6.0.0": "2017-07-09T22:56:33.311Z",
+    "6.0.1": "2017-07-10T04:56:19.054Z",
+    "7.0.0": "2017-11-10T17:05:42.939Z"
+  },
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/tap-parser.git"
+  },
+  "homepage": "https://github.com/substack/tap-parser",
+  "keywords": [
+    "tap",
+    "test",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/substack/tap-parser/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.markdown",
+  "users": {
+    "diegorbaquero": true
+  },
+  "_attachments": {}
+}

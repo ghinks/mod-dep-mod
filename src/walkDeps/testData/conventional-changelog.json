@@ -1,0 +1,5101 @@
+{
+  "_id": "conventional-changelog",
+  "_rev": "119-1f6aaf8cee01ffef57d00c7067859ad4",
+  "name": "conventional-changelog",
+  "description": "Generate a changelog from git metadata",
+  "dist-tags": {
+    "latest": "1.1.18",
+    "next": "0.1.0-beta.3"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "conventional-changelog",
+      "version": "0.0.1",
+      "description": "Generate a markdown changelog from git commit data",
+      "main": "lib/changelog.js",
+      "scripts": {
+        "test": "mocha --compilers coffee:coffee-script test/*.coffee lib/*.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "event-stream": "~3.0.20"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.1",
+      "dist": {
+        "shasum": "7af7705d79168711301936fed3422eec8821ca5f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.1.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "conventional-changelog",
+      "version": "0.0.2",
+      "description": "Generate a markdown changelog from git commit data",
+      "main": "lib/changelog.js",
+      "scripts": {
+        "test": "mocha --compilers coffee:coffee-script test/*.coffee lib/*.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "event-stream": "~3.0.20"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.2",
+      "dist": {
+        "shasum": "e1c583cc2789cfb199c3d04b79ba003617033c44",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.2.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "conventional-changelog",
+      "version": "0.0.3",
+      "description": "Generate a markdown changelog from git commit data",
+      "main": "lib/changelog.js",
+      "scripts": {
+        "test": "mocha --compilers coffee:coffee-script test/*.coffee lib/*.js"
+      },
+      "files": [
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "event-stream": "~3.0.20"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.3",
+      "dist": {
+        "shasum": "03ae06ca6ed134fb797892b053b8b179191fb08f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.3.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.4": {
+      "name": "conventional-changelog",
+      "version": "0.0.4",
+      "description": "Generate a markdown changelog from git commit data",
+      "main": "lib/changelog.js",
+      "scripts": {
+        "test": "mocha --compilers coffee:coffee-script test/*.coffee lib/*.js"
+      },
+      "files": [
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "event-stream": "~3.0.20"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.4",
+      "dist": {
+        "shasum": "011203f1b3fcf03f7bd9cc008d092b52929adf73",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.4.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.5": {
+      "name": "conventional-changelog",
+      "version": "0.0.5",
+      "description": "Generate a markdown changelog from git commit data",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.5",
+      "dist": {
+        "shasum": "a6123cb68b0f9f8e210ae78442c7f9aef9bd5098",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.5.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.6": {
+      "name": "conventional-changelog",
+      "version": "0.0.6",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "_id": "conventional-changelog@0.0.6",
+      "dist": {
+        "shasum": "c3f9cd48a6745d8534b2c9d1f819ef498b4d640d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.6.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.32",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.7": {
+      "name": "conventional-changelog",
+      "codename": "delta",
+      "version": "0.0.7",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.7",
+      "dist": {
+        "shasum": "0d2c92ab275cbc0382247bc0ce935269753ed3a2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.7.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.3",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.8": {
+      "name": "conventional-changelog",
+      "codename": "refine",
+      "version": "0.0.8",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.8",
+      "dist": {
+        "shasum": "1f69763dcbdd3df333182efd72b6b83c4d8e7c2b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.8.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.3",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.9": {
+      "name": "conventional-changelog",
+      "codename": "change",
+      "version": "0.0.9",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andy Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.9",
+      "dist": {
+        "shasum": "0286a0de3433e79fb198ca9d6f32fde1c2e8f082",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.9.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.3",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.10": {
+      "name": "conventional-changelog",
+      "codename": "change",
+      "version": "0.0.10",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.10",
+      "dist": {
+        "shasum": "8ea7974814cad17748df95ecbea64b6b46a50352",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.10.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.3",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.11": {
+      "name": "conventional-changelog",
+      "codename": "reorder",
+      "version": "0.0.11",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "lodash.assign": "~2.4.1",
+        "event-stream": "~3.1.0"
+      },
+      "devDependencies": {
+        "chai": "~1.7.2",
+        "sinon": "~1.7.3",
+        "shelljs": "~0.2.6"
+      },
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.11",
+      "dist": {
+        "shasum": "8eac8d1297e91406a696833ea4df3fb15f6c7fff",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.11.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.4.3",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.12": {
+      "name": "conventional-changelog",
+      "version": "0.0.12",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.1.7",
+        "github-url-from-git": "^1.4.0",
+        "lodash.assign": "^2.4.1",
+        "lodash.partial": "^3.0.0",
+        "lodash.template": "^3.3.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.0.0",
+        "jshint": "^2.6.0",
+        "mocha": "*",
+        "shelljs": "^0.3.0",
+        "sinon": "^1.12.2"
+      },
+      "gitHead": "ac24c39593b15a46ac6b34641797e6ffb883f262",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.12",
+      "_shasum": "d3bdfa4ff9a9b6778509b36be43999900dbffaed",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "d3bdfa4ff9a9b6778509b36be43999900dbffaed",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.12.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.13": {
+      "name": "conventional-changelog",
+      "version": "0.0.13",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.1.7",
+        "github-url-from-git": "^1.4.0",
+        "lodash.assign": "^2.4.1",
+        "lodash.partial": "^3.0.0",
+        "lodash.template": "^3.3.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.0.0",
+        "jshint": "^2.6.0",
+        "mocha": "*",
+        "shelljs": "^0.3.0",
+        "sinon": "^1.12.2"
+      },
+      "gitHead": "43a03c76a12951ce5ef7a813b72c416fb2df7713",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.13",
+      "_shasum": "778631099605c9bc87e918712cbe8bec455404c9",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "andytjoslin",
+        "email": "andytjoslin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "778631099605c9bc87e918712cbe8bec455404c9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.13.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.14": {
+      "name": "conventional-changelog",
+      "version": "0.0.14",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.1.7",
+        "github-url-from-git": "^1.4.0",
+        "lodash.assign": "^2.4.1",
+        "lodash.partial": "^3.0.0",
+        "lodash.template": "^3.3.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.0.0",
+        "jshint": "^2.6.0",
+        "mocha": "*",
+        "shelljs": "^0.3.0",
+        "sinon": "^1.12.2"
+      },
+      "gitHead": "69be290efb58a6a92e9ae78d7b37168d293920b5",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.14",
+      "_shasum": "472c2674dfbcb2d8932d04c608f5ad51e1499a4a",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "472c2674dfbcb2d8932d04c608f5ad51e1499a4a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.14.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.15": {
+      "name": "conventional-changelog",
+      "version": "0.0.15",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.1.7",
+        "github-url-from-git": "^1.4.0",
+        "lodash.assign": "^2.4.1",
+        "lodash.partial": "^3.0.0",
+        "lodash.template": "^3.3.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.0.0",
+        "jshint": "^2.6.0",
+        "mocha": "*",
+        "shelljs": "^0.3.0",
+        "sinon": "^1.12.2"
+      },
+      "gitHead": "57af04dc3e362c0e327b716279c9143028c6e0da",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.15",
+      "_shasum": "229f7bb887aba9fa7deaba2c95b3440206ab6e9d",
+      "_from": ".",
+      "_npmVersion": "2.7.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "229f7bb887aba9fa7deaba2c95b3440206ab6e9d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.15.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.16": {
+      "name": "conventional-changelog",
+      "version": "0.0.16",
+      "description": "Generate a markdown changelog from git commit metadata",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha test/*.js index.js lib/*.js --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.1.7",
+        "github-url-from-git": "^1.4.0",
+        "lodash.assign": "^2.4.1",
+        "lodash.partial": "^3.0.0",
+        "lodash.template": "^3.3.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.0.0",
+        "jshint": "^2.6.0",
+        "mocha": "*",
+        "shelljs": "^0.3.0",
+        "sinon": "^1.12.2"
+      },
+      "gitHead": "c0719ce6ba16778dd34c2cfdc81e7f3c5321409d",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.16",
+      "_shasum": "0997edbcd119882f920e9761c1e3d643d885d1ff",
+      "_from": ".",
+      "_npmVersion": "2.7.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "0997edbcd119882f920e9761c1e3d643d885d1ff",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.16.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.0.17": {
+      "name": "conventional-changelog",
+      "version": "0.0.17",
+      "description": "Generate a changelog from git metadata, using the AngularJS commit conventions",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint lib test index.js --exclude node_modules",
+        "test": "npm run-script lint && mocha --no-colors"
+      },
+      "files": [
+        "index.js",
+        "lib/",
+        "test/"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "changelog"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "dateformat": "^1.0.11",
+        "event-stream": "^3.3.0",
+        "github-url-from-git": "^1.4.0",
+        "lodash": "^3.6.0",
+        "normalize-package-data": "^1.0.3"
+      },
+      "devDependencies": {
+        "chai": "^2.2.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.13",
+        "jshint": "^2.6.3",
+        "mocha": "*"
+      },
+      "gitHead": "3cae05244e48af9cf4abbef3114060db585a574c",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog",
+      "_id": "conventional-changelog@0.0.17",
+      "_shasum": "5e0216600f4686190f0c82efbb0b3dd11b49ce34",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "5e0216600f4686190f0c82efbb0b3dd11b49ce34",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.0.17.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.1.0-alpha.1": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-alpha.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.2.0",
+        "conventional-commits-parser": "0.0.17",
+        "conventional-commits-writer": "0.0.14",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "0.0.6",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.7",
+        "lodash": "^3.9.3",
+        "meow": "^3.1.0",
+        "q": "^1.4.1",
+        "semver": "^4.3.6",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "0.1.0-alpha"
+      },
+      "gitHead": "05b3415fc699ab43f3fa33b5ecd040ab5ecdf9e2",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-alpha.1",
+      "_shasum": "df2e9ebd2d76e47ade2c05b5b97cd68d50199b05",
+      "_from": ".",
+      "_npmVersion": "2.11.3",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "df2e9ebd2d76e47ade2c05b5b97cd68d50199b05",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-alpha.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0-alpha.2": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-alpha.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-commits-parser": "0.0.17",
+        "conventional-commits-writer": "0.0.14",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "0.0.6",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^4.3.6",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "next"
+      },
+      "gitHead": "55db8a2106761b65d678ebd31e11d0c5a48dd252",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-alpha.2",
+      "_shasum": "7100451b81052d89d64295e7a72f55f33153d313",
+      "_from": ".",
+      "_npmVersion": "2.11.3",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "7100451b81052d89d64295e7a72f55f33153d313",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-alpha.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0-alpha.3": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-alpha.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.16",
+        "conventional-commits-parser": "0.0.18",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "0.0.6",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^4.3.6",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "next"
+      },
+      "gitHead": "9b6cc68a2c17c9671363fe7af5de7ebd3a06aaeb",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-alpha.3",
+      "_shasum": "a852b39372203f0727df33d32224844dc4117cd7",
+      "_from": ".",
+      "_npmVersion": "2.12.0",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "a852b39372203f0727df33d32224844dc4117cd7",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-alpha.3.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0-beta.1": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-beta.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.17",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "0.0.6",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "next"
+      },
+      "gitHead": "a5ea0dfada48601b9e3fbec78dd37d70380a2db6",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-beta.1",
+      "_shasum": "baada675b06afdb296c5736643b360e15671bf6b",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "baada675b06afdb296c5736643b360e15671bf6b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-beta.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0-beta.2": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-beta.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "BSD",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.17",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "next"
+      },
+      "gitHead": "fec1baf43b8c0156682d4014a4fd066bd24ad448",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-beta.2",
+      "_shasum": "7061cee6f88b683a3ba1fc105c02e01aa8f4f32f",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "7061cee6f88b683a3ba1fc105c02e01aa8f4f32f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-beta.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0-beta.3": {
+      "name": "conventional-changelog",
+      "version": "0.1.0-beta.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.18",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "publishConfig": {
+        "tag": "next"
+      },
+      "gitHead": "293445a6c53295da6b9b5b69727395c8f9d011d0",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0-beta.3",
+      "_shasum": "567181f5eee3a181e0359392a933373dc3bf99ab",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "567181f5eee3a181e0359392a933373dc3bf99ab",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0-beta.3.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog",
+      "version": "0.1.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.18",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.0.8",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "c125726f37dd6ab0ba5513c6b3fb1c4ebdd47849",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.0",
+      "_shasum": "3ffcc797a812c3c1d0f13e2638c9e817e36f5652",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "3ffcc797a812c3c1d0f13e2638c9e817e36f5652",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.0.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "conventional-changelog",
+      "version": "0.1.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.18",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "0.0.0",
+        "git-raw-commits": "0.1.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "88a0264c9ca848f802494ee2d651ec74391378ba",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.1",
+      "_shasum": "21b062ecbc5dbd2ced09d153c55a764ff90e4b3c",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "21b062ecbc5dbd2ced09d153c55a764ff90e4b3c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.1.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.1.2": {
+      "name": "conventional-changelog",
+      "version": "0.1.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.18",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "^1.0.0",
+        "git-raw-commits": "0.1.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "7c59bfd939e8fe4de124e23d86261f8ca3204003",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.2",
+      "_shasum": "4c54a6368dd2c1a38497cafbef86e7306b9e7e9e",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "4c54a6368dd2c1a38497cafbef86e7306b9e7e9e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.2.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.1.3": {
+      "name": "conventional-changelog",
+      "version": "0.1.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "0.0.18",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-latest-semver-tag": "^1.0.0",
+        "git-raw-commits": "0.1.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "041ff6b479c80093a1ff4a2dd57c43d199d4e40c",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.1.3",
+      "_shasum": "17e633063e81d287c47ecb107edd2f281eaa2fe2",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "17e633063e81d287c47ecb107edd2f281eaa2fe2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.1.3.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog",
+      "version": "0.2.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.2.0",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "0.1.0",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "f437b457b5ea6c105535a360144000f8315db54d",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.2.0",
+      "_shasum": "04be5a415cd3767914b223557fdac2f498229c22",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "04be5a415cd3767914b223557fdac2f498229c22",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.2.0.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog",
+      "version": "0.2.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.2.0",
+        "conventional-commits-parser": "0.0.19",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "0.1.0",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.15",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "946c1da3c17c8196538c87d69a2a16e68ff38bed",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.2.1",
+      "_shasum": "bf3cbe4ee90e08f86e39f6b8df548191680ced02",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "bf3cbe4ee90e08f86e39f6b8df548191680ced02",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.2.1.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog",
+      "version": "0.3.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.0",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.1",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "b489672d27ff703337c540f0fbc43f6486a84d99",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.3.0",
+      "_shasum": "8d463f2b5970007a8bd4b45aba3effa8b4fbb447",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "8d463f2b5970007a8bd4b45aba3effa8b4fbb447",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.3.0.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.3.2": {
+      "name": "conventional-changelog",
+      "version": "0.3.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.0",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.1",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 5000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "74b99dca61eafd56ba93605016b086a1108e77fe",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.3.2",
+      "_shasum": "b0383c63b99892205c9db4350265f77de696efb5",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "b0383c63b99892205c9db4350265f77de696efb5",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.3.2.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.4.0": {
+      "name": "conventional-changelog",
+      "version": "0.4.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.2",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 5000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "eefec0ef598a92e78510ee8626fd9bbcdb1398e4",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.4.0",
+      "_shasum": "0e5a7d23d56643689b11dcb4247cf34f8c65ab8c",
+      "_from": ".",
+      "_npmVersion": "2.13.4",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "0e5a7d23d56643689b11dcb4247cf34f8c65ab8c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.4.0.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.4.1": {
+      "name": "conventional-changelog",
+      "version": "0.4.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.2",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 5000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "56fa3d92620a41a875b3337fa51d04d6df23b1a8",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.4.1",
+      "_shasum": "35a56b4a277bb0d1a65a1519c47be24fb72b9116",
+      "_from": ".",
+      "_npmVersion": "2.13.4",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "35a56b4a277bb0d1a65a1519c47be24fb72b9116",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.4.1.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.4.2": {
+      "name": "conventional-changelog",
+      "version": "0.4.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.2",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 5000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "7536a0b351cc4f2764e71cbc268a178ab595259d",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.4.2",
+      "_shasum": "bf0e41bb481875a90d3eb56735697b330c44d801",
+      "_from": ".",
+      "_npmVersion": "2.13.5",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "bf0e41bb481875a90d3eb56735697b330c44d801",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.4.2.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.4.3": {
+      "name": "conventional-changelog",
+      "version": "0.4.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.3.2",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 10000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "e5f2f3bc675e2c7e5cc6aa0ed50da7941833e492",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.4.3",
+      "_shasum": "f54afc01d9fa42d7570c215f8d13ab22aff8771c",
+      "_from": ".",
+      "_npmVersion": "2.14.1",
+      "_nodeVersion": "3.2.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "f54afc01d9fa42d7570c215f8d13ab22aff8771c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.4.3.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.5.0": {
+      "name": "conventional-changelog",
+      "version": "0.5.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.3.15",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 15000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "5ca2204b472704543ebbc744a22f8f90ec659659",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.5.0",
+      "_shasum": "578d5c99877da1225767d2ab76472ba78028d592",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.1.1",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "578d5c99877da1225767d2ab76472ba78028d592",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.5.0.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.5.1": {
+      "name": "conventional-changelog",
+      "version": "0.5.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 15000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "4bf7d8df29f7be29552b82ec2b7112fad0c39a3e",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.5.1",
+      "_shasum": "5f395af2ed2d7ffdd82140e9986e42a48b6a4ee2",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.1",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "5f395af2ed2d7ffdd82140e9986e42a48b6a4ee2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.5.1.tgz"
+      },
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.5.2": {
+      "name": "conventional-changelog",
+      "version": "0.5.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 15000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "9e7b771072a2680c6c335fcad38003aade53213e",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.5.2",
+      "_shasum": "67b2c65b9ed93cd9e1d1c35afdad5b6be06ee9e3",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "67b2c65b9ed93cd9e1d1c35afdad5b6be06ee9e3",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.5.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "0.5.3": {
+      "name": "conventional-changelog",
+      "version": "0.5.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.0",
+        "dateformat": "^1.0.11",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.0.0",
+        "lodash": "^3.9.3",
+        "meow": "^3.3.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "semver": "^5.0.1",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.1"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint presets hosts test *.js --exclude node_modules && jscs presets hosts test *.js",
+        "test": "npm run-script lint && mocha --timeout 15000"
+      },
+      "bin": {
+        "conventional-changelog": "cli.js"
+      },
+      "gitHead": "d79ce243223260b153699b99de0503698546ea63",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@0.5.3",
+      "_shasum": "57c09d78b6391149ed210da5c410086670fdb982",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "57c09d78b6391149ed210da5c410086670fdb982",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-0.5.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "deprecated": "Please update conventional-changelog to >1.0.0. If you are running the cli, use conventional-changelog-cli",
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog",
+      "version": "1.0.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^0.1.0",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.0.0",
+        "conventional-changelog-ember": "^0.1.0",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000"
+      },
+      "gitHead": "c8e90ab7fddd0b98855913e73fc12f9dc9dc81b1",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.0.0",
+      "_shasum": "96b8b1fd0b2830c1f49d6b25ee7da40da128e09d",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "96b8b1fd0b2830c1f49d6b25ee7da40da128e09d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.0.0.tgz_1454677162928_0.03182582347653806"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "conventional-changelog",
+      "version": "1.0.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.0.0",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.0.0",
+        "conventional-changelog-ember": "^0.1.0",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000"
+      },
+      "gitHead": "beef421f56939190a4ca30c28788eda1b3f9480d",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.0.1",
+      "_shasum": "0ce0b98e46bb61c0b7663400666102ef927b124b",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0ce0b98e46bb61c0b7663400666102ef927b124b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.0.1.tgz_1454680185646_0.8449506114702672"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-changelog",
+      "version": "1.1.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajoslin/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.0.0",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.3.0",
+        "conventional-changelog-ember": "^0.2.0",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.0",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000"
+      },
+      "gitHead": "600d411569271467389c3cbe71f7f657980e89a1",
+      "bugs": {
+        "url": "https://github.com/ajoslin/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/ajoslin/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.0",
+      "_shasum": "8ae3fb59feb74bbee0a25833ee1f83dad4a07874",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "8ae3fb59feb74bbee0a25833ee1f83dad4a07874",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andytjoslin@gmail.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.1.0.tgz_1455346813993_0.28310725069604814"
+      },
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "conventional-changelog",
+      "version": "1.1.1",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.3.1",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.6.0",
+        "conventional-changelog-ember": "^0.2.3",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.1",
+      "_shasum": "9f6c7dd7d97baa0acae1a48a9946ff91137d623a",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "9f6c7dd7d97baa0acae1a48a9946ff91137d623a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andrewtjoslin@gmail.com"
+        },
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.1.1.tgz_1489123986384_0.7602941091172397"
+      },
+      "directories": {}
+    },
+    "1.1.2": {
+      "name": "conventional-changelog",
+      "version": "1.1.2",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.3.2",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.7.0",
+        "conventional-changelog-ember": "^0.2.4",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.2",
+      "_shasum": "8bf3afaf719cb05db74cfa11c8544181f22ac8ad",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "8bf3afaf719cb05db74cfa11c8544181f22ac8ad",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andrewtjoslin@gmail.com"
+        },
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.1.2.tgz_1489193795779_0.022050304571166635"
+      },
+      "directories": {}
+    },
+    "1.1.3": {
+      "name": "conventional-changelog",
+      "version": "1.1.3",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.3.3",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.8.0",
+        "conventional-changelog-ember": "^0.2.5",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.3",
+      "_shasum": "26283078ac38c094df2af1604b0a46bbc0165c4d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "26283078ac38c094df2af1604b0a46bbc0165c4d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andrewtjoslin@gmail.com"
+        },
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.1.3.tgz_1489266175194_0.7188709189649671"
+      },
+      "directories": {}
+    },
+    "1.1.4": {
+      "name": "conventional-changelog",
+      "version": "1.1.4",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.3.4",
+        "conventional-changelog-atom": "^0.1.0",
+        "conventional-changelog-codemirror": "^0.1.0",
+        "conventional-changelog-core": "^1.9.0",
+        "conventional-changelog-ember": "^0.2.6",
+        "conventional-changelog-eslint": "^0.1.0",
+        "conventional-changelog-express": "^0.1.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.1.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.4",
+      "_shasum": "108bc750c2a317e200e2f9b413caaa1f8c7efa3b",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "tapppi",
+        "email": "moilanen.tapani@gmail.com"
+      },
+      "dist": {
+        "shasum": "108bc750c2a317e200e2f9b413caaa1f8c7efa3b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "andytjoslin",
+          "email": "andrewtjoslin@gmail.com"
+        },
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-1.1.4.tgz_1490233665941_0.8719435331877321"
+      },
+      "directories": {}
+    },
+    "1.1.5": {
+      "name": "conventional-changelog",
+      "version": "1.1.5",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.5.0",
+        "conventional-changelog-atom": "^0.1.1",
+        "conventional-changelog-codemirror": "^0.2.0",
+        "conventional-changelog-core": "^1.9.1",
+        "conventional-changelog-ember": "^0.2.7",
+        "conventional-changelog-eslint": "^0.2.0",
+        "conventional-changelog-express": "^0.2.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.2.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.5",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-DUM0iXhgE11uRCoEQnFuYQA5zJcxfvKn940ZFyXziFl0y05yBCoy5ci2fcQYFWQ+OyyxgE2H02EdgYpuz9XG4w==",
+        "shasum": "4c46fb64b2986cab19888d8c4b87ca7c0e431bfd",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-1.1.5.tgz_1504235791165_0.6051669134758413"
+      },
+      "directories": {}
+    },
+    "1.1.6": {
+      "name": "conventional-changelog",
+      "version": "1.1.6",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.5.1",
+        "conventional-changelog-atom": "^0.1.1",
+        "conventional-changelog-codemirror": "^0.2.0",
+        "conventional-changelog-core": "^1.9.2",
+        "conventional-changelog-ember": "^0.2.8",
+        "conventional-changelog-eslint": "^0.2.0",
+        "conventional-changelog-express": "^0.2.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.2.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.6",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-AaQRALJYQVbfMs0UYJ3jf5yIAJwGnm/E7ETwzZMwF/3JDMyDaa4agLQomz94pcYiGH7zcrxFcwHApSODOYnunA==",
+        "shasum": "ebd9b1ab63766c715f903f654626b6b1c0da7762",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-1.1.6.tgz_1506836374258_0.02658445807173848"
+      },
+      "directories": {}
+    },
+    "1.1.7": {
+      "name": "conventional-changelog",
+      "version": "1.1.7",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.5.2",
+        "conventional-changelog-atom": "^0.1.2",
+        "conventional-changelog-codemirror": "^0.2.1",
+        "conventional-changelog-core": "^1.9.3",
+        "conventional-changelog-ember": "^0.2.9",
+        "conventional-changelog-eslint": "^0.2.1",
+        "conventional-changelog-express": "^0.2.1",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.2.1"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.7",
+      "_shasum": "9151a62b1d8edb2d82711dabf5b7cf71041f82b1",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "9151a62b1d8edb2d82711dabf5b7cf71041f82b1",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.7.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-1.1.7.tgz_1510532243284_0.7592213610187173"
+      },
+      "directories": {}
+    },
+    "1.1.10": {
+      "name": "conventional-changelog",
+      "version": "1.1.10",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.1",
+        "conventional-changelog-atom": "^0.2.0",
+        "conventional-changelog-codemirror": "^0.3.0",
+        "conventional-changelog-core": "^2.0.0",
+        "conventional-changelog-ember": "^0.3.1",
+        "conventional-changelog-eslint": "^1.0.0",
+        "conventional-changelog-express": "^0.3.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.10",
+      "_shasum": "d9bb3aad9086152d283e4707fb45a5b7a28e9e98",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "d9bb3aad9086152d283e4707fb45a5b7a28e9e98",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-1.1.10.tgz_1517191967896_0.9813838396221399"
+      },
+      "directories": {}
+    },
+    "1.1.11": {
+      "name": "conventional-changelog",
+      "version": "1.1.11",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.2",
+        "conventional-changelog-atom": "^0.2.0",
+        "conventional-changelog-codemirror": "^0.3.0",
+        "conventional-changelog-core": "^2.0.1",
+        "conventional-changelog-ember": "^0.3.2",
+        "conventional-changelog-eslint": "^1.0.0",
+        "conventional-changelog-express": "^0.3.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.11",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-GQgcaBhuTKTNGAZM5mQgTO76G9FJTPwdrT1AeFuXQpQ9v+FbaWKRjWyT9wvCYNNCQnpiSJBsg+2537iuG4bnQQ==",
+        "shasum": "3c880f5e5ebf483642a19d9bd5c9562f0d1257b8",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.11.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-1.1.11.tgz_1517801318676_0.23926118900999427"
+      },
+      "directories": {}
+    },
+    "1.1.12": {
+      "name": "conventional-changelog",
+      "version": "1.1.12",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.2",
+        "conventional-changelog-atom": "^0.2.0",
+        "conventional-changelog-codemirror": "^0.3.0",
+        "conventional-changelog-core": "^2.0.1",
+        "conventional-changelog-ember": "^0.3.2",
+        "conventional-changelog-eslint": "^1.0.0",
+        "conventional-changelog-express": "^0.3.0",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.0",
+        "conventional-changelog-preset-loader": "^1.1.2"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.12",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-e8RZ7l9PDiBkALSqxTgdzufaCy0NPXqatdQ3PDteq+65SSQhx8a+8fTGzhWmZhRxXGP5HZmoAiMCIJaw5NWDWQ==",
+        "shasum": "d21172b33f50d7974dd424d5061a3bd48994de0d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.12.tgz",
+        "fileCount": 4,
+        "unpackedSize": 26926
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.12_1518449884459_0.48646427524450697"
+      }
+    },
+    "1.1.14": {
+      "name": "conventional-changelog",
+      "version": "1.1.14",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.4",
+        "conventional-changelog-atom": "^0.2.2",
+        "conventional-changelog-codemirror": "^0.3.2",
+        "conventional-changelog-core": "^2.0.3",
+        "conventional-changelog-ember": "^0.3.4",
+        "conventional-changelog-eslint": "^1.0.2",
+        "conventional-changelog-express": "^0.3.2",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.2",
+        "conventional-changelog-preset-loader": "^1.1.3"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.14",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-AKREwapBRcg0pu1l/+sELEseBlONq+yFAnTezkvuBdV8hD8nJGpDAGxrIysD9mNXPA/GlXc/FhEiso8tQ9oapg==",
+        "shasum": "ef86f70e104186b19e297ba9f71813f919e38f19",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.14.tgz",
+        "fileCount": 4,
+        "unpackedSize": 27428
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.14_1518539285692_0.277373008751042"
+      }
+    },
+    "1.1.15": {
+      "name": "conventional-changelog",
+      "version": "1.1.15",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.4",
+        "conventional-changelog-atom": "^0.2.2",
+        "conventional-changelog-codemirror": "^0.3.2",
+        "conventional-changelog-core": "^2.0.3",
+        "conventional-changelog-ember": "^0.3.4",
+        "conventional-changelog-eslint": "^1.0.2",
+        "conventional-changelog-express": "^0.3.2",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.2",
+        "conventional-changelog-preset-loader": "^1.1.4"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+      "_id": "conventional-changelog@1.1.15",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-nBHfdoIfm78Bh/8KAEKVjAfr6jT6+uAoayj8EpEIEpjXBwoB74FlC7hUDwbxbAA/WKZout8SuqnpPH0cX4/aqw==",
+        "shasum": "a5c3d281efb40f61c7d21eeffb19e6f6a8429df0",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.15.tgz",
+        "fileCount": 4,
+        "unpackedSize": 27667
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.15_1518545147178_0.8505710748983724"
+      }
+    },
+    "1.1.16": {
+      "name": "conventional-changelog",
+      "version": "1.1.16",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#readme",
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.5",
+        "conventional-changelog-atom": "^0.2.3",
+        "conventional-changelog-codemirror": "^0.3.3",
+        "conventional-changelog-core": "^2.0.4",
+        "conventional-changelog-ember": "^0.3.5",
+        "conventional-changelog-eslint": "^1.0.3",
+        "conventional-changelog-express": "^0.3.3",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.3",
+        "conventional-changelog-preset-loader": "^1.1.5"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.10",
+        "jscs": "^2.0.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "_id": "conventional-changelog@1.1.16",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-7Z7B39PJeCbviJw6ukVOjoyWDGmSvlZj77UkPxXPLO03zGgHHADCDSu1yU/YfVsKkQiel4Ot0o7jTqbP8zIvVQ==",
+        "shasum": "fa78386c831f5b1ae45f60391ef015c2a4a400b9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.16.tgz",
+        "fileCount": 4,
+        "unpackedSize": 28165
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.16_1519100445973_0.5065325122150155"
+      }
+    },
+    "1.1.17": {
+      "name": "conventional-changelog",
+      "version": "1.1.17",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#readme",
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.6",
+        "conventional-changelog-atom": "^0.2.4",
+        "conventional-changelog-codemirror": "^0.3.4",
+        "conventional-changelog-core": "^2.0.5",
+        "conventional-changelog-ember": "^0.3.6",
+        "conventional-changelog-eslint": "^1.0.4",
+        "conventional-changelog-express": "^0.3.4",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.4",
+        "conventional-changelog-preset-loader": "^1.1.6"
+      },
+      "devDependencies": {
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "_id": "conventional-changelog@1.1.17",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-FvIFg3UcgkAa8aVxv85IMGd07db3ue1nlJ4wMhcYVQ1XcXqVM1fy/hdhC1iSGotNrZL6qEgb6eOxgIXFAY5exA==",
+        "shasum": "9019503d51328d8b33b0be6d425ab7f065918332",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.17.tgz",
+        "fileCount": 4,
+        "unpackedSize": 28286
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.17_1519510374469_0.7082618724695766"
+      }
+    },
+    "1.1.18": {
+      "name": "conventional-changelog",
+      "version": "1.1.18",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js"
+      ],
+      "contributors": [
+        {
+          "name": "Brian Ford"
+        },
+        {
+          "name": "Vojta Jína"
+        },
+        {
+          "name": "Andrew Joslin"
+        }
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#readme",
+      "dependencies": {
+        "conventional-changelog-angular": "^1.6.6",
+        "conventional-changelog-atom": "^0.2.4",
+        "conventional-changelog-codemirror": "^0.3.4",
+        "conventional-changelog-core": "^2.0.5",
+        "conventional-changelog-ember": "^0.3.6",
+        "conventional-changelog-eslint": "^1.0.5",
+        "conventional-changelog-express": "^0.3.4",
+        "conventional-changelog-jquery": "^0.1.0",
+        "conventional-changelog-jscs": "^0.1.0",
+        "conventional-changelog-jshint": "^0.3.4",
+        "conventional-changelog-preset-loader": "^1.1.6"
+      },
+      "devDependencies": {
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "scripts": {
+        "lint": "jshint test *.js --exclude node_modules && jscs test *.js",
+        "test": "npm run-script lint && mocha --timeout 30000",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "_id": "conventional-changelog@1.1.18",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.6.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-swf5bqhm7PsY2cw6zxuPy6+rZiiGwEpQnrWki+L+z2oZI53QSYwU4brpljmmWss821AsiwmVL+7V6hP+ER+TBA==",
+        "shasum": "ffe28798e4ddef5f6e2f74398e8248bcb233360b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog/-/conventional-changelog-1.1.18.tgz",
+        "fileCount": 4,
+        "unpackedSize": 28549
+      },
+      "maintainers": [
+        {
+          "email": "andrewtjoslin@gmail.com",
+          "name": "andytjoslin"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog_1.1.18_1520046909558_0.39133890341673494"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Generate a changelog from git metadata\n\nIt's recommended to use high level [standard-version](https://github.com/conventional-changelog/standard-version).\nAlternatively, you are probably looking for the [cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli) module.\nOr use one of the plugins if you are already using the tool:  [grunt](https://github.com/btford/grunt-conventional-changelog)/[gulp](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/gulp-conventional-changelog)/[atom](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-atom).\n\n\n## Usage\n\n```sh\n$ npm install --save conventional-changelog\n```\n\n```js\nvar conventionalChangelog = require('conventional-changelog');\n\nconventionalChangelog({\n  preset: 'angular'\n})\n  .pipe(process.stdout); // or any writable stream\n```\n\nOr if you want to use your own custom preset:\n\n```js\nvar conventionalChangelog = require('conventional-changelog');\n\nvar config = require('@org/conventional-changelog-custom-preset');\nconventionalChangelog({config})\n  .pipe(process.stdout); // or any writable stream\n```\n\n## API\n\n### conventionalChangelog([options, [context, [gitRawCommitsOpts, [parserOpts, [writerOpts]]]]])\n\nReturns a readable stream.\n\n#### options\n\nSee the [conventional-changelog-core](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core) docs. The API is the same with the following changes or additions:\n\n##### preset\n\nType: `string` Possible values: `'angular', 'atom', 'codemirror', 'ember', 'eslint', 'express', 'jquery', 'jscs', 'jshint'`\n\nIt's recommended to use a preset so you don't have to define everything yourself. Presets are names of built-in `config`.\n\nA scoped preset package such as `@scope/conventional-changelog-custom-preset` can be used by passing `@scope/custom-preset` to this option.\n\n**NOTE:** `options.config` will be overwritten by the values of preset. You should use either `preset` or `config`, but not both.\n\n\n## [Notes for parent modules](https://github.com/conventional-changelog/conventional-changelog-core#notes-for-parent-modules)\n\n\n## Related\n\n- [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli) - cli of this module\n- [standard-changelog](https://github.com/conventional-changelog/standard-changelog) - Similar to this module but only with angular convention\n- [conventional-github-releaser](https://github.com/conventional-changelog/conventional-github-releaser) - Make a new GitHub release from git metadata\n- [conventional-recommended-bump](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump) - Get a recommended version bump based on conventional commits\n- [conventional-commits-detector](https://github.com/conventional-changelog/conventional-commits-detector) - Detect what commit message convention your repository is using\n- [commitizen](https://github.com/commitizen/cz-cli) - Simple commit conventions for internet citizens.\n- [angular-precommit](https://github.com/ajoslin/angular-precommit) - Pre commit with angular conventions\n- [commitlint](https://github.com/marionebl/commitlint) - Lint commit messages\n\n\n## License\n\nMIT\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog\n",
+  "maintainers": [
+    {
+      "email": "andrewtjoslin@gmail.com",
+      "name": "andytjoslin"
+    },
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-03-07T07:38:22.767Z",
+    "created": "2014-01-04T21:19:09.255Z",
+    "0.0.1": "2014-01-04T21:19:10.251Z",
+    "0.0.2": "2014-01-04T21:21:03.942Z",
+    "0.0.3": "2014-01-04T21:25:17.038Z",
+    "0.0.4": "2014-01-04T21:37:52.628Z",
+    "0.0.5": "2014-01-23T19:00:35.343Z",
+    "0.0.6": "2014-01-23T19:39:30.278Z",
+    "0.0.7": "2014-04-10T14:07:06.907Z",
+    "0.0.8": "2014-04-10T14:45:54.729Z",
+    "0.0.9": "2014-05-06T17:12:09.253Z",
+    "0.0.10": "2014-05-28T12:51:09.480Z",
+    "0.0.11": "2014-05-28T13:14:00.263Z",
+    "0.0.12": "2015-03-12T19:09:17.344Z",
+    "0.0.13": "2015-03-12T19:24:42.465Z",
+    "0.0.14": "2015-03-13T21:22:17.243Z",
+    "0.0.15": "2015-03-18T20:24:52.026Z",
+    "0.0.16": "2015-03-19T04:15:47.604Z",
+    "0.0.17": "2015-04-03T02:12:51.040Z",
+    "0.1.0-alpha.1": "2015-06-24T04:43:12.634Z",
+    "0.1.0-alpha.2": "2015-06-29T12:02:24.203Z",
+    "0.1.0-alpha.3": "2015-07-06T01:28:22.071Z",
+    "0.1.0-beta.1": "2015-07-15T08:04:09.813Z",
+    "0.1.0-beta.2": "2015-07-17T06:24:23.071Z",
+    "0.1.0-beta.3": "2015-07-17T11:01:12.465Z",
+    "0.1.0": "2015-07-20T07:06:45.851Z",
+    "0.1.1": "2015-07-20T07:54:47.823Z",
+    "0.1.2": "2015-07-22T07:10:13.666Z",
+    "0.1.3": "2015-07-22T11:05:40.004Z",
+    "0.2.0": "2015-07-24T04:55:03.462Z",
+    "0.2.1": "2015-07-24T08:13:42.781Z",
+    "0.3.0": "2015-08-09T03:28:37.971Z",
+    "0.3.2": "2015-08-13T03:12:19.524Z",
+    "0.4.0": "2015-08-15T11:20:05.738Z",
+    "0.4.1": "2015-08-15T12:34:48.153Z",
+    "0.4.2": "2015-08-17T01:28:19.847Z",
+    "0.4.3": "2015-09-04T03:16:37.314Z",
+    "0.5.0": "2015-09-30T08:50:03.042Z",
+    "0.5.1": "2015-10-20T09:52:47.528Z",
+    "0.5.2": "2015-12-23T12:33:17.890Z",
+    "0.5.3": "2015-12-25T05:07:28.340Z",
+    "1.0.0": "2016-02-05T12:59:23.520Z",
+    "1.0.1": "2016-02-05T13:49:46.234Z",
+    "1.0.2": "2016-02-13T06:38:15.416Z",
+    "1.1.0": "2016-02-13T07:00:15.667Z",
+    "1.1.1": "2017-03-10T05:33:07.035Z",
+    "1.1.2": "2017-03-11T00:56:37.641Z",
+    "1.1.3": "2017-03-11T21:02:55.418Z",
+    "1.1.4": "2017-03-23T01:47:47.857Z",
+    "1.1.5": "2017-09-01T03:16:31.291Z",
+    "1.1.6": "2017-10-01T05:39:34.327Z",
+    "1.1.7": "2017-11-13T00:17:23.377Z",
+    "1.1.10": "2018-01-29T02:12:48.813Z",
+    "1.1.11": "2018-02-05T03:28:39.572Z",
+    "1.1.12": "2018-02-12T15:38:05.089Z",
+    "1.2.0": "2018-02-13T10:56:26.696Z",
+    "1.1.14": "2018-02-13T16:28:05.824Z",
+    "1.1.15": "2018-02-13T18:05:47.257Z",
+    "1.1.16": "2018-02-20T04:20:46.257Z",
+    "1.1.17": "2018-02-24T22:12:54.538Z",
+    "1.1.18": "2018-03-03T03:15:09.635Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#readme",
+  "keywords": [
+    "conventional-changelog",
+    "conventional",
+    "changelog",
+    "log"
+  ],
+  "contributors": [
+    {
+      "name": "Brian Ford"
+    },
+    {
+      "name": "Vojta Jína"
+    },
+    {
+      "name": "Andrew Joslin"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "wenbing": true,
+    "andrewdouglas": true,
+    "jyounce": true,
+    "leonardocorrea": true,
+    "wangnan0610": true,
+    "leizongmin": true,
+    "timdp": true,
+    "cognivator": true,
+    "kbakba": true,
+    "rochejul": true,
+    "langri-sha": true,
+    "jota": true,
+    "daizch": true
+  },
+  "_attachments": {}
+}

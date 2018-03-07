@@ -1,0 +1,889 @@
+{
+  "_id": "text-extensions",
+  "_rev": "18-4886b9957674ba584d4fb362f2842454",
+  "name": "text-extensions",
+  "description": "List of text file extensions",
+  "dist-tags": {
+    "latest": "1.7.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "text-extensions",
+      "version": "1.0.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "9aef2ee81fa63645a883c513704deb791ecd986b",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.0.0",
+      "_shasum": "db3011f6fd04d712df5c574af3535cf87e04ad98",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "db3011f6fd04d712df5c574af3535cf87e04ad98",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "text-extensions",
+      "version": "1.0.1",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "858151db3d3bebe90dd5b7f189359f22e5022e0d",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.0.1",
+      "_shasum": "8553cb3e742b8b4507235f01b2054dfeef89b895",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "8553cb3e742b8b4507235f01b2054dfeef89b895",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "text-extensions",
+      "version": "1.1.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "76be0d1adb196368ff9ed4378c33c3e16da242ef",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.1.0",
+      "_shasum": "03868d2ae3667f0e6b27f35d9f10ac9a5b72dc87",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "03868d2ae3667f0e6b27f35d9f10ac9a5b72dc87",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "text-extensions",
+      "version": "1.2.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "8b20a949e650a47c2eef2441d4927f43332ddb10",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.2.0",
+      "_shasum": "3c63976e78da944d5674d2bb557adebbb331d854",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "3c63976e78da944d5674d2bb557adebbb331d854",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.2.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "text-extensions",
+      "version": "1.3.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "eebf7ba7239ab779d07fe1e38338ae4d874f4c2c",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.3.0",
+      "_shasum": "5de78fb2501293b69d2eff5859ca43b6c33116c2",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "dist": {
+        "shasum": "5de78fb2501293b69d2eff5859ca43b6c33116c2",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.3.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "text-extensions",
+      "version": "1.3.1",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "c5a80e0846719e45261c9dda50c49702fb03af7a",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.3.1",
+      "_shasum": "bf789c96636d0e993cb150cf7eec268b3ba5acfe",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "0.12.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "bf789c96636d0e993cb150cf7eec268b3ba5acfe",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "directories": {}
+    },
+    "1.3.2": {
+      "name": "text-extensions",
+      "version": "1.3.2",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/text-extensions"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "1d72f791427bdbf0026801010376ec2937e0c14c",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions",
+      "_id": "text-extensions@1.3.2",
+      "_shasum": "797e340bf0e89f34dd46f2b09724697953e4320e",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "0.12.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "797e340bf0e89f34dd46f2b09724697953e4320e",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "directories": {}
+    },
+    "1.3.3": {
+      "name": "text-extensions",
+      "version": "1.3.3",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/text-extensions.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "f288fcf68c23c6be3322fcdc2ddd2091da37d873",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+      "_id": "text-extensions@1.3.3",
+      "_shasum": "fef0c8ce07f5bb3b8297bcf075304531754124bf",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.1.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "fef0c8ce07f5bb3b8297bcf075304531754124bf",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.3.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "directories": {}
+    },
+    "1.4.0": {
+      "name": "text-extensions",
+      "version": "1.4.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/text-extensions.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "ava"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "*"
+      },
+      "gitHead": "dfc3013f1271b1ba549931613f1fa68ff36ab256",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+      "_id": "text-extensions@1.4.0",
+      "_shasum": "c385d2e80879fe6ef97893e1709d88d9453726e9",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.6.2",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "c385d2e80879fe6ef97893e1709d88d9453726e9",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/text-extensions-1.4.0.tgz_1483779037136_0.5359179195947945"
+      },
+      "directories": {}
+    },
+    "1.5.0": {
+      "name": "text-extensions",
+      "version": "1.5.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/text-extensions.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10"
+      },
+      "scripts": {
+        "test": "ava"
+      },
+      "main": "text-extensions.json",
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "*"
+      },
+      "gitHead": "4bf97eceec03102cdaa0567b42f282626bb510a4",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+      "_id": "text-extensions@1.5.0",
+      "_shasum": "d1cb2d14b5d0bc45bfdca8a08a473f68c7eb0cbc",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.8.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "d1cb2d14b5d0bc45bfdca8a08a473f68c7eb0cbc",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/text-extensions-1.5.0.tgz_1496743514561_0.2768712399993092"
+      },
+      "directories": {}
+    },
+    "1.6.0": {
+      "name": "text-extensions",
+      "version": "1.6.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/text-extensions.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "main": "text-extensions.json",
+      "engines": {
+        "node": ">=0.10"
+      },
+      "scripts": {
+        "test": "ava"
+      },
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "*"
+      },
+      "gitHead": "812cc8dd00e96292569bc1faf25b2eaed3e140c1",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+      "_id": "text-extensions@1.6.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.4.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-U2M04F2rbuYYCNioiTD14cImLTae4ys1rC57tllzKg3dt5DPR2JXs5yFdC017yOBrW6wM6s5gtAlFJ7yye04rA==",
+        "shasum": "771561b26022783a45f5b6c2e78ad6e7de9fe322",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/text-extensions-1.6.0.tgz_1504597735792_0.08518054615706205"
+      },
+      "directories": {}
+    },
+    "1.7.0": {
+      "name": "text-extensions",
+      "version": "1.7.0",
+      "description": "List of text file extensions",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/text-extensions.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "main": "text-extensions.json",
+      "engines": {
+        "node": ">=0.10"
+      },
+      "scripts": {
+        "test": "ava"
+      },
+      "files": [
+        "text-extensions.json"
+      ],
+      "keywords": [
+        "text",
+        "ascii",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "json",
+        "list",
+        "array"
+      ],
+      "devDependencies": {
+        "ava": "*"
+      },
+      "gitHead": "ca2e08bf6174f90e14c7bc826fc98a4a159d1442",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/text-extensions/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+      "_id": "text-extensions@1.7.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "8.5.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-AKXZeDq230UaSzaO5s3qQUZOaC7iKbzq0jOFL614R7d9R593HLqAOL0cYoqLdkNrjBSOdmoQI06yigq1TSBXAg==",
+        "shasum": "faaaba2625ed746d568a23e4d0aacd9bf08a8b39",
+        "tarball": "https://registry.npmjs.org/text-extensions/-/text-extensions-1.7.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        {
+          "name": "arthurvr",
+          "email": "contact@arthurverschaeve.be"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/text-extensions-1.7.0.tgz_1507005802081_0.2768567120656371"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# text-extensions [![Build Status](https://travis-ci.org/sindresorhus/text-extensions.svg?branch=master)](https://travis-ci.org/sindresorhus/text-extensions)\n\n> List of text file extensions\n\nThe list is just a [JSON file](text-extensions.json) and can be used wherever.\n\n\n## Install\n\n```\n$ npm install text-extensions\n```\n\n\n## Usage\n\n```js\nconst textExtensions = require('text-extensions');\n\nconsole.log(textExtensions);\n//=> ['asp', 'aspx', ...]\n```\n\n\n## Related\n\n- [is-text-path](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file\n- [binary-extensions](https://github.com/sindresorhus/binary-extensions) - List of binary file extensions\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    },
+    {
+      "name": "arthurvr",
+      "email": "contact@arthurverschaeve.be"
+    }
+  ],
+  "time": {
+    "modified": "2017-10-03T04:43:22.144Z",
+    "created": "2015-02-16T21:21:07.603Z",
+    "1.0.0": "2015-02-16T21:21:07.603Z",
+    "1.0.1": "2015-02-16T22:24:17.412Z",
+    "1.1.0": "2015-02-17T07:22:13.859Z",
+    "1.2.0": "2015-02-20T09:55:25.910Z",
+    "1.3.0": "2015-02-24T08:03:45.846Z",
+    "1.3.1": "2015-05-18T10:20:34.931Z",
+    "1.3.2": "2015-05-19T12:23:54.452Z",
+    "1.3.3": "2015-09-23T07:00:31.318Z",
+    "1.4.0": "2017-01-07T08:50:37.356Z",
+    "1.5.0": "2017-06-06T10:05:14.636Z",
+    "1.6.0": "2017-09-05T07:48:55.871Z",
+    "1.7.0": "2017-10-03T04:43:22.144Z"
+  },
+  "homepage": "https://github.com/sindresorhus/text-extensions#readme",
+  "keywords": [
+    "text",
+    "ascii",
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "json",
+    "list",
+    "array"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/text-extensions.git"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/text-extensions/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "_attachments": {}
+}

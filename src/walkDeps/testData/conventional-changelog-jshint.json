@@ -1,0 +1,823 @@
+{
+  "_id": "conventional-changelog-jshint",
+  "_rev": "17-c4937d291375e8e7dca72e3e323eb48a",
+  "name": "conventional-changelog-jshint",
+  "description": "conventional-changelog jshint preset",
+  "dist-tags": {
+    "latest": "0.3.4"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.0.0",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "lodash": "^3.10.1",
+        "q": "^1.4.1",
+        "semver": "^5.1.0"
+      },
+      "gitHead": "e1b0aa037ba80f171ed36fd007af5947ffda4cba",
+      "_id": "conventional-changelog-jshint@0.0.0",
+      "_shasum": "4af58c4c15a71037e4b1845fb59e7f298d43894b",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "4af58c4c15a71037e4b1845fb59e7f298d43894b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.1.0",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "gitHead": "39a3d79b8ac704cdaffd8d0d69e12e45e61a7e15",
+      "_id": "conventional-changelog-jshint@0.1.0",
+      "_shasum": "00cab8e9a3317487abd94c4d84671342918d2a07",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "00cab8e9a3317487abd94c4d84671342918d2a07",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.2.0",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-uUP4c0et6F2teapl+YY2JHFAHD401U5CkgI+P8PyU0y1zS8BdBy6EnhqgZEXhFOp9fPzUdic+Wv/9alOqw3agQ==",
+        "shasum": "63ad7aec66cd1ae559bafe80348c4657a6eb1872",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint-0.2.0.tgz_1500334224883_0.5816847591195256"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.2.1",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.2.1",
+      "_shasum": "86139bb3ac99899f2b177e9617e09b37d99bcf3a",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "86139bb3ac99899f2b177e9617e09b37d99bcf3a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint-0.2.1.tgz_1510532235280_0.3738363746087998"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.3.0",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.3.0",
+      "_shasum": "0393fd468113baf73cba911d17c5826423366a28",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "0393fd468113baf73cba911d17c5826423366a28",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint-0.3.0.tgz_1513607134938_0.6365406217519194"
+      },
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.3.1",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.3.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-Pe6ghBn1V41UdIv+LQnvwzAhwuXvOuDoI6IyDf91XS4LNS22Nnq09FZld4xPweyAewdjDdb0U0ElZ3mfcBVicw==",
+        "shasum": "dd7c4a89a0935860a0d9cb0dfe10171603c749d9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.1.tgz",
+        "fileCount": 12,
+        "unpackedSize": 10817
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint_0.3.1_1518539024860_0.14647953697146887"
+      }
+    },
+    "0.3.2": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.3.2",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jshint.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jshint/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.3.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-b3cx1n6QyE5czpZTAEBFZxPj0aQ3vxjmdNrP+E83b+FBxh9cYZQrUXeC5rnIRvSj8rLkYAJJ07oG8PyevAxhtw==",
+        "shasum": "4d45d2601c944687abceabbc1789323719234cbe",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.2.tgz",
+        "fileCount": 12,
+        "unpackedSize": 11078
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint_0.3.2_1518539264293_0.8852515671156638"
+      }
+    },
+    "0.3.3": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.3.3",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jshint@0.3.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-RuGFuOp101qhxQdV+h4Dhdeqs1ZsycdoqN14GZ98E3MiDGQ++jfH6wjgUjU8uv8jULyrkLPenIWC0ooxQYneCw==",
+        "shasum": "28b6fe4d41fb945f38c6c31cd195fe37594f0007",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.3.tgz",
+        "fileCount": 12,
+        "unpackedSize": 11414
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint_0.3.3_1519100425398_0.6069403226647725"
+      }
+    },
+    "0.3.4": {
+      "name": "conventional-changelog-jshint",
+      "version": "0.3.4",
+      "description": "conventional-changelog jshint preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jshint",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jshint#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "0.0.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-jshint@0.3.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-CdrqwDgL56b176FVxHmhuOvnO1dRDQvrMaHyuIVjcFlOXukATz2wVT17g8jQU3LvybVbyXvJRbdD5pboo7/1KQ==",
+        "shasum": "b2de33cd0870d9af804ac6a4fded0ee25b69c9bb",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.4.tgz",
+        "fileCount": 12,
+        "unpackedSize": 11570
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jshint_0.3.4_1519510356836_0.7492345350673302"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [jshint](https://github.com/jshint/jshint) preset\n\n**Issues with the convention itself should be reported on the JSHint issue tracker.**\n\n## JSHint Convention\n\n### Overview\n\nCommit messages are written in a simple format which clearly describes the purpose of a change.\n\nThe format in general should look like this:\n\n```\n[[TYPE]] <Short description>\n<Blank line>\n\n<Body / Detailed description>\n\n<Footer>\n```\n\nLine lengths in commit messages are not strict, but good commit messages should have headers of no\nmore than 60 characters, and bodies/footers wrapped at 100 columns. This renders nicely on Github's\nUI.\n\n### Header\n\nThe first line is the commit message header, which will indicate the type of change, and a general\ndescription of the change. This should fit within 60 characters, ideally. For instance:\n\n```\n[[FIX]] Ignore \"nocomma\" when parsing object literals\n```\n\nThe title `[[FIX]]` indicates that the change is a bugfix, while the remainder clarifies what the\nchange actually contains.\n\nSeveral commit types are used by jshint:\n\n1. `[[FIX]]` --- Commit fixes a bug or regression\n2. `[[FEAT]]` --- Commit introduces new functionality\n3. `[[DOCS]]` --- Commit modifies documentation. Docs commits should only touch comments in source code, or scripts and assets which are used to generate the documentation.\n4. `[[TEST]]` --- Commit modifies tests or test infrastructure only\n5. `[[CHORE]]` --- Commit affects dev-ops, CI, or package dependencies\n\n### Body\n\n`<Body>` is a detailed commit message explaining exactly what has changed, and a summary of the\nreason why. Lines in the body should be wrapped to 100 characters for best rendering.\n\nFor a historical example, see this [example](https://github.com/jshint/jshint/commit/5751c5ed249b7a035758a3ae876cfa1a360fd144)\n\n### Footer\n\n`<Footer>` contains a description of any breaking changes, no matter how subtle, as well as a list\nof issues affected or fixed by this commit. Lines in the footer should be wrapped to 100 characters\nfor best rendering.\n\nFor instance:\n\n```\n[[FEAT]] Enable `norecurs` option by default\n\nCommit 124124a7f introduced an option which forbids recursion. We liked it so much, we've enabled\nit by default.\n\nBREAKING CHANGE:\n\nThis change will break the CI builds of many applications and frameworks.\n\nIn order to work around this issue, you will need to re-engineer your applications and frameworks\nto avoid making recursive calls. Use Arrays as stacks rather than relying on the VM call stack.\n\nFixes #1000009\nCloses #888888\nCloses #77777\n```\n\nBased on https://github.com/jshint/jshint/blob/master/CONTRIBUTING.md#commit-message-guidelines\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-jshint.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-jshint\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-jshint.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-jshint\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-jshint.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-jshint\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-jshint/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-jshint\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:38.453Z",
+    "created": "2015-12-26T05:31:01.481Z",
+    "0.0.0": "2015-12-26T05:31:01.481Z",
+    "0.1.0": "2016-01-30T09:22:31.752Z",
+    "0.2.0": "2017-07-17T23:30:24.952Z",
+    "0.2.1": "2017-11-13T00:17:15.341Z",
+    "0.3.0": "2017-12-18T14:25:35.018Z",
+    "0.3.1": "2018-02-13T16:23:44.918Z",
+    "0.3.2": "2018-02-13T16:27:44.366Z",
+    "0.3.3": "2018-02-20T04:20:25.458Z",
+    "0.3.4": "2018-02-24T22:12:36.892Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jshint#readme",
+  "keywords": [
+    "conventional-changelog",
+    "jshint",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

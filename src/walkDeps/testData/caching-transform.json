@@ -1,0 +1,512 @@
+{
+  "_id": "caching-transform",
+  "_rev": "7-ef28de0cd7ab85560687c1cfe481f574",
+  "name": "caching-transform",
+  "description": "Wraps a transform and provides caching",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "caching-transform",
+      "version": "0.0.1",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "mkdirp": "^0.5.1"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "^5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "088db0afc433a701b57c1324406e2b73db611c3b",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@0.0.1",
+      "_shasum": "af333d9bf6b113b6a4cdb038ef95a045b4e45792",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.2.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "af333d9bf6b113b6a4cdb038ef95a045b4e45792",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-0.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "caching-transform",
+      "version": "0.0.2",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "mkdirp": "^0.5.1"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "^5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "675a8370205d46ccbd5cb4b5a1e2bbf6050c8513",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@0.0.2",
+      "_shasum": "e444d6a2022f1e9c89894cbaca7f08fd5fe0e6b1",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.2.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "e444d6a2022f1e9c89894cbaca7f08fd5fe0e6b1",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-0.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "caching-transform",
+      "version": "0.0.3",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "mkdirp": "^0.5.1"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "^5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "2c9b5e7797dbc2a5dd1722ed683e5c8c16f425e9",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@0.0.3",
+      "_shasum": "4c17d0eaa282dfe6b3109a512dc1741677e1a953",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.2.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "4c17d0eaa282dfe6b3109a512dc1741677e1a953",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-0.0.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.4": {
+      "name": "caching-transform",
+      "version": "0.0.4",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "mkdirp": "^0.5.1",
+        "write-file-atomic": "^1.1.4"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "^5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "736192584dee896c6ec7e0ffb90eb10c7e3d4c2c",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@0.0.4",
+      "_shasum": "ed3aa971f249520d0075af472fb0da89fb9a53fb",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.2.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "ed3aa971f249520d0075af472fb0da89fb9a53fb",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-0.0.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "caching-transform",
+      "version": "1.0.0",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "md5-hex": "^1.2.0",
+        "mkdirp": "^0.5.1",
+        "write-file-atomic": "^1.1.4"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "^5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "06bd91d2c42777567bb74277c60e43ad5cc0f9cb",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@1.0.0",
+      "_shasum": "0640d4cc40aa96b52cbdab1f0d372a6d727ae5e5",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "5.2.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "0640d4cc40aa96b52cbdab1f0d372a6d727ae5e5",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "caching-transform",
+      "version": "1.0.1",
+      "description": "Wraps a transform and provides caching",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamestalmage/caching-transform.git"
+      },
+      "author": {
+        "name": "James Talmage",
+        "email": "james@talmage.io",
+        "url": "github.com/jamestalmage"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && nyc --reporter=lcov --reporter=text ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "transform",
+        "cache",
+        "require",
+        "transpile",
+        "fast",
+        "speed",
+        "hash"
+      ],
+      "dependencies": {
+        "md5-hex": "^1.2.0",
+        "mkdirp": "^0.5.1",
+        "write-file-atomic": "^1.1.4"
+      },
+      "devDependencies": {
+        "ava": "^0.8.0",
+        "coveralls": "^2.11.6",
+        "mock-fs": "^3.5.0",
+        "nyc": "5.0.1",
+        "proxyquire": "^1.7.3",
+        "sinon": "^1.17.2",
+        "xo": "^0.12.1"
+      },
+      "xo": {
+        "ignores": [
+          "test.js"
+        ]
+      },
+      "gitHead": "508395eb3e785c5010d091fc05d93b7024201414",
+      "bugs": {
+        "url": "https://github.com/jamestalmage/caching-transform/issues"
+      },
+      "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+      "_id": "caching-transform@1.0.1",
+      "_shasum": "6dbdb2f20f8d8fbce79f3e94e9d1742dcdf5c0a1",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.3.0",
+      "_npmUser": {
+        "name": "jamestalmage",
+        "email": "james@talmage.io"
+      },
+      "dist": {
+        "shasum": "6dbdb2f20f8d8fbce79f3e94e9d1742dcdf5c0a1",
+        "tarball": "https://registry.npmjs.org/caching-transform/-/caching-transform-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "jamestalmage",
+          "email": "james@talmage.io"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "# caching-transform [![Build Status](https://travis-ci.org/jamestalmage/caching-transform.svg?branch=master)](https://travis-ci.org/jamestalmage/caching-transform) [![Coverage Status](https://coveralls.io/repos/jamestalmage/caching-transform/badge.svg?branch=master&service=github)](https://coveralls.io/github/jamestalmage/caching-transform?branch=master)\n\n> Wraps a transform and provides caching.\n\nCaching transform results can greatly improve performance. `nyc` saw [dramatic performance increases](https://github.com/bcoe/nyc/pull/101#issuecomment-165716069) when we implemented caching. \n\n\n## Install\n\n```\n$ npm install --save caching-transform\n```\n\n\n## Usage\n\n```js\nconst cachingTransform = require('caching-transform');\n\nconst transform = cachingTransform({\n  cacheDir: '/path/to/cache/directory',\n  salt: 'hash-salt',\n  transform: (input, metadata, hash) => {\n    // ... expensive operations ...\n    return transformedResult;\n  }\n});\n\ntransform('some input for transpilation')\n// => fetch from the cache,\n//    or run the transform and save to the cache if not found there\n```\n\n\n## API\n\n### cachingTransform(options)\n\nReturns a transform callback that takes two arguments:\n\n - `input` a string to be transformed\n - `metadata` an arbitrary data object.\n\nBoth arguments are passed to the wrapped transform. Results are cached in the cache directory using an `md5` hash of `input` and an optional `salt` value. If a cache entry already exist for `input`, the wrapped transform function will never be called.\n\n#### options\n                 \n##### salt\n\nType: `string`, or `buffer`\nDefault: `empty string`\n\nA value that uniquely identifies your transform:\n\n```js\n  const pkg = require('my-transform/package.json');\n  const salt = pkg.name + ':' + pkg.version;\n```\n\nIncluding the version in the salt ensures existing cache entries will be automatically invalidated when you bump the version of your transform. If your transform relies on additional dependencies, and the transform output might change as those dependencies update, then your salt should incorporate the versions of those dependencies as well.\n\n##### transform\n\nType: `Function(input: string|buffer, metadata: *, hash: string): string|buffer`  \n\n - `input`: The value to be transformed. It is passed through from the wrapper.\n - `metadata`: An arbitrary data object passed through from the wrapper. A typical value might be a string filename.\n - `hash`: The salted hash of `input`. Useful if you intend to create additional cache entries beyond the transform result (i.e. `nyc` also creates cache entries for source-map data). This value is not available if the cache is disabled, if you still need it, the default can be computed via [`md5Hex([input, salt])`](https://www.npmjs.com/package/md5-hex).\n\nThe transform function will return a `string` (or Buffer if `encoding === 'buffer'`) containing the result of transforming `input`.\n\n##### factory\n\nType: `Function(cacheDir: string): transformFunction`\n\nIf the `transform` function is expensive to create, and it is reasonable to expect that it may never be called during the life of the process, you may supply a `factory` function that will be used to create the `transform` function the first time it is needed.\n\nA typical usage would be to prevent eagerly `require`ing expensive dependencies like Babel:\n\n```js\nfunction factory() {\n  // Using the factory function, you can avoid loading Babel until you are sure it is needed. \n  var babel = require('babel-core');\n  \n  return function (code, metadata) {\n    return babel.transform(code, {filename: metadata.filename, plugins: [/* ... */]});\n  };\n}\n```\n\n##### cacheDir\n\nType: `string`  \n*Required unless caching is disabled*\n\nThe directory where cached transform results will be stored. The directory is automatically created with [`mkdirp`](https://www.npmjs.com/package/mkdirp). You can set `options.createCacheDir = false` if you are certain the directory already exists. \n\n##### ext\n\nType: `string`\nDefault: `empty string`\n\nAn extension that will be appended to the salted hash to create the filename inside your cache directory. It is not required, but recommended if you know the file type. Appending the extension allows you to easily inspect the contents of the cache directory with your file browser.\n\n##### shouldTransform\n\nType: `Function(input: string|buffer, additonalData: *)`\nDefault: `always transform`\n\nA function that examines `input` and `metadata` to determine whether the transform should be applied. Returning `false` means the transform will not be applied and `input` will be returned unmodified.\n \n##### disableCache\n\nType: `boolean`\nDefault: `false`\n\nIf `true`, the cache is ignored and the transform is used every time regardless of cache contents.\n \n##### hash\n\nType: `Function(input: string|buffer, metadata: *, salt: string): string`\n\nProvide a custom hashing function for the given input. The default hashing function does not take the `metadata` into account:\n\n> [`md5Hex([input, salt])`](https://www.npmjs.com/package/md5-hex)\n\n##### encoding\n\nType: `string`\nDefault: `utf8`\n\nThe encoding to use when writing to / reading from the filesystem. If set to `\"buffer\"`, then buffers will be returned from the cache instead of strings.\n\n## License\n\nMIT © [James Talmage](http://github.com/jamestalmage)\n",
+  "maintainers": [
+    {
+      "name": "jamestalmage",
+      "email": "james@talmage.io"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-02-17T00:10:28.884Z",
+    "created": "2015-12-19T18:33:37.753Z",
+    "0.0.1": "2015-12-19T18:33:37.753Z",
+    "0.0.2": "2015-12-20T02:26:46.802Z",
+    "0.0.3": "2015-12-22T18:16:23.311Z",
+    "0.0.4": "2015-12-24T10:09:11.673Z",
+    "1.0.0": "2015-12-25T04:06:10.082Z",
+    "1.0.1": "2016-01-01T07:24:13.651Z"
+  },
+  "homepage": "https://github.com/jamestalmage/caching-transform#readme",
+  "keywords": [
+    "transform",
+    "cache",
+    "require",
+    "transpile",
+    "fast",
+    "speed",
+    "hash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestalmage/caching-transform.git"
+  },
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "bugs": {
+    "url": "https://github.com/jamestalmage/caching-transform/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "_attachments": {}
+}

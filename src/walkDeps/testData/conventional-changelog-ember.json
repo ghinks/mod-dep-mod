@@ -1,0 +1,1668 @@
+{
+  "_id": "conventional-changelog-ember",
+  "_rev": "36-f7c9b9c38a77f7ae020929eafb12c8b6",
+  "name": "conventional-changelog-ember",
+  "description": "conventional-changelog ember preset",
+  "dist-tags": {
+    "latest": "0.3.6"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-ember",
+      "version": "0.0.0",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "8a1d49b08dbf7bcfc4b36ef7eb17963da4a46294",
+      "_id": "conventional-changelog-ember@0.0.0",
+      "_shasum": "c014a3ba0602a5b1821923e336f772a2f32f0ce8",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "c014a3ba0602a5b1821923e336f772a2f32f0ce8",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-ember",
+      "version": "0.1.0",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "77d47e9d2c29aa5d5accf011e627b2eddaa6bd81",
+      "_id": "conventional-changelog-ember@0.1.0",
+      "_shasum": "b0fb76f86fdf5f55db72b47bcb720733d681f0bd",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "b0fb76f86fdf5f55db72b47bcb720733d681f0bd",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.0",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.1.0",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "cf58b6c1b5592a77bd693fe4f019a8368a2b96a0",
+      "_id": "conventional-changelog-ember@0.2.0",
+      "_shasum": "1b1df75ffe75cf34093c8923d431823829f781cb",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1b1df75ffe75cf34093c8923d431823829f781cb",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.0.tgz_1455186943479_0.9713192072231323"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.1",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.1.0",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "fe42e57451813c20d47ac523eb5b6e6f2d2893d9",
+      "_id": "conventional-changelog-ember@0.2.1",
+      "_shasum": "0c9cf0841b5a43820293d415f98193e34a78b52c",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0c9cf0841b5a43820293d415f98193e34a78b52c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.1.tgz_1455358593184_0.6208369100932032"
+      },
+      "directories": {}
+    },
+    "0.2.2": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.2",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.3.0",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "ce6ff4b174ae993d77f562325e733825c26b5628",
+      "_id": "conventional-changelog-ember@0.2.2",
+      "_shasum": "bad70a891386bc3046484a8f4f1e5aa2dc0ad208",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "bad70a891386bc3046484a8f4f1e5aa2dc0ad208",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.2.tgz_1455359172103_0.24157692142762244"
+      },
+      "directories": {}
+    },
+    "0.2.3": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.3",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.6.0",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.3",
+      "_shasum": "8725c7dfa85de7bfd9c867b2bbd4c20fcfcee67a",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "8725c7dfa85de7bfd9c867b2bbd4c20fcfcee67a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.3.tgz_1489123981233_0.9012277170550078"
+      },
+      "directories": {}
+    },
+    "0.2.4": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.4",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.6.1",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.4",
+      "_shasum": "1869fcb4b6918eb6f10dcb84ebced1d9e4500997",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "1869fcb4b6918eb6f10dcb84ebced1d9e4500997",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.4.tgz_1489125632349_0.38876434601843357"
+      },
+      "directories": {}
+    },
+    "0.2.5": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.5",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.8.0",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.5",
+      "_shasum": "ce21d5cf83cd5ebe05d23fdf232d8844f4b56a4f",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "ce21d5cf83cd5ebe05d23fdf232d8844f4b56a4f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.5.tgz_1489266172127_0.48981408681720495"
+      },
+      "directories": {}
+    },
+    "0.2.6": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.6",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.0",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.6",
+      "_shasum": "8b7355419f5127493c4c562473ab2fc792f1c2b6",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "tapppi",
+        "email": "moilanen.tapani@gmail.com"
+      },
+      "dist": {
+        "shasum": "8b7355419f5127493c4c562473ab2fc792f1c2b6",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-ember-0.2.6.tgz_1490233661353_0.4972729329019785"
+      },
+      "directories": {}
+    },
+    "0.2.7": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.7",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.1",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.7",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-Xj1v9uVcKM8N798hMr7e6yiw8IFyvI6Ik+TdjdmG54uGupqvEEWW37xAbPPbdKvgoitbyZkqUTancj055actEg==",
+        "shasum": "c6aff35976284e7222649f81c62bd96ff3217bd2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.7.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.2.7.tgz_1504235787209_0.01083618076518178"
+      },
+      "directories": {}
+    },
+    "0.2.8": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.8",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.2",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.8",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-smsh0o/S95n22lrQZrSHYjJrxIGoFl+OFHK+q2KGHA2zRFrW7QilYM7VUjgmB+emzwqFguPjrq+D2U8iPhMNJg==",
+        "shasum": "65e686da83d23b67133d1f853908c87f948035c0",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.8.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.2.8.tgz_1506836369688_0.2174166184850037"
+      },
+      "directories": {}
+    },
+    "0.2.9": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.9",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.3",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.9",
+      "_shasum": "8ec73cc054e3ab064667fb1feb52fe8ef1b16438",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "8ec73cc054e3ab064667fb1feb52fe8ef1b16438",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.9.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.2.9.tgz_1510532233512_0.3610677942633629"
+      },
+      "directories": {}
+    },
+    "0.2.10": {
+      "name": "conventional-changelog-ember",
+      "version": "0.2.10",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.4",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.2.10",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-LBBBZO6Q7ib4HhSdyCNVR25OtaXl710UJg1aSHCLmR8AjuXKs3BO8tnbY1MH+D1C+z5IFoEDkpjOddefNTyhCQ==",
+        "shasum": "dcd6e4cdc2e6c2b58653cf4d2cb1656a60421929",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.2.10.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.2.10.tgz_1512717192283_0.38045777496881783"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.0",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^1.9.5",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.0",
+      "_shasum": "892c2d9ca3ba8678c1bbcb40a53ad54f859b7bf3",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "892c2d9ca3ba8678c1bbcb40a53ad54f859b7bf3",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.3.0.tgz_1513607130801_0.49938984028995037"
+      },
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.1",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^2.0.0",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.1",
+      "_shasum": "bc71dc0a57e5c7ed0bf0538c32e44220691871d1",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "bc71dc0a57e5c7ed0bf0538c32e44220691871d1",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.3.1.tgz_1517191957575_0.1922416880261153"
+      },
+      "directories": {}
+    },
+    "0.3.2": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.2",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^2.0.1",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.2",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-ZigC7cz6rLzHk4YHnhfd85mxCyRQqiI8CMwalCVC8jIsplxswm+u3F16dIx5Z/P/A5VYFtv4H4ndhccTKS13jw==",
+        "shasum": "d3dd89ffe96832384a5d3b60dc63bf5e0142a944",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember-0.3.2.tgz_1517801277397_0.6129264554474503"
+      },
+      "directories": {}
+    },
+    "0.3.3": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.3",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^2.0.2",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.3",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-Bq2hfjNiC2dJIxZNkmhZ44OhM28fMQhnRtCLIqU4K454GxkhRVER0Q5EGKf7kypR8+90W6xjTwZPhYexHWm2VA==",
+        "shasum": "05d9d561a21ce9379cef26f299d6963ae863d5ec",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.3.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10856
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember_0.3.3_1518539015325_0.9049143163722377"
+      }
+    },
+    "0.3.4": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.4",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-ember.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-ember/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^2.0.3",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.4",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-PfwI9tvVJFn95of/g4mMBHtXZDPVNuYzi+hDyl9ZZe6/7WyUc90gj+cEgg+8gcrZwUFaZpliWavTYp6tfbBg1A==",
+        "shasum": "76240e769b2f5298e78e85cb4eda69ef2f1358d2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.4.tgz",
+        "fileCount": 11,
+        "unpackedSize": 11113
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember_0.3.4_1518539259585_0.2401042468707113"
+      }
+    },
+    "0.3.5": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.5",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "^2.0.4",
+        "git-dummy-commit": "^1.2.0",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-A55p1kg/ekyU2zTEScdRKwuHaCUfDocakIPoaxdCxsRQ1732C4Em4u6lbN0F1jQHoCsQqqA1aPAEOMKgDicnbA==",
+        "shasum": "db9a23f01103c6a0446ed2077ed5c87656d0571a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.5.tgz",
+        "fileCount": 11,
+        "unpackedSize": 11448
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember_0.3.5_1519100421650_0.5728084766163666"
+      }
+    },
+    "0.3.6": {
+      "name": "conventional-changelog-ember",
+      "version": "0.3.6",
+      "description": "conventional-changelog ember preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "ember",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-ember#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "^2.0.5",
+        "git-dummy-commit": "^1.2.0",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-ember@0.3.6",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-hBM1xb5IrjNtsjXaGryPF/Wn36cwyjkNeqX/CIDbJv/1kRFBHsWoSPYBiNVEpg8xE5fcK4DbPhGTDN2sVoPeiA==",
+        "shasum": "f3825d7434168f3d9211b5532dc1d5769532b668",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-ember/-/conventional-changelog-ember-0.3.6.tgz",
+        "fileCount": 11,
+        "unpackedSize": 11601
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-ember_0.3.6_1519510352636_0.09565629297007283"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [ember](https://github.com/emberjs/ember.js) preset\n\n**Issues with the convention itself should be reported on the Ember issue tracker.**\n\n## Ember Convention\n\nPlease use an appropriate commit prefix.\nIf your pull request fixes an issue specify it in the commit message. Some examples:\n\n  ```\n  [DOC beta] Update CONTRIBUTING.md for commit prefixes\n  [FEATURE query-params-new] Message\n  [BUGFIX beta] Message\n  [SECURITY CVE-111-1111] Message\n  ```\n\n## Commit Tagging\n\nAll commits should be tagged. Tags are denoted by square brackets (`[]`) and come at the start of the commit message.\n\n`Tag` should not be confused with git tag.\n`Message` should not be confused with git commit message.\n\n### Bug Fixes\n\nIn general bug fixes are pulled into the beta branch. As such, the prefix is: `[BUGFIX beta]`. If a bug fix is a serious regression that requires a new patch release, `[BUGFIX release]` can be used instead.\n\nFor bugs related to canary features, follow the prefixing rules for features.\n\n### Cleanup\n\nCleanup commits are for removing deprecated functionality and should be tagged\nas `[CLEANUP beta]`.\n\n### Features\n\nAll additions and fixes for features in canary should be tagged as `[FEATURE name]` where name is the same as the flag for that feature.\n\n### Documentation\n\nDocumentation commits are tagged as `[DOC channel]` where channel is `canary`,\n`beta`, or `release`. If no release is provided `canary` is assumed. The channel should be the most stable release that this documentation change applies to.\n\n### Security\n\nSecurity commits will be tagged as `[SECURITY cve]`. Please do not submit security related PRs without coordinating with the security team. See the [Security Policy](http://emberjs.com/security/) for more information.\n\n### Other\n\nIn general almost all commits should fall into one of these categories. In the cases where they don't please submit your PR untagged. An Ember contributor will let you know if tagging is required.\n\nBased on https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-ember.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-ember\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-ember.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-ember\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-ember.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-ember\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-ember/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-ember\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:33.677Z",
+    "created": "2015-12-26T07:34:32.221Z",
+    "0.0.0": "2015-12-26T07:34:32.221Z",
+    "0.1.0": "2016-01-30T07:04:50.245Z",
+    "0.2.0": "2016-02-11T10:35:46.443Z",
+    "0.2.1": "2016-02-13T10:16:36.378Z",
+    "0.2.2": "2016-02-13T10:26:15.442Z",
+    "0.2.3": "2017-03-10T05:33:03.372Z",
+    "0.2.4": "2017-03-10T06:00:34.120Z",
+    "0.2.5": "2017-03-11T21:02:52.411Z",
+    "0.2.6": "2017-03-23T01:47:41.980Z",
+    "0.2.7": "2017-09-01T03:16:27.331Z",
+    "0.2.8": "2017-10-01T05:39:29.878Z",
+    "0.2.9": "2017-11-13T00:17:13.577Z",
+    "0.2.10": "2017-12-08T07:13:13.655Z",
+    "0.3.0": "2017-12-18T14:25:31.694Z",
+    "0.3.1": "2018-01-29T02:12:38.495Z",
+    "0.3.2": "2018-02-05T03:27:58.337Z",
+    "0.3.3": "2018-02-13T16:23:35.485Z",
+    "0.3.4": "2018-02-13T16:27:39.653Z",
+    "0.3.5": "2018-02-20T04:20:21.729Z",
+    "0.3.6": "2018-02-24T22:12:32.675Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-ember#readme",
+  "keywords": [
+    "conventional-changelog",
+    "ember",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

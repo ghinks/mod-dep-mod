@@ -1,0 +1,1927 @@
+{
+  "_id": "standard-version",
+  "_rev": "44-eb58689649366529e54235d50d95faa5",
+  "name": "standard-version",
+  "description": "replacement for `npm version` with automatic CHANGELOG generation",
+  "dist-tags": {
+    "latest": "4.3.0",
+    "next": "4.3.0-candidate.1"
+  },
+  "versions": {
+    "1.1.0": {
+      "name": "standard-version",
+      "version": "1.1.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=10000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-verison.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.3.2"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.4.5",
+        "nyc": "^6.2.1",
+        "shelljs": "^0.6.0",
+        "standard": "^6.0.8"
+      },
+      "gitHead": "c3c90ef87a66df536d7645bcd18bf250452e075f",
+      "_id": "standard-version@1.1.0",
+      "_shasum": "ebb5a1ddf5f05e191ddbeab104362739ed859017",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "ebb5a1ddf5f05e191ddbeab104362739ed859017",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-1.1.0.tgz_1460158152988_0.00160136166960001"
+      },
+      "directories": {}
+    },
+    "2.1.1": {
+      "name": "standard-version",
+      "version": "2.1.1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=10000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-standard": "^1.2.1",
+        "conventional-recommended-bump": "^0.2.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.3.2"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.4.5",
+        "nyc": "^6.2.1",
+        "shelljs": "^0.6.0",
+        "standard": "^6.0.8"
+      },
+      "gitHead": "17f556b89d28019a1e3ee0b8dbd014ccd27c391f",
+      "_id": "standard-version@2.1.1",
+      "_shasum": "70914b80d0c7baa8ae4198e29a0bb837cb5845da",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "70914b80d0c7baa8ae4198e29a0bb837cb5845da",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.1.1.tgz_1460247017429_0.741208857158199"
+      },
+      "directories": {}
+    },
+    "2.1.2": {
+      "name": "standard-version",
+      "version": "2.1.2",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=10000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-standard": "^1.2.1",
+        "conventional-recommended-bump": "^0.2.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.3.2"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.4.5",
+        "nyc": "^6.2.1",
+        "shelljs": "^0.6.0",
+        "standard": "^6.0.8"
+      },
+      "gitHead": "c5e9c1d2231f1a2dfee7d2c5e689923401f768a3",
+      "_id": "standard-version@2.1.2",
+      "_shasum": "d454c69aca338c7225d76ab8bcee679dc8cd834e",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "d454c69aca338c7225d76ab8bcee679dc8cd834e",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.1.2.tgz_1460341243231_0.8341184295713902"
+      },
+      "directories": {}
+    },
+    "2.2.0": {
+      "name": "standard-version",
+      "version": "2.2.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=10000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-angular": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.6.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.4.5",
+        "nyc": "^6.4.1",
+        "shelljs": "0.6.0",
+        "standard": "^6.0.8"
+      },
+      "gitHead": "9706e1e8a6a2f64eedd0cb1a9d7df51b6836b0e1",
+      "_id": "standard-version@2.2.0",
+      "_shasum": "1d91fe542e20f3e0d2f0be1ada0ff77e26dae8cf",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "1d91fe542e20f3e0d2f0be1ada0ff77e26dae8cf",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.2.0.tgz_1462147261900_0.14048582804389298"
+      },
+      "directories": {}
+    },
+    "2.2.1": {
+      "name": "standard-version",
+      "version": "2.2.1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=10000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-angular": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.6.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.4.5",
+        "nyc": "^6.4.2",
+        "shelljs": "^0.7.0",
+        "standard": "^6.0.8"
+      },
+      "gitHead": "b6b2a75650e8f47e9bed5687e80ea66e0e66bf56",
+      "_id": "standard-version@2.2.1",
+      "_shasum": "7b358281bc3ee53de67c1e5cb840a14772975f79",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "7b358281bc3ee53de67c1e5cb840a14772975f79",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.2.1.tgz_1462163186615_0.6688023451715708"
+      },
+      "directories": {}
+    },
+    "2.3.0": {
+      "name": "standard-version",
+      "version": "2.3.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-angular": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.6.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.5.1",
+        "mock-git": "^1.0.2",
+        "nyc": "^6.4.2",
+        "shelljs": "^0.7.0",
+        "standard": "^7.0.1"
+      },
+      "gitHead": "4b2e9c7f61e53aa130fdd27e06e229460ab91f54",
+      "_id": "standard-version@2.3.0",
+      "_shasum": "fd60bcb73de963a388ad758637e042771b912ed3",
+      "_from": ".",
+      "_npmVersion": "3.3.12",
+      "_nodeVersion": "5.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "fd60bcb73de963a388ad758637e042771b912ed3",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.3.0.tgz_1464888280564_0.8298427350819111"
+      },
+      "directories": {}
+    },
+    "2.3.1": {
+      "name": "standard-version",
+      "version": "2.3.1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-changelog-angular": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.6.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.5.1",
+        "mock-git": "^1.0.2",
+        "nyc": "^6.4.2",
+        "shelljs": "^0.7.0",
+        "standard": "^7.0.1"
+      },
+      "gitHead": "836937514204ad8d13bbd0069743e7f8455513c5",
+      "_id": "standard-version@2.3.1",
+      "_shasum": "e3cce05bffc459339cd3933d654fc0ce9b2f343a",
+      "_from": ".",
+      "_npmVersion": "3.9.5",
+      "_nodeVersion": "4.4.5",
+      "_npmUser": {
+        "name": "nexdrew",
+        "email": "andrew@npmjs.com"
+      },
+      "dist": {
+        "shasum": "e3cce05bffc459339cd3933d654fc0ce9b2f343a",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.3.1.tgz_1466031867701_0.048885381082072854"
+      },
+      "directories": {}
+    },
+    "2.4.0": {
+      "name": "standard-version",
+      "version": "2.4.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "index.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.2.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^4.6.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^2.5.1",
+        "mock-git": "^1.0.2",
+        "nyc": "^7.0.0",
+        "shelljs": "^0.7.0",
+        "standard": "^7.0.1"
+      },
+      "gitHead": "16f46cd0c6791b8f25f5a424aadd777411211feb",
+      "_id": "standard-version@2.4.0",
+      "_shasum": "e6944b517458fd9b9334b26da189a980324fffde",
+      "_from": ".",
+      "_npmVersion": "3.10.2",
+      "_nodeVersion": "4.4.6",
+      "_npmUser": {
+        "name": "nexdrew",
+        "email": "andrew@npmjs.com"
+      },
+      "dist": {
+        "shasum": "e6944b517458fd9b9334b26da189a980324fffde",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-2.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-2.4.0.tgz_1468431402557_0.7556828099768609"
+      },
+      "directories": {}
+    },
+    "3.0.0": {
+      "name": "standard-version",
+      "version": "3.0.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "./cli.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.3.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "object-assign": "^4.1.0",
+        "semver": "^5.1.0",
+        "yargs": "^6.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^1.7.0",
+        "nyc": "^8.1.0",
+        "shelljs": "^0.7.3",
+        "standard": "^8.0.0"
+      },
+      "gitHead": "1727ea8be0d94016291059ea04dc5288cacf0b67",
+      "_id": "standard-version@3.0.0",
+      "_shasum": "dc1dc9f6ad3436e3ace8a9b050634d8a04762929",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "dc1dc9f6ad3436e3ace8a9b050634d8a04762929",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-3.0.0.tgz_1475777877269_0.30898752016946673"
+      },
+      "directories": {}
+    },
+    "4.0.0-0": {
+      "name": "standard-version",
+      "version": "4.0.0-0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.3.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "object-assign": "^4.1.0",
+        "semver": "^5.1.0",
+        "yargs": "^6.0.0"
+      },
+      "devDependencies": {
+        "bluebird": "^3.4.6",
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^10.0.0",
+        "shelljs": "^0.7.3",
+        "standard": "^8.0.0"
+      },
+      "gitHead": "a513fa275f83ad3c9c442d518ac8b2aa9dff60ae",
+      "_id": "standard-version@4.0.0-0",
+      "_shasum": "0d5e26ea5969c758e5eba3697676be672470ef3f",
+      "_from": ".",
+      "_npmVersion": "4.0.0",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "0d5e26ea5969c758e5eba3697676be672470ef3f",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.0.0-0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/standard-version-4.0.0-0.tgz_1480199216605_0.8552820535842329"
+      },
+      "directories": {}
+    },
+    "4.0.0-1": {
+      "name": "standard-version",
+      "version": "4.0.0-1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.3.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "object-assign": "^4.1.0",
+        "semver": "^5.1.0",
+        "yargs": "^6.0.0"
+      },
+      "devDependencies": {
+        "bluebird": "^3.4.6",
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^10.0.0",
+        "shelljs": "^0.7.3",
+        "standard": "^8.0.0"
+      },
+      "gitHead": "bd12e0050045bd24ac285a12a5d413d6cc7b8f4b",
+      "_id": "standard-version@4.0.0-1",
+      "_shasum": "95e65f3a2d3cd43dcb0a22291815500a6b00d7e7",
+      "_from": ".",
+      "_npmVersion": "4.0.0",
+      "_nodeVersion": "6.5.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "95e65f3a2d3cd43dcb0a22291815500a6b00d7e7",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.0.0-1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/standard-version-4.0.0-1.tgz_1480208626491_0.3612848040647805"
+      },
+      "directories": {}
+    },
+    "4.0.0": {
+      "name": "standard-version",
+      "version": "4.0.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^0.3.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "object-assign": "^4.1.0",
+        "semver": "^5.1.0",
+        "yargs": "^6.0.0"
+      },
+      "devDependencies": {
+        "bluebird": "^3.4.6",
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^10.0.0",
+        "shelljs": "^0.7.3",
+        "standard": "^8.0.0"
+      },
+      "gitHead": "0d8be31fc97eb76c3853dbdee978a230c9e25c91",
+      "_id": "standard-version@4.0.0",
+      "_shasum": "e578cefd43ab7b02944bd7569525052eac1b9787",
+      "_from": ".",
+      "_npmVersion": "3.10.8",
+      "_nodeVersion": "6.9.1",
+      "_npmUser": {
+        "name": "tapppi",
+        "email": "moilanen.tapani@gmail.com"
+      },
+      "dist": {
+        "shasum": "e578cefd43ab7b02944bd7569525052eac1b9787",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "nexdrew",
+          "email": "andrew@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/standard-version-4.0.0.tgz_1480678461889_0.23556357296183705"
+      },
+      "directories": {}
+    },
+    "4.1.0-candidate.0": {
+      "name": "standard-version",
+      "version": "4.1.0-candidate.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "dfd1d12939d8e8a53efe4a012faeaa797219cd49",
+      "_id": "standard-version@4.1.0-candidate.0",
+      "_shasum": "5dc4dbcf772680629b2d7303a2c74fa6aac89b80",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "5dc4dbcf772680629b2d7303a2c74fa6aac89b80",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.1.0-candidate.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrew@npmjs.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.1.0-candidate.0.tgz_1496621108611_0.3661099327728152"
+      },
+      "directories": {}
+    },
+    "4.1.0-candidate.1": {
+      "name": "standard-version",
+      "version": "4.1.0-candidate.1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "10f3e03a04f354193ded6475ef71e1268a133b9f",
+      "_id": "standard-version@4.1.0-candidate.1",
+      "_shasum": "e2d8a5c95567f5e96e255da55cee5ff818af8ad8",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "e2d8a5c95567f5e96e255da55cee5ff818af8ad8",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.1.0-candidate.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrew@npmjs.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.1.0-candidate.1.tgz_1496705507400_0.02388176554813981"
+      },
+      "directories": {}
+    },
+    "4.1.0-candidate.2": {
+      "name": "standard-version",
+      "version": "4.1.0-candidate.2",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "37a264758ae1703e8e10196649929b59c416061b",
+      "_id": "standard-version@4.1.0-candidate.2",
+      "_shasum": "c87ac3b9899638c6a7c6fefd24876610e2634885",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "c87ac3b9899638c6a7c6fefd24876610e2634885",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.1.0-candidate.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrew@npmjs.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.1.0-candidate.2.tgz_1496707931989_0.13004087400622666"
+      },
+      "directories": {}
+    },
+    "4.1.0": {
+      "name": "standard-version",
+      "version": "4.1.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "4b6d6db852da88d91001abff7eed1c15a7b1a29c",
+      "_id": "standard-version@4.1.0",
+      "_shasum": "a049e87c302e7fce23f2f8a18e3ed7f1509436ec",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "a049e87c302e7fce23f2f8a18e3ed7f1509436ec",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrew@npmjs.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.1.0.tgz_1496726084244_0.9923904044553638"
+      },
+      "directories": {}
+    },
+    "4.2.0": {
+      "name": "standard-version",
+      "version": "4.2.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "2790e08b8388f07fd7e4fcd956aaf5f7b552c7e0",
+      "_id": "standard-version@4.2.0",
+      "_shasum": "3017e8c5ced2a92db7501790255c3ba85157375d",
+      "_from": ".",
+      "_npmVersion": "4.6.1",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "3017e8c5ced2a92db7501790255c3ba85157375d",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrew@npmjs.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.2.0.tgz_1497306875229_0.19096958101727068"
+      },
+      "directories": {}
+    },
+    "4.3.0-candidate.0": {
+      "name": "standard-version",
+      "version": "4.3.0-candidate.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "@bcoe/dotignore": "^0.1.1",
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "fe17fd2e32a34f4c435820e25be14dd155f616b2",
+      "_id": "standard-version@4.3.0-candidate.0",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-9eh4UgLkImxjrt2F2L5ocJ/kQoFVTC6drwCyHNeDCHc+RoS+LPRWnJhQlrOjIQ7pDOggL5YXMx/+5FwHF1i8pA==",
+        "shasum": "c4a8130faa0ecbcb4ee5474501e9ae594cecfdcb",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.3.0-candidate.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.3.0-candidate.0.tgz_1513750538003_0.269431134685874"
+      },
+      "directories": {}
+    },
+    "4.3.0-candidate.1": {
+      "name": "standard-version",
+      "version": "4.3.0-candidate.1",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "dotgitignore": "^1.0.1",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "9b8dc26fb4f6141cdbd8bc5848024bb51ec9338f",
+      "_id": "standard-version@4.3.0-candidate.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-754apsVkUJVco/Bcgw4NfhHYFajAKzwwb3AwLlzcjciTk8fMrtqkCeUZTog/H09agakLb8pTcjFKM9RnhMcKhg==",
+        "shasum": "816eec5ef01da9f255654ff8cf51b9df2da82abd",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.3.0-candidate.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.3.0-candidate.1.tgz_1514957273305_0.5473512299358845"
+      },
+      "directories": {}
+    },
+    "4.3.0": {
+      "name": "standard-version",
+      "version": "4.3.0",
+      "description": "replacement for `npm version` with automatic CHANGELOG generation",
+      "bin": {
+        "standard-version": "bin/cli.js"
+      },
+      "scripts": {
+        "pretest": "standard",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc mocha --timeout=20000 test.js",
+        "release": "bin/cli.js"
+      },
+      "nyc": {
+        "exclude": [
+          "tmp/**"
+        ]
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/standard-version.git"
+      },
+      "engines": {
+        "node": ">=4.0"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "recommended",
+        "changelog",
+        "automatic",
+        "workflow",
+        "version",
+        "angular",
+        "standard"
+      ],
+      "author": {
+        "name": "Ben Coe",
+        "email": "ben@npmjs.com"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/standard-version/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "conventional-changelog": "^1.1.0",
+        "conventional-recommended-bump": "^1.0.0",
+        "dotgitignore": "^1.0.3",
+        "figures": "^1.5.0",
+        "fs-access": "^1.0.0",
+        "semver": "^5.1.0",
+        "yargs": "^8.0.1"
+      },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.9",
+        "mocha": "^3.1.0",
+        "mock-git": "^1.0.2",
+        "mockery": "^2.0.0",
+        "nyc": "^11.0.2",
+        "shelljs": "^0.7.3",
+        "standard": "^10.0.0"
+      },
+      "gitHead": "9a996072433935f79060ed252361a7707e988bf2",
+      "_id": "standard-version@4.3.0",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-2UJ2BIUNa7+41PH4FvYicSQED2LCt2RXjmNFis+JZlxZtwzNnGn4uuL8WBUqHoC9b+bJ0AHIAX/bilzm+pGPeA==",
+        "shasum": "41006cfee4eeab7c0ff3a47eecaa4c7506ed2e3f",
+        "tarball": "https://registry.npmjs.org/standard-version/-/standard-version-4.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/standard-version-4.3.0.tgz_1514962249526_0.5566456380765885"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# Standard Version\n\n[![Build Status](https://travis-ci.org/conventional-changelog/standard-version.svg?branch=master)](https://travis-ci.org/conventional-changelog/standard-version)\n[![NPM version](https://img.shields.io/npm/v/standard-version.svg)](https://www.npmjs.com/package/standard-version)\n[![Coverage Status](https://coveralls.io/repos/conventional-changelog/standard-version/badge.svg?branch=)](https://coveralls.io/r/conventional-changelog/standard-version?branch=master)\n[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)\n[![community slack](http://devtoolscommunity.herokuapp.com/badge.svg)](http://devtoolscommunity.herokuapp.com)\n\n_Having problems? want to contribute? join our [community slack](http://devtoolscommunity.herokuapp.com)_.\n\n> stop using `npm version`, use `standard-version` it rocks!\n\nAutomatic versioning and CHANGELOG generation, using GitHub's squash button and\n[conventional commit messages](https://conventionalcommits.org).\n\n_how it works:_\n\n1. when you land commits on your `master` branch, select the _Squash and Merge_ option.\n2. add a title and body that follows the [Conventional Commits Specification](https://conventionalcommits.org).\n3. when you're ready to release to npm:\n  1. `git checkout master; git pull origin master`\n  2. run `standard-version`\n  3. `git push --follow-tags origin master && npm publish`\n\n`standard-version` does the following:\n\n1. bumps the version in _package.json/bower.json_ (based on your commit history)\n2. uses [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) to update _CHANGELOG.md_\n3. commits _package.json (et al.)_ and _CHANGELOG.md_\n4. tags a new release\n\n## Installation\n\n### As `npm run` script\n\nInstall and add to `devDependencies`:\n\n```\nnpm i --save-dev standard-version\n```\n\nAdd an [`npm run` script](https://docs.npmjs.com/cli/run-script) to your _package.json_:\n\n```json\n{\n  \"scripts\": {\n    \"release\": \"standard-version\"\n  }\n}\n```\n\nNow you can use `npm run release` in place of `npm version`.\n\nThis has the benefit of making your repo/package more portable, so that other developers can cut releases without having to globally install `standard-version` on their machine.\n\n### As global bin\n\nInstall globally (add to your `PATH`):\n\n```\nnpm i -g standard-version\n```\n\nNow you can use `standard-version` in place of `npm version`.\n\nThis has the benefit of allowing you to use `standard-version` on any repo/package without adding a dev dependency to each one.\n\n## CLI Usage\n\n### First Release\n\nTo generate your changelog for your first release, simply do:\n\n```sh\n# npm run script\nnpm run release -- --first-release\n# or global bin\nstandard-version --first-release\n```\n\nThis will tag a release **without bumping the version in package.json (_et al._)**.\n\nWhen ready, push the git tag and `npm publish` your first release. \\o/\n\n### Cut a Release\n\nIf you typically use `npm version` to cut a new release, do this instead:\n\n```sh\n# npm run script\nnpm run release\n# or global bin\nstandard-version\n```\n\nAs long as your git commit messages are conventional and accurate, you no longer need to specify the semver type - and you get CHANGELOG generation for free! \\o/\n\nAfter you cut a release, you can push the new git tag and `npm publish` (or `npm publish --tag next`) when you're ready.\n\n### Release as a pre-release\n\nUse the flag `--prerelease` to generate pre-releases:\n\nSuppose the last version of your code is `1.0.0`, and your code to be committed has patched changes. Run:\n\n```bash\n# npm run script\nnpm run release -- --prerelease\n```\nyou will get version `1.0.1-0`.\n\nIf you want to name the pre-release, you specify the name via `--prerelease <name>`.\n\nFor example, suppose your pre-release should contain the `alpha` prefix:\n\n```bash\n# npm run script\nnpm run release -- --prerelease alpha\n```\n\nthis will tag the version `1.0.1-alpha.0`\n\n### Release as a target type imperatively like `npm version`\n\nTo forgo the automated version bump use `--release-as` with the argument `major`, `minor` or `patch`:\n\nSuppose the last version of your code is `1.0.0`, you've only landed `fix:` commits, but\nyou would like your next release to be a `minor`. Simply do:\n\n```bash\n# npm run script\nnpm run release -- --release-as minor\n# Or\nnpm run release -- --release-as 1.1.0\n```\n\nyou will get version `1.1.0` rather than the auto generated version `1.0.1`.\n\n> **NOTE:** you can combine `--release-as` and `--prerelease` to generate a release. This is useful when publishing experimental feature(s).\n\n### Prevent Git Hooks\n\nIf you use git hooks, like pre-commit, to test your code before committing, you can prevent hooks from being verified during the commit step by passing the `--no-verify` option:\n\n```sh\n# npm run script\nnpm run release -- --no-verify\n# or global bin\nstandard-version --no-verify\n```\n\n### Signing commits and tags\n\nIf you have your GPG key set up, add the `--sign` or `-s` flag to your `standard-version` command.\n\n### Lifecycle scripts\n\n`standard-version` supports lifecycle scripts. These allow you to execute your\nown supplementary commands during the release. The following\nhooks are available and execute in the order documented:\n\n* `prebump`/`postbump`: executed before and after the version is bumped. If the `prebump`\n  script returns a version #, it will be used rather than\n  the version calculated by `standard-version`.\n* `prechangelog`/`postchangelog`: executes before and after the CHANGELOG is generated.\n* `precommit`/`postcommit`: called before and after the commit step.\n* `pretag`/`posttag`: called before and after the tagging step.\n\nSimply add the following to your package.json to configure lifecycle scripts:\n\n```json\n{\n  \"standard-version\": {\n    \"scripts\": {\n      \"prebump\": \"echo 9.9.9\"\n    }\n  }\n}\n```\n\n### Skipping lifecycle steps\n\nYou can skip any of the lifecycle steps (`bump`, `changelog`, `commit`, `tag`),\nby adding the following to your package.json:\n\n```json\n{\n  \"standard-version\": {\n    \"skip\": {\n      \"changelog\": true\n    }\n  }\n}\n```\n\n### Committing generated artifacts in the release commit\n\nIf you want to commit generated artifacts in the release commit (e.g. [#96](https://github.com/conventional-changelog/standard-version/issues/96)), you can use the `--commit-all` or `-a` flag. You will need to stage the artifacts you want to commit, so your `release` command could look like this:\n\n```json\n\"prerelease\": \"webpack -p --bail\",\n\"release\": \"git add <file(s) to commit> && standard-version -a\"\n```\n\n### Dry run mode\n\nrunning `standard-version` with the flag `--dry-run` allows you to see what\ncommands would be run, without committing to git or updating files.\n\n```sh\n# npm run script\nnpm run release -- --dry-run\n# or global bin\nstandard-version --dry-run\n```\n\n### CLI Help\n\n```sh\n# npm run script\nnpm run release -- --help\n# or global bin\nstandard-version --help\n```\n\n## Code usage\n\nUse the `silent` option to stop `standard-version` from printing anything\nto the console.\n\n```js\nvar standardVersion = require('standard-version')\n\n// Options are the same as command line, except camelCase\nstandardVersion({\n  noVerify: true,\n  infile: 'docs/CHANGELOG.md',\n  silent: true\n}, function (err) {\n  if (err) {\n    console.error(`standard-version failed with message: ${err.message}`)\n  }\n  // standard-version is done\n})\n```\n\n## Commit Message Convention, at a Glance\n\n_patches:_\n\n```sh\ngit commit -a -m \"fix(parsing): fixed a bug in our parser\"\n```\n\n_features:_\n\n```sh\ngit commit -a -m \"feat(parser): we now have a parser \\o/\"\n```\n\n_breaking changes:_\n\n```sh\ngit commit -a -m \"feat(new-parser): introduces a new parsing library\nBREAKING CHANGE: new library does not support foo-construct\"\n```\n\n_other changes:_\n\nYou decide, e.g., docs, chore, etc.\n\n```sh\ngit commit -a -m \"docs: fixed up the docs a bit\"\n```\n\n_but wait, there's more!_\n\nGithub usernames (`@bcoe`) and issue references (#133) will be swapped out for the\nappropriate URLs in your CHANGELOG.\n\n## Badges!\n\nTell your users that you adhere to the Conventional Commits specification:\n\n```markdown\n[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)\n```\n\n## FAQ\n\n### How is `standard-version` different from `semantic-release`?\n\n[`semantic-release`](https://github.com/semantic-release/semantic-release) is a fully automated library/system for versioning, changelog generation, git tagging, and publishing to the npm registry.\n\n`standard-version` is different because it handles the versioning, changelog generation, and git tagging for you **without** automatic pushing (to GitHub) or publishing (to an npm registry). Use of `standard-version` only affects your local git repo - it doesn't affect remote resources at all. After you run `standard-version`, you still have to ability to review things and correct mistakes if you want to.\n\nThey are both based on the same foundation of structured commit messages (using [Angular format](https://github.com/bcoe/conventional-changelog-standard/blob/master/convention.md)), but `standard-version` is a good choice for folks who are not yet comfortable letting publishes go out automatically. In this way, you can view `standard-version` as an incremental step to adopting `semantic-release`.\n\nWe think they are both fantastic tools, and we encourage folks to use `semantic-release` instead of `standard-version` if it makes sense for them.\n\n### Should I always squash commits when merging PRs?\n\nThe instructions to squash commits when merging pull requests assumes that **one PR equals, at most, one feature or fix**.\n\nIf you have multiple features or fixes landing in a single PR and each commit uses a structured message, then you can do a standard merge when accepting the PR. This will preserve the commit history from your branch after the merge.\n\nAlthough this will allow each commit to be included as separate entries in your CHANGELOG, the entries will **not** be able to reference the PR that pulled the changes in because the preserved commit messages do not include the PR number.\n\nFor this reason, we recommend keeping the scope of each PR to one general feature or fix. In practice, this allows you to use unstructured commit messages when committing each little change and then squash them into a single commit with a structured message (referencing the PR number) once they have been reviewed and accepted.\n\n## License\n\nISC\n",
+  "maintainers": [
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    }
+  ],
+  "time": {
+    "modified": "2018-01-17T10:22:45.322Z",
+    "created": "2016-04-08T23:29:13.466Z",
+    "1.1.0": "2016-04-08T23:29:13.466Z",
+    "2.1.1": "2016-04-10T00:10:19.780Z",
+    "2.1.2": "2016-04-11T02:20:44.459Z",
+    "2.2.0": "2016-05-02T00:01:04.261Z",
+    "2.2.1": "2016-05-02T04:26:28.801Z",
+    "2.3.0": "2016-06-02T17:24:43.452Z",
+    "2.3.1": "2016-06-15T23:04:28.624Z",
+    "2.4.0": "2016-07-13T17:36:45.061Z",
+    "3.0.0": "2016-10-06T18:17:57.529Z",
+    "4.0.0-0": "2016-11-26T22:26:58.698Z",
+    "4.0.0-1": "2016-11-27T01:03:47.088Z",
+    "4.0.0": "2016-12-02T11:34:22.592Z",
+    "4.1.0-candidate.0": "2017-06-05T00:05:08.771Z",
+    "4.1.0-candidate.1": "2017-06-05T23:31:47.503Z",
+    "4.1.0-candidate.2": "2017-06-06T00:12:12.065Z",
+    "4.1.0": "2017-06-06T05:14:44.326Z",
+    "4.2.0": "2017-06-12T22:34:35.332Z",
+    "4.3.0-candidate.0": "2017-12-20T06:15:38.220Z",
+    "4.3.0-candidate.1": "2018-01-03T05:27:53.377Z",
+    "4.3.0": "2018-01-03T06:50:50.505Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/standard-version#readme",
+  "keywords": [
+    "conventional-changelog",
+    "recommended",
+    "changelog",
+    "automatic",
+    "workflow",
+    "version",
+    "angular",
+    "standard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/standard-version.git"
+  },
+  "author": {
+    "name": "Ben Coe",
+    "email": "ben@npmjs.com"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/standard-version/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "nichoth": true,
+    "mrmartineau": true,
+    "eliranmal": true,
+    "iandstanley": true,
+    "kukulili-labs": true,
+    "djamseed": true,
+    "alexandru.vasile": true,
+    "hugojosefson": true,
+    "cueedee": true,
+    "buzuli": true,
+    "vchouhan": true,
+    "chhetrisushil": true
+  },
+  "_attachments": {}
+}

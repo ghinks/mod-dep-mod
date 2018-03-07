@@ -1,0 +1,3128 @@
+{
+  "_id": "conventional-commits-parser",
+  "_rev": "58-5ea121eeaf858c25e9218059bd008e3c",
+  "name": "conventional-commits-parser",
+  "description": "Parse raw conventional commits",
+  "dist-tags": {
+    "latest": "2.1.5"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.0",
+      "description": "parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "meow": "^3.1.0",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "lodash": "^3.3.1",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "94ecde4fd5c76d28904ceed335bcac78da3cbd12",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.0",
+      "_shasum": "bb6ec0bfdcce17bfef32ade6774718da66cb4797",
+      "_from": ".",
+      "_npmVersion": "2.6.0",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "bb6ec0bfdcce17bfef32ade6774718da66cb4797",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.1",
+      "description": "parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "meow": "^3.1.0",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "lodash": "^3.3.1",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "88684061c38d64208d5b2804f0a040b5e3604a69",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.1",
+      "_shasum": "c47b879e7f0416632327268e05223e4a7a515454",
+      "_from": ".",
+      "_npmVersion": "2.6.0",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "c47b879e7f0416632327268e05223e4a7a515454",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.2",
+      "description": "parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "meow": "^3.1.0",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "lodash": "^3.3.1",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "24c27fed9f0ea575b7883a4b073cec38eea447aa",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.2",
+      "_shasum": "03630bef45d45d600d520857bf600550849cc0cb",
+      "_from": ".",
+      "_npmVersion": "2.6.0",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "03630bef45d45d600d520857bf600550849cc0cb",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.3",
+      "description": "parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "meow": "^3.1.0",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "lodash": "^3.3.1",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "b7a911f32b1c450ddcfd199a28df4e79a9443009",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.3",
+      "_shasum": "cd703c0803b2ea9f7c6fd52c1c2a8fd84e38ce10",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "cd703c0803b2ea9f7c6fd52c1c2a8fd84e38ce10",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.3.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.4": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.4",
+      "description": "parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "lodash": "^3.3.1",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "e02c2892dc6413cfa83c996066da30fa1b93ab12",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.4",
+      "_shasum": "d452551fc275ee42139b98b0d55b8e794a537f4c",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "d452551fc275ee42139b98b0d55b8e794a537f4c",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.4.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.5": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.5",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "aeea955cab34ed1a6f5c51520750f7853a7d104e",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.5",
+      "_shasum": "8b8032998ff3a36c2b67988f019d7385b4de64b6",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "8b8032998ff3a36c2b67988f019d7385b4de64b6",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.5.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.6": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.6",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "dcdc036821103b049f195b7f1220b4ca2cbb55e6",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.6",
+      "_shasum": "fe11f98d223887b0d5d0e1eddd662c6180c6aed0",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "fe11f98d223887b0d5d0e1eddd662c6180c6aed0",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.6.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.7": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.7",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "b3a5e817529e0c8c7d6ce181a0cb6676aade98a4",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.7",
+      "_shasum": "b6de95360eb743b95bffd9182419eca7a1d52513",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "b6de95360eb743b95bffd9182419eca7a1d52513",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.7.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.8": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.8",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "2508ae48cbd6f75c622781f532224f57e9b6d2bb",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.8",
+      "_shasum": "092ea33614ba3873b86cfbe4c5fc9ffb622c08db",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "092ea33614ba3873b86cfbe4c5fc9ffb622c08db",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.8.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.9": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.9",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "b0c616f258fa80f8688974fb89aed5ea20f72174",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.9",
+      "_shasum": "ad2f972e02a098bad0c4f9c2a8884441a80c9e28",
+      "_from": ".",
+      "_npmVersion": "2.6.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "ad2f972e02a098bad0c4f9c2a8884441a80c9e28",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.9.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.11": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.11",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "a17bb668acd59755ec7eddc1be75b43841bff440",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.11",
+      "_shasum": "53f62677aafa3e0acce6f03369a8609d00ffa747",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "53f62677aafa3e0acce6f03369a8609d00ffa747",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.11.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.12": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.12",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "7eac8e0ba237b4894843c7109327ef1190b85ee4",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.12",
+      "_shasum": "a3cb6d95bcc2ce74c861132b04c955317b47e113",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "a3cb6d95bcc2ce74c861132b04c955317b47e113",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.12.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.13": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.13",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "923c40a5543fc5b5805cb14639b79419e7baa296",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.13",
+      "_shasum": "a143709c0491a7417d99a898c8065242a42ab46b",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "a143709c0491a7417d99a898c8065242a42ab46b",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.13.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.14": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.14",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "58938f0224bc72ac62e69bdcc3a135788cd6d433",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.14",
+      "_shasum": "80c68455d23677f1f10390c6955855f0e29af04c",
+      "_from": ".",
+      "_npmVersion": "2.7.3",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "80c68455d23677f1f10390c6955855f0e29af04c",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.14.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.15": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.15",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/stevemao/conventional-commits-parser"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^0.10.0",
+        "graceful-fs": "^3.0.5",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^0.3.3",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "mocha": "*",
+        "split": "^0.3.3"
+      },
+      "scripts": {
+        "test": "mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "3fff176f933d46190bf3debd4bec3cb141a0ec53",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.15",
+      "_shasum": "73ada2371ad0af7f0dbedfd9c096994c8c9fb1c8",
+      "_from": ".",
+      "_npmVersion": "2.7.5",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "73ada2371ad0af7f0dbedfd9c096994c8c9fb1c8",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.15.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.16": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.16",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^1.0.0",
+        "through2": "^0.6.3"
+      },
+      "devDependencies": {
+        "chai": "^2.1.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "87fcddb6329c41a640162e8f166a184c50b07caf",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.16",
+      "_shasum": "7c343f234774f85081b233d5e63bdc2452bd90e0",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "0.12.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "7c343f234774f85081b233d5e63bdc2452bd90e0",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.16.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.17": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.17",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "847bcf41adc99a0e638843dd410978250c8ab72c",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.17",
+      "_shasum": "204b11a2a62a8bdfe1716998efb0f9d17b446764",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "0.12.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "204b11a2a62a8bdfe1716998efb0f9d17b446764",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.17.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.18": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.18",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.1.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "76489dd20998b84678c13bdcfa502cc219006964",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.18",
+      "_shasum": "1ea0f6fe0c3a0ca9abd3b510447843483d94cd7a",
+      "_from": ".",
+      "_npmVersion": "2.12.0",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "1ea0f6fe0c3a0ca9abd3b510447843483d94cd7a",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.18.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.19": {
+      "name": "conventional-commits-parser",
+      "version": "0.0.19",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^1.13.1",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "e79322badc1eb6aa31cb96170c8b42a893e56a46",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.0.19",
+      "_shasum": "1bd211899515697a61ea260e2c495b63d17c136f",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "1bd211899515697a61ea260e2c495b63d17c136f",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.0.19.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-commits-parser",
+      "version": "0.1.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "1b45bc3a40be1a8a1b7c0070ca6063d7f71a87f5",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.1.0",
+      "_shasum": "b45ccae99f50be9dd9dd4bc70d27a35137442a7c",
+      "_from": ".",
+      "_npmVersion": "2.13.3",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "b45ccae99f50be9dd9dd4bc70d27a35137442a7c",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.1.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "conventional-commits-parser",
+      "version": "0.1.1",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "b9d591d095df679b7cea69ebe277f8c7272015bc",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.1.1",
+      "_shasum": "95ad374ff2b816dbaf3d684dd8b9b685431e7c05",
+      "_from": ".",
+      "_npmVersion": "2.14.2",
+      "_nodeVersion": "4.0.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "95ad374ff2b816dbaf3d684dd8b9b685431e7c05",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.1.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.2": {
+      "name": "conventional-commits-parser",
+      "version": "0.1.2",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^3.3.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.6",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "4c1d59ffb41476fa4aa3cc78e7964ae347331061",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.1.2",
+      "_shasum": "4a624010634f02122520ecbaf19ca0ba23120437",
+      "_from": ".",
+      "_npmVersion": "2.14.5",
+      "_nodeVersion": "4.0.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "4a624010634f02122520ecbaf19ca0ba23120437",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.1.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-commits-parser",
+      "version": "0.2.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "8d1ba7855db545bc3bfde379a74068d94061ed41",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@0.2.0",
+      "_shasum": "ede20e4162fd58b1b599c31eb7d8fcd08e8f70fc",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "ede20e4162fd58b1b599c31eb7d8fcd08e8f70fc",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-0.2.0.tgz_1454593262588_0.7237707702443004"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-commits-parser",
+      "version": "1.0.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split": "^1.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "5559d6c9a0274a4e4d46a5ea29ad9b7c4b7eb287",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.0.0",
+      "_shasum": "9817747c1989f5b8c950fffdb422119cb70d085a",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "9817747c1989f5b8c950fffdb422119cb70d085a",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.0.0.tgz_1454675673591_0.12363838288001716"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "conventional-commits-parser",
+      "version": "1.0.1",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/stevemao/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "aa95d15e9256f4b0119b14f22ee20ab8da7f358d",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.0.1",
+      "_shasum": "500354672d5edbe91cb35c2e2a1a9075108e25c0",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "500354672d5edbe91cb35c2e2a1a9075108e25c0",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.0.1.tgz_1454683404086_0.3531976044178009"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-commits-parser",
+      "version": "1.1.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "2bf43a3c070b1a33c163e580f36eecc2de6860ac",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.1.0",
+      "_shasum": "4a32326ca2995167c72d083f02c9401378853564",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "4a32326ca2995167c72d083f02c9401378853564",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.1.0.tgz_1460272254873_0.32802322576753795"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "conventional-commits-parser",
+      "version": "1.2.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "869e4caee4e991e40207f21dd15229c1e088f384",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.2.0",
+      "_shasum": "514d83d96438041d39aa77e2c8cff7ea38be5e77",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "514d83d96438041d39aa77e2c8cff7ea38be5e77",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.2.0.tgz_1460723769217_0.27689405414275825"
+      },
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "conventional-commits-parser",
+      "version": "1.2.1",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "65bda9c58bc089f152ac95de8f77593c8cbdec73",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.2.1",
+      "_shasum": "a50ab66431beefa8ce756b44eb9eae94665a611c",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a50ab66431beefa8ce756b44eb9eae94665a611c",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.2.1.tgz_1461507595174_0.09812669828534126"
+      },
+      "directories": {}
+    },
+    "1.2.2": {
+      "name": "conventional-commits-parser",
+      "version": "1.2.2",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.0.0",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "fa6843f0c594b0eb2689b03b496e3dea3eb06620",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.2.2",
+      "_shasum": "a1c12c209f01dbd28bbf670ae3df94dbf24ebfb1",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a1c12c209f01dbd28bbf670ae3df94dbf24ebfb1",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.2.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.2.2.tgz_1462361198722_0.37785374256782234"
+      },
+      "directories": {}
+    },
+    "1.2.3": {
+      "name": "conventional-commits-parser",
+      "version": "1.2.3",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "d9391b064376f53395f0bd925b12ae02c8276d64",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.2.3",
+      "_shasum": "fc42492d1502fa3b307c1a8e45a8c5b0932fc322",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "fc42492d1502fa3b307c1a8e45a8c5b0932fc322",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.2.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.2.3.tgz_1470463188913_0.04062143573537469"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "conventional-commits-parser",
+      "version": "1.3.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha",
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "gitHead": "41e9a1aa18359ece27442ac8e0ac1adfb932edac",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@1.3.0",
+      "_shasum": "e327b53194e1a7ad5dc63479ee9099a52b024865",
+      "_from": ".",
+      "_npmVersion": "3.10.3",
+      "_nodeVersion": "6.7.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "e327b53194e1a7ad5dc63479ee9099a52b024865",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-commits-parser-1.3.0.tgz_1476526685689_0.9924746793694794"
+      },
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "conventional-commits-parser",
+      "version": "2.0.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.0.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-8od6g684Fhi5Vpp4ABRv/RBsW1AY6wSHbJHEK6FGTv+8jvAAnlABniZu/FVmX9TcirkHepaEsa1QGkRvbg0CKw==",
+        "shasum": "71d01910cb0a99aeb20c144e50f81f4df3178447",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser-2.0.0.tgz_1500334226247_0.495594535022974"
+      },
+      "directories": {}
+    },
+    "2.0.1": {
+      "name": "conventional-commits-parser",
+      "version": "2.0.1",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.0.1",
+      "_shasum": "1f15ce6b844f7ca41495c8190c0833c30b8b1693",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1f15ce6b844f7ca41495c8190c0833c30b8b1693",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser-2.0.1.tgz_1510532236717_0.6248131881002337"
+      },
+      "directories": {}
+    },
+    "2.1.0": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.0",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.1.0",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-8MD05yN0Zb6aRsZnFX1ET+8rHWfWJk+my7ANCJZBU2mhz7TSB1fk2vZhkrwVy/PCllcTYAP/1T1NiWQ7Z01mKw==",
+        "shasum": "9b4b7c91124bf2a1a9a2cc1c72760d382cbbb229",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser-2.1.0.tgz_1512717192535_0.14772552298381925"
+      },
+      "directories": {}
+    },
+    "2.1.1": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.1",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.1.1",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-Qqxaul7TELPnTrm7KhWGjVTFTs7T9yUblzXugtXEff2C2uXFK4S0uVGqsyX7feQZzoFbXnJ1KdEs+IMmSxGbqQ==",
+        "shasum": "1525a01bdad3349297b4210396e283d8a8ffd044",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser-2.1.1.tgz_1517801290448_0.3680340328719467"
+      },
+      "directories": {}
+    },
+    "2.1.2": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.2",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.1.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-Ue/Hv7zPtWclX3GqZ6NLtlwz+Uz/kkEZJl8GqRhXOqgdDcABed0zmAn491EP+dh2hY3gvdB6NttwPos2i2vjWA==",
+        "shasum": "a4ed55f2b76379ea72d1ab484a80c1fceb484708",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.2.tgz",
+        "fileCount": 7,
+        "unpackedSize": 46325
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser_2.1.2_1518539025070_0.5708910987853459"
+      }
+    },
+    "2.1.3": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.3",
+      "description": "Parse raw conventional commits",
+      "homepage": "https://github.com/conventional-changelog/conventional-commits-parser",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-commits-parser.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-commits-parser/issues"
+      },
+      "_id": "conventional-commits-parser@2.1.3",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-j5nXna/snJtrzFtPbDm+9R5UsjteJkXn+cG1kGEi4+4e25U57CZBB6DiUdxOCnM9LOIHeLDBF61e9MtjPsZthw==",
+        "shasum": "fbbfcfe4901ccbae63bb3834f982325e0b7c663f",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.3.tgz",
+        "fileCount": 7,
+        "unpackedSize": 46584
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser_2.1.3_1518539269929_0.7351916179981808"
+      }
+    },
+    "2.1.4": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.4",
+      "description": "Parse raw conventional commits",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-parser#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^3.3.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.0.0",
+        "concat-stream": "^1.4.7",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.7",
+        "jshint": "^2.7.0",
+        "mocha": "*"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "_id": "conventional-commits-parser@2.1.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-dyTFuqQQzTynPN81zk9Pvm6d4mGiTuPz+Qi1ee8CmhupBji7gwO0DKXvAWo3MEFilE50pm8h8kRbETL5wsI65A==",
+        "shasum": "86d2c21029268d99543c4ebda37d76fe5c44d8d1",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.4.tgz",
+        "fileCount": 7,
+        "unpackedSize": 47061
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser_2.1.4_1519100428827_0.6438768932592771"
+      }
+    },
+    "2.1.5": {
+      "name": "conventional-commits-parser",
+      "version": "2.1.5",
+      "description": "Parse raw conventional commits",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-parser#readme",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+      ],
+      "keywords": [
+        "conventional-commits-parser",
+        "changelog",
+        "conventional",
+        "parser",
+        "parsing",
+        "logs"
+      ],
+      "dependencies": {
+        "JSONStream": "^1.0.4",
+        "is-text-path": "^1.0.0",
+        "lodash": "^4.2.1",
+        "meow": "^4.0.0",
+        "split2": "^2.0.0",
+        "through2": "^2.0.0",
+        "trim-off-newlines": "^1.0.0"
+      },
+      "devDependencies": {
+        "concat-stream": "^1.6.0"
+      },
+      "scripts": {
+        "lint": "jshint *.js lib test && jscs *.js lib test",
+        "test": "npm run lint && mocha --timeout=30000",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "bin": {
+        "conventional-commits-parser": "cli.js"
+      },
+      "_id": "conventional-commits-parser@2.1.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-jaAP61py+ISMF3/n3yIiIuY5h6mJlucOqawu5mLB1HaQADLvg/y5UB3pT7HSucZJan34lp7+7ylQPfbKEGmxrA==",
+        "shasum": "9ac3a4ab221c0c3c9e9dd2c09ae01e6d1e1dabe0",
+        "tarball": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-2.1.5.tgz",
+        "fileCount": 7,
+        "unpackedSize": 47265
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-commits-parser_2.1.5_1519510361563_0.7574306979037218"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Parse raw conventional commits\n\n\n## Conventional Commit Message Format\n\nA minimum input should contain a raw message.\n\nEach commit message consists of a **merge header**, a **header** (mandatory), a **body** and a **footer**. **Mention** (optional) someone using the `@` notation.\n\n```\n<merge>\n<header>\n<body>\n<footer>\n```\n\n### merge\n\nThe merge header may optionally have a special format that includes other parts, such as **branch**, **issueId** or **source**.\n\n```\nMerge branch <branch>\nMerge pull request <issue-id> from <source>\n```\n\n### header\n\nThe header may optionally have a special format that includes other parts, such as **type**, **scope** and **subject**. You could **reference** (optional) issues here.\n\n```\n<type>(<scope>): <subject>\n```\n\n### footer\n\nThe footer should contain any information about **Important Notes** (optional) and is also the place to **reference** (optional) issues.\n\n```\n<important note>\n<references>\n```\n\n### other parts\n\nThis module will only parse the message body. However, it is possible to include other fields such as hash, committer or date.\n\n```\nMy commit message\n-sideNotes-\nIt should warn the correct unfound file names.\nAlso it should continue if one file cannot be found.\nTests are added for these\n```\n\nThen `sideNotes` will be `It should warn the correct unfound file names.\\nAlso it should continue if one file cannot be found.\\nTests are added for these`. You can customize the `fieldPattern`.\n\n\n## Install\n\n```sh\n$ npm install --save conventional-commits-parser\n```\n\n\n## Usage\n\n```js\nvar conventionalCommitsParser = require('conventional-commits-parser');\n\nconventionalCommitsParser(options);\n```\n\nIt returns a transform stream and expects an upstream that looks something like this:\n\n```\n'feat(scope): broadcast $destroy event on scope destruction\\nCloses #1'\n'feat(ng-list): Allow custom separator\\nbla bla bla\\n\\nBREAKING CHANGE: some breaking change.\\nThanks @stevemao\\n'\n```\n\nEach chunk should be a commit. The downstream will look something like this:\n\n```js\n{ type: 'feat',\n  scope: 'scope',\n  subject: 'broadcast $destroy event on scope destruction',\n  merge: null,\n  header: 'feat(scope): broadcast $destroy event on scope destruction',\n  body: null,\n  footer: 'Closes #1',\n  notes: [],\n  references:\n   [ { action: 'Closes',\n       owner: null,\n       repository: null,\n       issue: '1',\n       raw: '#1',\n       prefix: '#' } ],\n  mentions: [],\n  revert: null }\n{ type: 'feat',\n  scope: 'ng-list',\n  subject: 'Allow custom separator',\n  merge: null,\n  header: 'feat(ng-list): Allow custom separator',\n  body: 'bla bla bla',\n  footer: 'BREAKING CHANGE: some breaking change.\\nThanks @stevemao',\n  notes:\n   [ { title: 'BREAKING CHANGE',\n       text: 'some breaking change.\\nThanks @stevemao' } ],\n  references: [],\n  mentions: [ 'stevemao' ],\n  revert: null }\n```\n\n\n## API\n\n### conventionalCommitsParser([options])\n\nReturns an transform stream. If there is any malformed commits it will be gracefully ignored (an empty data will be emitted so down stream can notice).\n\n#### options\n\nType: `object`\n\n##### mergePattern\n\nType: `regex` or `string` Default: null\n\nPattern to match merge headers. EG: branch merge, GitHub or GitLab like pull requests headers. When a merge header is parsed, the next line is used for conventionnal header parsing.\n\nFor example, if we have a commit\n\n```\nMerge pull request #1 from user/feature/feature-name\n\nfeat(scope): broadcast $destroy event on scope destruction\n```\n\nWe can parse it with these options and the default headerPattern:\n\n```js\n{\n  mergePattern: /^Merge pull request #(\\d+) from (.*)$/,\n  mergeCorrespondence: ['id', 'source']\n}\n```\n\n##### mergeCorrespondence\n\nType: `array` of `string` or `string` Default: null\n\nUsed to define what capturing group of `mergePattern`.\n\nIf it's a `string` it will be converted to an `array` separated by a comma.\n\n##### headerPattern\n\nType: `regex` or `string` Default: `/^(\\w*)(?:\\(([\\w\\$\\.\\-\\* ]*)\\))?\\: (.*)$/`\n\nUsed to match header pattern.\n\n##### headerCorrespondence\n\nType: `array` of `string` or `string` Default `['type', 'scope', 'subject']`\n\nUsed to define what capturing group of `headerPattern` captures what header part. The order of the array should correspond to the order of `headerPattern`'s capturing group. If the part is not captured it is `null`. If it's a `string` it will be converted to an `array` separated by a comma.\n\n##### referenceActions\n\nType: `array` of `string` or `string` Default:\n`[\n  'close',\n  'closes',\n  'closed',\n  'fix',\n  'fixes',\n  'fixed',\n  'resolve',\n  'resolves',\n  'resolved'\n]`\n\nKeywords to reference an issue. This value is case **insensitive**. If it's a `string` it will be converted to an `array` separated by a comma.\n\nSet it to `null` to reference an issue without any action.\n\n##### issuePrefixes\n\nType: `array` of `string` or `string` Default: `['#']`\n\nThe prefixes of an issue. EG: In `gh-123` `gh-` is the prefix.\n\n##### noteKeywords\n\nType: `array` of `string` or `string` Default: `['BREAKING CHANGE']`\n\nKeywords for important notes. This value is case **insensitive**. If it's a `string` it will be converted to an `array` separated by a comma.\n\n##### fieldPattern\n\nType: `regex` or `string` Default: `/^-(.*?)-$/`\n\nPattern to match other fields.\n\n##### revertPattern\n\nType: `regex` or `string` Default: `/^Revert\\s\"([\\s\\S]*)\"\\s*This reverts commit (\\w*)\\./`\n\nPattern to match what this commit reverts.\n\n##### revertCorrespondence\n\nType: `array` of `string` or `string` Default: `['header', 'hash']`\n\nUsed to define what capturing group of `revertPattern` captures what reverted commit fields. The order of the array should correspond to the order of `revertPattern`'s capturing group.\n\nFor example, if we had commit\n\n```\nRevert \"throw an error if a callback is passed\"\n\nThis reverts commit 9bb4d6c.\n```\n\nIf configured correctly, the parsed result would be\n\n```js\n{\n  revert: {\n    header: 'throw an error if a callback is passed',\n    hash: '9bb4d6c'\n  }\n}\n```\n\nIt implies that this commit reverts a commit with header `'throw an error if a callback is passed'` and hash `'9bb4d6c'`.\n\nIf it's a `string` it will be converted to an `array` separated by a comma.\n\n##### commentChar\n\nType: `string` or `null` Default: null\n\nWhat commentChar to use. By default it is `null`, so no comments are stripped.\nSet to `#` if you pass the contents of `.git/COMMIT_EDITMSG` directly.\n\nIf you have configured the git commentchar via `git config core.commentchar` you'll want to pass what you have set there.\n\n##### warn\n\nType: `function` or `boolean` Default: `function() {}`\n\nWhat warn function to use. For example, `console.warn.bind(console)` or `grunt.log.writeln`. By default, it's a noop. If it is `true`, it will error if commit cannot be parsed (strict).\n\n### conventionalCommitsParser.sync(commit, [options])\n\nThe sync version. Useful when parsing a single commit. Returns the result.\n\n#### commit\n\nA single commit to be parsed.\n\n#### options\n\nSame as the `options` of `conventionalCommitsParser`.\n\n\n## CLI\n\nYou can use cli to practice writing commit messages or parse messages from files. Note: the sample output might be different. It's just for demonstration purposes.\n\n```sh\n$ npm install --global conventional-commits-parser\n```\n\nIf you run `conventional-commits-parser` without any arguments\n\n```sh\n$ conventional-commits-parser\n```\n\nYou will enter an interactive shell. To show your parsed output enter \"return\" three times (or enter your specified separator).\n\n```sh\n> fix(title): a title is fixed\n\n\n{\"type\":\"fix\",\"scope\":\"title\",\"subject\":\"a title is fixed\",\"header\":\"fix(title): a title is fixed\",\"body\":null,\"footer\":null,\"notes\":[],\"references\":[],\"revert\":null}\n```\n\nYou can also use cli to parse messages from files.\n\nIf you have log.txt\n\n```text\nfeat(ngMessages): provide support for dynamic message resolution\n\nPrior to this fix it was impossible to apply a binding to a the ngMessage directive to represent the name of the error.\n\nBREAKING CHANGE: The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\n\nCloses #10036\nCloses #9338\n```\n\nAnd you run\n\n```sh\n$ conventional-commits-parser log.txt\n# or\n$ cat log.txt | conventional-commits-parser\n```\n\nAn array of json will be printed to stdout.\n\n```sh\n[\n{\"type\":\"feat\",\"scope\":\"ngMessages\",\"subject\":\"provide support for dynamic message resolution\",\"header\":\"feat(ngMessages): provide support for dynamic message resolution\",\"body\":\"Prior to this fix it was impossible to apply a binding to a the ngMessage directive to represent the name of the error.\",\"footer\":\"BREAKING CHANGE: The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\\nCloses #10036\\nCloses #9338\",\"notes\":[{\"title\":\"BREAKING CHANGE\",\"text\":\"The `ngMessagesInclude` attribute is now its own directive and that must be placed as a **child** element within the element with the ngMessages directive.\"}],\"references\":[{\"action\":\"Closes\",\"owner\":null,\"repository\":null,\"issue\":\"10036\",\"raw\":\"#10036\"},{\"action\":\"Closes\",\"owner\":null,\"repository\":null,\"issue\":\"9338\",\"raw\":\"#9338\"}],\"revert\":null}\n]\n```\n\nCommits should be split by at least three newlines (`\\n\\n\\n`) or you can specify a separator as the second argument.\n\nEg: in log2.txt\n\n```text\n\ndocs(ngMessageExp): split ngMessage docs up to show its alias more clearly\n===\n\nfix($animate): applyStyles from options on leave\n\nCloses #10068\n```\n\nAnd you run\n\n```sh\n$ conventional-commits-parser log2.txt '==='\n```\n\n```sh\n[\n{\"type\":\"docs\",\"scope\":\"ngMessageExp\",\"subject\":\"split ngMessage docs up to show its alias more clearly\",\"header\":\"docs(ngMessageExp): split ngMessage docs up to show its alias more clearly\",\"body\":null,\"footer\":null,\"notes\":[],\"references\":[],\"revert\":null}\n,\n{\"type\":\"fix\",\"scope\":\"$animate\",\"subject\":\"applyStyles from options on leave\",\"header\":\"fix($animate): applyStyles from options on leave\",\"body\":null,\"footer\":\"Closes #10068\",\"notes\":[],\"references\":[{\"action\":\"Closes\",\"owner\":null,\"repository\":null,\"issue\":\"10068\",\"raw\":\"#10068\"}],\"revert\":null}\n]\n```\n\nWill be printed out.\n\nYou can specify one or more files. The output array will be in order of the input file paths. If you specify more than one separator, the last one will be used.\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/conventional-commits-parser.svg\n[npm-url]: https://npmjs.org/package/conventional-commits-parser\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-commits-parser.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-commits-parser\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-commits-parser.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-commits-parser\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-commits-parser/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-commits-parser\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:42.594Z",
+    "created": "2015-03-01T14:06:02.507Z",
+    "0.0.0": "2015-03-01T14:06:02.507Z",
+    "0.0.1": "2015-03-01T14:18:51.231Z",
+    "0.0.2": "2015-03-01T14:38:51.362Z",
+    "0.0.3": "2015-03-02T06:23:54.932Z",
+    "0.0.4": "2015-03-07T00:24:33.647Z",
+    "0.0.5": "2015-03-07T12:59:19.928Z",
+    "0.0.6": "2015-03-07T14:01:12.264Z",
+    "0.0.7": "2015-03-09T10:29:18.066Z",
+    "0.0.8": "2015-03-10T07:23:06.047Z",
+    "0.0.9": "2015-03-10T10:55:01.331Z",
+    "0.0.11": "2015-03-23T13:05:00.645Z",
+    "0.0.12": "2015-04-02T02:57:27.548Z",
+    "0.0.13": "2015-04-02T03:58:25.038Z",
+    "0.0.14": "2015-04-03T09:34:53.839Z",
+    "0.0.15": "2015-04-07T05:44:52.833Z",
+    "0.0.16": "2015-06-10T05:17:55.779Z",
+    "0.0.17": "2015-06-16T08:35:25.573Z",
+    "0.0.18": "2015-07-03T07:40:00.674Z",
+    "0.0.19": "2015-07-14T03:53:20.903Z",
+    "0.1.0": "2015-08-07T01:04:41.622Z",
+    "0.1.1": "2015-09-12T13:15:45.850Z",
+    "0.1.2": "2015-09-18T05:14:33.280Z",
+    "0.2.0": "2016-02-04T13:41:03.636Z",
+    "1.0.0": "2016-02-05T12:34:36.637Z",
+    "1.0.1": "2016-02-05T14:43:26.071Z",
+    "1.1.0": "2016-04-10T07:10:57.011Z",
+    "1.2.0": "2016-04-15T12:36:09.784Z",
+    "1.2.1": "2016-04-24T14:19:55.717Z",
+    "1.2.2": "2016-05-04T11:26:41.503Z",
+    "1.2.3": "2016-08-06T05:59:49.156Z",
+    "1.3.0": "2016-10-15T10:18:08.483Z",
+    "2.0.0": "2017-07-17T23:30:26.345Z",
+    "2.0.1": "2017-11-13T00:17:17.155Z",
+    "2.1.0": "2017-12-08T07:13:13.565Z",
+    "2.1.1": "2018-02-05T03:28:12.895Z",
+    "2.1.2": "2018-02-13T16:23:45.112Z",
+    "2.1.3": "2018-02-13T16:27:50.013Z",
+    "2.1.4": "2018-02-20T04:20:28.894Z",
+    "2.1.5": "2018-02-24T22:12:41.668Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-commits-parser#readme",
+  "keywords": [
+    "conventional-commits-parser",
+    "changelog",
+    "conventional",
+    "parser",
+    "parsing",
+    "logs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "rubiadias": true
+  },
+  "_attachments": {}
+}

@@ -1,0 +1,340 @@
+{
+  "_id": "git-latest-semver-tag",
+  "_rev": "4-813504f36c5989a307f7354dafb95d86",
+  "name": "git-latest-semver-tag",
+  "description": "Get the most recent git semver tag of your repository",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "git-latest-semver-tag",
+      "version": "0.0.0",
+      "description": "Get the most recent git semver tag of your repository",
+      "homepage": "https://github.com/stevemao/git-latest-semver-tag",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-latest-semver-tag.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-latest-semver-tag",
+        "recent",
+        "semver",
+        "tag",
+        "git-tag"
+      ],
+      "dependencies": {
+        "meow": "^3.1.0",
+        "semver": "^4.3.6"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.14",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-latest-semver-tag": "cli.js"
+      },
+      "gitHead": "c609264300ba4b6aeedf7f51878e50af88582042",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-latest-semver-tag/issues"
+      },
+      "_id": "git-latest-semver-tag@0.0.0",
+      "_shasum": "83446b3b2864af2a3f16b2a16d83ec62f2ef235e",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "0.12.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "83446b3b2864af2a3f16b2a16d83ec62f2ef235e",
+        "tarball": "https://registry.npmjs.org/git-latest-semver-tag/-/git-latest-semver-tag-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "git-latest-semver-tag",
+      "version": "1.0.0",
+      "description": "Get the most recent git semver tag of your repository",
+      "homepage": "https://github.com/stevemao/git-latest-semver-tag",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-latest-semver-tag.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-latest-semver-tag",
+        "recent",
+        "semver",
+        "tag",
+        "git-tag"
+      ],
+      "dependencies": {
+        "meow": "^3.1.0",
+        "semver": "^4.3.6"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.14",
+        "jscs": "^1.13.1",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-latest-semver-tag": "cli.js"
+      },
+      "gitHead": "311256195f7e755e8eb5c6331d477cd47fa87a9c",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-latest-semver-tag/issues"
+      },
+      "_id": "git-latest-semver-tag@1.0.0",
+      "_shasum": "63ca0249d0dcf27e5d0cad3f567c6053fb2451c0",
+      "_from": ".",
+      "_npmVersion": "2.12.1",
+      "_nodeVersion": "0.12.5",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "63ca0249d0dcf27e5d0cad3f567c6053fb2451c0",
+        "tarball": "https://registry.npmjs.org/git-latest-semver-tag/-/git-latest-semver-tag-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "git-latest-semver-tag",
+      "version": "1.0.1",
+      "description": "Get the most recent git semver tag of your repository",
+      "homepage": "https://github.com/stevemao/git-latest-semver-tag",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-latest-semver-tag.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-latest-semver-tag",
+        "recent",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "meow": "^3.3.0",
+        "semver": "^5.0.1"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.14",
+        "jscs": "^2.1.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-latest-semver-tag": "cli.js"
+      },
+      "gitHead": "6a29f41b67350fbc1328ac8f2738249c0848fc7c",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-latest-semver-tag/issues"
+      },
+      "_id": "git-latest-semver-tag@1.0.1",
+      "_shasum": "d09b1424ae75d557594471924de192ac5c658b80",
+      "_from": ".",
+      "_npmVersion": "2.13.4",
+      "_nodeVersion": "0.12.7",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "d09b1424ae75d557594471924de192ac5c658b80",
+        "tarball": "https://registry.npmjs.org/git-latest-semver-tag/-/git-latest-semver-tag-1.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.2": {
+      "name": "git-latest-semver-tag",
+      "version": "1.0.2",
+      "description": "Get the most recent git semver tag of your repository",
+      "homepage": "https://github.com/stevemao/git-latest-semver-tag",
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "https://github.com/stevemao"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/git-latest-semver-tag.git"
+      },
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "cli.js"
+      ],
+      "keywords": [
+        "git-latest-semver-tag",
+        "recent",
+        "semver",
+        "tag",
+        "git-tag",
+        "git"
+      ],
+      "dependencies": {
+        "git-semver-tags": "^1.1.2",
+        "meow": "^3.3.0"
+      },
+      "devDependencies": {
+        "coveralls": "^2.11.2",
+        "istanbul": "^0.3.14",
+        "jscs": "^2.1.0",
+        "jshint": "^2.8.0",
+        "mocha": "*",
+        "shelljs": "^0.5.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "npm run-script lint && mocha"
+      },
+      "bin": {
+        "git-latest-semver-tag": "cli.js"
+      },
+      "gitHead": "23e2cc333a6a1ea771e04f93ff69806cdb929e5e",
+      "bugs": {
+        "url": "https://github.com/stevemao/git-latest-semver-tag/issues"
+      },
+      "_id": "git-latest-semver-tag@1.0.2",
+      "_shasum": "061130cbf4274111cc6be4612b3ff3a6d93e2660",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "061130cbf4274111cc6be4612b3ff3a6d93e2660",
+        "tarball": "https://registry.npmjs.org/git-latest-semver-tag/-/git-latest-semver-tag-1.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/git-latest-semver-tag-1.0.2.tgz_1469710839203_0.7383131466340274"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Get the most recent git semver tag of your repository\n\n\n## Install\n\n```sh\n$ npm install --save git-latest-semver-tag\n```\n\n\n## Usage\n\n```js\nvar gitLatestSemverTag = require('git-latest-semver-tag');\n\ngitLatestSemverTag(function(err, tag) {\n  console.log(tag);\n  //=> 'v1.0.0'\n});\n```\n\n```sh\n$ npm install --global git-latest-semver-tag\n$ git-latest-semver-tag\nv1.0.0\n```\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/git-latest-semver-tag.svg\n[npm-url]: https://npmjs.org/package/git-latest-semver-tag\n[travis-image]: https://travis-ci.org/stevemao/git-latest-semver-tag.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/git-latest-semver-tag\n[daviddm-image]: https://david-dm.org/stevemao/git-latest-semver-tag.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/git-latest-semver-tag\n[coveralls-image]: https://coveralls.io/repos/stevemao/git-latest-semver-tag/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/git-latest-semver-tag\n",
+  "maintainers": [
+    {
+      "name": "stevemao",
+      "email": "steve.mao@healthinteract.com.au"
+    }
+  ],
+  "time": {
+    "modified": "2016-07-28T13:00:43.180Z",
+    "created": "2015-06-04T00:30:27.453Z",
+    "0.0.0": "2015-06-04T00:30:27.453Z",
+    "1.0.0": "2015-07-22T06:11:23.589Z",
+    "1.0.1": "2015-08-15T04:31:59.016Z",
+    "1.0.2": "2016-07-28T13:00:43.180Z"
+  },
+  "homepage": "https://github.com/stevemao/git-latest-semver-tag",
+  "keywords": [
+    "git-latest-semver-tag",
+    "recent",
+    "semver",
+    "tag",
+    "git-tag",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/git-latest-semver-tag.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/stevemao/git-latest-semver-tag/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

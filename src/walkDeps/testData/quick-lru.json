@@ -1,0 +1,197 @@
+{
+  "_id": "quick-lru",
+  "_rev": "2-5f0120e25a0753a6a336914f71e11476",
+  "name": "quick-lru",
+  "description": "Simple \"Least Recently Used\" (LRU) cache",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "quick-lru",
+      "version": "1.0.0",
+      "description": "Simple \"Least Recently Used\" (LRU) cache",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/quick-lru.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && nyc ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "lru",
+        "quick",
+        "cache",
+        "caching",
+        "least",
+        "recently",
+        "used",
+        "fast",
+        "map",
+        "hash",
+        "buffer"
+      ],
+      "devDependencies": {
+        "ava": "*",
+        "coveralls": "^2.12.0",
+        "nyc": "^10.2.0",
+        "xo": "*"
+      },
+      "gitHead": "2ea4c25ec7b5d4eacd37872c9313bdfae0f31d33",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/quick-lru/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/quick-lru#readme",
+      "_id": "quick-lru@1.0.0",
+      "_shasum": "7fa80304ab72c1f81cef738739cd47d7cc0c8bff",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.8.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "7fa80304ab72c1f81cef738739cd47d7cc0c8bff",
+        "tarball": "https://registry.npmjs.org/quick-lru/-/quick-lru-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/quick-lru-1.0.0.tgz_1490864340991_0.10071378503926098"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "quick-lru",
+      "version": "1.1.0",
+      "description": "Simple \"Least Recently Used\" (LRU) cache",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/quick-lru.git"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=4"
+      },
+      "scripts": {
+        "test": "xo && nyc ava"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "lru",
+        "quick",
+        "cache",
+        "caching",
+        "least",
+        "recently",
+        "used",
+        "fast",
+        "map",
+        "hash",
+        "buffer"
+      ],
+      "devDependencies": {
+        "ava": "*",
+        "coveralls": "^2.12.0",
+        "nyc": "^11.0.3",
+        "xo": "*"
+      },
+      "gitHead": "618c5cdcc591289e58fc02c93830b2dc6162cdfa",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/quick-lru/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/quick-lru#readme",
+      "_id": "quick-lru@1.1.0",
+      "_shasum": "4360b17c61136ad38078397ff11416e186dcfbb8",
+      "_from": ".",
+      "_npmVersion": "2.15.11",
+      "_nodeVersion": "4.8.3",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "4360b17c61136ad38078397ff11416e186dcfbb8",
+        "tarball": "https://registry.npmjs.org/quick-lru/-/quick-lru-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quick-lru-1.1.0.tgz_1501163138777_0.7843833630904555"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# quick-lru [![Build Status](https://travis-ci.org/sindresorhus/quick-lru.svg?branch=master)](https://travis-ci.org/sindresorhus/quick-lru) [![Coverage Status](https://coveralls.io/repos/github/sindresorhus/quick-lru/badge.svg?branch=master)](https://coveralls.io/github/sindresorhus/quick-lru?branch=master)\n\n> Simple [\"Least Recently Used\" (LRU) cache](https://en.m.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29)\n\nUseful when you need to cache something and limit memory usage.\n\nInspired by the [`haslru` algorithm](https://github.com/dominictarr/hashlru#algorithm), but instead uses [`Map`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map) to support keys of any type, not just strings, and values can be `undefined`.\n\n\n## Install\n\n```\n$ npm install quick-lru\n```\n\n\n## Usage\n\n```js\nconst QuickLRU = require('quick-lru');\n\nconst lru = new QuickLRU({maxSize: 1000});\n\nlru.set('🦄', '🌈');\n\nlru.has('🦄');\n//=> true\n\nlru.get('🦄');\n//=> '🌈'\n```\n\n\n## API\n\n### new QuickLRU([options])\n\nReturns a new instance.\n\n### options\n\nType: `Object`\n\n#### maxSize\n\n*Required*<br>\nType: `Object`\n\nMaximum number of items before evicting the least recently used items.\n\n### Instance\n\nThe instance is [`iterable`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) so you can use it directly in a [`for…of`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of) loop.\n\nBoth `key` and `value` can be of any type.\n\n#### .set(key, value)\n\nSet an item. Returns the instance.\n\n#### .get(key)\n\nGet an item.\n\n#### .has(key)\n\nCheck if an item exists.\n\n#### .peek(key)\n\nGet an item without marking it as recently used.\n\n#### .delete(key)\n\nDelete an item.\n\n#### .clear()\n\nDelete all items.\n\n#### .keys()\n\nIterable for all the keys.\n\n#### .values()\n\nIterable for all the values.\n\n#### .size\n\nGet the item count.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-07-27T13:45:39.693Z",
+    "created": "2017-03-30T08:59:02.872Z",
+    "1.0.0": "2017-03-30T08:59:02.872Z",
+    "1.1.0": "2017-07-27T13:45:39.693Z"
+  },
+  "homepage": "https://github.com/sindresorhus/quick-lru#readme",
+  "keywords": [
+    "lru",
+    "quick",
+    "cache",
+    "caching",
+    "least",
+    "recently",
+    "used",
+    "fast",
+    "map",
+    "hash",
+    "buffer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/quick-lru.git"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/quick-lru/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "_attachments": {}
+}

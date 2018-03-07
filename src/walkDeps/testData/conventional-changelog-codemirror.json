@@ -1,0 +1,812 @@
+{
+  "_id": "conventional-changelog-codemirror",
+  "_rev": "17-9dd78ad9de8dc5d129054a45a6cc3679",
+  "name": "conventional-changelog-codemirror",
+  "description": "conventional-changelog CodeMirror preset",
+  "dist-tags": {
+    "latest": "0.3.4"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.0.0",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "7d006230f76bbc18a64fe8889dabeeebdda725d8",
+      "_id": "conventional-changelog-codemirror@0.0.0",
+      "_shasum": "4380741fb4db09b9f6400fb7f56b3550eefc8180",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "4380741fb4db09b9f6400fb7f56b3550eefc8180",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.1.0",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "16da626abaa50adb7d0623450cc2f898575f8b6c",
+      "_id": "conventional-changelog-codemirror@0.1.0",
+      "_shasum": "7577a591dbf9b538e7a150a7ee62f65a2872b334",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "7577a591dbf9b538e7a150a7ee62f65a2872b334",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.2.0",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-jUbY98JoKdAOR5k3pOBiKZ+Iz9t2F84hL7x4WjSRW6x7FdeCEUOjyfml+YClE2h/h62Tf3mwur5jSO8upxxc1g==",
+        "shasum": "3cc925955f3b14402827b15168049821972d9459",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror-0.2.0.tgz_1500334222825_0.550055961124599"
+      },
+      "directories": {}
+    },
+    "0.2.1": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.2.1",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.2.1",
+      "_shasum": "299a4f7147baf350e6c8158fc54954a291c5cc09",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "299a4f7147baf350e6c8158fc54954a291c5cc09",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror-0.2.1.tgz_1510532233479_0.7478297962807119"
+      },
+      "directories": {}
+    },
+    "0.3.0": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.3.0",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.3.0",
+      "_shasum": "4dd8abb9f521a638cab49f683496c26b8a5c6d31",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "4dd8abb9f521a638cab49f683496c26b8a5c6d31",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror-0.3.0.tgz_1513607132625_0.28854686534032226"
+      },
+      "directories": {}
+    },
+    "0.3.1": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.3.1",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.3.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-sJD0anCQcXG9czqi1VohsIlx5H0xLmdIHDXrGQlceYKjQF8S7z5y8szb0J9NM/0AgSqdKtl4xJAR2s2EdQbedw==",
+        "shasum": "676e99c233425b8187de9cbd8fe8452ae65191d4",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.1.tgz",
+        "fileCount": 11,
+        "unpackedSize": 7607
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror_0.3.1_1518539020876_0.5388946435772386"
+      }
+    },
+    "0.3.2": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.3.2",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-codemirror.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-codemirror/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.3.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-z/ZmaSSigCw7Te6ozncLww6DmwCYGXvSbi3S7kkVvPKPRYGkKdWJI6Nmyx3AAqzzt6W420sMVOSJGX6dyEQDKw==",
+        "shasum": "65ef0ab738c40bdf953951edfdb0cb17302606aa",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.2.tgz",
+        "fileCount": 11,
+        "unpackedSize": 7884
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror_0.3.2_1518539260219_0.11255503429663904"
+      }
+    },
+    "0.3.3": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.3.3",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.3.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-9vYteJT6F3Ao3CtgXYg1JCRdzLI4qqbH3GdHL0OSjEe/FQjsJRcGHqpbUQ1SQ0ga+vqAJlJdJNib9BwHIQF4mw==",
+        "shasum": "e1ec78e77e7fe26a2bd18e32f02523527916a07b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.3.tgz",
+        "fileCount": 11,
+        "unpackedSize": 8224
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror_0.3.3_1519100421451_0.57317404227284"
+      }
+    },
+    "0.3.4": {
+      "name": "conventional-changelog-codemirror",
+      "version": "0.3.4",
+      "description": "conventional-changelog CodeMirror preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "echo 'make work on windows'"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "codemirror",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-codemirror#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "0.0.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-codemirror@0.3.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-8M7pGgQVzRU//vG3rFlLYqqBywOLxu9XM0/lc1/1Ll7RuKA79PgK9TDpuPmQDHFnqGS7D1YiZpC3Z0D9AIYExg==",
+        "shasum": "debc43991d487d7964e65087fbbe034044bd51fb",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.4.tgz",
+        "fileCount": 11,
+        "unpackedSize": 8392
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-codemirror_0.3.4_1519510352495_0.9448020060067059"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [CodeMirror](https://github.com/codemirror/codemirror) preset\n\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-codemirror.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-codemirror\n[travis-image]: https://travis-ci.org/stevemao/conventional-changelog-codemirror.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/conventional-changelog-codemirror\n[daviddm-image]: https://david-dm.org/stevemao/conventional-changelog-codemirror.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/stevemao/conventional-changelog-codemirror\n[coveralls-image]: https://coveralls.io/repos/stevemao/conventional-changelog-codemirror/badge.svg\n[coveralls-url]: https://coveralls.io/r/stevemao/conventional-changelog-codemirror\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:33.645Z",
+    "created": "2015-12-26T07:50:53.246Z",
+    "0.0.0": "2015-12-26T07:50:53.246Z",
+    "0.1.0": "2016-01-30T07:00:29.733Z",
+    "0.2.0": "2017-07-17T23:30:23.338Z",
+    "0.2.1": "2017-11-13T00:17:13.556Z",
+    "0.3.0": "2017-12-18T14:25:33.532Z",
+    "0.3.1": "2018-02-13T16:23:40.941Z",
+    "0.3.2": "2018-02-13T16:27:40.268Z",
+    "0.3.3": "2018-02-20T04:20:21.527Z",
+    "0.3.4": "2018-02-24T22:12:32.557Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-codemirror#readme",
+  "keywords": [
+    "conventional-changelog",
+    "codemirror",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

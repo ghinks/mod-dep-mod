@@ -1,0 +1,1085 @@
+{
+  "_id": "conventional-changelog-jquery",
+  "_rev": "21-fa77346c6e8f83c3195c4645df6468a3",
+  "name": "conventional-changelog-jquery",
+  "description": "conventional-changelog jquery preset",
+  "dist-tags": {
+    "latest": "1.3.4"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "0.0.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1",
+        "semver": "^5.1.0"
+      },
+      "gitHead": "308bf0cef20f6d496855195be9be545692ee4045",
+      "_id": "conventional-changelog-jquery@0.0.0",
+      "_shasum": "00a5349b90afe73c4d73c80f21bad316c9884a9e",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "00a5349b90afe73c4d73c80f21bad316c9884a9e",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "0.1.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "ce223de2bde0e85cfe63718128e339c1303698eb",
+      "_id": "conventional-changelog-jquery@0.1.0",
+      "_shasum": "0208397162e3846986e71273b6c79c5b5f80f510",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0208397162e3846986e71273b6c79c5b5f80f510",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.2.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "0.2.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "0.0.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^2.9.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "3ccea995e01c6b6977a086e89278556306e5f318",
+      "_id": "conventional-changelog-jquery@0.2.0",
+      "_shasum": "4b21c7c8e09871435942080c18574f64ed9add2f",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "4b21c7c8e09871435942080c18574f64ed9add2f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-0.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-jquery-0.2.0.tgz_1460873515246_0.013752566650509834"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.0.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "d29813574e6c1218d62647fadf7b954901bd57bc",
+      "_id": "conventional-changelog-jquery@1.0.0",
+      "_shasum": "457775413cef9d9eceeab20f82c5b150f30a2a23",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "457775413cef9d9eceeab20f82c5b150f30a2a23",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-jquery-1.0.0.tgz_1460882104818_0.19425631710328162"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.1.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "7b8738065346a735bb79792b5d1cd391a5982359",
+      "_id": "conventional-changelog-jquery@1.1.0",
+      "_shasum": "153e1ce4df73aec2f48afe7486314918c15657ac",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "153e1ce4df73aec2f48afe7486314918c15657ac",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-jquery-1.1.0.tgz_1460886588745_0.62901297560893"
+      },
+      "directories": {}
+    },
+    "1.1.1": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.1.1",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "coveralls": "^2.11.6",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "gitHead": "1010b5899ad36e340eddb2c303269a0d501d60f4",
+      "_id": "conventional-changelog-jquery@1.1.1",
+      "_shasum": "0f58bf03550113b09ffb793e142b9f8ed820915b",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "0f58bf03550113b09ffb793e142b9f8ed820915b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-jquery-1.1.1.tgz_1460891242408_0.9812675982248038"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.2.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.2.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-WXg8VInGkpjm9bMGGpCf51Qns5ZZt5YSsjzHxGgl5LXc3D4ON5bcEzZxXcUTl40frr5TxPe6MILWRXjNHrFzHw==",
+        "shasum": "6c248114125a1c9c1c9f834dda39992a3055bebf",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery-1.2.0.tgz_1500334224700_0.3783803393598646"
+      },
+      "directories": {}
+    },
+    "1.2.1": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.2.1",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.2.1",
+      "_shasum": "210f4f1f70ae7dba511e7a07066f6eb2c476d5c6",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "210f4f1f70ae7dba511e7a07066f6eb2c476d5c6",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.2.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery-1.2.1.tgz_1510532235332_0.6850506216287613"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.3.0",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.3.0",
+      "_shasum": "5072e578b52971be0d216f18a55ffeed96ff3b10",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "5072e578b52971be0d216f18a55ffeed96ff3b10",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery-1.3.0.tgz_1513607133962_0.19578931154683232"
+      },
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.3.1",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.3.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-unNuo5l5FjBCDAyPY3bxS6YoVMj2HeyvX06CSSr3Gtdh0HbAFecyrPZ455YYstfGTOmo87yv3CFk9ybrzP10kQ==",
+        "shasum": "aa1cd7de10299348da3e8627eccc644d255b8dfc",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.3.1.tgz",
+        "fileCount": 11,
+        "unpackedSize": 9823
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery_1.3.1_1518539020881_0.8493854723239227"
+      }
+    },
+    "1.3.2": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.3.2",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-jquery.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-jquery/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.3.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-aLIHGqQ+X1UyXA8NmUIgUvyoVlm2lj+3RKUGnVfH7uGboRf5c1pjOnATGIcZwXWgG90lCJibBQ0eZJJt7Uyd0A==",
+        "shasum": "d53edd26eeb6a778e2764a8a77686c9c74a4e2af",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.3.2.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10098
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery_1.3.2_1518539264608_0.6828911133904558"
+      }
+    },
+    "1.3.3": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.3.3",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "conventional-changelog-core": "1.3.2",
+        "istanbul": "^0.4.2",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-jquery@1.3.3",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-/22ObCmUEqNv08UCCQLf6t2WThdwvbiYKAORi7t7RsYA4GOUTPi1AVN1vcGsVs7o8LbnF1GtmzEXcVwJ8W4MvA==",
+        "shasum": "18ecbd9edbe949631aaf15a15f5de26cd0d95b54",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.3.3.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10392
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery_1.3.3_1519100425400_0.8020582350989576"
+      }
+    },
+    "1.3.4": {
+      "name": "conventional-changelog-jquery",
+      "version": "1.3.4",
+      "description": "conventional-changelog jquery preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout=30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "jquery",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jquery#readme",
+      "devDependencies": {
+        "conventional-changelog-core": "1.3.2",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-jquery@1.3.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-yJNCU9U4fvpR/Nn7Rk2Punje65YDpYNyuIeYsRhwbtGyq4NqekuenXef2BYInvWB3GgC2ZgeI6c413ReXGDWqA==",
+        "shasum": "822ca8c84f5528a4e2edac1ffe1a8c31777b8f79",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-jquery/-/conventional-changelog-jquery-1.3.4.tgz",
+        "fileCount": 11,
+        "unpackedSize": 10548
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-jquery_1.3.4_1519510356844_0.9862700840878065"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [jQuery](https://github.com/jquery/jquery) preset\n\n**Issues with the convention itself should be reported on the JQuery issue tracker.**\n\n## JQuery Convention\n\nCommit messages should describe what changed, and reference the issue number if the commit closes or is associated with a particular issue. Commit messages for all jQuery projects should look like this:\n\n```\nComponent: Short Description\n\nOptional Long Description\n\nFixes #xxx\nCloses gh-yyy\nRef #zzz\n```\n\nEvery commit must have a subject (the first line). Everything else is optional.\n\n### Subject\n\nThis is the first line. It consists of a component, like \"Event\" or \"Autocomplete\".\n\n### Long description\n\nThere are two line breaks between the subject and the long description. The description can have any length and formatting, like lists.\n\n### References\n\nReferences to issues or pull requests go after the long description, each one on their own line.\n\n* Use **Fixes** when the commit fixes an open issue.\n\n* Use **Closes** when the commit closes an open pull request.\n\n* Use **Ref** when referencing an issue or pull request that is already closed or should remain open. Examples include partial fixes and commits that add a test but not a fix.\n\n* Always use \"gh-xxx\" for GitHub issues and pull requests within the same repository. Use \"\\[user\\]/\\[repo\\]#xxx\" when referencing an issue or pull request in another repository, e.g., \"Closes jquery/jquery-ui#175\".\n\nBased on https://github.com/jquery/contribute.jquery.org/blob/master/pages/commits-and-pull-requests.md#commit-guidelines\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-jquery.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-jquery\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-jquery.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-jquery\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-jquery.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-jquery\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-jquery/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-jquery\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:37.673Z",
+    "created": "2015-12-26T04:38:08.713Z",
+    "0.0.0": "2015-12-26T04:38:08.713Z",
+    "0.1.0": "2016-01-30T07:14:41.209Z",
+    "0.2.0": "2016-04-17T06:11:55.706Z",
+    "1.0.0": "2016-04-17T08:35:07.075Z",
+    "1.1.0": "2016-04-17T09:49:51.183Z",
+    "1.1.1": "2016-04-17T11:07:24.875Z",
+    "1.2.0": "2017-07-17T23:30:24.804Z",
+    "1.2.1": "2017-11-13T00:17:15.400Z",
+    "1.3.0": "2017-12-18T14:25:34.843Z",
+    "1.3.1": "2018-02-13T16:23:40.973Z",
+    "1.3.2": "2018-02-13T16:27:44.656Z",
+    "1.3.3": "2018-02-20T04:20:25.637Z",
+    "1.3.4": "2018-02-24T22:12:36.924Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-jquery#readme",
+  "keywords": [
+    "conventional-changelog",
+    "jquery",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

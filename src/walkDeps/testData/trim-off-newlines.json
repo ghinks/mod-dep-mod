@@ -1,0 +1,292 @@
+{
+  "_id": "trim-off-newlines",
+  "_rev": "5-25b384a9ff0ce17ffee9fe08363dcb8b",
+  "name": "trim-off-newlines",
+  "description": "Similar to String#trim() but removes only newlines",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "trim-off-newlines",
+      "version": "0.0.0",
+      "description": "Similar to String#trim() but removes only newlines",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/trim-off-newlines.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "github.com/stevemao"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && mocha"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "trim",
+        "newlines",
+        "new-lines",
+        "newline",
+        "new-lines",
+        "string",
+        "str",
+        "util",
+        "utils",
+        "utility",
+        "whitespace",
+        "space",
+        "remove",
+        "delete"
+      ],
+      "dependencies": {},
+      "devDependencies": {
+        "mocha": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "envs": [
+          "node",
+          "mocha"
+        ]
+      },
+      "gitHead": "c0623a30a7a351dbda13289e92b3f9e97ac15bd2",
+      "bugs": {
+        "url": "https://github.com/stevemao/trim-off-newlines/issues"
+      },
+      "homepage": "https://github.com/stevemao/trim-off-newlines#readme",
+      "_id": "trim-off-newlines@0.0.0",
+      "_shasum": "49ae202b183583480fed5236e02083010927a245",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.0.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "steve.mao@healthinteract.com.au"
+        }
+      ],
+      "dist": {
+        "shasum": "49ae202b183583480fed5236e02083010927a245",
+        "tarball": "https://registry.npmjs.org/trim-off-newlines/-/trim-off-newlines-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "trim-off-newlines",
+      "version": "1.0.0",
+      "description": "Similar to String#trim() but removes only newlines",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/trim-off-newlines.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "github.com/stevemao"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && mocha"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "trim",
+        "newlines",
+        "new-lines",
+        "newline",
+        "new-lines",
+        "string",
+        "str",
+        "util",
+        "utils",
+        "utility",
+        "whitespace",
+        "space",
+        "remove",
+        "delete"
+      ],
+      "dependencies": {},
+      "devDependencies": {
+        "mocha": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "envs": [
+          "node",
+          "mocha"
+        ]
+      },
+      "gitHead": "5ed67d2ef8cff80c24930ddfa8d78388c180c456",
+      "bugs": {
+        "url": "https://github.com/stevemao/trim-off-newlines/issues"
+      },
+      "homepage": "https://github.com/stevemao/trim-off-newlines#readme",
+      "_id": "trim-off-newlines@1.0.0",
+      "_shasum": "09c4f53e3197e61d93a8c728ed572bad57fa234f",
+      "_from": ".",
+      "_npmVersion": "3.3.3",
+      "_nodeVersion": "4.0.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "steve.mao@healthinteract.com.au"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "09c4f53e3197e61d93a8c728ed572bad57fa234f",
+        "tarball": "https://registry.npmjs.org/trim-off-newlines/-/trim-off-newlines-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "trim-off-newlines",
+      "version": "1.0.1",
+      "description": "Similar to String#trim() but removes only newlines",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/trim-off-newlines.git"
+      },
+      "author": {
+        "name": "Steve Mao",
+        "email": "maochenyan@gmail.com",
+        "url": "github.com/stevemao"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "xo && mocha"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "trim",
+        "newlines",
+        "new-lines",
+        "newline",
+        "new-lines",
+        "string",
+        "str",
+        "util",
+        "utils",
+        "utility",
+        "whitespace",
+        "space",
+        "remove",
+        "delete"
+      ],
+      "dependencies": {},
+      "devDependencies": {
+        "mocha": "*",
+        "xo": "*"
+      },
+      "xo": {
+        "envs": [
+          "node",
+          "mocha"
+        ]
+      },
+      "gitHead": "3a728c951e87fe006c65e7504e39882d48936b35",
+      "bugs": {
+        "url": "https://github.com/stevemao/trim-off-newlines/issues"
+      },
+      "homepage": "https://github.com/stevemao/trim-off-newlines#readme",
+      "_id": "trim-off-newlines@1.0.1",
+      "_shasum": "9f9ba9d9efa8764c387698bcbfeb2c848f11adb3",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "9f9ba9d9efa8764c387698bcbfeb2c848f11adb3",
+        "tarball": "https://registry.npmjs.org/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/trim-off-newlines-1.0.1.tgz_1468837526622_0.67790816584602"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# trim-off-newlines [![Build Status](https://travis-ci.org/stevemao/trim-off-newlines.svg?branch=master)](https://travis-ci.org/stevemao/trim-off-newlines)\n\n> Similar to [`String#trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) but removes only newlines\n\n\n## Install\n\n```\n$ npm install --save trim-off-newlines\n```\n\n\n## Usage\n\n```js\nvar trimOffNewlines = require('trim-off-newlines');\n\ntrimOffNewlines('\\n\\nunicorns\\n\\n');\n//=> 'unicorns'\n```\n\n\n## Related\n\n- [`trim-left`](https://github.com/sindresorhus/trim-left) - Similar to `String#trim()` but removes only whitespace on the left\n- [`trim-right`](https://github.com/sindresorhus/trim-right) - Similar to `String#trim()` but removes only whitespace on the right\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n",
+  "maintainers": [
+    {
+      "name": "stevemao",
+      "email": "maochenyan@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-06-05T02:06:44.534Z",
+    "created": "2015-09-18T00:46:02.776Z",
+    "0.0.0": "2015-09-18T00:46:02.776Z",
+    "1.0.0": "2015-09-18T00:52:49.189Z",
+    "1.0.1": "2016-07-18T10:25:26.826Z"
+  },
+  "homepage": "https://github.com/stevemao/trim-off-newlines#readme",
+  "keywords": [
+    "trim",
+    "newlines",
+    "new-lines",
+    "newline",
+    "new-lines",
+    "string",
+    "str",
+    "util",
+    "utils",
+    "utility",
+    "whitespace",
+    "space",
+    "remove",
+    "delete"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/trim-off-newlines.git"
+  },
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "github.com/stevemao"
+  },
+  "bugs": {
+    "url": "https://github.com/stevemao/trim-off-newlines/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "muhammadghazali": true
+  },
+  "_attachments": {}
+}

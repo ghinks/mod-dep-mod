@@ -1,0 +1,2578 @@
+{
+  "_id": "conventional-changelog-core",
+  "_rev": "46-d59e5a015967f38c9a88ee655a2a815b",
+  "name": "conventional-changelog-core",
+  "description": "conventional-changelog core",
+  "dist-tags": {
+    "latest": "2.0.5"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-core",
+      "version": "0.0.0",
+      "description": "Generate a changelog from git metadata",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "core",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "add-stream": "^1.0.0",
+        "compare-func": "^1.3.1",
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.2",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^3.10.1",
+        "meow": "^3.6.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "semver": "^5.1.0",
+        "tempfile": "^1.1.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "concat-stream": "^1.5.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 15000 && npm run-script lint"
+      },
+      "gitHead": "8a82f053144d06c7698e4539871dcbc6c003e381",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@0.0.0",
+      "_shasum": "b4766df6860a2d49fd3aee32324a1978f21a7a18",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "b4766df6860a2d49fd3aee32324a1978f21a7a18",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "conventional-changelog-core",
+      "version": "0.0.1",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.2",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^3.10.1",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "shelljs": "^0.5.3"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 15000 && npm run-script lint"
+      },
+      "gitHead": "0b664c7d51c537ef652d8cbbef27c13374ff60cf",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@0.0.1",
+      "_shasum": "7d3f41148de9759a7d1421b3f7760fef2c8931fb",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "7d3f41148de9759a7d1421b3f7760fef2c8931fb",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-0.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "conventional-changelog-core",
+      "version": "0.0.2",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^0.4.1",
+        "conventional-commits-parser": "^0.1.2",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^0.1.0",
+        "git-raw-commits": "^0.1.2",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "shelljs": "^0.5.3"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "1568585999f1f55aa4eac0f8c0921188a458e901",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@0.0.2",
+      "_shasum": "795a298de84f8801398cd0fee20fb799a1f02089",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "795a298de84f8801398cd0fee20fb799a1f02089",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-0.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.0.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.0.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.0.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "bcaf5d8011b54f0c19d9e9fa92339642f80b1087",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.0.0",
+      "_shasum": "a6fec73edfe105ff7830a1537c6fc2edd1d8c178",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a6fec73edfe105ff7830a1537c6fc2edd1d8c178",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.0.0.tgz_1454676817173_0.1182341983076185"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "conventional-changelog-core",
+      "version": "1.0.1",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.0.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.0.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "6c912c64ef0bd2bdc94c2d46c616bbf0a99591e4",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.0.1",
+      "_shasum": "dd2bd256b37e117713571a48204766338c446ec0",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "dd2bd256b37e117713571a48204766338c446ec0",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.0.1.tgz_1454769689744_0.27734376583248377"
+      },
+      "directories": {}
+    },
+    "1.0.2": {
+      "name": "conventional-changelog-core",
+      "version": "1.0.2",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.0.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.0.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "6e9bf6ff727b6159392f3f9cfbf432b11627c0f2",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.0.2",
+      "_shasum": "46f623563b3d6a8ea221fdb867baf4e037b0533d",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "46f623563b3d6a8ea221fdb867baf4e037b0533d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.0.2.tgz_1454799386990_0.8098974709864706"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.1.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.0.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "415352a5013b8867ef219509f8945f17311ab87f",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.1.0",
+      "_shasum": "befd8396957368162806ad01e0a103f7dab564d2",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "befd8396957368162806ad01e0a103f7dab564d2",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.1.0.tgz_1454940294429_0.7456064494326711"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.2.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.0.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "bdce00d83c351c05466d2dc6e13d38a85ff45817",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.2.0",
+      "_shasum": "9155e7982417b65c52bdca81c71d4989ec211ca9",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "9155e7982417b65c52bdca81c71d4989ec211ca9",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-6-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.2.0.tgz_1455187291855_0.33755284338258207"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.3.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "84c448feb11f008a958cfb299372b6fdfc83ef46",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.3.0",
+      "_shasum": "a88bcf13fc302f8ad2ceefff803097c2df4573a7",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a88bcf13fc302f8ad2ceefff803097c2df4573a7",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-9-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.3.0.tgz_1455339063090_0.6799996108748019"
+      },
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "conventional-changelog-core",
+      "version": "1.3.1",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "f8351685eed626f1826ee633a979acf8321985bf",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.3.1",
+      "_shasum": "fa2019f7ba56068b4a373b2f3669cae469983e83",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "fa2019f7ba56068b4a373b2f3669cae469983e83",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.3.1.tgz_1460176648788_0.507072338135913"
+      },
+      "directories": {}
+    },
+    "1.3.2": {
+      "name": "conventional-changelog-core",
+      "version": "1.3.2",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "f04a83eef5c65704d7c2c12d69ac34e23318b771",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.3.2",
+      "_shasum": "09189bf9dcc02662658e788213097cb3a9e5f734",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "09189bf9dcc02662658e788213097cb3a9e5f734",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.3.2.tgz_1460867150203_0.9200619088951498"
+      },
+      "directories": {}
+    },
+    "1.3.3": {
+      "name": "conventional-changelog-core",
+      "version": "1.3.3",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.6.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "91255e88cbe9ad5ec9037d3957257394a30fa2b2",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.3.3",
+      "_shasum": "c29a8fec86c2449586a736427ced732917c70e63",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "c29a8fec86c2449586a736427ced732917c70e63",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.3.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.3.3.tgz_1461061996314_0.8397980846930295"
+      },
+      "directories": {}
+    },
+    "1.3.4": {
+      "name": "conventional-changelog-core",
+      "version": "1.3.4",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "5c9b68ebf86bc3406cf98f0b14652ce0bf5c0fb3",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.3.4",
+      "_shasum": "aaea95a9c6b6127a1a1233edbb98d8a48c326585",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "aaea95a9c6b6127a1a1233edbb98d8a48c326585",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.3.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.3.4.tgz_1462616331549_0.40135787054896355"
+      },
+      "directories": {}
+    },
+    "1.4.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.4.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "c80e05aed41ccf321a93b471e84672e44f399ec4",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.4.0",
+      "_shasum": "98b2e2135c4d0d0307d5df0f870b763ae7c5ffc7",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "98b2e2135c4d0d0307d5df0f870b763ae7c5ffc7",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.4.0.tgz_1462713411673_0.8697501374408603"
+      },
+      "directories": {}
+    },
+    "1.5.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.5.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint hosts test *.js --exclude node_modules && jscs hosts test *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "gitHead": "4e73cd566c4afd26ff28a87de26e97942814f708",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.5.0",
+      "_shasum": "72b17509535a23d7c6cb70ad4384f74247748013",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "72b17509535a23d7c6cb70ad4384f74247748013",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.5.0.tgz_1462881680812_0.8256079680286348"
+      },
+      "directories": {}
+    },
+    "1.6.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.6.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.1.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.1.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.6.0",
+      "_shasum": "90d9d41d4cdf2836e4d0009b96223dd400f6c7a1",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "90d9d41d4cdf2836e4d0009b96223dd400f6c7a1",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.6.0.tgz_1489123981669_0.6786491123493761"
+      },
+      "directories": {}
+    },
+    "1.7.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.7.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.2.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.7.0",
+      "_shasum": "2dc506a0e9fdd2674b7c7c65afe4367207854dcd",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "2dc506a0e9fdd2674b7c7c65afe4367207854dcd",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.7.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.7.0.tgz_1489193794349_0.6526880846358836"
+      },
+      "directories": {}
+    },
+    "1.8.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.8.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.2.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-angular": "^1.3.3",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.8.0",
+      "_shasum": "977848b416caf15fb09f20b12a62d40ef145b957",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "977848b416caf15fb09f20b12a62d40ef145b957",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.8.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.8.0.tgz_1489266172148_0.5829383195377886"
+      },
+      "directories": {}
+    },
+    "1.9.0": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "conventional-changelog-writer": "^1.1.0",
+        "conventional-commits-parser": "^1.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.2.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-angular": "^1.3.4",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.0",
+      "_shasum": "de5dfbc091847656508d4a389e35c9a1bc49e7f4",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "tapppi",
+        "email": "moilanen.tapani@gmail.com"
+      },
+      "dist": {
+        "shasum": "de5dfbc091847656508d4a389e35c9a1bc49e7f4",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-core-1.9.0.tgz_1490233661659_0.15589139331132174"
+      },
+      "directories": {}
+    },
+    "1.9.1": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.1",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^2.0.1",
+        "conventional-commits-parser": "^2.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.2.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.1",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-angular": "^1.5.0",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.1",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-Fo0bSeO+NsO6GtuQXts0xQeRpLrxaABTPU8NK4Zij9sJB3zFkU4BObSefJS4F4+EkKujaKCWtfS6Uih+9NpXrQ==",
+        "shasum": "ddf767c405850dfc8df31726c80fa1a6a10bdc7b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-1.9.1.tgz_1504235789405_0.5436454038135707"
+      },
+      "directories": {}
+    },
+    "1.9.2": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.2",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^2.0.1",
+        "conventional-commits-parser": "^2.0.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.2.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.2",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-angular": "^1.5.1",
+        "chai": "^3.4.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.2",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-L/boGKXaKWrlCU8bHa1QM36Pb/JopCPmekj5SFqqAuBfjya860xX2fAC5Ggelse++Bw39AZ2NrHwBnJrdwLlLw==",
+        "shasum": "a09b6b959161671ff45b93cc9efb0444e7c845c0",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-1.9.2.tgz_1506836372030_0.5831415683496743"
+      },
+      "directories": {}
+    },
+    "1.9.3": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.3",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^2.0.2",
+        "conventional-commits-parser": "^2.0.1",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.3",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.5.2",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.3",
+      "_shasum": "2899fe779389a329f0ec4b2746c36ddefb98da2d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "2899fe779389a329f0ec4b2746c36ddefb98da2d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-1.9.3.tgz_1510532241423_0.8279615535866469"
+      },
+      "directories": {}
+    },
+    "1.9.4": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.4",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^2.0.3",
+        "conventional-commits-parser": "^2.1.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.3",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.5.3",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.4",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-C8R8Bb706P10hYaGzllvH92O8Ck7xCGPB7t2Y+S1O2yf13BDvDW5BPdjyBwY2VgVNuFyNqi6qA458N+W9txpHg==",
+        "shasum": "a541e5354f91072f8583b19e34abb9f6e461c367",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.4.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-1.9.4.tgz_1512717199328_0.5345752278808504"
+      },
+      "directories": {}
+    },
+    "1.9.5": {
+      "name": "conventional-changelog-core",
+      "version": "1.9.5",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^2.0.3",
+        "conventional-commits-parser": "^2.1.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.2.3",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.6.0",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@1.9.5",
+      "_shasum": "5db7566dad7c0cb75daf47fbb2976f7bf9928c1d",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "5db7566dad7c0cb75daf47fbb2976f7bf9928c1d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-1.9.5.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-1.9.5.tgz_1513607128002_0.792286747135222"
+      },
+      "directories": {}
+    },
+    "2.0.0": {
+      "name": "conventional-changelog-core",
+      "version": "2.0.0",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^3.0.0",
+        "conventional-commits-parser": "^2.1.0",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.3.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.6.1",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@2.0.0",
+      "_shasum": "1bdf7d21f3d066427ff9e07db0a2c5dd60015b9f",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "1bdf7d21f3d066427ff9e07db0a2c5dd60015b9f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-2.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-2.0.0.tgz_1517191964310_0.1255581071600318"
+      },
+      "directories": {}
+    },
+    "2.0.1": {
+      "name": "conventional-changelog-core",
+      "version": "2.0.1",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^3.0.0",
+        "conventional-commits-parser": "^2.1.1",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.0",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.3.0",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.6.2",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0",
+        "tmp": "0.0.33"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@2.0.1",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-XxgSDsCUGXT4j3uVpYkz17D1AoWzO8BOC0VO1fSwvvXJB5Q32zhPGXObvu7vTb0GE0OS15eDgzYN32fU3mOzYA==",
+        "shasum": "7573de89bde46e0ccf395b4b85a0869aa5388e8d",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-2.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core-2.0.1.tgz_1517801315411_0.7301274128258228"
+      },
+      "directories": {}
+    },
+    "2.0.3": {
+      "name": "conventional-changelog-core",
+      "version": "2.0.3",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-core.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "dependencies": {
+        "conventional-changelog-writer": "^3.0.2",
+        "conventional-commits-parser": "^2.1.3",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.2",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.3.2",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.6.4",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0",
+        "tmp": "0.0.33"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-core/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-core#readme",
+      "_id": "conventional-changelog-core@2.0.3",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-yLnwThgG5M7k4ZuG87sWXQBEQPTijcB4TpUrSzJcH6Jk7vkZR4ej7GJgY5TqKKiVwALWzyAGd6GenzGbNZvYnw==",
+        "shasum": "30797b91d5f510188288d5ff54905e5cf4628e3c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-2.0.3.tgz",
+        "fileCount": 8,
+        "unpackedSize": 31724
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core_2.0.3_1518539278814_0.6877521080424078"
+      }
+    },
+    "2.0.4": {
+      "name": "conventional-changelog-core",
+      "version": "2.0.4",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core#readme",
+      "dependencies": {
+        "conventional-changelog-writer": "^3.0.3",
+        "conventional-commits-parser": "^2.1.4",
+        "dateformat": "^1.0.12",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.3",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.3.3",
+        "lodash": "^4.0.0",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.4.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-angular": "^1.6.5",
+        "git-dummy-commit": "^1.1.0",
+        "git-tails": "^1.0.0",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.3",
+        "jshint": "^2.9.1",
+        "mkdirp": "^0.5.1",
+        "mocha": "*",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.1.0",
+        "shelljs": "^0.7.0",
+        "tmp": "0.0.33"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "_id": "conventional-changelog-core@2.0.4",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-XsmaKcbfewovP72N5w17TNV6fqZYTF0jnNKG0V/OhPsIZETFvFzJwPHCDM3FrRNvDXWRvqb2M0a83cvYhHbvzw==",
+        "shasum": "bbc476109c6b28ba6328b0b417f5ab5bfc7ca28a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-2.0.4.tgz",
+        "fileCount": 8,
+        "unpackedSize": 32221
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core_2.0.4_1519100437911_0.1082909879478946"
+      }
+    },
+    "2.0.5": {
+      "name": "conventional-changelog-core",
+      "version": "2.0.5",
+      "description": "conventional-changelog core",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "conventional",
+        "changelog",
+        "log"
+      ],
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "lib",
+        "hosts"
+      ],
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core#readme",
+      "dependencies": {
+        "conventional-changelog-writer": "^3.0.4",
+        "conventional-commits-parser": "^2.1.5",
+        "dateformat": "^3.0.0",
+        "get-pkg-repo": "^1.0.0",
+        "git-raw-commits": "^1.3.4",
+        "git-remote-origin-url": "^2.0.0",
+        "git-semver-tags": "^1.3.4",
+        "lodash": "^4.2.1",
+        "normalize-package-data": "^2.3.5",
+        "q": "^1.5.1",
+        "read-pkg": "^1.1.0",
+        "read-pkg-up": "^1.0.1",
+        "through2": "^2.0.0"
+      },
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-angular": "^1.6.6",
+        "git-dummy-commit": "^1.2.0",
+        "git-tails": "^1.0.0",
+        "mkdirp": "^0.5.1",
+        "pinkie-promise": "^2.0.0",
+        "semver": "^5.5.0",
+        "shelljs": "^0.8.0",
+        "tmp": "0.0.33"
+      },
+      "scripts": {
+        "lint": "jshint . --exclude node_modules && jscs .",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "_id": "conventional-changelog-core@2.0.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-lP1s7Z3NyEFcG78bWy7GG7nXsq9OpAJgo2xbyAlVBDweLSL5ghvyEZlkEamnAQpIUVK0CAVhs8nPvCiQuXT/VA==",
+        "shasum": "45b6347c4c6512e1f163f7ff55c9f5bcb88fd990",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-2.0.5.tgz",
+        "fileCount": 8,
+        "unpackedSize": 32370
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-core_2.0.5_1519510370000_0.09603857882047562"
+      }
+    }
+  },
+  "readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status: Linux][travis-image]][travis-url] [![Build Status: Windows][appveyor-image]][appveyor-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) core\n\nYou are probably looking for the [cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli) module. Or use one of the plugins if you are already using the tool:  [grunt](https://github.com/btford/grunt-conventional-changelog)/[gulp](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/gulp-conventional-changelog)/[atom](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-atom).\n\n\n## Usage\n\n```sh\n$ npm install --save conventional-changelog-core\n```\n\n```js\nvar conventionalChangelogCore = require('conventional-changelog-core');\n\nconventionalChangelogCore()\n  .pipe(process.stdout); // or any writable stream\n```\n\n\n## API\n\n### conventionalChangelogCore([options, [context, [gitRawCommitsOpts, [parserOpts, [writerOpts]]]]])\n\nReturns a readable stream.\n\n*Note:* [`options.transform`](#transform-1), [`options.pkg.transform`](#transform) and [`writerOpts.transform`](https://github.com/conventional-changelog/conventional-changelog-writer#transform) are different. If you have a better naming suggestion, please send a PR.\n\n#### options\n\n##### config\n\nType: `promise`, `function` or `object`\n\nThis should serve as default values for other arguments of `conventionalChangelogCore` so you don't need to rewrite the same or similar config across your projects. Any value in this could be overwritten.\nIf this is a promise (recommended if async), it should resolve with the config.\nIf this is a function, it expects a node style callback with the config object.\nIf this is an object, it is the config object. The config object should include `context`, `gitRawCommitsOpts`, `parserOpts` and `writerOpts`.\n\n##### pkg\n\nType: `object`\n\n###### path\n\nType: `string` Default: [closest package.json](https://github.com/sindresorhus/read-pkg-up).\n\nThe location of your \"package.json\".\n\n###### transform\n\nType: `function` Default: pass through.\n\nA function that takes `package.json` data as the argument and returns the modified data. Note this is performed before normalizing package.json data. Useful when you need to add a leading 'v' to your version or modify your repository url, etc.\n\n##### append\n\nType: `boolean` Default: `false`\n\nShould the log be appended to existing data.\n\n##### releaseCount\n\nType: `number` Default: `1`\n\nHow many releases of changelog you want to generate. It counts from the upcoming release. Useful when you forgot to generate any previous changelog. Set to `0` to regenerate all.\n\n##### debug\n\nType: `function` Default: `function() {}`\n\nA debug function. EG: `console.debug.bind(console)`\n\n##### warn\n\nType: `function` Default: `options.debug`\n\nA warn function. EG: `grunt.verbose.writeln`\n\n##### transform\n\nType: `function` Default: get the version (without leading 'v') from tag and format date.\n\n###### function(commit, cb)\n\nA transform function that applies after the parser and before the writer.\n\nThis is the place to modify the parsed commits.\n\n####### commit\n\nThe commit from conventional-commits-parser.\n\n####### cb\n\nCallback when you are done.\n\n####### this\n\n`this` arg of through2.\n\n##### outputUnreleased\n\nType: `boolean` Default: `true` if a different version than last release is given. Otherwise `false`.\n\nIf this value is `true` and `context.version` equals last release then `context.version` will be changed to `'Unreleased'`.\n\n**NOTE:** You may want to combine this option with `releaseCount` set to `0` to always overwrite the whole CHANGELOG. `conventional-changelog` only outputs a CHANGELOG but doesn't read any existing one.\n\n##### lernaPackage\n\nSpecify a package in lerna-style monorepo that the CHANGELOG should be generated for.\n\nLerna tags releases in the format `foo-package@1.0.0` and assumes that packages\nare stored in the directory structure `./packages/foo-package`.\n\n#### context\n\nSee the [conventional-changelog-writer](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer) docs. There are some defaults or changes:\n\n##### host\n\nDefault: normalized host found in `package.json`.\n\n##### version\n\nDefault: version found in `package.json`.\n\n##### owner\n\nDefault: extracted from normalized `package.json` `repository.url` field.\n\n##### repository\n\nDefault: extracted from normalized `package.json` `repository.url` field.\n\n##### repoUrl\n\nDefault: The whole normalized repository url in `package.json`.\n\n##### gitSemverTags\n\nType: `array`\n\nAll git semver tags found in the repository. You can't overwrite this value.\n\n##### previousTag\n\nType: `string` Default: previous semver tag or the first commit hash if no previous tag.\n\n##### currentTag\n\nType: `string` Default: current semver tag or `'v'` + version if no current tag.\n\n##### packageData\n\nType: `object`\n\nYour `package.json` data. You can't overwrite this value.\n\n##### linkCompare\n\nType: `boolean` Default: `true` if `previousTag` and `currentTag` are truthy.\n\nShould link to the page that compares current tag with previous tag?\n\n#### gitRawCommitsOpts\n\nSee the [git-raw-commits](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits) docs. There are some defaults:\n\n##### format\n\nDefault: `'%B%n-hash-%n%H%n-gitTags-%n%d%n-committerDate-%n%ci'`\n\n##### from\n\nDefault: based on `options.releaseCount`.\n\n##### reverse\n\nDefault: `true` if `options.append` is truthy.\n\n##### debug\n\nType: `function` Default: `options.debug`\n\n#### parserOpts\n\nSee the [conventional-commits-parser](https://github.com/conventional-changelog/conventional-commits-parser) docs.\n\n##### warn\n\nDefault: `options.warn`\n\n#### writerOpts\n\nSee the [conventional-changelog-writer](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer) docs. There are some defaults:\n\n##### finalizeContext\n\nFinalize context is used for generating above context.\n\n**NOTE:** If you overwrite this value the above context defaults will be gone.\n\n##### debug\n\nType: `function` Default: `options.debug`\n\n##### reverse\n\nDefault: `options.append`\n\n##### doFlush\n\nDefault: `options.outputUnreleased`\n\n\n## Notes for parent modules\n\nThis module has options `append` and `releaseCount`. However, it doesn't read your previous changelog. Reasons being:\n\n1. The old logs is just to be appended or prepended to the newly generated logs, which is a very simple thing that could be done in the parent module.\n2. We want it to be very flexible for the parent module. You could create a readable stream from the file or you could just read the file.\n3. We want the duty of this module to be very minimum.\n\nSo, when you build a parent module, you need to read the old logs and append or prepend to them based on `options.append`. However, if `options.releaseCount` is `0` you need to ignore any previous logs. Please see [conventional-github-releaser](https://github.com/conventional-changelog/conventional-github-releaser) as an example.\n\nArguments passed to `conventionalChangelogCore` will be mutated.\n\n\n## License\n\nMIT\n\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-core.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-core\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-core.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-core\n[appveyor-image]: https://ci.appveyor.com/api/projects/status/baoumm34w8c5o0hv/branch/master?svg=true\n[appveyor-url]: https://ci.appveyor.com/project/stevemao/conventional-changelog-core/branch/master\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-core.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-core\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-core/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-core\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:51.231Z",
+    "created": "2015-12-25T11:41:01.180Z",
+    "0.0.0": "2015-12-25T11:41:01.180Z",
+    "0.0.1": "2015-12-26T04:15:55.956Z",
+    "0.0.2": "2016-01-30T06:17:56.892Z",
+    "1.0.0": "2016-02-05T12:53:39.057Z",
+    "1.0.1": "2016-02-06T14:41:31.799Z",
+    "1.0.2": "2016-02-06T22:56:27.777Z",
+    "1.1.0": "2016-02-08T14:04:56.879Z",
+    "1.2.0": "2016-02-11T10:41:33.292Z",
+    "1.3.0": "2016-02-13T04:51:04.657Z",
+    "1.3.1": "2016-04-09T04:37:29.215Z",
+    "1.3.2": "2016-04-17T04:25:52.649Z",
+    "1.3.3": "2016-04-19T10:33:18.752Z",
+    "1.3.4": "2016-05-07T10:18:51.926Z",
+    "1.4.0": "2016-05-08T13:16:54.083Z",
+    "1.5.0": "2016-05-10T12:01:23.330Z",
+    "1.6.0": "2017-03-10T05:33:03.776Z",
+    "1.7.0": "2017-03-11T00:56:34.585Z",
+    "1.8.0": "2017-03-11T21:02:52.413Z",
+    "1.9.0": "2017-03-23T01:47:43.595Z",
+    "1.9.1": "2017-09-01T03:16:29.521Z",
+    "1.9.2": "2017-10-01T05:39:32.181Z",
+    "1.9.3": "2017-11-13T00:17:21.483Z",
+    "1.9.4": "2017-12-08T07:13:20.258Z",
+    "1.9.5": "2017-12-18T14:25:28.980Z",
+    "2.0.0": "2018-01-29T02:12:45.271Z",
+    "2.0.1": "2018-02-05T03:28:36.336Z",
+    "2.0.3": "2018-02-13T16:27:58.869Z",
+    "2.0.4": "2018-02-20T04:20:37.965Z",
+    "2.0.5": "2018-02-24T22:12:50.167Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core#readme",
+  "keywords": [
+    "conventional-changelog",
+    "conventional",
+    "changelog",
+    "log"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "asmolyakov": true
+  },
+  "_attachments": {}
+}

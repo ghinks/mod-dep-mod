@@ -1,0 +1,353 @@
+{
+  "_id": "gitconfiglocal",
+  "_rev": "10-976014c6994188f6705713008dcedf6f",
+  "name": "gitconfiglocal",
+  "description": "parse the .git/config file into a useful data structure",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "gitconfiglocal",
+      "version": "0.0.0",
+      "description": "parse the .git/config file into a useful data structure",
+      "main": "index.js",
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "~1.1.0"
+      },
+      "devDependencies": {
+        "tape": "~0.3.3"
+      },
+      "_id": "gitconfiglocal@0.0.0",
+      "dist": {
+        "shasum": "add896c7ac326b328bddc6b423879020998673ec",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-0.0.0.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.2.18",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "gitconfiglocal",
+      "version": "0.0.1",
+      "description": "parse the .git/config file into a useful data structure",
+      "main": "index.js",
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "~1.1.0"
+      },
+      "devDependencies": {
+        "tape": "~0.3.3"
+      },
+      "bugs": {
+        "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+      },
+      "homepage": "https://github.com/soldair/node-gitconfiglocal",
+      "_id": "gitconfiglocal@0.0.1",
+      "dist": {
+        "shasum": "75d0109c01d6f89468e2e5e913fd8678333a9fb9",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-0.0.1.tgz"
+      },
+      "_from": ".",
+      "_npmVersion": "1.3.24",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "gitconfiglocal",
+      "version": "0.0.2",
+      "description": "parse the .git/config file into a useful data structure",
+      "main": "index.js",
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "~1.1.0"
+      },
+      "devDependencies": {
+        "tape": "^3.0.3"
+      },
+      "gitHead": "52a9c6c2c6a27d21a4b21becb98e2b5730afc8b5",
+      "bugs": {
+        "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+      },
+      "homepage": "https://github.com/soldair/node-gitconfiglocal",
+      "_id": "gitconfiglocal@0.0.2",
+      "_shasum": "3c80f540d0055355829d4e9b9a56a5550ac22347",
+      "_from": ".",
+      "_npmVersion": "1.4.28",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "3c80f540d0055355829d4e9b9a56a5550ac22347",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-0.0.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "gitconfiglocal",
+      "version": "0.0.3",
+      "description": "parse the .git/config file into a useful data structure",
+      "files": [
+        "index.js"
+      ],
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "^1.3.2"
+      },
+      "devDependencies": {
+        "tape": "^3.4.0"
+      },
+      "gitHead": "80ccecb733271b30a236ab64fa63690b69bb4847",
+      "bugs": {
+        "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+      },
+      "homepage": "https://github.com/soldair/node-gitconfiglocal",
+      "_id": "gitconfiglocal@0.0.3",
+      "_shasum": "0b6689dd4113eab0db6afdd7dbbbefa10ae44e62",
+      "_from": ".",
+      "_npmVersion": "1.4.28",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "0b6689dd4113eab0db6afdd7dbbbefa10ae44e62",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-0.0.3.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "gitconfiglocal",
+      "version": "1.0.0",
+      "description": "parse the .git/config file into a useful data structure",
+      "files": [
+        "index.js"
+      ],
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "^1.3.2"
+      },
+      "devDependencies": {
+        "tape": "^3.4.0"
+      },
+      "gitHead": "fe82e04ab3771658311cf074348b6bc2007877f2",
+      "bugs": {
+        "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+      },
+      "homepage": "https://github.com/soldair/node-gitconfiglocal#readme",
+      "_id": "gitconfiglocal@1.0.0",
+      "_shasum": "41d045f3851a5ea88f03f24ca1c6178114464b9b",
+      "_from": ".",
+      "_npmVersion": "2.13.4",
+      "_nodeVersion": "0.12.4",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "dist": {
+        "shasum": "41d045f3851a5ea88f03f24ca1c6178114464b9b",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "2.0.1": {
+      "name": "gitconfiglocal",
+      "version": "2.0.1",
+      "description": "parse the .git/config file into a useful data structure",
+      "files": [
+        "index.js"
+      ],
+      "scripts": {
+        "test": "node test/test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/soldair/node-gitconfiglocal.git"
+      },
+      "keywords": [
+        "git",
+        "config"
+      ],
+      "author": {
+        "name": "Ryan Day"
+      },
+      "license": "BSD",
+      "dependencies": {
+        "ini": "^1.3.2"
+      },
+      "devDependencies": {
+        "fs-extra": "^0.26.4",
+        "tape": "^3.4.0"
+      },
+      "gitHead": "a84acf1206f2592ca2a2fa1529e96de5873490e3",
+      "bugs": {
+        "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+      },
+      "homepage": "https://github.com/soldair/node-gitconfiglocal#readme",
+      "_id": "gitconfiglocal@2.0.1",
+      "_shasum": "b50092c90505d3977b4d99d764f9f599c980e774",
+      "_from": ".",
+      "_npmVersion": "3.5.2",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "soldair",
+        "email": "soldair@gmail.com"
+      },
+      "dist": {
+        "shasum": "b50092c90505d3977b4d99d764f9f599c980e774",
+        "tarball": "https://registry.npmjs.org/gitconfiglocal/-/gitconfiglocal-2.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "soldair",
+          "email": "soldair@gmail.com"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "\n[![Build Status](https://travis-ci.org/soldair/node-gitconfiglocal.svg?branch=master)](https://travis-ci.org/soldair/node-gitconfiglocal)\n\ngitconfiglocal\n==============\n\nparse the `.git/config` file into a useful data structure\n\n\nexample\n=======\n\n- search config in $GIT_DIR (.git by default)\n```js\nvar gitconfig = require('gitconfiglocal');\n\ngitconfig('./',function(err,config){\n  console.log(config);\n  /* prints:\n  { core:\n     { repositoryformatversion: '0',\n       filemode: true,\n       bare: false,\n       logallrefupdates: true },\n    remote:\n     { origin:\n        { url: 'git@github.com:soldair/node-gitconfiglocal.git',\n          fetch: '+refs/heads/*:refs/remotes/origin/*' } } }\n  */\n});\n\n```\n\n- specify $GIT_DIR via options:\n```js\ngitconfig('./', { gitDir: 'path/to/gitdir' }, cb);\n\n```\n",
+  "maintainers": [
+    {
+      "name": "soldair",
+      "email": "soldair@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2016-01-23T15:02:21.280Z",
+    "created": "2013-04-23T02:35:38.930Z",
+    "0.0.0": "2013-04-23T02:35:40.630Z",
+    "0.0.1": "2014-01-31T19:38:56.608Z",
+    "0.0.2": "2014-12-05T16:15:00.389Z",
+    "0.0.3": "2015-02-04T23:48:21.486Z",
+    "1.0.0": "2015-08-22T01:08:02.677Z",
+    "2.0.1": "2016-01-23T15:02:21.280Z"
+  },
+  "author": {
+    "name": "Ryan Day"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-gitconfiglocal.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/soldair/node-gitconfiglocal#readme",
+  "keywords": [
+    "git",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/soldair/node-gitconfiglocal/issues"
+  },
+  "license": "BSD",
+  "_attachments": {}
+}

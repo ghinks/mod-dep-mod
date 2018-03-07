@@ -1,0 +1,1088 @@
+{
+  "_id": "codecov.io",
+  "_rev": "32-85f7dc0f01e844b0aaa85a9626f95281",
+  "name": "codecov.io",
+  "description": "lcov posting to codecov.io",
+  "dist-tags": {
+    "latest": "0.1.6"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "codecov.io",
+      "version": "0.0.0",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "coveralls": "./bin/coveralls.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0"
+      },
+      "devDependencies": {
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1",
+        "should": "4.0.4"
+      },
+      "gitHead": "5db063f106b2e877328819822ef000eaa7189bea",
+      "_id": "codecov.io@0.0.0",
+      "_shasum": "15b0e567e00ab7d330ec2538e0675125b878a37c",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "15b0e567e00ab7d330ec2538e0675125b878a37c",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "codecov.io",
+      "version": "0.0.1",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1",
+        "should": "4.0.4"
+      },
+      "gitHead": "95bd32ae6e4e22b2f41a3bd8ccaba314574c7247",
+      "_id": "codecov.io@0.0.1",
+      "_shasum": "25ea2b095e1e9ea11872bdfa5842118130df78b1",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "25ea2b095e1e9ea11872bdfa5842118130df78b1",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.1.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "codecov.io",
+      "version": "0.0.2",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "1676ceb230be337bf7e6baad4ed9b6d697cc4c61",
+      "_id": "codecov.io@0.0.2",
+      "_shasum": "09aece087160a3f7b1a8a538a262c4f97ceeda61",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "09aece087160a3f7b1a8a538a262c4f97ceeda61",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.2.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.3": {
+      "name": "codecov.io",
+      "version": "0.0.3",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "8b58db50e2007ca8c7d0cc331faf6a8cf4e2d57c",
+      "_id": "codecov.io@0.0.3",
+      "_shasum": "d4452c26e70926e230f8507e70daed33943d342b",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "d4452c26e70926e230f8507e70daed33943d342b",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.3.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.4": {
+      "name": "codecov.io",
+      "version": "0.0.4",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "b1c628a6fabd05dc51f2d1a6e6899cbe73213af2",
+      "_id": "codecov.io@0.0.4",
+      "_shasum": "9cf1593baad0069fbadb771b9643acd208c8a47d",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "9cf1593baad0069fbadb771b9643acd208c8a47d",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.4.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.5": {
+      "name": "codecov.io",
+      "version": "0.0.5",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "81b53c8611133ae4f6f21d71aeb5e54dc5835ef6",
+      "_id": "codecov.io@0.0.5",
+      "_shasum": "a0a8f4c7ca1d87d05505e20ba58dff2321193830",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "a0a8f4c7ca1d87d05505e20ba58dff2321193830",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.5.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.6": {
+      "name": "codecov.io",
+      "version": "0.0.6",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "39e967b0c247bbd67cdbbc2d96831bc3cad9b5f1",
+      "_id": "codecov.io@0.0.6",
+      "_shasum": "786af06da8476e871972b1882197dcd8afefdedc",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "786af06da8476e871972b1882197dcd8afefdedc",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.6.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.7": {
+      "name": "codecov.io",
+      "version": "0.0.7",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "a5c9aee611c8e97853dec9d4bce22598abc7bb51",
+      "_id": "codecov.io@0.0.7",
+      "_shasum": "4ad54ddbe7ba01caa315e4ac5b2dff172a429b93",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "4ad54ddbe7ba01caa315e4ac5b2dff172a429b93",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.7.tgz"
+      },
+      "directories": {}
+    },
+    "0.0.8": {
+      "name": "codecov.io",
+      "version": "0.0.8",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "1.21.4",
+        "mocha-lcov-reporter": "0.0.1"
+      },
+      "gitHead": "206b583e22a052e8cc013e42a16724ea0f41add7",
+      "_id": "codecov.io@0.0.8",
+      "_shasum": "bb4f1d59baa5700d94d22a6aa0b7a917afce4726",
+      "_from": ".",
+      "_npmVersion": "1.4.14",
+      "_npmUser": {
+        "name": "cainus",
+        "email": "gregg@caines.ca"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        }
+      ],
+      "dist": {
+        "shasum": "bb4f1d59baa5700d94d22a6aa0b7a917afce4726",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.0.8.tgz"
+      },
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "codecov.io",
+      "version": "0.1.0",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "48108576377c333df61ba9616f0a771b6a2a767d",
+      "_id": "codecov.io@0.1.0",
+      "_shasum": "ceef322f4477e6926c5587abe6d2cbc0078b9e6a",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "ceef322f4477e6926c5587abe6d2cbc0078b9e6a",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.1": {
+      "name": "codecov.io",
+      "version": "0.1.1",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "9b8b1003c8c297b3520ff84feb1ed935194fe4df",
+      "_id": "codecov.io@0.1.1",
+      "_shasum": "560758c5c62557b3844f1192f9246520bbdf6878",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "560758c5c62557b3844f1192f9246520bbdf6878",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.2": {
+      "name": "codecov.io",
+      "version": "0.1.2",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "4ca3f1663504448a0f6f994269204178c2d1289e",
+      "_id": "codecov.io@0.1.2",
+      "_shasum": "9ad1b3e5bb615f5ca6039fd3ec1ac664bca8a972",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "9ad1b3e5bb615f5ca6039fd3ec1ac664bca8a972",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.3": {
+      "name": "codecov.io",
+      "version": "0.1.3",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "06db312d71f8096cb8ce75458d5c6ec0f90d163d",
+      "_id": "codecov.io@0.1.3",
+      "_shasum": "7344917afba0efe218f9b91d5d2eeb59b3136fbc",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "7344917afba0efe218f9b91d5d2eeb59b3136fbc",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.4": {
+      "name": "codecov.io",
+      "version": "0.1.4",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "d61345c9bff7204a969d6352e0bc8c986589f681",
+      "_id": "codecov.io@0.1.4",
+      "_shasum": "5b599350302c7c917b156463b7cf5d5ef5480f92",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "5b599350302c7c917b156463b7cf5d5ef5480f92",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.5": {
+      "name": "codecov.io",
+      "version": "0.1.5",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "60eee0072d823154befea06ed933be63b79ef51f",
+      "_id": "codecov.io@0.1.5",
+      "_shasum": "07bc832b94646c14c6f6d61b32ad35611b36eb6b",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "07bc832b94646c14c6f6d61b32ad35611b36eb6b",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.5.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.6": {
+      "name": "codecov.io",
+      "version": "0.1.6",
+      "description": "lcov posting to codecov.io",
+      "main": "index.js",
+      "scripts": {
+        "test": "make test-codecov.io"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cainus/codecov.io.git"
+      },
+      "keywords": [
+        "coverage",
+        "code-coverage",
+        "codecov.io",
+        "codecov"
+      ],
+      "bin": {
+        "codecov": "./bin/codecov.io.js"
+      },
+      "author": {
+        "name": "Gregg Caines",
+        "email": "gregg@caines.ca"
+      },
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/cainus/codecov.io/issues"
+      },
+      "homepage": "https://github.com/cainus/codecov.io",
+      "dependencies": {
+        "request": "2.42.0",
+        "urlgrey": "0.4.0"
+      },
+      "devDependencies": {
+        "expect.js": "0.3.1",
+        "istanbul": "0.3.2",
+        "jshint": "2.5.5",
+        "mocha": "2.2.1"
+      },
+      "gitHead": "8f70fc406af15dde5f9c492352e5010308f76b0c",
+      "_id": "codecov.io@0.1.6",
+      "_shasum": "59dfd02da1ff31c2fb2b952ad8ad16fd3781b728",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "stevepeak",
+        "email": "steve@codecov.io"
+      },
+      "dist": {
+        "shasum": "59dfd02da1ff31c2fb2b952ad8ad16fd3781b728",
+        "tarball": "https://registry.npmjs.org/codecov.io/-/codecov.io-0.1.6.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "cainus",
+          "email": "gregg@caines.ca"
+        },
+        {
+          "name": "stevepeak",
+          "email": "steve@codecov.io"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "-----\n\n> **Depreciating Soon**\n> Please see https://github.com/codecov/codecov-node\n> Thank you!\n\n----\n\n# codecov.io\n\n[![NPM version][npm-image]][npm-url]\n[![Build Status][travis-image]][travis-url] [![codecov.io](https://codecov.io/github/cainus/codecov.io/coverage.svg?branch=master)](https://codecov.io/github/cainus/codecov.io?branch=master)\n[![Dependency Status][depstat-image]][depstat-url]\n[![Dev Dependency Status][devdepstat-image]][devdepstat-url]\n\n[Codecov.io](https://codecov.io/) support for node.js.  Get the great coverage reporting of codecov.io and add a cool coverage button ( like the one above ) to your README.\n\n## Installation:\nAdd the latest version of `codecov.io` to your package.json:\n```\nnpm install codecov.io --save\n```\n\n## Usage:\n\nThis script ( `bin/codecov.io.js` ) can take standard input from any tool that emits the lcov, gcov or standardized json data format and send it to codecov.io to report your code coverage there.\n\nOnce your app is instrumented for coverage, and building, you need to pipe the coverage reports output to `./node_modules/codecov.io/bin/codecov.io.js`.\n\nThis library currently supports the following CI companies: [Travis CI](https://travis-ci.org/), [Appveyor](https://appveyor.com/), [CircleCI](https://circleci.com/), [Codeship](https://codeship.io/), [Drone](https://drone.io/), [Jenkins](http://jenkins-ci.org/), [Shippable](https://shippable.com/), [Semaphore](https://semaphoreapp.com/), [Wercker](https://wercker.com/).\n\n### CI Companies Supported\nJenkins, Travis CI, Codeship, Circle CI, Semaphore, drone.io, AppVeyor, Wercker, Magnum, Shippable, and Gitlab CI. Otherwise fallbacks on `git`.\n\n#### Upload repo tokens\n> Repo tokens are **not** required for public repos tested on Travis, CircleCI or AppVeyor.\n\nRepo tokens are neccessary to distinquish your repository from others. You can find your repo token on your repository page at Codecov. Set this unique uuid to `CODECOV_TOKEN` in your environment variables.\n\n```\nexport CODECOV_TOKEN=\":uuid-repo-token\"\n```\n\n#### [Istanbul](https://github.com/gotwarlost/istanbul)\n\n**With Mocha:**\n\n```sh\nistanbul cover ./node_modules/mocha/bin/_mocha -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codecov\n```\n\n**With Jasmine:**\n\n```sh\nistanbul cover jasmine-node --captureExceptions spec/ && cat ./coverage/lcov.info | ./node_modules/.bin/codecov\n```\n\n**With Tape:**\n\n```sh\nistanbul cover test.js && cat ./coverage/lcov.info | ./node_modules/.bin/codecov\n```\n\n----\n\n## Advanced: Partial Line Coverage\n**Codecov does support partial line coverage**. However, some node projects do not report partial coverage accurate enough.\nYou can decide to upload the partial coverage report by chaning the target upload file to `./coverage/coverage.json`.\nView your report on Codecov, if the reports are not accurate then switch back to the `lcov` provided above.\n\nWe are working on improving this implementation and appreciate your patience.\n\n## Contributing\n\nI generally don't accept pull requests that are untested, or break the build, because I'd like to keep the quality high (this is a coverage tool afterall!).\n\nI also don't care for \"soft-versioning\" or \"optimistic versioning\" (dependencies that have ^, x, > in them, or anything other than numbers and dots).  There have been too many problems with bad semantic versioning in dependencies, and I'd rather have a solid library than a bleeding edge one.\n\n[travis-image]: https://travis-ci.org/cainus/codecov.io.svg?branch=master\n[travis-url]: https://travis-ci.org/cainus/codecov.io\n\n[npm-url]: https://npmjs.org/package/codecov.io\n[npm-image]: https://img.shields.io/npm/v/codecov.io.svg\n\n[depstat-url]: https://david-dm.org/cainus/codecov.io\n[depstat-image]: https://img.shields.io/david/cainus/codecov.io/master.svg\n\n[devdepstat-url]: https://david-dm.org/cainus/codecov.io#info=devDependencies\n[devdepstat-image]: https://img.shields.io/david/dev/cainus/codecov.io/master.svg\n",
+  "maintainers": [
+    {
+      "email": "steve@codecov.io",
+      "name": "stevepeak"
+    },
+    {
+      "email": "gregg@caines.ca",
+      "name": "cainus"
+    }
+  ],
+  "time": {
+    "modified": "2017-08-03T07:28:10.408Z",
+    "created": "2014-09-09T06:41:14.956Z",
+    "0.0.0": "2014-09-09T06:41:14.956Z",
+    "0.0.1": "2014-09-18T05:40:21.854Z",
+    "0.0.2": "2014-10-07T03:31:34.010Z",
+    "0.0.3": "2014-10-16T18:53:49.140Z",
+    "0.0.4": "2014-10-31T17:19:27.814Z",
+    "0.0.5": "2014-11-03T16:47:44.264Z",
+    "0.0.6": "2014-11-03T17:02:00.510Z",
+    "0.0.7": "2014-11-03T17:09:13.365Z",
+    "0.0.8": "2014-11-04T00:13:18.502Z",
+    "0.1.0": "2015-04-30T15:46:57.961Z",
+    "0.1.1": "2015-05-09T13:49:17.793Z",
+    "0.1.2": "2015-05-14T16:43:16.352Z",
+    "0.1.3": "2015-06-21T17:46:35.774Z",
+    "0.1.4": "2015-06-22T01:07:48.317Z",
+    "0.1.5": "2015-07-03T13:40:36.466Z",
+    "0.1.6": "2015-08-15T13:17:30.817Z",
+    "0.1.7": "2016-06-20T22:05:40.438Z"
+  },
+  "homepage": "https://github.com/cainus/codecov.io",
+  "keywords": [
+    "coverage",
+    "code-coverage",
+    "codecov.io",
+    "codecov"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cainus/codecov.io.git"
+  },
+  "author": {
+    "name": "Gregg Caines",
+    "email": "gregg@caines.ca"
+  },
+  "bugs": {
+    "url": "https://github.com/cainus/codecov.io/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "starver": true,
+    "abdul": true,
+    "d-band": true
+  },
+  "_attachments": {}
+}

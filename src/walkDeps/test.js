@@ -77,9 +77,6 @@ describe('Walk dependency tree', () => {
     describe('babel env testing', () => {
       beforeEach(() => {
         walkDeps.__Rewire__('getDepends', () => Promise.resolve({}))
-        walkDeps.__Rewire__('collate', () => [
-          { module: 'babel-preset-stage-0', version: '^6.24.1' }
-        ])
         walkDeps.__Rewire__('getRegistryDeps', (dependency) => {
           const path = `./src/walkDeps/testData/${dependency.module}.json`
           // TODO handle the caret and tildas
@@ -87,25 +84,76 @@ describe('Walk dependency tree', () => {
           const match = dependency.version.match(regexMajMin)
           if (!match) {
             console.log(`no match for ${dependency.module} @ ${dependency.version}`)
+            // return {}
           }
-          const version = match[2]
+          const version = match ? match[2] : undefined
           return getFile(path, {encoding: 'utf8'})
             .then((data) => {
               const dep = JSON.parse(data)
-              if (!dep.versions[version]) {
+              if (!dep.versions[version || 0]) {
                 console.log(`cannot find ${dependency.module} ${version}`)
                 return {}
               }
               const result = dep.versions[version].dependencies || {}
               return result
             })
+            .catch(() => console.log(`cannot find file ${path}`))
         })
       })
       afterEach(() => {
         // eslint-disable-next-line no-undef
         __rewire_reset_all__()
       })
-      it('Expect to get depends', (done) => {
+      it('Expect to get babel depends', (done) => {
+        walkDeps.__Rewire__('collate', () => [
+          { module: 'babel-preset-stage-0', version: '^6.24.1' }
+        ])
+        const finished = (results) => {
+          expect(results).to.be.an('Object')
+          done()
+        }
+        walkDeps('debug', null, finished)
+          .then(() => {})
+          .catch(err => done(err))
+      })
+
+/*      "devDependencies": {
+        "chai": "^3.5.0",
+          "nock": "^8.0.0",
+          "standard": "^6.0.8",
+          "standard-version": "^2.1.2",
+          "tap": "^5.7.1"
+      },
+      "dependencies": {
+        "async": "^2.0.0-rc.3",
+          "char-spinner": "^1.0.1",
+          "lodash": "^4.10.0",
+          "npm-package-arg": "^4.2.0",
+          "once": "^1.3.3",
+          "registry-url": "^3.0.3",
+          "request": "^2.37.0",
+          "semver": "^5.1.0",
+          "treeify": "^1.0.1",
+          "yargs": "^4.6.0"
+      }*/
+      it.only('Expect to get npm-ls-remote depends', (done) => {
+        walkDeps.__Rewire__('collate', () => [
+          { module: 'chai', version: '^3.5.0' },
+          { module: 'nock', version: '^8.0.0' },
+          { module: 'standard', version: '^6.0.8' },
+          { module: 'standard-version', version: '^2.1.2' },
+          { module: 'tap', version: '^5.7.1' },
+          { module: 'async', version: '^2.0.0-rc.3' },
+          { module: 'char-spinner', version: '^1.0.1' },
+          { module: 'lodash', version: '^4.10.0' },
+          { module: 'npm-package-arg', version: '^4.2.0' },
+          { module: 'once', version: '^1.3.3' },
+          { module: 'registry-url', version: '^3.0.3' },
+          { module: 'request', version: '^2.37.0' },
+          { module: 'semver', version: '^5.1.0' },
+          { module: 'treeify', version: '^1.0.1' },
+          { module: 'yargs', version: '^4.6.0' }
+        ])
         const finished = (results) => {
           expect(results).to.be.an('Object')
           done()

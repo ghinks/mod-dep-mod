@@ -1,0 +1,189 @@
+{
+  "_id": "is-text-path",
+  "_rev": "4-1c9514847de9f3ce8fc8a54318370ba7",
+  "name": "is-text-path",
+  "description": "Check if a filepath is a text file",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "is-text-path",
+      "version": "1.0.0",
+      "description": "Check if a filepath is a text file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/is-text-path"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "path",
+        "check",
+        "detect",
+        "is"
+      ],
+      "dependencies": {
+        "text-extensions": "^1.0.0"
+      },
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "0718772ba45dfe76f567b84133615ef8fe04f7c3",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/is-text-path/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/is-text-path",
+      "_id": "is-text-path@1.0.0",
+      "_shasum": "63624abcc3a26fb6dd15b5abcad9a521df673dbc",
+      "_from": ".",
+      "_npmVersion": "2.5.1",
+      "_nodeVersion": "0.12.0",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "63624abcc3a26fb6dd15b5abcad9a521df673dbc",
+        "tarball": "https://registry.npmjs.org/is-text-path/-/is-text-path-1.0.0.tgz"
+      },
+      "directories": {}
+    },
+    "1.0.1": {
+      "name": "is-text-path",
+      "version": "1.0.1",
+      "description": "Check if a filepath is a text file",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/is-text-path"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "txt",
+        "text",
+        "ext",
+        "extensions",
+        "extension",
+        "file",
+        "path",
+        "check",
+        "detect",
+        "is"
+      ],
+      "dependencies": {
+        "text-extensions": "^1.0.0"
+      },
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "4d88120be1209ffb951fd0ee70f07c89ad93c03f",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/is-text-path/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/is-text-path",
+      "_id": "is-text-path@1.0.1",
+      "_shasum": "4e1aa0fb51bfbcb3e92688001397202c1775b66e",
+      "_from": ".",
+      "_npmVersion": "2.10.1",
+      "_nodeVersion": "0.12.4",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "dist": {
+        "shasum": "4e1aa0fb51bfbcb3e92688001397202c1775b66e",
+        "tarball": "https://registry.npmjs.org/is-text-path/-/is-text-path-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "# is-text-path [![Build Status](https://travis-ci.org/sindresorhus/is-text-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-text-path)\n\n> Check if a filepath is a text file\n\n\n## Install\n\n```\n$ npm install --save is-text-path\n```\n\n\n## Usage\n\n```js\nvar isTextPath = require('is-text-path');\n\nisTextPath('src/unicorn.txt');\n//=> true\n\nisTextPath('src/unicorn.png');\n//=> false\n```\n\n\n## Related\n\n- [`text-extensions`](https://github.com/sindresorhus/text-extensions) - List of text file extensions\n- [`is-binary-path`](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-03-05T11:43:56.594Z",
+    "created": "2015-02-16T21:27:19.015Z",
+    "1.0.0": "2015-02-16T21:27:19.015Z",
+    "1.0.1": "2015-05-25T11:30:59.286Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-text-path",
+  "keywords": [
+    "txt",
+    "text",
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "path",
+    "check",
+    "detect",
+    "is"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sindresorhus/is-text-path"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-text-path/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true
+  },
+  "_attachments": {}
+}

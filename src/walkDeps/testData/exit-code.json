@@ -1,0 +1,128 @@
+{
+  "_id": "exit-code",
+  "_rev": "3-660143aa3f68d5ed76b152b2789290fb",
+  "name": "exit-code",
+  "description": "`process.exitCode` behavior back-ported from io.js and Node.js 0.12+",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": {
+    "1.0.1": {
+      "name": "exit-code",
+      "version": "1.0.1",
+      "description": "`process.exitCode` behavior back-ported from io.js and Node.js 0.12+",
+      "main": "index.js",
+      "scripts": {
+        "test": "node test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/isaacs/exit-code.git"
+      },
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/isaacs/exit-code/issues"
+      },
+      "homepage": "https://github.com/isaacs/exit-code#readme",
+      "gitHead": "169c03c8df7cc3c75a3e1ef12f4d0b6948011e0f",
+      "_id": "exit-code@1.0.1",
+      "_shasum": "e5513240c91c818f33fc2ac4e7e97bded41e5929",
+      "_from": ".",
+      "_npmVersion": "2.8.4",
+      "_nodeVersion": "1.4.2",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "e5513240c91c818f33fc2ac4e7e97bded41e5929",
+        "tarball": "https://registry.npmjs.org/exit-code/-/exit-code-1.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.2": {
+      "name": "exit-code",
+      "version": "1.0.2",
+      "description": "`process.exitCode` behavior back-ported from io.js and Node.js 0.12+",
+      "main": "index.js",
+      "scripts": {
+        "test": "node test.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/isaacs/exit-code.git"
+      },
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/isaacs/exit-code/issues"
+      },
+      "homepage": "https://github.com/isaacs/exit-code#readme",
+      "gitHead": "06463aaf87f2fb04a40a6d3d7f46229bb1a033f7",
+      "_id": "exit-code@1.0.2",
+      "_shasum": "ce165811c9f117af6a5f882940b96ae7f9aecc34",
+      "_from": ".",
+      "_npmVersion": "2.9.1",
+      "_nodeVersion": "2.0.0",
+      "_npmUser": {
+        "name": "isaacs",
+        "email": "isaacs@npmjs.com"
+      },
+      "dist": {
+        "shasum": "ce165811c9f117af6a5f882940b96ae7f9aecc34",
+        "tarball": "https://registry.npmjs.org/exit-code/-/exit-code-1.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "isaacs",
+          "email": "isaacs@npmjs.com"
+        }
+      ],
+      "directories": {}
+    }
+  },
+  "readme": "# exit-code\n\n`process.exitCode` behavior back-ported from io.js and Node.js 0.12+\n\n## USAGE\n\n```javascript\nrequire('exit-code')\n\nprocess.exitCode = 2\n\n// do some other stuff\n// when the process exits, it'll do it with a code of 2\n```\n",
+  "maintainers": [
+    {
+      "email": "i@izs.me",
+      "name": "isaacs"
+    }
+  ],
+  "time": {
+    "modified": "2017-06-16T20:59:26.740Z",
+    "created": "2015-04-25T21:06:26.581Z",
+    "1.0.1": "2015-04-25T21:06:26.581Z",
+    "1.0.2": "2015-05-03T23:54:08.096Z"
+  },
+  "homepage": "https://github.com/isaacs/exit-code#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/exit-code.git"
+  },
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacs/exit-code/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

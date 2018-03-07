@@ -1,0 +1,1983 @@
+{
+  "_id": "conventional-changelog-angular",
+  "_rev": "42-127b2ecfb768edbbdf4073e9cc488beb",
+  "name": "conventional-changelog-angular",
+  "description": "conventional-changelog angular preset",
+  "dist-tags": {
+    "latest": "1.6.6"
+  },
+  "versions": {
+    "0.0.0": {
+      "name": "conventional-changelog-angular",
+      "version": "0.0.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha && xo"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "mocha": "*",
+        "xo": "*"
+      },
+      "_id": "conventional-changelog-angular@0.0.0",
+      "_shasum": "606b713dd5e6ab88a258920b580ee832ee3e1184",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "606b713dd5e6ab88a258920b580ee832ee3e1184",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-0.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.1": {
+      "name": "conventional-changelog-angular",
+      "version": "0.0.1",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "lodash": "^3.10.1",
+        "q": "^1.4.1",
+        "semver": "^5.1.0"
+      },
+      "gitHead": "d38e7d053bd1e6968ae5f4e18d2dc94ee5d61993",
+      "_id": "conventional-changelog-angular@0.0.1",
+      "_shasum": "a26fd06100ac1fc5b0e05756465d3a9e00f09958",
+      "_from": ".",
+      "_npmVersion": "2.14.7",
+      "_nodeVersion": "4.2.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "a26fd06100ac1fc5b0e05756465d3a9e00f09958",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-0.0.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.0.2": {
+      "name": "conventional-changelog-angular",
+      "version": "0.0.2",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "gitHead": "792bd9b63e460faa7fec233c40b063287d4a3e51",
+      "_id": "conventional-changelog-angular@0.0.2",
+      "_shasum": "2d689a8c04da272b912aa960e7b6a675489efeba",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "2d689a8c04da272b912aa960e7b6a675489efeba",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-0.0.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "0.1.0": {
+      "name": "conventional-changelog-angular",
+      "version": "0.1.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "0.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.5.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "gitHead": "35371056b30b5f274befa3e0f117b3b1a1e629d2",
+      "_id": "conventional-changelog-angular@0.1.0",
+      "_shasum": "ac3d4b869878de5ad57726696b21eedd798ae3c7",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "ac3d4b869878de5ad57726696b21eedd798ae3c7",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-0.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "directories": {}
+    },
+    "1.0.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.0.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevemao/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/stevemao/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/stevemao/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "1.0.0",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1-rc2",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "gitHead": "5043988a0972456868608f74778b45965af03106",
+      "_id": "conventional-changelog-angular@1.0.0",
+      "_shasum": "ea4d6702237a633f1fe8955b13b1e9654ad3f121",
+      "_from": ".",
+      "_npmVersion": "2.14.12",
+      "_nodeVersion": "4.2.6",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "ea4d6702237a633f1fe8955b13b1e9654ad3f121",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-5-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.0.0.tgz_1454680062973_0.29956228332594037"
+      },
+      "directories": {}
+    },
+    "1.1.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.1.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "gitHead": "ed32559941719a130bb0327f886d6a32a8cbc2ba",
+      "_id": "conventional-changelog-angular@1.1.0",
+      "_shasum": "ce0c0ab8b87e35ed1ee375452070f3ac83e24d7a",
+      "_from": ".",
+      "_npmVersion": "2.15.0",
+      "_nodeVersion": "4.4.2",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "ce0c0ab8b87e35ed1ee375452070f3ac83e24d7a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.1.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.1.0.tgz_1461675708485_0.8518570228479803"
+      },
+      "directories": {}
+    },
+    "1.2.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.2.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^2.7.0",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.6.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "gitHead": "435309d93d6ad9690315e97e7adfa20503e211b8",
+      "_id": "conventional-changelog-angular@1.2.0",
+      "_shasum": "1b7bb495120edc11dad94e2b823f73a868436c6a",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "1b7bb495120edc11dad94e2b823f73a868436c6a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.2.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.2.0.tgz_1462885666611_0.3675437069032341"
+      },
+      "directories": {}
+    },
+    "1.3.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.3.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.0.1",
+        "coveralls": "^2.11.6",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "gitHead": "f1ba7485e9c3dc2a77ab48d6f868744df04b6857",
+      "_id": "conventional-changelog-angular@1.3.0",
+      "_shasum": "3f64185978aa13ab0954c9e46a78969fd59c6801",
+      "_from": ".",
+      "_npmVersion": "2.15.1",
+      "_nodeVersion": "4.4.4",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "3f64185978aa13ab0954c9e46a78969fd59c6801",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.3.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.3.0.tgz_1470470240786_0.8413613170851022"
+      },
+      "directories": {}
+    },
+    "1.3.1": {
+      "name": "conventional-changelog-angular",
+      "version": "1.3.1",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.6.0",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.3.1",
+      "_shasum": "c457ceff02dc94a774379d9f03791d502183a326",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "c457ceff02dc94a774379d9f03791d502183a326",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.3.1.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.3.1.tgz_1489123981545_0.8550747195258737"
+      },
+      "directories": {}
+    },
+    "1.3.2": {
+      "name": "conventional-changelog-angular",
+      "version": "1.3.2",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.6.1",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.3.2",
+      "_shasum": "495691c0822b59ada913384422651d3d968b52f6",
+      "_from": ".",
+      "_npmVersion": "4.2.0",
+      "_nodeVersion": "7.1.0",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "495691c0822b59ada913384422651d3d968b52f6",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.3.2.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.3.2.tgz_1489125632584_0.10913944407366216"
+      },
+      "directories": {}
+    },
+    "1.3.3": {
+      "name": "conventional-changelog-angular",
+      "version": "1.3.3",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.8.0",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.3.3",
+      "_shasum": "e7ce807a85dd4750e1b417f766045497511e0726",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.5",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "shasum": "e7ce807a85dd4750e1b417f766045497511e0726",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.3.3.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.3.3.tgz_1489266172164_0.8395571981091052"
+      },
+      "directories": {}
+    },
+    "1.3.4": {
+      "name": "conventional-changelog-angular",
+      "version": "1.3.4",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.0",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.3.4",
+      "_shasum": "7d7cdfbd358948312904d02229a61fd6075cf455",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.9.4",
+      "_npmUser": {
+        "name": "tapppi",
+        "email": "moilanen.tapani@gmail.com"
+      },
+      "dist": {
+        "shasum": "7d7cdfbd358948312904d02229a61fd6075cf455",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.3.4.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/conventional-changelog-angular-1.3.4.tgz_1490233661435_0.023803527699783444"
+      },
+      "directories": {}
+    },
+    "1.4.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.4.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.0",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "github-url-from-git": "^1.4.0",
+        "q": "^1.4.1",
+        "read-pkg-up": "^2.0.0"
+      },
+      "_id": "conventional-changelog-angular@1.4.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-ukKX22lJl9ewogze1hKbBuff/dGMG2uyGpOhhw0ehhlv6GtdeCxj51YfGOZ5qC89WwsHT7SDXFzBKidwH3pwmQ==",
+        "shasum": "118b9f7d41a3d99500bfb6bea1f3525e055e8b9b",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.4.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "bcoe",
+          "email": "ben@npmjs.com"
+        },
+        {
+          "name": "stevemao",
+          "email": "maochenyan@gmail.com"
+        },
+        {
+          "name": "tapppi",
+          "email": "moilanen.tapani@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.4.0.tgz_1500334222785_0.03477998054586351"
+      },
+      "directories": {}
+    },
+    "1.5.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.5.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.1",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.5.0",
+      "_npmVersion": "5.3.0",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-Gt0qSf5wdFmLabgdSlqjguDAmPyYTXtUl4WH5W3SlpElHhnU/UiCY3M7xcIkZxrNQfVA1UxUBgu65eBbaJnZVA==",
+        "shasum": "50b2d45008448455fdf67e06ea01972fbd08182a",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.5.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.5.0.tgz_1504235787134_0.13907928997650743"
+      },
+      "directories": {}
+    },
+    "1.5.1": {
+      "name": "conventional-changelog-angular",
+      "version": "1.5.1",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.2",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.5.1",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "7.10.0",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "integrity": "sha512-AnjnPyqHp8yR2IOWsXYOCv6Ly0WC2rLRK04fgAS/5QoA3ovYLSoz9PKB5pcSG3M9lAf40IqZwU3R3G6Hy7XCSA==",
+        "shasum": "974e73aa1c39c392e4364f2952bd9a62904e9ea3",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.5.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.5.1.tgz_1506836369684_0.3155809820163995"
+      },
+      "directories": {}
+    },
+    "1.5.2": {
+      "name": "conventional-changelog-angular",
+      "version": "1.5.2",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.3",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.5.2",
+      "_shasum": "2b38f665fe9c5920af1a2f82f547f4babe6de57c",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.10.3",
+      "_npmUser": {
+        "name": "stevemao",
+        "email": "maochenyan@gmail.com"
+      },
+      "dist": {
+        "shasum": "2b38f665fe9c5920af1a2f82f547f4babe6de57c",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.5.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.5.2.tgz_1510532234137_0.16569836903363466"
+      },
+      "directories": {}
+    },
+    "1.5.3": {
+      "name": "conventional-changelog-angular",
+      "version": "1.5.3",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "index.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.4",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.5.3",
+      "_npmVersion": "5.5.1",
+      "_nodeVersion": "8.9.1",
+      "_npmUser": {
+        "name": "marionebl",
+        "email": "hello@mario-nebl.de"
+      },
+      "dist": {
+        "integrity": "sha512-J+3g7H7O9QTxBFMmdlHSLzqTdxO8lhOKGXLAcewtKPGaVVV/JnaPOokuj85mP3tghP5gXi527HWoJlD3VBlX6g==",
+        "shasum": "ff0dd01d740e35bfdbc3f02dfea13cf0d96f0b82",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.5.3.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.5.3.tgz_1512717192418_0.3293289749417454"
+      },
+      "directories": {}
+    },
+    "1.6.0": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.0",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^1.9.5",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.0",
+      "_shasum": "0a26a071f2c9fcfcf2b86ba0cfbf6e6301b75bfa",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "0a26a071f2c9fcfcf2b86ba0cfbf6e6301b75bfa",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.0.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.6.0.tgz_1513607132780_0.9424320845864713"
+      },
+      "directories": {}
+    },
+    "1.6.1": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.1",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^2.0.0",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.1",
+      "_shasum": "e1434d017c854032b272f690424a8c0ca16dc318",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.12.1",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "shasum": "e1434d017c854032b272f690424a8c0ca16dc318",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.1.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.6.1.tgz_1517191957557_0.46633593807928264"
+      },
+      "directories": {}
+    },
+    "1.6.2": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.2",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^2.0.1",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.2",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "9.5.0",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-LiGZkMJOCJFLNzDlZo3f+DpblcDSzsaYHUWhC+kzsqq+no4qwDP3uW0HVIHueXT4jJDhYNaE9t/XCD7vu7xR1g==",
+        "shasum": "0a811313de46326e5e4e11dac281d61cfe1f00c4",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.2.tgz"
+      },
+      "maintainers": [
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        },
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular-1.6.2.tgz_1517801288644_0.9974007881246507"
+      },
+      "directories": {}
+    },
+    "1.6.3": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.3",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^2.0.2",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.3",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-xJ7eYcRDZLkBRFiahAVnpu6N7Zr+MEgJtstOqO94S9j717mwLINc+FsglNeboDGNkLBVe4DlCZqrgPdI+nBUjg==",
+        "shasum": "328754f44529839d3a68e9bfe19b3302d55790b5",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.3.tgz",
+        "fileCount": 12,
+        "unpackedSize": 19320
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular_1.6.3_1518539016451_0.012495911834235818"
+      }
+    },
+    "1.6.4": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.4",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^2.0.3",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.4",
+      "_npmVersion": "5.4.2",
+      "_nodeVersion": "8.8.1",
+      "_npmUser": {
+        "name": "bcoe",
+        "email": "ben@npmjs.com"
+      },
+      "dist": {
+        "integrity": "sha512-CGtgqRBYOYYwP/FGBZ+NydolVv0+9bFcQZYMqw8YPKms1n6QlKguaqO0bfBLRChWZjDXjTI3Spd/bNineVtAqA==",
+        "shasum": "47debaf92b75b0bd6b39fcba8f9c70dd97552be6",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.4.tgz",
+        "fileCount": 12,
+        "unpackedSize": 19599
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular_1.6.4_1518539260297_0.05977018704555381"
+      }
+    },
+    "1.6.5": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.5",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "chai": "^3.4.1",
+        "conventional-changelog-core": "^2.0.4",
+        "git-dummy-commit": "^1.1.1",
+        "istanbul": "^0.4.1",
+        "jscs": "^3.0.7",
+        "jshint": "^2.9.1",
+        "mocha": "*",
+        "shelljs": "^0.7.3",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.4.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.5",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-70zO0ThLMlAzPOiYqRAFcMTQbe1Qewy+4v/TJuKMZueCJwR1fLqJCVfvjRlnPrYDwgjI0kc74VymbFO7rJDIPg==",
+        "shasum": "936249e897501affdffc6043da45cab59d6f0907",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.5.tgz",
+        "fileCount": 12,
+        "unpackedSize": 19894
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular_1.6.5_1519100421525_0.46765826059723326"
+      }
+    },
+    "1.6.6": {
+      "name": "conventional-changelog-angular",
+      "version": "1.6.6",
+      "description": "conventional-changelog angular preset",
+      "main": "index.js",
+      "scripts": {
+        "lint": "jshint *.js --exclude node_modules && jscs *.js",
+        "test": "mocha --timeout 30000 && npm run-script lint",
+        "test-windows": "mocha --timeout 30000"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+      },
+      "keywords": [
+        "conventional-changelog",
+        "angular",
+        "preset"
+      ],
+      "files": [
+        "conventional-changelog.js",
+        "conventional-recommended-bump.js",
+        "index.js",
+        "parser-opts.js",
+        "writer-opts.js",
+        "templates"
+      ],
+      "author": {
+        "name": "Steve Mao"
+      },
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+      },
+      "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular#readme",
+      "devDependencies": {
+        "better-than-before": "^1.0.0",
+        "conventional-changelog-core": "^2.0.5",
+        "git-dummy-commit": "^1.2.0",
+        "shelljs": "^0.8.0",
+        "through2": "^2.0.0"
+      },
+      "dependencies": {
+        "compare-func": "^1.3.1",
+        "q": "^1.5.1"
+      },
+      "_id": "conventional-changelog-angular@1.6.6",
+      "_npmVersion": "5.6.0",
+      "_nodeVersion": "8.9.4",
+      "_npmUser": {
+        "name": "hbetts",
+        "email": "hutson@hyper-expanse.net"
+      },
+      "dist": {
+        "integrity": "sha512-suQnFSqCxRwyBxY68pYTsFkG0taIdinHLNEAX5ivtw8bCRnIgnpvcHmlR/yjUyZIrNPYAoXlY1WiEKWgSE4BNg==",
+        "shasum": "b27f2b315c16d0a1f23eb181309d0e6a4698ea0f",
+        "tarball": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-1.6.6.tgz",
+        "fileCount": 12,
+        "unpackedSize": 20053
+      },
+      "maintainers": [
+        {
+          "email": "ben@npmjs.com",
+          "name": "bcoe"
+        },
+        {
+          "email": "hutson@hyper-expanse.net",
+          "name": "hbetts"
+        },
+        {
+          "email": "hello@mario-nebl.de",
+          "name": "marionebl"
+        },
+        {
+          "email": "andrewbgoode@gmail.com",
+          "name": "nexdrew"
+        },
+        {
+          "email": "maochenyan@gmail.com",
+          "name": "stevemao"
+        },
+        {
+          "email": "moilanen.tapani@gmail.com",
+          "name": "tapppi"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/conventional-changelog-angular_1.6.6_1519510352658_0.07641968492746498"
+      }
+    }
+  },
+  "readme": "# [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [angular](https://github.com/angular/angular) preset\n\n**Issues with the convention itself should be reported on the Angular issue tracker.**\n\n## Angular Convention\n\n### Examples\n\nAppears under \"Features\" header, pencil subheader:\n\n```\nfeat(pencil): add 'graphiteWidth' option\n```\n\nAppears under \"Bug Fixes\" header, graphite subheader, with a link to issue #28:\n\n```\nfix(graphite): stop graphite breaking when width < 0.1\n\nCloses #28\n```\n\nAppears under \"Performance Improvements\" header, and under \"Breaking Changes\" with the breaking change explanation:\n\n```\nperf(pencil): remove graphiteWidth option\n\nBREAKING CHANGE: The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.\n```\n\nThe following commit and commit `667ecc1` do not appear in the changelog if they are under the same release. If not, the revert commit appears under the \"Reverts\" header.\n\n```\nrevert: feat(pencil): add 'graphiteWidth' option\n\nThis reverts commit 667ecc1654a317a13331b17617d973392f415f02.\n```\n\n### Commit Message Format\n\nA commit message consists of a **header**, **body** and **footer**.  The header has a **type**, **scope** and **subject**:\n\n```\n<type>(<scope>): <subject>\n<BLANK LINE>\n<body>\n<BLANK LINE>\n<footer>\n```\n\nThe **header** is mandatory and the **scope** of the header is optional.\n\n### Revert\n\nIf the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.\n\n### Type\n\nIf the prefix is `feat`, `fix` or `perf`, it will appear in the changelog. However if there is any [BREAKING CHANGE](#footer), the commit will always appear in the changelog.\n\nOther prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`, `style`, `refactor`, and `test` for non-changelog related tasks.\n\n### Scope\n\nThe scope could be anything specifying place of the commit change. For example `$location`,\n`$browser`, `$compile`, `$rootScope`, `ngHref`, `ngClick`, `ngView`, etc...\n\n### Subject\n\nThe subject contains succinct description of the change:\n\n* use the imperative, present tense: \"change\" not \"changed\" nor \"changes\"\n* don't capitalize first letter\n* no dot (.) at the end\n\n### Body\n\nJust as in the **subject**, use the imperative, present tense: \"change\" not \"changed\" nor \"changes\".\nThe body should include the motivation for the change and contrast this with previous behavior.\n\n### Footer\n\nThe footer should contain any information about **Breaking Changes** and is also the place to\nreference GitHub issues that this commit **Closes**.\n\n**Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.\n\nA detailed explanation can be found in this [document][commit-message-format].\n\nBased on https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit\n\n[commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-angular.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-angular\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-angular.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-angular\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-angular/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-angular\n",
+  "maintainers": [
+    {
+      "email": "ben@npmjs.com",
+      "name": "bcoe"
+    },
+    {
+      "email": "hutson@hyper-expanse.net",
+      "name": "hbetts"
+    },
+    {
+      "email": "hello@mario-nebl.de",
+      "name": "marionebl"
+    },
+    {
+      "email": "andrewbgoode@gmail.com",
+      "name": "nexdrew"
+    },
+    {
+      "email": "maochenyan@gmail.com",
+      "name": "stevemao"
+    },
+    {
+      "email": "moilanen.tapani@gmail.com",
+      "name": "tapppi"
+    }
+  ],
+  "time": {
+    "modified": "2018-02-24T22:12:33.461Z",
+    "created": "2015-12-25T05:27:56.853Z",
+    "0.0.0": "2015-12-25T05:27:56.853Z",
+    "0.0.1": "2015-12-26T04:26:56.874Z",
+    "0.0.2": "2016-01-30T06:38:13.685Z",
+    "0.1.0": "2016-01-30T09:31:29.205Z",
+    "1.0.0": "2016-02-05T13:47:45.134Z",
+    "1.1.0": "2016-04-26T13:01:51.903Z",
+    "1.2.0": "2016-05-10T13:07:47.051Z",
+    "2.0.0": "2016-08-06T07:51:39.832Z",
+    "1.3.0": "2016-08-06T07:57:21.025Z",
+    "1.3.1": "2017-03-10T05:33:03.380Z",
+    "1.3.2": "2017-03-10T06:00:34.322Z",
+    "1.3.3": "2017-03-11T21:02:54.146Z",
+    "1.3.4": "2017-03-23T01:47:43.453Z",
+    "1.4.0": "2017-07-17T23:30:23.001Z",
+    "1.5.0": "2017-09-01T03:16:27.239Z",
+    "1.5.1": "2017-10-01T05:39:29.793Z",
+    "1.5.2": "2017-11-13T00:17:14.206Z",
+    "1.5.3": "2017-12-08T07:13:13.328Z",
+    "1.6.0": "2017-12-18T14:25:33.612Z",
+    "1.6.1": "2018-01-29T02:12:38.568Z",
+    "1.6.2": "2018-02-05T03:28:09.759Z",
+    "1.6.3": "2018-02-13T16:23:36.582Z",
+    "1.6.4": "2018-02-13T16:27:40.345Z",
+    "1.6.5": "2018-02-20T04:20:21.620Z",
+    "1.6.6": "2018-02-24T22:12:32.707Z"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular#readme",
+  "keywords": [
+    "conventional-changelog",
+    "angular",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "author": {
+    "name": "Steve Mao"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {}
+}

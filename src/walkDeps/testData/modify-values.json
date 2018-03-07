@@ -1,0 +1,117 @@
+{
+  "_id": "modify-values",
+  "_rev": "3-ae4d269ab356da17715d90d29e8f88bd",
+  "name": "modify-values",
+  "description": "Modify the values of an object",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "modify-values",
+      "version": "1.0.0",
+      "description": "Modify the values of an object",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/sindresorhus/modify-values"
+      },
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "scripts": {
+        "test": "node test.js"
+      },
+      "files": [
+        "index.js"
+      ],
+      "keywords": [
+        "object",
+        "assign",
+        "extend",
+        "properties",
+        "values",
+        "val",
+        "transform",
+        "transformation",
+        "map",
+        "modify"
+      ],
+      "devDependencies": {
+        "ava": "0.0.4"
+      },
+      "gitHead": "31c94560a745cf780b28d9951e6c2b0463f862d0",
+      "bugs": {
+        "url": "https://github.com/sindresorhus/modify-values/issues"
+      },
+      "homepage": "https://github.com/sindresorhus/modify-values",
+      "_id": "modify-values@1.0.0",
+      "_shasum": "e2b6cdeb9ce19f99317a53722f3dbf5df5eaaab2",
+      "_from": ".",
+      "_npmVersion": "1.4.28",
+      "_npmUser": {
+        "name": "sindresorhus",
+        "email": "sindresorhus@gmail.com"
+      },
+      "maintainers": [
+        {
+          "name": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        }
+      ],
+      "dist": {
+        "shasum": "e2b6cdeb9ce19f99317a53722f3dbf5df5eaaab2",
+        "tarball": "https://registry.npmjs.org/modify-values/-/modify-values-1.0.0.tgz"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "# modify-values [![Build Status](https://travis-ci.org/sindresorhus/modify-values.svg?branch=master)](https://travis-ci.org/sindresorhus/modify-values)\n\n> Modify the values of an object\n\n\n## Install\n\n```\n$ npm install --save modify-values\n```\n\n\n## Usage\n\n```js\nvar modifyValues = require('modify-values');\n\nmodifyValues({foo: 'UNICORN'}, function (value, key) {\n\treturn value.toLowerCase();\n});\n//=> {foo: 'unicorn'}\n```\n\n\n## API\n\n### modifyValues(input, modifier)\n\nModifies the values and returns a new object.\n\n#### input\n\n*Required*  \nType: `object`\n\n#### modifier(value, key)\n\n*Required*  \nType: `function`\n\nGets the value and key for each item and is expected to return the new value.\n\n\n## Related\n\nSee [`modify-keys`](https://github.com/sindresorhus/modify-keys) for modifying the keys of an object.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-03-05T11:47:24.335Z",
+    "created": "2015-01-25T10:54:10.227Z",
+    "1.0.0": "2015-01-25T10:54:10.227Z"
+  },
+  "homepage": "https://github.com/sindresorhus/modify-values",
+  "keywords": [
+    "object",
+    "assign",
+    "extend",
+    "properties",
+    "values",
+    "val",
+    "transform",
+    "transformation",
+    "map",
+    "modify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sindresorhus/modify-values"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/modify-values/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true
+  },
+  "_attachments": {}
+}
