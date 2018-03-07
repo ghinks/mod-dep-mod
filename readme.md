@@ -27,7 +27,7 @@ mod-dep-mod => mocha --> debug
 - takes regular expression string
 - fetches the dependency data from the registry not locally installed modules
 - isolates rogue module inclusion path quickly
-- runs on node 6 onwards
+- runs on node 9 onwards
 
 ## help
 
