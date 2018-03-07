@@ -69,7 +69,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('debug', finished)
+        walkDeps('debug', null, finished)
           .then(() => {})
           .catch(err => done(err))
       })
@@ -110,7 +110,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('debug', finished)
+        walkDeps('debug', null, finished)
           .then(() => {})
           .catch(err => done(err))
       })

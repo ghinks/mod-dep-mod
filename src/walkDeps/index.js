@@ -36,8 +36,8 @@ const walker = async (task, cb) => {
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
 
-const walkDeps = async (moduleToFind, done) => {
-  const packageJsonDeps = await getDepends('package.json')
+const walkDeps = async (moduleToFind, dependsFile = 'package.json', done) => {
+  const packageJsonDeps = await getDepends(dependsFile)
   const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }

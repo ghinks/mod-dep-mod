@@ -66,10 +66,11 @@ const matcher = (versions, testValue) => {
   // eslint-disable-next-line
   const regexMajMin = /([\^\~]?)(\d+\.[\dxX]+\.[\dxX]+)/
   const match = testValue.match(regexMajMin)
-  if (match && (match[1] === '~') || (testValue.match(/(\d+\.\d+\.[xX]+)/))) {
+  if (match && ((match[1] === '~') || (testValue.match(/(\d+\.\d+\.[xX]+)/)))) {
     return getMinor(versions, match[2])
   } else if (match && match[1] === '^') {
     return getMajor(versions, match[2])
+    // eslint-disable-next-line
   } else if (match && !testValue.match(/([\^\~]?)(\d+\.[xX]+\.[xX]+)/) && !testValue.match(/\>\=.*/)) {
     return getExact(versions, testValue)
   } else if (testValue.match(/(\^?)(\d+)/)) {
