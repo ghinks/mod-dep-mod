@@ -117,26 +117,7 @@ describe('Walk dependency tree', () => {
           .catch(err => done(err))
       })
 
-/*      "devDependencies": {
-        "chai": "^3.5.0",
-          "nock": "^8.0.0",
-          "standard": "^6.0.8",
-          "standard-version": "^2.1.2",
-          "tap": "^5.7.1"
-      },
-      "dependencies": {
-        "async": "^2.0.0-rc.3",
-          "char-spinner": "^1.0.1",
-          "lodash": "^4.10.0",
-          "npm-package-arg": "^4.2.0",
-          "once": "^1.3.3",
-          "registry-url": "^3.0.3",
-          "request": "^2.37.0",
-          "semver": "^5.1.0",
-          "treeify": "^1.0.1",
-          "yargs": "^4.6.0"
-      }*/
-      it.only('Expect to get npm-ls-remote depends', (done) => {
+      it('Expect to get npm-ls-remote depends', (done) => {
         walkDeps.__Rewire__('collate', () => [
           { module: 'chai', version: '^3.5.0' },
           { module: 'nock', version: '^8.0.0' },

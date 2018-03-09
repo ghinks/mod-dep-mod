@@ -27,15 +27,16 @@ const registryDeps = async (dependency) => {
     if (response.versions) {
       const match = semverMatcher(Object.keys(response.versions), dependency.version)
       if (!response.versions[match]) {
-        console.error(`no match for ${dependency.module} ${dependency.version} in ${Object.keys(response.versions)}`)
+        console.error(`no match for ${dependency.module} ${dependency.version}`)
         return {}
       }
       // handle no dependencies
       return response.versions[match].dependencies || {}
-    }  if (response.versions) {
+    }
+    if (response.versions) {
       const match = semverMatcher(Object.keys(response.versions), dependency.version)
       if (!response.versions[match]) {
-        console.error(`no match for ${dependency.module} ${dependency.version} in ${Object.keys(response.versions)}`)
+        console.error(`no match for ${dependency.module} ${dependency.version}`)
         return {}
       }
       // handle no dependencies
