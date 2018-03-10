@@ -28,18 +28,19 @@ mod-dep-mod => mocha --> debug
 - fetches the dependency data from the registry not locally installed modules
 - isolates rogue module inclusion path quickly
 - runs on node 9 onwards
+- gives total count of all dependencies fetched
+- caches each registry fetch to speed up on duplicates
 
 ## help
 
 ```
-
   Usage: index [options]
 
 
   Options:
 
-    -V, --version         output the version number
     -m, --module [value]  find root module that requires this module
+    -p --package [value]  fully qualified path to a package.json file
     -h, --help            output usage information
 ```
 

@@ -6,7 +6,8 @@ import ora from 'ora'
 
 const spinner = ora('...fetching').start();
 const cache = {}
-let totalFetchCount = 0
+let fetchCount = 0
+let cacheHitCount = 0
 
 const registryDeps = async (dependency) => {
   const registry = registryUrl()
@@ -16,16 +17,18 @@ const registryDeps = async (dependency) => {
   // TODO handle the case when the call is pending and not yet cached
   if (!cache[url]) {
     try {
-      totalFetchCount += 1
-      spinner.text = `fetch count ${totalFetchCount} now fetching ${url}`
-      const data = await fetch(url)
+      fetchCount += 1
+      spinner.text = `fetch count ${fetchCount} now fetching ${url}`
+      const options = { method: 'get', timeout: 20000 }
+      const data = await fetch(url, options)
       response = await data.json()
       cache[url] = response
     } catch (err) {
-      console.error(`Module ${dependency.module} was not found`)
+      console.error(`Module ${dependency.module} was not found ${err.message}`)
       return {}
     }
   } else {
+    cacheHitCount += 1
     response = cache[url]
   }
   try {
