@@ -60,4 +60,9 @@ describe('Registry Dependencies', () => {
         .catch(err => done(err))
     })
   })
+  describe.skip('caching', () => {
+    it('expect to cache a request', () => {
+
+    })
+  })
 })

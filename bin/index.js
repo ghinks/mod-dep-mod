@@ -8,8 +8,10 @@ program
   .option('-p --package [value]', 'fully qualified path to a package.json file')
   .parse(process.argv)
 
-if (program.module) console.log(`Find root module that requires ${program.module}`)
-if (program.package) console.log(`Use ${program.package} as dependency source`)
+const isTestEnv = () => process.env.NODE_ENV === 'test'
+
+if (program.module && isTestEnv()) console.log(`Find root module that requires ${program.module}`)
+if (program.package && isTestEnv()) console.log(`Use ${program.package} as dependency source`)
 
 process.on('unhandledRejection', up => { throw new Error('uncaught!') })
 
