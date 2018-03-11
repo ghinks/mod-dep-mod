@@ -1,6 +1,6 @@
-import getDepends from '../fileDeps'
+import getDepends from '../readDependencyFile'
 import collate from '../collate'
-import getRegistryDeps from '../registryDeps'
+import getRegistryDeps from '../fetchRegistryDependencies'
 import async from 'async'
 import cleanPrivProps from '../cleanPrivateProps'
 import findNamedModule from '../findNamedModule'
@@ -63,7 +63,7 @@ const walkDeps = async (moduleToFind, dependsFile = 'package.json', done) => {
   q.drain = () => {
     results = cleanPrivProps(results)
     const matches = findNamedModule(results, moduleToFind, undefined)
-    matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
+    if (process.env.NODE_ENV !== 'test') matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
     if (done) done(results)
     if (process.env.NODE_ENV !== 'test') process.exit()
   }

@@ -8,10 +8,11 @@
     "watch": "babel --watch src --out-dir lib --ignore test.js",
     "lint": "standard --env mocha src/**/*.js",
     "test": "NODE_ENV=test mocha --require babel-core/register src/**/test.js",
-    "cover": "nyc npm test"
+    "cover": "NODE_ENV=test nyc npm test",
+    "cover:html": "NODE_ENV=test nyc --reporter=html npm test "
   },
   "engines": {
-    "node": ">=9.0.0"
+    "node": ">=6.0.0"
   },
   "repository": {
     "type": "git",
@@ -66,7 +67,9 @@
       "src/**/test.js"
     ],
     "report": [
+      "json",
       "lcov",
+      "html",
       "text"
     ]
   },

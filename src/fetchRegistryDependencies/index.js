@@ -4,10 +4,10 @@ import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher'
 import ora from 'ora'
 
-const spinner = ora('...fetching').start();
+let spinner
+if (process.env.NODE_ENV !== 'test') spinner = ora('...fetching').start()
 const cache = {}
 let fetchCount = 0
-let cacheHitCount = 0
 
 const registryDeps = async (dependency) => {
   const registry = registryUrl()
@@ -18,7 +18,7 @@ const registryDeps = async (dependency) => {
   if (!cache[url]) {
     try {
       fetchCount += 1
-      spinner.text = `fetch count ${fetchCount} now fetching ${url}`
+      if (spinner) spinner.text = `fetch count ${fetchCount} now fetching ${url}`
       const options = { method: 'get', timeout: 20000 }
       const data = await fetch(url, options)
       response = await data.json()
@@ -28,23 +28,13 @@ const registryDeps = async (dependency) => {
       return {}
     }
   } else {
-    cacheHitCount += 1
     response = cache[url]
   }
   try {
     if (response.versions) {
       const match = semverMatcher(Object.keys(response.versions), dependency.version)
-      if (!response.versions[match] && !dependency.version.match(/.*tgz/)) {
-        console.error(`no match for ${dependency.module} ${dependency.version}`)
-        return {}
-      }
-      // handle no dependencies
-      return response.versions[match].dependencies || {}
-    }
-    if (response.versions) {
-      const match = semverMatcher(Object.keys(response.versions), dependency.version)
-      if (!response.versions[match]) {
-        console.error(`no match for ${dependency.module} ${dependency.version}`)
+      if (!response.versions[match] && !dependency.version.match(/.*(gz|git)/)) {
+        console.error(` no match for ${dependency.module} ${dependency.version}`)
         return {}
       }
       // handle no dependencies
