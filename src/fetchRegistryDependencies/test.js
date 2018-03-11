@@ -64,16 +64,6 @@ describe('Registry Dependencies', () => {
         .catch(err => done(err))
     })
 
-    it.skip('Expect to get empty object when no dependencies are found', (done) => {
-      cache[url] = {}
-      registryDeps({module, version})
-        .then((dependencies) => {
-          expect(dependencies).to.be.an('Object')
-          done()
-        })
-        .catch(err => done(err))
-    })
-
     it('Expect to get empty response', (done) => {
       registryDeps({module, version: '3.0.0'})
         .then((dependencies) => {
