@@ -10,9 +10,15 @@ describe('Registry Dependencies', () => {
   const errorConsole = console.error
   before(() => {
     console.error = () => null
+    registryDeps.__Rewire__('ora', () => {
+      return {
+        start: () => ({})
+      }
+    })
   })
   after(() => {
     console.error = errorConsole
+    registryDeps.__ResetDependency__('ora')
   })
   describe('Passing', () => {
     const dependencies = {
@@ -33,13 +39,11 @@ describe('Registry Dependencies', () => {
     beforeEach(() => {
       registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
       registryDepsRewireAPI.__Rewire__('cache', cache)
-      registryDepsRewireAPI.__Rewire__('spinner', {text: ''})
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
       registryDeps.__ResetDependency__('registryUrl')
       registryDeps.__ResetDependency__('request')
-      registryDeps.__ResetDependency__('ora')
       nock.cleanAll()
     })
 

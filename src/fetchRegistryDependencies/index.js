@@ -5,20 +5,19 @@ import semverMatcher from '../packageMatcher'
 import ora from 'ora'
 
 let spinner
-if (process.env.NODE_ENV !== 'test') spinner = ora('...fetching').start()
 const cache = {}
 let fetchCount = 0
 
 const registryDeps = async (dependency) => {
+  if (!spinner) spinner = ora('...fetching').start()
   const registry = registryUrl()
   const escapedName = npa(`${dependency.module}`).escapedName
   const url = `${registry}${escapedName}`
   let response
-  // TODO handle the case when the call is pending and not yet cached
   if (!cache[url]) {
     try {
       fetchCount += 1
-      if (spinner) spinner.text = `fetch count ${fetchCount} now fetching ${url}`
+      spinner.text = `fetch count ${fetchCount} now fetching ${url}`
       const options = { method: 'get', timeout: 20000 }
       const data = await fetch(url, options)
       response = await data.json()
@@ -36,7 +35,6 @@ const registryDeps = async (dependency) => {
       console.error(` no match for ${dependency.module} ${dependency.version}`)
       return {}
     }
-    // handle no dependencies
     return response.versions[match].dependencies || {}
   }
 
