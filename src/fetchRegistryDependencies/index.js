@@ -30,19 +30,16 @@ const registryDeps = async (dependency) => {
   } else {
     response = cache[url]
   }
-  try {
-    if (response.versions) {
-      const match = semverMatcher(Object.keys(response.versions), dependency.version)
-      if (!response.versions[match] && !dependency.version.match(/.*(gz|git)/)) {
-        console.error(` no match for ${dependency.module} ${dependency.version}`)
-        return {}
-      }
-      // handle no dependencies
-      return response.versions[match].dependencies || {}
+  if (response.versions) {
+    const match = semverMatcher(Object.keys(response.versions), dependency.version)
+    if (!response.versions[match] && !dependency.version.match(/.*(gz|git)/)) {
+      console.error(` no match for ${dependency.module} ${dependency.version}`)
+      return {}
     }
-  } catch (err) {
-    if (process.env.NODE_ENV === 'test') console.log(`error getting semver match ${err.message}`)
+    // handle no dependencies
+    return response.versions[match].dependencies || {}
   }
+
   return {}
 }
 
