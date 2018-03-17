@@ -9,7 +9,7 @@ npm install -g mod-dep-mod
 
 cd rootFolderWithPackageJson
 
-mod-dep-mod -m debug
+mod-dep-mod debug
 
 ```
 
@@ -21,6 +21,20 @@ mod-dep-mod => nyc --> test-exclude --> micromatch --> nanomatch --> snapdragon 
 mod-dep-mod => nock --> debug
 mod-dep-mod => mocha --> debug
 ```
+
+### Multiple Searches
+```
+mod-dep-mod jsx eslint
+```
+
+
+
+```
+mod-dep-mod => standard --> eslint --> espree --> acorn-jsx
+mod-dep-mod => standard --> eslint-plugin-react
+
+```
+
 ## features
 
 - uses the registry set by npm
@@ -30,6 +44,7 @@ mod-dep-mod => mocha --> debug
 - tested on node 6 onwards
 - gives total count of all dependencies fetched
 - caches each registry fetch to speed up on duplicates
+- multiple searches with multiple arguments
 
 ## help
 
@@ -38,10 +53,7 @@ mod-dep-mod => mocha --> debug
 
 
   Options:
-
-    -m, --module [value]  find root module that requires this module
-    -p --package [value]  fully qualified path to a package.json file
-    -h, --help            output usage information
+    -p  fully qualified path to a package.json file
 ```
 
 

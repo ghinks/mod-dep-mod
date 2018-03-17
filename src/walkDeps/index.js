@@ -49,7 +49,7 @@ const walker = async (task, cb) => {
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
 
-const walkDeps = async (moduleToFind, dependsFile, nodeEnv, done) => {
+const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   const packageJsonDeps = await getDepends(dependsFile)
   const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
@@ -57,7 +57,10 @@ const walkDeps = async (moduleToFind, dependsFile, nodeEnv, done) => {
   const q = async.queue(walker, 10)
   q.drain = () => {
     results = cleanPrivProps(results)
-    const matches = findNamedModule(results, moduleToFind, undefined)
+    const matches = modules.reduce((acc, moduleToFind) => {
+      const found = findNamedModule(results, moduleToFind, undefined)
+      return [...acc, ...found]
+    }, [])
     if (nodeEnv !== 'test') matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
     if (done) done(results)
   }

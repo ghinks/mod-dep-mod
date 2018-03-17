@@ -69,7 +69,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('debug', null, 'test', finished)
+        walkDeps(['debug', 'other'], null, 'test', finished)
           .then(() => {})
           .catch(err => done(err))
       })
@@ -78,7 +78,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('name3', null, 'production', finished)
+        walkDeps(['name3', 'name2'], null, 'production', finished)
           .then(() => {})
           .catch(err => done(err))
       })
@@ -99,7 +99,7 @@ describe('Walk dependency tree', () => {
       })
       it('Expect to handle registry errors', (done) => {
         const finished = () => done()
-        walkDeps('debug', null, 'test', finished)
+        walkDeps(['debug'], null, 'test', finished)
           .then(() => null)
           .catch((err) => done(err))
       })
@@ -142,7 +142,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('debug', null, 'test', finished)
+        walkDeps(['debug'], null, 'test', finished)
           .then(() => {})
           .catch(err => done(err))
       })
@@ -169,7 +169,7 @@ describe('Walk dependency tree', () => {
           expect(results).to.be.an('Object')
           done()
         }
-        walkDeps('debug', null, 'test', finished)
+        walkDeps(['debug'], null, 'test', finished)
           .then(() => {})
           .catch(err => done(err))
       })

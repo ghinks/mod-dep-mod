@@ -27,6 +27,7 @@
     "commander": "^2.14.1",
     "compare-semver": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
+    "minimist": "^1.2.0",
     "npm-package-arg": "^6.0.0",
     "ora": "^2.0.0",
     "pify": "^3.0.0",
