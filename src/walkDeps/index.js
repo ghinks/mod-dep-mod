@@ -33,28 +33,23 @@ const walker = async (task, cb) => {
     console.error(err.message)
   }
 
-  try {
-    task.results[task.dependency.module] = {}
-    if (regDeps) {
-      const __depends = []
-      Object.getOwnPropertyNames(regDeps).forEach((depName) => {
-        if (depName) __depends.push({ module: depName, version: regDeps[depName] })
-      })
-      if (__depends.length > 0) {
-        task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
-        const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, parent: task.results }))
-        // TODO cd error handling
-        newDeps.forEach(nd => task.q.push(nd, () => null))
-      }
+  task.results[task.dependency.module] = {}
+  if (regDeps) {
+    const __depends = []
+    Object.getOwnPropertyNames(regDeps).forEach((depName) => {
+      if (depName) __depends.push({ module: depName, version: regDeps[depName] })
+    })
+    if (__depends.length > 0) {
+      task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
+      const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, parent: task.results }))
+      // TODO cd error handling
+      newDeps.forEach(nd => task.q.push(nd, () => null))
     }
-  } catch (err) {
-    console.error(err.message)
   }
-
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
 
-const walkDeps = async (moduleToFind, dependsFile = 'package.json', done) => {
+const walkDeps = async (moduleToFind, dependsFile, nodeEnv, done) => {
   const packageJsonDeps = await getDepends(dependsFile)
   const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
@@ -63,9 +58,8 @@ const walkDeps = async (moduleToFind, dependsFile = 'package.json', done) => {
   q.drain = () => {
     results = cleanPrivProps(results)
     const matches = findNamedModule(results, moduleToFind, undefined)
-    if (process.env.NODE_ENV !== 'test') matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
+    if (nodeEnv !== 'test') matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
     if (done) done(results)
-    if (process.env.NODE_ENV !== 'test') process.exit()
   }
   // TODO cb error handling
   // TODO take package@version as argument rather than package.json

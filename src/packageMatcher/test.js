@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import matcher, {getMinor, getMajor, getExact, getSingle, getHighestMatch } from './index'
+import matcher, {getMinor, getMajor, getExact, getSingle, getMax } from './index'
 
 describe('package matching', () => {
   const versions = ['0.0.1', '0.1.0', '0.2.0', '0.3.0', '0.3.1', '1.0.0', '1.0.1', '1.0.9', '1.1.0', '1.1.1', '1.1.5', '1.2.0', '1.2.1', '1.2.9', '2.0.1', '2.0.1', '3.1.0', '4.0.0', '7.2.1']
@@ -94,6 +94,10 @@ describe('package matching', () => {
     })
   })
   describe('exact', () => {
+    it('expect no match on 100.100.100', () => {
+      const result = getExact(versions, '100.100.100')
+      expect(result).to.be.an('undefined')
+    })
     it('expect exact match 1.0.1', () => {
       const result = getExact(versions, '1.0.1')
       expect(result).to.be.equal('1.0.1')
@@ -107,9 +111,9 @@ describe('package matching', () => {
       expect(result).to.be.equal('7.2.1')
     })
   })
-  describe('highest (*)', () => {
-    it('expect highest version *', () => {
-      const result = getHighestMatch(versions, '*')
+  describe('max (*)', () => {
+    it('expect max version *', () => {
+      const result = getMax(versions, '*')
       expect(result).to.be.equal('7.2.1')
     })
   })
@@ -153,6 +157,10 @@ describe('package matching', () => {
       })
       it('expect highest version *', () => {
         const result = matcher(versions, '*')
+        expect(result).to.be.equal('7.2.1')
+      })
+      it('expect highest version *', () => {
+        const result = matcher(versions, '>=7.2.1')
         expect(result).to.be.equal('7.2.1')
       })
       it('expect highest version >=2.0.0', () => {

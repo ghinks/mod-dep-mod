@@ -20,7 +20,7 @@ var getDependencyTree = function run() {
     console.log('useage -m or --module moduleName')
     process.exit(0)
   }
-  walk(program.module, program.package)
+  walk(program.module, program.package || 'package.json', process.env.NODE_ENV, () => process.exit())
     .then(() => null)
     .catch(err => console.log(err.message))
 }
