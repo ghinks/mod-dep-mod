@@ -82,6 +82,15 @@ describe('Walk dependency tree', () => {
           .then(() => {})
           .catch(err => done(err))
       })
+      it('Expect to get no depends', (done) => {
+        const finished = (results) => {
+          expect(results).to.be.an('Object')
+          done()
+        }
+        walkDeps(['xxxx', 'xxxx'], null, 'production', finished)
+          .then(() => {})
+          .catch(err => done(err))
+      })
     })
     describe('failing tests', () => {
       beforeEach(() => {
