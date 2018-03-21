@@ -81,10 +81,12 @@ const matcher = (versions, testValue) => {
 
   // check ranges
   // eslint-disable-next-line
-  const regexRange = /(\d+\.[\dxX]+\.[\dxX]+).*(\d+\.[\dxX]\.[\dxX])/
-  const matchRange = validRange(testValue).match(regexRange)
-  if (matchRange) {
-    return getRange(versions, testValue)
+  if (validRange(testValue)) {
+    const regexRange = /(\d+\.[\dxX]+\.[\dxX]+).*(\d+\.[\dxX]\.[\dxX])/
+    const matchRange = validRange(testValue).match(regexRange)
+    if (matchRange) {
+      return getRange(versions, testValue)
+    }
   }
 
   // eslint-disable-next-line
