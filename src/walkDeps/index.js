@@ -61,7 +61,12 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
       const found = findNamedModule(results, moduleToFind, undefined)
       return [...acc, ...found]
     }, [])
-    if (nodeEnv !== 'test' && matches.length > 0) matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
+    if (nodeEnv !== 'test' && matches.length > 0) {
+      console.log('')
+      console.log(Array(50).join('--'))
+      matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
+      console.log(Array(50).join('--'))
+    }
     else if (nodeEnv !== 'test' && matches.length === 0) {
       console.log('')
       console.log(Array(50).join('--'))

@@ -1,63 +1,9 @@
 import {expect} from 'chai'
-import matcher, {getMinor, getMajor, getExact, getSingle, getMax } from './index'
+import matcher, {getMinor, getMajor, getExact, getSingle, getMax, getRange } from './index'
+import versions from './testData/versions'
+import increasingVersions from './testData/increasingVersions'
 
 describe('package matching', () => {
-  const versions = ['0.0.1', '0.1.0', '0.2.0', '0.3.0', '0.3.1', '1.0.0', '1.0.1', '1.0.9', '1.1.0', '1.1.1', '1.1.5', '1.2.0', '1.2.1', '1.2.9', '2.0.1', '2.0.1', '3.1.0', '4.0.0', '7.2.1']
-  const increasingVersions = [
-    '0.0.1',
-    '0.0.3',
-    '0.0.4',
-    '0.0.5',
-    '0.1.0',
-    '0.2.0',
-    '0.2.1',
-    '0.3.0',
-    '0.3.1',
-    '0.3.2',
-    '0.3.3',
-    '0.4.0',
-    '0.4.1',
-    '0.4.2',
-    '0.4.3',
-    '0.5.0',
-    '0.5.1',
-    '0.6.0',
-    '0.6.1',
-    '0.5.2',
-    '1.0.0',
-    '1.0.1',
-    '1.0.2',
-    '1.0.3',
-    '1.0.4',
-    '1.0.5',
-    '1.1.0',
-    '1.1.1',
-    '1.2.0',
-    '1.3.0',
-    '1.3.1',
-    '1.3.2',
-    '2.0.0',
-    '2.1.0',
-    '2.2.0',
-    '2.3.0',
-    '2.4.0',
-    '2.5.0',
-    '2.5.1',
-    '2.6.0',
-    '2.7.0',
-    '2.7.1',
-    '2.8.0',
-    '2.8.1',
-    '2.9.0',
-    '2.10.0',
-    '2.11.0',
-    '2.12.0',
-    '2.12.1',
-    '2.12.2',
-    '2.13.0',
-    '2.14.0',
-    '2.14.1'
-  ]
   const reversedVersions = [...versions].reverse()
   describe('minor', () => {
     it('expect minor match 1.0.9', () => {
@@ -117,6 +63,28 @@ describe('package matching', () => {
       expect(result).to.be.equal('7.2.1')
     })
   })
+  describe('range x < y', () => {
+    // 6.0.0 <=6.1.1
+    // 2.2.7 <3
+    // 0.3.0 < 0.4.0
+    // 1.0.33-1 <1.1.0-0
+    it('expect 0.0.1 < 0.1.0 to match 0.0.1', () => {
+      const result = getRange(versions, '0.0.1 < 0.1.0')
+      expect(result).to.be.equal('0.0.1')
+    })
+    it('expect 0.0.1 <0.1.0 to match 0.0.1', () => {
+      const result = getRange(versions, '0.0.1 <0.1.0')
+      expect(result).to.be.equal('0.0.1')
+    })
+    it('expect 1.0.0 <=1.0.9', () => {
+      const result = getRange(versions, '1.0.0 <=1.0.9')
+      expect(result).to.be.equal('1.0.0')
+    })
+    it('expect 1.0.0 < 3', () => {
+      const result = getRange(versions, '1.0.0 < 3')
+      expect(result).to.be.equal('1.0.0')
+    })
+  })
   describe('matcher tests', () => {
     describe('Use incrementing versions', () => {
       it('Expect to match 1.1.5 exactly', () => {
@@ -170,6 +138,14 @@ describe('package matching', () => {
       it('expect highest version 1.1.x', () => {
         const result = matcher(versions, '1.1.x')
         expect(result).to.be.equal('1.1.5')
+      })
+      it('expect to match range 1.0.0', () => {
+        const result = matcher(versions, '1.0.0 <=1.0.9')
+        expect(result).to.be.equal('1.0.0')
+      })
+      it('expect to match range 1.0.0 < 3', () => {
+        const result = matcher(versions, '1.0.0 < 3')
+        expect(result).to.be.equal('1.0.0')
       })
     })
     describe('Use decrementing versions', () => {

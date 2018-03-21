@@ -1,4 +1,4 @@
-import {compare, gte, rcompare} from 'semver'
+import {compare, gte, rcompare, maxSatisfying, validRange} from 'semver'
 
 const getMinor = (versions, testValue) => {
   const regex = /(\d+)\.([\d]+)\.([\dxX]+)/
@@ -71,8 +71,22 @@ const getHighestMatch = (versions, testValue) => {
   }
 }
 
+const getRange = (versions, testValue) => {
+  const descVers = versions.sort(compare)
+  return maxSatisfying(descVers, testValue)
+}
+
 const matcher = (versions, testValue) => {
   // TODO check versions and length
+
+  // check ranges
+  // eslint-disable-next-line
+  const regexRange = /(\d+\.[\dxX]+\.[\dxX]+).*(\d+\.[\dxX]\.[\dxX])/
+  const matchRange = validRange(testValue).match(regexRange)
+  if (matchRange) {
+    return getRange(versions, testValue)
+  }
+
   // eslint-disable-next-line
   const regexMajMin = /([\^\~]?)(\d+\.[\dxX]+\.[\dxX]+)/
   const match = testValue.match(regexMajMin)
@@ -93,4 +107,4 @@ const matcher = (versions, testValue) => {
   }
 }
 
-export { matcher as default, getMinor, getMajor, getExact, getSingle, getHighestMatch, getMax }
+export { matcher as default, getMinor, getMajor, getExact, getSingle, getHighestMatch, getMax, getRange }

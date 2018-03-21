@@ -17,7 +17,7 @@ const registryDeps = async (dependency) => {
   if (!cache[url]) {
     try {
       fetchCount += 1
-      spinner.text = `fetch count ${fetchCount} now fetching ${url}`
+      spinner.text = `fetch count ${fetchCount} now fetching ${url} `
       const options = { method: 'get', timeout: 20000 }
       const data = await fetch(url, options)
       response = await data.json()
