@@ -5,6 +5,7 @@ var walk = require('../lib/walkDeps').default
 
 if (argv._.length === 0) {
   console.log('no args given')
+  console.log('example mod-dep-mod debug')
   process.exit()
 }
 
