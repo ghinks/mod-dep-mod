@@ -3,6 +3,11 @@
 var argv = require('minimist')(process.argv.slice(2))
 var walk = require('../lib/walkDeps').default
 
+if (argv._.length === 0) {
+  console.log('no args given')
+  process.exit()
+}
+
 process.on('unhandledRejection', up => { throw new Error('uncaught!') })
 
 var getDependencyTree = function run(modules, pck) {
