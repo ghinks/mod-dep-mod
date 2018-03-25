@@ -2,6 +2,10 @@
 
 A tool to list which dependencies depend on a module.
 
+<p align="center">
+	<img src="https://cdn.rawgit.com/ghinks/mod-dep-mod/95e6436b/mod-dep-mod.gif" width="500">
+</p>
+
 ## Usage
 
 ```
