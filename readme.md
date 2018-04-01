@@ -2,6 +2,8 @@
 
 A tool to list which dependencies depend on a module.
 
+[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/)
+
 <p align="center">
 	<img src="https://cdn.rawgit.com/ghinks/mod-dep-mod/92a90f92/mod-dep-mod.gif" width="500">
 </p>
