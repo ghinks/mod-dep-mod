@@ -7,7 +7,7 @@
     "build": "babel src --out-dir lib --ignore test.js",
     "watch": "babel --watch src --out-dir lib --ignore test.js",
     "lint": "standard --env mocha src/**/*.js",
-    "test": "NODE_ENV=test mocha --require babel-core/register src/**/test.js",
+    "test": "NODE_ENV=test mocha --timeout 4000 --require babel-core/register src/**/test.js",
     "cover": "NODE_ENV=test nyc npm test",
     "cover:html": "NODE_ENV=test nyc --reporter=html npm test "
   },
