@@ -10,6 +10,10 @@ describe('package matching', () => {
       const result = getMinor(reversedVersions, '1.0.0')
       expect(result).to.be.equal('1.0.9')
     })
+    it('expect minor match 1.0.2', () => {
+      const result = getMinor(['1.0.0', '1.0.1', '1.0.2'], '1.0.9')
+      expect(result).to.be.equal('1.0.2')
+    })
   })
   describe('major', () => {
     it('expect major match 1.2.9', () => {
