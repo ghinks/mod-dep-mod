@@ -20,4 +20,10 @@ describe('Collate package.json dependencies', () => {
       expect(c).to.have.property('version')
     })
   })
+
+  it('Expect an empty array', () => {
+    const collated = collate({})
+    expect(collated).to.be.an('Array')
+    expect(collated.length).to.be.equal(0)
+  })
 })
