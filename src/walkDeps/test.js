@@ -7,40 +7,36 @@ describe('Walk dependency tree', () => {
   const getFile = promisify(fs.readFile)
   // when you depend on your ancestor
   describe('Circular Depeneds', () => {
-    it('Expect no circular dependencies', () => {
-      const parent = undefined
-      const dependency = {}
-      const result = isCircularDependency({ parent, dependency })
+    it('Expect no circular dependencies with no ancestor', () => {
+      const dependency = { module: 'mod1', version: '0.0.1' }
+      const ancestry = undefined
+      const result = isCircularDependency({ ancestry, dependency })
       expect(result).to.be.equal(false)
     })
-    it('Expect no circular dependencies', () => {
-      const parent = { __name: undefined }
-      const dependency = {}
-      const result = isCircularDependency({ parent, dependency })
+    it('Expect no circular dependencies with no ancestor name', () => {
+      const dependency = { module: 'mod1', version: '0.0.1' }
+      const ancestry = ['abc', 'def']
+      const result = isCircularDependency({ ancestry, dependency })
       expect(result).to.be.equal(false)
     })
-    it('Expect to find circular dependencies', () => {
-      const parent = {
-        __name: 'mom',
-        __depends: [{ module: 'debug', version: '1.0.0' }]
-      }
-      const dependency = { module: 'mom', version: '1.0.0' }
-      const result = isCircularDependency({ parent, dependency })
+    it('Expect match on ancestor', () => {
+      const dependency = { module: 'mod1', version: '0.0.1' }
+      const ancestry = ['abc', 'def', 'mod1']
+      const result = isCircularDependency({ ancestry, dependency })
       expect(result).not.to.be.equal(false)
     })
-    it('Expect to find circular dependencies', () => {
-      const grandParent = {
-        __name: 'pop',
-        __depends: [ {module: 'mom', version: '1.0.0'} ]
-      }
-      const parent = {
-        parent: grandParent,
-        __name: 'mom',
-        __depends: [{ module: 'debug', version: '1.0.0' }]
-      }
-      const dependency = { module: 'pop', version: '1.0.0' }
-      const result = isCircularDependency({ parent, dependency })
-      expect(result).not.to.be.equal(false)
+    describe('Set circulars', () => {
+      let revertRewire;
+      beforeEach(() => {
+        revertRewire = walkDeps.__Rewire__('circulars', ['mod1']);
+      })
+      afterEach(() => revertRewire)
+      it('Expect circulars on previous match', () => {
+        const dependency = { module: 'mod1', version: '0.0.1' }
+        const ancestry = []
+        const result = isCircularDependency({ ancestry, dependency })
+        expect(result).not.to.be.equal(false)
+      })
     })
   })
   describe('Walking', () => {

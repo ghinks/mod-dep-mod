@@ -7,16 +7,12 @@ import findNamedModule from '../findNamedModule'
 
 const circulars = []
 
-export const isCircularDependency = ({ parent: ancestor, dependency }) => {
-  if (!ancestor || !ancestor.__name) return false
+export const isCircularDependency = ({ ancestry, dependency }) => {
+  if (!ancestry) return false
   if (circulars.includes(dependency.module)) return true
-  const match = (ancestor.__name === dependency.module)
-  if (match) {
-    circulars.push(dependency.module)
-    return `Circular dependency parent ${ancestor.__name}`
-  }
-  if (!ancestor.parent) return false
-  return isCircularDependency({parent: ancestor.parent, dependency})
+  if (!ancestry.includes(dependency.module)) return false
+
+  return `Circular dependency in tree`
 }
 
 const walker = async (task, cb) => {
@@ -41,7 +37,7 @@ const walker = async (task, cb) => {
     })
     if (__depends.length > 0) {
       task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
-      const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, parent: task.results }))
+      const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, ancestry: [...task.ancestry, task.dependency.module] }))
       // TODO cd error handling
       newDeps.forEach(nd => task.q.push(nd, () => null))
     }
@@ -78,7 +74,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   // TODO cb error handling
   // TODO take package@version as argument rather than package.json
   // TODO add package.json name to top of the tree
-  collatedDeps.forEach((d) => q.push({ dependency: d, results, q, __depth: 1, parent: undefined }, () => null))
+  collatedDeps.forEach((d) => q.push({ dependency: d, results, q, __depth: 1, ancestry: [] }, () => null))
 }
 
 export default walkDeps
