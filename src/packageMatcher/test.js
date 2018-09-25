@@ -89,6 +89,12 @@ describe('package matching', () => {
       expect(result).to.be.equal('1.0.0')
     })
   })
+  describe('equality = ', () => {
+    it('expect =1.0.0 to match 1.0.0', () => {
+      const result = matcher(versions, '=1.0.0')
+      expect(result).to.be.equal('1.0.0')
+    })
+  })
   describe('matcher tests', () => {
     describe('Use incrementing versions', () => {
       it('Expect to match 1.1.5 exactly', () => {

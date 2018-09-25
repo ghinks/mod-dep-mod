@@ -1,8 +1,12 @@
 # mod-dep-mod
 
+[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/)
+
 A tool to list which dependencies depend on a module.
 
-[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/)
+Have you ever been doing an install and you see a module being installed and you don't know why it is being pulled in. What is requiring it? Well this is the tool to tell you.
+
+**What modules use debug in your package.json?**
 
 <p align="center">
 	<img src="https://cdn.rawgit.com/ghinks/mod-dep-mod/92a90f92/mod-dep-mod.gif">
