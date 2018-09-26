@@ -4,10 +4,10 @@
   "description": "",
   "bin": "bin/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib --ignore test.js",
-    "watch": "babel --watch src --out-dir lib --ignore test.js",
+    "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
+    "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
     "lint": "standard --env mocha src/**/*.js",
-    "test": "NODE_ENV=test mocha --timeout 4000 --require babel-core/register src/**/test.js",
+    "test": "NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/test.js",
     "cover": "NODE_ENV=test nyc npm test",
     "cover:html": "NODE_ENV=test nyc --reporter=html npm test "
   },
@@ -30,8 +30,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.0.0",
     "async": "^2.6.0",
-    "babel-runtime": "^6.26.0",
     "compare-semver": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
     "minimist": "^1.2.0",
@@ -44,13 +44,30 @@
     "treeify": "^1.1.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "babel-eslint": "^8.2.2",
     "babel-plugin-rewire": "^1.1.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "mocha": "^5.0.1",
     "nock": "^9.2.1",
@@ -84,23 +101,48 @@
   "babel": {
     "presets": [
       [
-        "env",
+        "@babel/preset-env",
         {
           "targets": {
             "node": "6.0.0"
           }
         }
-      ],
-      "stage-0"
+      ]
     ],
     "plugins": [
-      "transform-runtime"
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-syntax-import-meta",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-json-strings",
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "@babel/plugin-proposal-function-sent",
+      "@babel/plugin-proposal-export-namespace-from",
+      "@babel/plugin-proposal-numeric-separator",
+      "@babel/plugin-proposal-throw-expressions",
+      "@babel/plugin-proposal-export-default-from",
+      "@babel/plugin-proposal-logical-assignment-operators",
+      "@babel/plugin-proposal-optional-chaining",
+      [
+        "@babel/plugin-proposal-pipeline-operator",
+        {
+          "proposal": "minimal"
+        }
+      ],
+      "@babel/plugin-proposal-nullish-coalescing-operator",
+      "@babel/plugin-proposal-do-expressions",
+      "@babel/plugin-proposal-function-bind"
     ],
     "env": {
       "test": {
         "plugins": [
           "babel-plugin-rewire",
-          "transform-runtime"
+          "@babel/plugin-transform-runtime"
         ]
       }
     }
