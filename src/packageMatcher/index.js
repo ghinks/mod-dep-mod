@@ -99,7 +99,7 @@ const matcher = (versions, testValue) => {
     // eslint-disable-next-line
   } else if (match && match[1] === '=') {
     return getExact(versions, match[2])
-  } else if (match && !testValue.match(/([\^\~]?)(\d+\.[xX]+\.[xX]+)/) && !testValue.match(/\>\=.*/)) {
+  } else if (match && !testValue.match(/([\^~]?)(\d+\.[xX]+\.[xX]+)/) && !testValue.match(/>=.*/)) {
     return getExact(versions, testValue)
     // eslint-disable-next-line
   } else if (testValue.match(/(\^?)(\d+)/) && !testValue.match(/\>\=.*/)) {

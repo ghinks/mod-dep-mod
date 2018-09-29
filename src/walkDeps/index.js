@@ -61,8 +61,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
       console.log(Array(50).join('--'))
       matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
       console.log(Array(50).join('--'))
-    }
-    else if (nodeEnv !== 'test' && matches.length === 0) {
+    } else if (nodeEnv !== 'test' && matches.length === 0) {
       console.log('')
       console.log(Array(50).join('--'))
       console.log('no matches found')

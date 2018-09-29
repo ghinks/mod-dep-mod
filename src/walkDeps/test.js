@@ -26,9 +26,9 @@ describe('Walk dependency tree', () => {
       expect(result).not.to.be.equal(false)
     })
     describe('Set circulars', () => {
-      let revertRewire;
+      let revertRewire
       beforeEach(() => {
-        revertRewire = walkDeps.__Rewire__('circulars', ['mod1']);
+        revertRewire = walkDeps.__Rewire__('circulars', ['mod1'])
       })
       afterEach(() => revertRewire)
       it('Expect circulars on previous match', () => {
