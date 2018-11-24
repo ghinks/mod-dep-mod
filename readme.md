@@ -45,6 +45,25 @@ mod-dep-mod => standard --> eslint-plugin-react
 
 ```
 
+### URL search
+```
+mod-dep-mod -u https://raw.githubusercontent.com/expressjs/express/master/package.json cookie
+```
+
+```
+--------------------------------------------------------------------------------------------------
+express => cookie-signature
+express => cookie
+express => cookie-session
+express => cookie-parser
+express => express-session --> cookie
+express => express-session --> cookie-signature
+express => supertest --> superagent --> cookiejar
+--------------------------------------------------------------------------------------------------
+```
+
+
+
 ## features
 
 - uses the registry set by npm
@@ -55,6 +74,7 @@ mod-dep-mod => standard --> eslint-plugin-react
 - gives total count of all dependencies fetched
 - caches each registry fetch to speed up on duplicates
 - multiple searches with multiple arguments
+- directly search from github package.json via url
 
 ## help
 
@@ -64,6 +84,7 @@ mod-dep-mod => standard --> eslint-plugin-react
 
   Options:
     -p  fully qualified path to a package.json file
+    -u  url to package.json
 ```
 
 

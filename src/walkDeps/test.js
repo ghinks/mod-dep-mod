@@ -117,22 +117,17 @@ describe('Walk dependency tree', () => {
           // TODO handle the caret and tildas
           const regexMajMin = /(\^\d)*(\d+\.[\d]+\.[\d]+)/
           const match = dependency.version.match(regexMajMin)
-          if (!match) {
-            console.log(`no match for ${dependency.module} @ ${dependency.version}`)
-            // return {}
-          }
           const version = match ? match[2] : undefined
           return getFile(path, {encoding: 'utf8'})
             .then((data) => {
               const dep = JSON.parse(data)
               if (!dep.versions[version || 0]) {
-                console.log(`cannot find ${dependency.module} ${version}`)
                 return {}
               }
               const result = dep.versions[version].dependencies || {}
               return result
             })
-            .catch(() => console.log(`cannot find file ${path}`))
+            .catch(() => null)
         })
       })
       afterEach(() => {
