@@ -11,10 +11,13 @@ if (argv._.length === 0) {
 
 process.on('unhandledRejection', up => { throw new Error('uncaught!') })
 
-var getDependencyTree = function run(modules, pck) {
-  walk(modules, pck || 'package.json', process.env.NODE_ENV, () => process.exit())
+var getDependencyTree = function run(modules, fullyQualPck, urlToPck) {
+  const pck = fullyQualPck || urlToPck || 'package.json'
+  walk(modules, pck, process.env.NODE_ENV, () => process.exit())
     .then(() => null)
     .catch(err => console.log(err.message))
 }
 
-getDependencyTree(argv._, argv.p)
+// p path to package.json
+// u url to package.json
+getDependencyTree(argv._, argv.p, argv.u)
