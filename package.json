@@ -1,6 +1,6 @@
 {
   "name": "mod-dep-mod",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "bin": "bin/index.js",
   "scripts": {
@@ -84,7 +84,7 @@
   },
   "nyc": {
     "require": [
-      "babel-core/register"
+      "@babel/register"
     ],
     "include": [
       "src/**/*.js"
