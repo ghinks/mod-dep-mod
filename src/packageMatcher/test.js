@@ -42,6 +42,10 @@ describe('package matching', () => {
       const result = getSingle(versions, '7')
       expect(result).to.be.equal('7.2.1')
     })
+    it('expect no single digit match', () => {
+      const result = getSingle([], 'x')
+      expect(result).to.be.undefined // eslint-disable-line
+    })
   })
   describe('exact', () => {
     it('expect no match on 100.100.100', () => {
