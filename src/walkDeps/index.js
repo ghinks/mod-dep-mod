@@ -32,7 +32,7 @@ const walker = async (task, cb) => {
   if (regDeps) {
     const __depends = []
     Object.getOwnPropertyNames(regDeps).forEach((depName) => {
-      if (depName) __depends.push({ module: depName, version: regDeps[depName] })
+      __depends.push({ module: depName, version: regDeps[depName] })
     })
     if (__depends.length > 0) {
       task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
@@ -67,7 +67,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
       console.log('no matches found')
       console.log(Array(50).join('--'))
     }
-    if (done) done(results)
+    done(results)
   }
   // TODO cb error handling
   // TODO take package@version as argument rather than package.json
