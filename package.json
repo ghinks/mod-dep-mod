@@ -1,13 +1,13 @@
 {
   "name": "mod-dep-mod",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "",
   "bin": "bin/index.js",
   "scripts": {
     "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
-    "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
+    "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/*test.js\"",
     "lint": "standard --env mocha src/**/*.js",
-    "test": "NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/test.js",
+    "test": "NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/*test.js",
     "cover": "NODE_ENV=test nyc npm test",
     "cover:html": "NODE_ENV=test nyc --reporter=html npm test "
   },
