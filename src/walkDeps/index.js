@@ -35,7 +35,7 @@ const walker = async (task, cb) => {
       __depends.push({ module: depName, version: regDeps[depName] })
     })
     if (__depends.length > 0) {
-      task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth }
+      task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth, version: task.dependency.version }
       const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, ancestry: [...task.ancestry, task.dependency.module] }))
       // TODO cd error handling
       newDeps.forEach(nd => task.q.push(nd, () => null))
@@ -59,7 +59,10 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
     if (nodeEnv !== 'test' && matches.length > 0) {
       console.log('')
       console.log(Array(50).join('--'))
-      matches.forEach(m => console.log(`${name} => ${m.replace(/\./g, ' --> ')}`))
+      matches.forEach((m, i) => {
+        // const depVersion = () => (matches.length === i + 1) ? m.version : ''
+        console.log(`${name} => ${m.name.replace(/\./g, ' --> ')} ${m.version}`)
+      })
       console.log(Array(50).join('--'))
     } else if (nodeEnv !== 'test' && matches.length === 0) {
       console.log('')

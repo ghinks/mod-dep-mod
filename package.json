@@ -25,7 +25,10 @@
     "dependencies",
     "dependency",
     "tree",
-    "dep"
+    "dep",
+    "compliance",
+    "risk",
+    "security"
   ],
   "author": "",
   "license": "ISC",
