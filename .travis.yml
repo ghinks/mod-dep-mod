@@ -4,6 +4,7 @@ os:
 node_js:
   - "10.14"
   - "8.14"
+  - "6.15"
 install:
   - npm install
 script:
@@ -13,3 +14,4 @@ matrix:
   include:
     - node_js: 10.14
     - node_js: 8.14
+    - node_js: 6.15
