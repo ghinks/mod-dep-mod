@@ -2,6 +2,7 @@ import readPackageJson from 'read-package-json'
 import promisify from 'pify'
 import fs from 'fs'
 import fetch from 'isomorphic-fetch'
+import { URL } from 'url'
 
 const isUrl = (pckUrl) => {
   try {
