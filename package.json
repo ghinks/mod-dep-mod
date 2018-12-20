@@ -8,8 +8,8 @@
     "watch": "node ./node_modules/.bin/babel --watch src --out-dir lib --ignore \"src/**/*test.js\"",
     "lint": "standard --env mocha src/**/*.js",
     "test": "NODE_ENV=test node ./node_modules/.bin/mocha --timeout 4000 --require @babel/register src/**/*test.js",
-    "cover": "NODE_ENV=test nyc npm test",
-    "cover:html": "NODE_ENV=test nyc --reporter=html npm test "
+    "cover": "NODE_ENV=test npx nyc mocha ./src/**/test.js --require @babel/register",
+    "cover:html": "NODE_ENV=test npx nyc --reporter=html npm run cover "
   },
   "engines": {
     "node": ">=6.0.0"

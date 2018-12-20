@@ -10,8 +10,10 @@ install:
 script:
   - npm run lint
   - npm run test
+  - 'if [ -z "$COVER" ]; then npm run cover ; fi'
 matrix:
   include:
     - node_js: 10.14
+      env: COVER=true
     - node_js: 8.14
     - node_js: 6.15
