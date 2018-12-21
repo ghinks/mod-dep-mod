@@ -5,7 +5,7 @@
   "bin": "bin/index.js",
   "scripts": {
     "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
-    "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/*test.js\"",
+    "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
     "lint": "npx standard --env mocha src/**/*.js",
     "test": "NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/*test.js",
     "cover": "NODE_ENV=test npx nyc mocha --timeout 4000 ./src/**/test.js --require @babel/register",
