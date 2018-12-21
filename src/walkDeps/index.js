@@ -54,7 +54,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }
-  const q = async.queue(walker, 1)
+  const q = async.queue(walker, 10)
   q.drain = () => {
     results = cleanPrivProps(results)
     const matches = modules.reduce((acc, moduleToFind) => {
