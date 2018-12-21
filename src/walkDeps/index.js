@@ -28,7 +28,9 @@ const walker = async (task, cb) => {
     console.error(err.message)
   }
 
-  task.results[task.dependency.module] = {}
+  task.results[task.dependency.module] = {
+    version: task.dependency.version
+  }
   if (regDeps) {
     const __depends = []
     Object.getOwnPropertyNames(regDeps).forEach((depName) => {
@@ -38,9 +40,12 @@ const walker = async (task, cb) => {
       task.results[task.dependency.module] = { __name: task.dependency.module, __depends, __depth: task.__depth, version: task.dependency.version }
       const newDeps = __depends.map(dependency => ({ dependency, results: task.results[task.dependency.module], q: task.q, __depth: task.__depth + 1, ancestry: [...task.ancestry, task.dependency.module] }))
       // TODO cd error handling
-      newDeps.forEach(nd => task.q.push(nd, () => null))
+      newDeps.forEach((nd) => {
+        task.q.push(nd, () => null)
+      })
     }
-  }
+  } else task.results[task.dependency.module].version = task.dependency.version
+
   cb(null, task.dependency.module, task.results[task.dependency.module], task.results)
 }
 
@@ -49,7 +54,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   const name = packageJsonDeps.name
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }
-  const q = async.queue(walker, 10)
+  const q = async.queue(walker, 1)
   q.drain = () => {
     results = cleanPrivProps(results)
     const matches = modules.reduce((acc, moduleToFind) => {

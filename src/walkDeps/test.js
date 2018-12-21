@@ -173,6 +173,19 @@ describe('Walk dependency tree', () => {
           .then(() => {})
           .catch(err => done(err))
       })
+
+      it('Expect to get cookie depends', (done) => {
+        walkDeps.__Rewire__('collate', () => [
+          { module: 'cookie', version: '0.1.2' }
+        ])
+        const finished = (results) => {
+          expect(results).to.be.an('Object')
+          done()
+        }
+        walkDeps(['cookie'], null, 'test', finished)
+          .then(() => {})
+          .catch(err => done(err))
+      })
     })
   })
 })

@@ -1,0 +1,1337 @@
+{
+   "versions" : {
+      "0.1.5" : {
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "dist" : {
+            "shasum" : "6ab9948a4b1ae21952cd2588530a4722d4044d7c",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.5.tgz"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "devDependencies" : {
+            "istanbul" : "0.3.20",
+            "mocha" : "1.21.5"
+         },
+         "scripts" : {
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "_from" : ".",
+         "maintainers" : [
+            {
+               "name" : "defunctzombie",
+               "email" : "shtylman@gmail.com"
+            },
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            },
+            {
+               "name" : "jongleberry",
+               "email" : "jonathanrichardong@gmail.com"
+            }
+         ],
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "homepage" : "https://github.com/jshttp/cookie",
+         "license" : "MIT",
+         "_shasum" : "6ab9948a4b1ae21952cd2588530a4722d4044d7c",
+         "version" : "0.1.5",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "description" : "cookie parsing and serialization",
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "gitHead" : "0dfc4876575cef2609cdc1082fccf832743822c2",
+         "directories" : {},
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.1.5",
+         "_npmVersion" : "1.4.28",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         }
+      },
+      "0.0.1" : {
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "maintainers" : [
+            {
+               "name" : "shtylman",
+               "email" : "shtylman@gmail.com"
+            }
+         ],
+         "optionalDependencies" : {},
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.1.tgz",
+            "shasum" : "3162dd34ea833740e2e0d6e7129f2dcd55dcf7ed"
+         },
+         "_defaultsLoaded" : true,
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "main" : "index.js",
+         "_nodeVersion" : "v0.6.14",
+         "repository" : {
+            "url" : "git://github.com/shtylman/node-cookie.git",
+            "type" : "git"
+         },
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "description" : "cookie parsing and serialization",
+         "dependencies" : {},
+         "version" : "0.0.1",
+         "_engineSupported" : true,
+         "_npmUser" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "shtylman"
+         },
+         "directories" : {},
+         "_npmVersion" : "1.1.12",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "_id" : "cookie@0.0.1",
+         "name" : "cookie"
+      },
+      "0.3.0" : {
+         "scripts" : {
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "_from" : ".",
+         "maintainers" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            }
+         ],
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "dist" : {
+            "shasum" : "a4bdd609d86748a5ce6c64d7ede6f4840ba434d8",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.3.0.tgz"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "devDependencies" : {
+            "mocha" : "1.21.5",
+            "istanbul" : "0.4.3"
+         },
+         "license" : "MIT",
+         "_shasum" : "a4bdd609d86748a5ce6c64d7ede6f4840ba434d8",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "description" : "HTTP server cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/jshttp/cookie"
+         },
+         "gitHead" : "91b733fbe29ae6fcfa305f8e8ff31a1c2e651feb",
+         "version" : "0.3.0",
+         "directories" : {},
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "_id" : "cookie@0.3.0",
+         "name" : "cookie",
+         "_npmOperationalInternal" : {
+            "tmp" : "tmp/cookie-0.3.0.tgz_1464310839393_0.722841773647815",
+            "host" : "packages-12-west.internal.npmjs.com"
+         },
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.4.28"
+      },
+      "0.0.3" : {
+         "version" : "0.0.3",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "url" : "git://github.com/shtylman/node-cookie.git",
+            "type" : "git"
+         },
+         "description" : "cookie parsing and serialization",
+         "dependencies" : {},
+         "directories" : {},
+         "_npmUser" : {
+            "name" : "shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.0.3",
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.1.21",
+         "_engineSupported" : true,
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.3.tgz",
+            "shasum" : "732b0e64cb77186954f5e36b0b6bcfd062a12e91"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "_defaultsLoaded" : true,
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "name" : "shtylman",
+               "email" : "shtylman@gmail.com"
+            }
+         ],
+         "_nodeVersion" : "v0.7.10-pre",
+         "main" : "index.js"
+      },
+      "0.2.3" : {
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.4.28",
+         "name" : "cookie",
+         "_id" : "cookie@0.2.3",
+         "_npmUser" : {
+            "name" : "dougwilson",
+            "email" : "doug@somethingdoug.com"
+         },
+         "directories" : {},
+         "version" : "0.2.3",
+         "gitHead" : "35326af88e9665bb8ea1be280cb827523e9360a7",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "description" : "cookie parsing and serialization",
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "homepage" : "https://github.com/jshttp/cookie",
+         "_shasum" : "1a59536af68537a21178a01346f87cb059d2ae5c",
+         "license" : "MIT",
+         "devDependencies" : {
+            "istanbul" : "0.3.22",
+            "mocha" : "1.21.5"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.2.3.tgz",
+            "shasum" : "1a59536af68537a21178a01346f87cb059d2ae5c"
+         },
+         "contributors" : [
+            {
+               "name" : "Douglas Christopher Wilson",
+               "email" : "doug@somethingdoug.com"
+            }
+         ],
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "name" : "defunctzombie",
+               "email" : "shtylman@gmail.com"
+            },
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            },
+            {
+               "email" : "jonathanrichardong@gmail.com",
+               "name" : "jongleberry"
+            }
+         ],
+         "_from" : ".",
+         "scripts" : {
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         }
+      },
+      "0.1.4" : {
+         "homepage" : "https://github.com/jshttp/cookie",
+         "_shasum" : "4955c0bd32fffa83b7433586185875876ea04e4b",
+         "license" : "MIT",
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "devDependencies" : {
+            "istanbul" : "0.3.20",
+            "mocha" : "1.21.5"
+         },
+         "contributors" : [
+            {
+               "name" : "Douglas Christopher Wilson",
+               "email" : "doug@somethingdoug.com"
+            }
+         ],
+         "dist" : {
+            "shasum" : "4955c0bd32fffa83b7433586185875876ea04e4b",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.4.tgz"
+         },
+         "maintainers" : [
+            {
+               "name" : "defunctzombie",
+               "email" : "shtylman@gmail.com"
+            },
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            },
+            {
+               "email" : "jonathanrichardong@gmail.com",
+               "name" : "jongleberry"
+            }
+         ],
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "scripts" : {
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "_from" : ".",
+         "name" : "cookie",
+         "_id" : "cookie@0.1.4",
+         "_npmVersion" : "1.4.28",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "directories" : {},
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "version" : "0.1.4",
+         "gitHead" : "337c0f1be395c1b62b8cae4306a745012c62a989",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "description" : "cookie parsing and serialization",
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ]
+      },
+      "0.2.1" : {
+         "_shasum" : "e1bc7c07d1985c17ad7347502bac1a0eb072ac9a",
+         "license" : "MIT",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "defunctzombie"
+            },
+            {
+               "name" : "dougwilson",
+               "email" : "doug@somethingdoug.com"
+            },
+            {
+               "name" : "jongleberry",
+               "email" : "jonathanrichardong@gmail.com"
+            }
+         ],
+         "_from" : ".",
+         "scripts" : {
+            "test" : "mocha --reporter spec --bail --check-leaks test/",
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+         },
+         "devDependencies" : {
+            "mocha" : "1.21.5",
+            "istanbul" : "0.3.20"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.2.1.tgz",
+            "shasum" : "e1bc7c07d1985c17ad7347502bac1a0eb072ac9a"
+         },
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "_npmVersion" : "1.4.28",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.2.1",
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "directories" : {},
+         "gitHead" : "f3b5262b23b8eb64c9cbebc6f6271894889b14b1",
+         "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/jshttp/cookie"
+         },
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "description" : "cookie parsing and serialization",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "version" : "0.2.1"
+      },
+      "0.0.2" : {
+         "_engineSupported" : true,
+         "_npmUser" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "shtylman"
+         },
+         "directories" : {},
+         "_npmVersion" : "1.1.12",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.0.2",
+         "description" : "cookie parsing and serialization",
+         "repository" : {
+            "url" : "git://github.com/shtylman/node-cookie.git",
+            "type" : "git"
+         },
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "dependencies" : {},
+         "version" : "0.0.2",
+         "main" : "index.js",
+         "_nodeVersion" : "v0.6.14",
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "shtylman"
+            }
+         ],
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.2.tgz",
+            "shasum" : "17aedf62bc6af53745fecb55c45c3f097c2e858b"
+         },
+         "_defaultsLoaded" : true,
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         }
+      },
+      "0.1.2" : {
+         "version" : "0.1.2",
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "dependencies" : {},
+         "_npmUser" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "shtylman"
+         },
+         "directories" : {},
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "_npmVersion" : "1.4.6",
+         "name" : "cookie",
+         "_id" : "cookie@0.1.2",
+         "dist" : {
+            "shasum" : "72fec3d24e48a3432073d90c12642005061004b1",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.2.tgz"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "_from" : ".",
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "bugs" : {
+            "url" : "https://github.com/shtylman/node-cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "shtylman"
+            }
+         ],
+         "optionalDependencies" : {},
+         "homepage" : "https://github.com/shtylman/node-cookie",
+         "main" : "index.js"
+      },
+      "0.2.2" : {
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "defunctzombie"
+            },
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            },
+            {
+               "name" : "jongleberry",
+               "email" : "jonathanrichardong@gmail.com"
+            }
+         ],
+         "_from" : ".",
+         "scripts" : {
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "devDependencies" : {
+            "mocha" : "1.21.5",
+            "istanbul" : "0.3.20"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "dist" : {
+            "shasum" : "579ef8bc9b2d6f7e975a16bf4164d572e752e540",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.2.2.tgz"
+         },
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "_shasum" : "579ef8bc9b2d6f7e975a16bf4164d572e752e540",
+         "license" : "MIT",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "gitHead" : "9b481be547730c5f487364b720ab298d097541d5",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "description" : "cookie parsing and serialization",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "version" : "0.2.2",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "_npmVersion" : "1.4.28",
+         "_id" : "cookie@0.2.2",
+         "name" : "cookie",
+         "_npmUser" : {
+            "name" : "dougwilson",
+            "email" : "doug@somethingdoug.com"
+         },
+         "directories" : {}
+      },
+      "0.0.0" : {
+         "_defaultsLoaded" : true,
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "dist" : {
+            "shasum" : "a134b9c981df85c8a67b1620be5a36c0db1bdc63",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.0.tgz"
+         },
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "shtylman"
+            }
+         ],
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "main" : "index.js",
+         "_nodeVersion" : "v0.6.14",
+         "version" : "0.0.0",
+         "dependencies" : {},
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "_npmVersion" : "1.1.12",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.0.0",
+         "_npmUser" : {
+            "name" : "shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "directories" : {},
+         "_engineSupported" : true
+      },
+      "0.1.3" : {
+         "_npmVersion" : "1.4.28",
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.1.3",
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "directories" : {},
+         "version" : "0.1.3",
+         "gitHead" : "f46097723c16f920a7b9759e154c34792e1d1a3b",
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "files" : [
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "homepage" : "https://github.com/jshttp/cookie",
+         "_shasum" : "e734a5c1417fce472d5aef82c381cabb64d1a435",
+         "license" : "MIT",
+         "devDependencies" : {
+            "istanbul" : "0.3.9",
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.3.tgz",
+            "shasum" : "e734a5c1417fce472d5aef82c381cabb64d1a435"
+         },
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "name" : "defunctzombie",
+               "email" : "shtylman@gmail.com"
+            },
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            },
+            {
+               "name" : "jongleberry",
+               "email" : "jonathanrichardong@gmail.com"
+            }
+         ],
+         "_from" : ".",
+         "scripts" : {
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         }
+      },
+      "0.1.1" : {
+         "homepage" : "https://github.com/shtylman/node-cookie",
+         "main" : "index.js",
+         "dist" : {
+            "shasum" : "cbd4b537aa65f800b6c66ead2520ba8d6afbdf54",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "_from" : ".",
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "bugs" : {
+            "url" : "https://github.com/shtylman/node-cookie/issues"
+         },
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "name" : "shtylman",
+               "email" : "shtylman@gmail.com"
+            }
+         ],
+         "_npmUser" : {
+            "name" : "shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "directories" : {},
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.3.24",
+         "_id" : "cookie@0.1.1",
+         "name" : "cookie",
+         "version" : "0.1.1",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "description" : "cookie parsing and serialization",
+         "dependencies" : {}
+      },
+      "0.3.1" : {
+         "license" : "MIT",
+         "_shasum" : "e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "_from" : ".",
+         "scripts" : {
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "dougwilson"
+            }
+         ],
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz",
+            "shasum" : "e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+         },
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "devDependencies" : {
+            "istanbul" : "0.4.3",
+            "mocha" : "1.21.5"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "_npmUser" : {
+            "name" : "dougwilson",
+            "email" : "doug@somethingdoug.com"
+         },
+         "directories" : {},
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "_npmOperationalInternal" : {
+            "tmp" : "tmp/cookie-0.3.1.tgz_1464323556714_0.6435900838114321",
+            "host" : "packages-12-west.internal.npmjs.com"
+         },
+         "_npmVersion" : "1.4.28",
+         "name" : "cookie",
+         "_id" : "cookie@0.3.1",
+         "description" : "HTTP server cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "url" : "https://github.com/jshttp/cookie",
+            "type" : "git"
+         },
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "gitHead" : "e3c77d497d66c8b8d4b677b8954c1b192a09f0b3",
+         "version" : "0.3.1"
+      },
+      "0.2.0" : {
+         "_shasum" : "9708beeaa361857de7d16516fea779572625caad",
+         "license" : "MIT",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "defunctzombie"
+            },
+            {
+               "name" : "dougwilson",
+               "email" : "doug@somethingdoug.com"
+            },
+            {
+               "email" : "jonathanrichardong@gmail.com",
+               "name" : "jongleberry"
+            }
+         ],
+         "_from" : ".",
+         "scripts" : {
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "devDependencies" : {
+            "mocha" : "1.21.5",
+            "istanbul" : "0.3.17"
+         },
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.2.0.tgz",
+            "shasum" : "9708beeaa361857de7d16516fea779572625caad"
+         },
+         "_npmVersion" : "1.4.28",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "name" : "cookie",
+         "_id" : "cookie@0.2.0",
+         "_npmUser" : {
+            "name" : "dougwilson",
+            "email" : "doug@somethingdoug.com"
+         },
+         "directories" : {},
+         "gitHead" : "e0d36be803099855dfa323de092eed97bec155bd",
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/jshttp/cookie"
+         },
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "version" : "0.2.0"
+      },
+      "0.0.6" : {
+         "main" : "index.js",
+         "_from" : ".",
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "shtylman"
+            }
+         ],
+         "dist" : {
+            "shasum" : "7bc6bb50205dcb98cf13ad09d6c60bc523f6fcb7",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.6.tgz"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "_npmUser" : {
+            "name" : "shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "directories" : {},
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.2.14",
+         "name" : "cookie",
+         "_id" : "cookie@0.0.6",
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "dependencies" : {},
+         "version" : "0.0.6"
+      },
+      "0.0.4" : {
+         "optionalDependencies" : {},
+         "maintainers" : [
+            {
+               "name" : "shtylman",
+               "email" : "shtylman@gmail.com"
+            }
+         ],
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "_defaultsLoaded" : true,
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "engines" : {
+            "node" : "*"
+         },
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.4.tgz",
+            "shasum" : "5456bd47aee2666eac976ea80a6105940483fe98"
+         },
+         "main" : "index.js",
+         "_nodeVersion" : "v0.6.20-pre",
+         "dependencies" : {},
+         "description" : "cookie parsing and serialization",
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "version" : "0.0.4",
+         "_engineSupported" : true,
+         "_npmVersion" : "1.1.24",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "_id" : "cookie@0.0.4",
+         "name" : "cookie",
+         "_npmUser" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "shtylman"
+         },
+         "directories" : {}
+      },
+      "0.0.5" : {
+         "engines" : {
+            "node" : "*"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "dist" : {
+            "shasum" : "f9acf9db57eb7568c9fcc596256b7bb22e307c81",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.0.5.tgz"
+         },
+         "maintainers" : [
+            {
+               "name" : "shtylman",
+               "email" : "shtylman@gmail.com"
+            }
+         ],
+         "optionalDependencies" : {},
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "main" : "index.js",
+         "version" : "0.0.5",
+         "dependencies" : {},
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "description" : "cookie parsing and serialization",
+         "name" : "cookie",
+         "_id" : "cookie@0.0.5",
+         "author" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "Roman Shtylman"
+         },
+         "directories" : {}
+      },
+      "0.1.0" : {
+         "name" : "cookie",
+         "_id" : "cookie@0.1.0",
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "_npmVersion" : "1.2.18",
+         "directories" : {},
+         "_npmUser" : {
+            "email" : "shtylman@gmail.com",
+            "name" : "shtylman"
+         },
+         "dependencies" : {},
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "git://github.com/shtylman/node-cookie.git"
+         },
+         "description" : "cookie parsing and serialization",
+         "version" : "0.1.0",
+         "main" : "index.js",
+         "maintainers" : [
+            {
+               "email" : "shtylman@gmail.com",
+               "name" : "shtylman"
+            }
+         ],
+         "optionalDependencies" : {},
+         "scripts" : {
+            "test" : "mocha"
+         },
+         "_from" : ".",
+         "engines" : {
+            "node" : "*"
+         },
+         "devDependencies" : {
+            "mocha" : "1.x.x"
+         },
+         "dist" : {
+            "shasum" : "90eb469ddce905c866de687efc43131d8801f9d0",
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz"
+         }
+      },
+      "0.2.4" : {
+         "_shasum" : "a8c155aa7b9b2cf2c4d32ebc7b9a0aa288ccc6bd",
+         "license" : "MIT",
+         "homepage" : "https://github.com/jshttp/cookie",
+         "maintainers" : [
+            {
+               "name" : "dougwilson",
+               "email" : "doug@somethingdoug.com"
+            }
+         ],
+         "bugs" : {
+            "url" : "https://github.com/jshttp/cookie/issues"
+         },
+         "scripts" : {
+            "test-ci" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+            "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+            "test" : "mocha --reporter spec --bail --check-leaks test/"
+         },
+         "_from" : ".",
+         "engines" : {
+            "node" : ">= 0.6"
+         },
+         "devDependencies" : {
+            "mocha" : "1.21.5",
+            "istanbul" : "0.4.3"
+         },
+         "contributors" : [
+            {
+               "email" : "doug@somethingdoug.com",
+               "name" : "Douglas Christopher Wilson"
+            }
+         ],
+         "dist" : {
+            "tarball" : "https://registry.npmjs.org/cookie/-/cookie-0.2.4.tgz",
+            "shasum" : "a8c155aa7b9b2cf2c4d32ebc7b9a0aa288ccc6bd"
+         },
+         "_id" : "cookie@0.2.4",
+         "name" : "cookie",
+         "_npmVersion" : "1.4.28",
+         "_npmOperationalInternal" : {
+            "tmp" : "tmp/cookie-0.2.4.tgz_1463790764235_0.7945549874566495",
+            "host" : "packages-16-east.internal.npmjs.com"
+         },
+         "author" : {
+            "name" : "Roman Shtylman",
+            "email" : "shtylman@gmail.com"
+         },
+         "directories" : {},
+         "_npmUser" : {
+            "email" : "doug@somethingdoug.com",
+            "name" : "dougwilson"
+         },
+         "gitHead" : "0c6fe48e2976d66ed73c03817bb5cb10180b50ee",
+         "files" : [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js"
+         ],
+         "keywords" : [
+            "cookie",
+            "cookies"
+         ],
+         "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/jshttp/cookie"
+         },
+         "description" : "cookie parsing and serialization",
+         "version" : "0.2.4"
+      }
+   },
+   "keywords" : [
+      "cookie",
+      "cookies"
+   ],
+   "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/jshttp/cookie"
+   },
+   "description" : "HTTP server cookie parsing and serialization",
+   "author" : {
+      "email" : "shtylman@gmail.com",
+      "name" : "Roman Shtylman"
+   },
+   "name" : "cookie",
+   "readmeFilename" : "README.md",
+   "_id" : "cookie",
+   "_attachments" : {},
+   "readme" : "# cookie\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nBasic HTTP cookie parser and serializer for HTTP servers.\n\n## Installation\n\n```sh\n$ npm install cookie\n```\n\n## API\n\n```js\nvar cookie = require('cookie');\n```\n\n### cookie.parse(str, options)\n\nParse an HTTP `Cookie` header string and returning an object of all cookie name-value pairs.\nThe `str` argument is the string representing a `Cookie` header value and `options` is an\noptional object containing additional parsing options.\n\n```js\nvar cookies = cookie.parse('foo=bar; equation=E%3Dmc%5E2');\n// { foo: 'bar', equation: 'E=mc^2' }\n```\n\n#### Options\n\n`cookie.parse` accepts these properties in the options object.\n\n##### decode\n\nSpecifies a function that will be used to decode a cookie's value. Since the value of a cookie\nhas a limited character set (and must be a simple string), this function can be used to decode\na previously-encoded cookie value into a JavaScript string or other object.\n\nThe default function is the global `decodeURIComponent`, which will decode any URL-encoded\nsequences into their byte representations.\n\n**note** if an error is thrown from this function, the original, non-decoded cookie value will\nbe returned as the cookie's value.\n\n### cookie.serialize(name, value, options)\n\nSerialize a cookie name-value pair into a `Set-Cookie` header string. The `name` argument is the\nname for the cookie, the `value` argument is the value to set the cookie to, and the `options`\nargument is an optional object containing additional serialization options.\n\n```js\nvar setCookie = cookie.serialize('foo', 'bar');\n// foo=bar\n```\n\n#### Options\n\n`cookie.serialize` accepts these properties in the options object.\n\n##### domain\n\nSpecifies the value for the [`Domain` `Set-Cookie` attribute][rfc-6266-5.2.3]. By default, no\ndomain is set, and most clients will consider the cookie to apply to only the current domain.\n\n##### encode\n\nSpecifies a function that will be used to encode a cookie's value. Since value of a cookie\nhas a limited character set (and must be a simple string), this function can be used to encode\na value into a string suited for a cookie's value.\n\nThe default function is the global `ecodeURIComponent`, which will encode a JavaScript string\ninto UTF-8 byte sequences and then URL-encode any that fall outside of the cookie range.\n\n##### expires\n\nSpecifies the `Date` object to be the value for the [`Expires` `Set-Cookie` attribute][rfc-6266-5.2.1].\nBy default, no expiration is set, and most clients will consider this a \"non-persistent cookie\" and\nwill delete it on a condition like exiting a web browser application.\n\n**note** the [cookie storage model specification][rfc-6266-5.3] states that if both `expires` and\n`magAge` are set, then `maxAge` takes precedence, but it is possiblke not all clients by obey this,\nso if both are set, they should point to the same date and time.\n\n##### httpOnly\n\nSpecifies the `boolean` value for the [`HttpOnly` `Set-Cookie` attribute][rfc-6266-5.2.6]. When truthy,\nthe `HttpOnly` attribute is set, otherwise it is not. By default, the `HttpOnly` attribute is not set.\n\n**note** be careful when setting this to `true`, as compliant clients will not allow client-side\nJavaScript to see the cookie in `document.cookie`.\n\n##### maxAge\n\nSpecifies the `number` (in seconds) to be the value for the [`Max-Age` `Set-Cookie` attribute][rfc-6266-5.2.2].\nThe given number will be converted to an integer by rounding down. By default, no maximum age is set.\n\n**note** the [cookie storage model specification][rfc-6266-5.3] states that if both `expires` and\n`magAge` are set, then `maxAge` takes precedence, but it is possiblke not all clients by obey this,\nso if both are set, they should point to the same date and time.\n\n##### path\n\nSpecifies the value for the [`Path` `Set-Cookie` attribute][rfc-6266-5.2.4]. By default, the path\nis considered the [\"default path\"][rfc-6266-5.1.4]. By default, no maximum age is set, and most\nclients will consider this a \"non-persistent cookie\" and will delete it on a condition like exiting\na web browser application.\n\n##### sameSite\n\nSpecifies the `boolean` or `string` to be the value for the [`SameSite` `Set-Cookie` attribute][draft-west-first-party-cookies-07].\n\n  - `true` will set the `SameSite` attribute to `Strict` for strict same site enforcement.\n  - `false` will not set the `SameSite` attribute.\n  - `'lax'` will set the `SameSite` attribute to `Lax` for lax same site enforcement.\n  - `'strict'` will set the `SameSite` attribute to `Strict` for strict same site enforcement.\n\nMore information about the different enforcement levels can be found in the specification\nhttps://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1.1\n\n**note** This is an attribute that has not yet been fully standardized, and may change in the future.\nThis also means many clients may ignore this attribute until they understand it.\n\n##### secure\n\nSpecifies the `boolean` value for the [`Secure` `Set-Cookie` attribute][rfc-6266-5.2.5]. When truthy,\nthe `Secure` attribute is set, otherwise it is not. By default, the `Secure` attribute is not set.\n\n**note** be careful when setting this to `true`, as compliant clients will not send the cookie back to\nthe server in the future if the browser does not have an HTTPS connection.\n\n## Example\n\nThe following example uses this module in conjunction with the Node.js core HTTP server\nto prompt a user for their name and display it back on future visits.\n\n```js\nvar cookie = require('cookie');\nvar escapeHtml = require('escape-html');\nvar http = require('http');\nvar url = require('url');\n\nfunction onRequest(req, res) {\n  // Parse the query string\n  var query = url.parse(req.url, true, true).query;\n\n  if (query && query.name) {\n    // Set a new cookie with the name\n    res.setHeader('Set-Cookie', cookie.serialize('name', String(query.name), {\n      httpOnly: true,\n      maxAge: 60 * 60 * 24 * 7 // 1 week\n    }));\n\n    // Redirect back after setting cookie\n    res.statusCode = 302;\n    res.setHeader('Location', req.headers.referer || '/');\n    res.end();\n    return;\n  }\n\n  // Parse the cookies on the request\n  var cookies = cookie.parse(req.headers.cookie || '');\n\n  // Get the visitor name set in the cookie\n  var name = cookies.name;\n\n  res.setHeader('Content-Type', 'text/html; charset=UTF-8');\n\n  if (name) {\n    res.write('<p>Welcome back, <b>' + escapeHtml(name) + '</b>!</p>');\n  } else {\n    res.write('<p>Hello, new visitor!</p>');\n  }\n\n  res.write('<form method=\"GET\">');\n  res.write('<input placeholder=\"enter your name\" name=\"name\"> <input type=\"submit\" value=\"Set Name\">');\n  res.end('</form');\n}\n\nhttp.createServer(onRequest).listen(3000);\n```\n\n## Testing\n\n```sh\n$ npm test\n```\n\n## References\n\n- [RFC 6266: HTTP State Management Mechanism][rfc-6266]\n- [Same-site Cookies][draft-west-first-party-cookies-07]\n\n[draft-west-first-party-cookies-07]: https://tools.ietf.org/html/draft-west-first-party-cookies-07\n[rfc-6266]: https://tools.ietf.org/html/rfc6266\n[rfc-6266-5.1.4]: https://tools.ietf.org/html/rfc6266#section-5.1.4\n[rfc-6266-5.2.1]: https://tools.ietf.org/html/rfc6266#section-5.2.1\n[rfc-6266-5.2.2]: https://tools.ietf.org/html/rfc6266#section-5.2.2\n[rfc-6266-5.2.3]: https://tools.ietf.org/html/rfc6266#section-5.2.3\n[rfc-6266-5.2.4]: https://tools.ietf.org/html/rfc6266#section-5.2.4\n[rfc-6266-5.3]: https://tools.ietf.org/html/rfc6266#section-5.3\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/cookie.svg\n[npm-url]: https://npmjs.org/package/cookie\n[node-version-image]: https://img.shields.io/node/v/cookie.svg\n[node-version-url]: https://nodejs.org/en/download\n[travis-image]: https://img.shields.io/travis/jshttp/cookie/master.svg\n[travis-url]: https://travis-ci.org/jshttp/cookie\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/cookie/master.svg\n[coveralls-url]: https://coveralls.io/r/jshttp/cookie?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/cookie.svg\n[downloads-url]: https://npmjs.org/package/cookie\n",
+   "users" : {
+      "kungkk" : true,
+      "dexteryy" : true,
+      "dgarlitt" : true,
+      "ovuncozturk" : true,
+      "akiva" : true,
+      "x_soth" : true,
+      "milfromoz" : true,
+      "qinyifeng" : true,
+      "priyaranjan" : true,
+      "markthethomas" : true,
+      "nickeljew" : true,
+      "antixrist" : true,
+      "wenbing" : true,
+      "alexchao" : true,
+      "koulmomo" : true,
+      "bphanikumar" : true,
+      "frankl83" : true,
+      "imaginegenesis" : true,
+      "wayn" : true,
+      "bumsuk" : true,
+      "panlw" : true,
+      "simplyianm" : true,
+      "intuitivcloud" : true,
+      "mhaidarh" : true,
+      "giussa_dan" : true,
+      "trotyl" : true,
+      "zuojiang" : true,
+      "m42am" : true,
+      "grncdr" : true,
+      "infernocloud" : true,
+      "goodseller" : true,
+      "wkaifang" : true,
+      "shanyy" : true,
+      "vjudge" : true,
+      "abuelwafa" : true,
+      "xiaoqiang.yang" : true,
+      "oikewll" : true,
+      "dennisli87" : true,
+      "dofy" : true,
+      "dac2205" : true,
+      "shuoshubao" : true,
+      "antanst" : true,
+      "rhedenk" : true,
+      "285858315" : true,
+      "hongbo-miao" : true,
+      "wut" : true,
+      "shen-weizhong" : true,
+      "mfessenden" : true,
+      "waidd" : true,
+      "substack" : true,
+      "grin_zhou" : true,
+      "zuizuihao" : true,
+      "tedyhy" : true,
+      "awzm" : true,
+      "qiuzuhui" : true,
+      "qbylucky" : true,
+      "ilex.h" : true,
+      "rparris" : true,
+      "princetoad" : true,
+      "justinliao" : true,
+      "vboctor" : true,
+      "vcordero07" : true,
+      "danielsunami" : true,
+      "fgribreau" : true,
+      "flyslow" : true,
+      "roryrjb" : true,
+      "monjer" : true,
+      "hbkapps" : true,
+      "demod" : true,
+      "zoluzo" : true,
+      "masanorinyo" : true
+   },
+   "contributors" : [
+      {
+         "email" : "doug@somethingdoug.com",
+         "name" : "Douglas Christopher Wilson"
+      }
+   ],
+   "_rev" : "122-5f3c3a5eb9c6fae747d851f2d3d74714",
+   "dist-tags" : {
+      "latest" : "0.3.1"
+   },
+   "bugs" : {
+      "url" : "https://github.com/jshttp/cookie/issues"
+   },
+   "maintainers" : [
+      {
+         "email" : "doug@somethingdoug.com",
+         "name" : "dougwilson"
+      }
+   ],
+   "homepage" : "https://github.com/jshttp/cookie",
+   "time" : {
+      "0.2.3" : "2015-10-26T01:02:06.233Z",
+      "0.1.4" : "2015-09-17T17:03:42.289Z",
+      "0.0.3" : "2012-06-06T18:50:00.041Z",
+      "0.1.2" : "2014-04-16T23:00:21.566Z",
+      "0.0.2" : "2012-06-01T17:57:58.161Z",
+      "0.2.1" : "2015-09-17T17:08:41.911Z",
+      "modified" : "2018-03-07T07:00:45.120Z",
+      "created" : "2012-05-28T23:56:11.938Z",
+      "0.0.1" : "2012-05-29T02:15:56.897Z",
+      "0.1.5" : "2015-09-17T18:52:10.481Z",
+      "0.3.0" : "2016-05-27T01:00:41.646Z",
+      "0.0.5" : "2012-10-29T17:26:30.049Z",
+      "0.2.4" : "2016-05-21T00:32:45.246Z",
+      "0.1.0" : "2013-05-01T19:18:22.075Z",
+      "0.1.3" : "2015-05-20T01:22:20.719Z",
+      "0.0.0" : "2012-05-28T23:56:12.299Z",
+      "0.2.2" : "2015-09-17T20:40:15.826Z",
+      "0.0.4" : "2012-06-21T16:27:06.621Z",
+      "0.0.6" : "2013-04-09T05:59:56.056Z",
+      "0.2.0" : "2015-08-14T05:15:35.455Z",
+      "0.3.1" : "2016-05-27T04:32:39.156Z",
+      "0.1.1" : "2014-02-23T15:56:33.086Z"
+   },
+   "license" : "MIT"
+}
