@@ -51,7 +51,7 @@ const walker = async (task, cb) => {
 
 const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   const packageJsonDeps = await getDepends(dependsFile)
-  const name = packageJsonDeps.name
+  const name = packageJsonDeps.name || dependsFile
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }
   const q = async.queue(walker, 10)
