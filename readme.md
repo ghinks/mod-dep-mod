@@ -6,7 +6,7 @@ A tool to list which dependencies depend on a module.
 
 Have you ever been doing an install and you see a module being installed and you don't know why it is being pulled in. Do you need to find a dependency that is using a module version that is not safe? What is requiring it? Well this is the tool to tell you.
 
-**What modules use debug in your package.json?**
+**What modules use babel in your package.json?**
 
 <p align="center">
 	<img src="https://ghinks.github.io/mod-dep-mod/mod-dep-mod.gif">
