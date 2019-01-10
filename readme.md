@@ -4,12 +4,12 @@
 
 A tool to list which dependencies depend on a module.
 
-Have you ever been doing an install and you see a module being installed and you don't know why it is being pulled in. What is requiring it? Well this is the tool to tell you.
+Have you ever been doing an install and you see a module being installed and you don't know why it is being pulled in. Do you need to find a dependency that is using a module version that is not safe? What is requiring it? Well this is the tool to tell you.
 
 **What modules use debug in your package.json?**
 
 <p align="center">
-	<img src="https://cdn.rawgit.com/ghinks/mod-dep-mod/92a90f92/mod-dep-mod.gif">
+	<img src="https://cdn.rawgit.com/ghinks/mod-dep-mod/mod-dep-mod.gif">
 </p>
 
 ## Usage
@@ -19,17 +19,25 @@ npm install -g mod-dep-mod
 
 cd rootFolderWithPackageJson
 
-mod-dep-mod debug
+mod-dep-mod babel
 
 ```
 
-Listing top level dependencies that use the module
+Listing top level dependencies that use the babel module
 
 ```
-mod-dep-mod => nyc --> test-exclude --> micromatch --> snapdragon --> debug
-mod-dep-mod => nyc --> test-exclude --> micromatch --> nanomatch --> snapdragon --> debug
-mod-dep-mod => nock --> debug
-mod-dep-mod => mocha --> debug
+mod-dep-mod => @babel/runtime ^7.0.0
+mod-dep-mod => @babel/plugin-proposal-do-expressions ^7.0.0
+mod-dep-mod => @babel/plugin-proposal-class-properties ^7.0.0
+mod-dep-mod => @babel/plugin-proposal-decorators ^7.0.0
+mod-dep-mod => @babel/core ^7.0.0
+...
+mod-dep-mod => babel-eslint ^8.2.2
+mod-dep-mod => standard --> eslint --> babel-code-frame ^6.22.0
+mod-dep-mod => nyc --> istanbul-lib-instrument --> babel-types ^6.18.0
+mod-dep-mod => nyc --> istanbul-lib-instrument --> babel-generator ^6.18.0
+mod-dep-mod => nyc --> istanbul-lib-instrument --> babel-traverse ^6.18.0
+mod-dep-mod => nyc --> istanbul-lib-instrument --> babel-template ^6.16.0
 ```
 
 ### Multiple Searches
@@ -40,8 +48,8 @@ mod-dep-mod jsx eslint
 
 
 ```
-mod-dep-mod => standard --> eslint --> espree --> acorn-jsx
-mod-dep-mod => standard --> eslint-plugin-react
+mod-dep-mod => standard --> eslint --> espree --> acorn-jsx ^1.2.3
+mod-dep-mod => standard --> eslint-plugin-react ^1.2.3
 
 ```
 
