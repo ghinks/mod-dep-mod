@@ -1,4 +1,4 @@
-import {compare, maxSatisfying, validRange} from 'semver'
+import { compare, maxSatisfying, validRange } from 'semver'
 
 const getRange = (versions, testValue) => {
   const descVers = versions.sort(compare)

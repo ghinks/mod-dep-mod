@@ -38,7 +38,7 @@ describe('Remove all but named module trees', () => {
     const result = findNamedModule(modules, 'moduleName1', null)
     expect(result).to.be.an('Array')
     expect(result.length).to.be.equal(1)
-    const expected = {name: 'moduleName1', version: '1.2.3'}
+    const expected = { name: 'moduleName1', version: '1.2.3' }
     expect(result[0]).to.deep.equal(expected)
   })
   it('expect to get 1 leaf result', () => {

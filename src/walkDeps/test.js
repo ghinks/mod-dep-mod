@@ -93,9 +93,9 @@ describe('Walk dependency tree', () => {
         walkDeps.__Rewire__('getRegistryDeps', () => Promise.reject(new Error('testError')))
         walkDeps.__Rewire__('getDepends', () => Promise.resolve({}))
         walkDeps.__Rewire__('collate', () => [
-          {module: 'name1', version: '1.0.0'},
-          {module: 'name2', version: '1.0.1'},
-          {module: 'name3', version: '1.0.2'}
+          { module: 'name1', version: '1.0.0' },
+          { module: 'name2', version: '1.0.1' },
+          { module: 'name3', version: '1.0.2' }
         ])
       })
       afterEach(() => {
@@ -118,7 +118,7 @@ describe('Walk dependency tree', () => {
           const regexMajMin = /(\^\d)*(\d+\.[\d]+\.[\d]+)/
           const match = dependency.version.match(regexMajMin)
           const version = match ? match[2] : undefined
-          return getFile(path, {encoding: 'utf8'})
+          return getFile(path, { encoding: 'utf8' })
             .then((data) => {
               const dep = JSON.parse(data)
               if (!dep.versions[version || 0]) {
