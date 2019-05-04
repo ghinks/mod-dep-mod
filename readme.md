@@ -1,6 +1,6 @@
 # mod-dep-mod
 
-[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/)
+[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/) [![Greenkeeper badge](https://badges.greenkeeper.io/ghinks/mod-dep-mod.svg)](https://greenkeeper.io/)
 
 A tool to list which dependencies depend on a module.
 

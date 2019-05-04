@@ -1,5 +1,5 @@
-import {expect} from 'chai'
-import registryDeps, {__RewireAPI__ as registryDepsRewireAPI} from './index'
+import { expect } from 'chai'
+import registryDeps, { __RewireAPI__ as registryDepsRewireAPI } from './index'
 import nock from 'nock'
 
 describe('Registry Dependencies', () => {
@@ -27,9 +27,9 @@ describe('Registry Dependencies', () => {
     }
     const response = {
       versions: {
-        '1.0.0': {dependencies},
-        '1.0.1': {dependencies},
-        '2.0.0': {dependencies},
+        '1.0.0': { dependencies },
+        '1.0.1': { dependencies },
+        '2.0.0': { dependencies },
         '3.0.0': {}
       }
     }
@@ -48,7 +48,7 @@ describe('Registry Dependencies', () => {
     })
 
     it('Expect to get dependencies', (done) => {
-      registryDeps({module, version})
+      registryDeps({ module, version })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
           expect(dependencies).to.have.property('name1')
@@ -59,7 +59,7 @@ describe('Registry Dependencies', () => {
 
     it('Expect to get dependencies via the cache', (done) => {
       cache[url] = response
-      registryDeps({module, version})
+      registryDeps({ module, version })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
           expect(dependencies).to.have.property('name1')
@@ -69,7 +69,7 @@ describe('Registry Dependencies', () => {
     })
 
     it('Expect to get empty response', (done) => {
-      registryDeps({module, version: '3.0.0'})
+      registryDeps({ module, version: '3.0.0' })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
           expect(dependencies).to.deep.equal({})
@@ -92,7 +92,7 @@ describe('Registry Dependencies', () => {
       nock.cleanAll()
     })
     it('Expect no dependencies', (done) => {
-      registryDeps({module, version})
+      registryDeps({ module, version })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
           expect(dependencies).not.to.have.property('name1')
@@ -124,7 +124,7 @@ describe('Registry Dependencies', () => {
           '1.0.0': {}
         }
       }
-      registryDeps({module, version: 'not-going-to-find'})
+      registryDeps({ module, version: 'not-going-to-find' })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
           expect(dependencies).not.to.have.property('name1')
@@ -145,7 +145,7 @@ describe('Registry Dependencies', () => {
       registryDeps.__ResetDependency__('fetch')
     })
     it('Expect to get dependencies', (done) => {
-      registryDeps({module, version})
+      registryDeps({ module, version })
         .then((data) => {
           expect(data).to.deep.equal({})
           done()
