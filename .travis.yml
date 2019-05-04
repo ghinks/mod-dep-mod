@@ -2,6 +2,7 @@ language: node_js
 os:
   - linux
 node_js:
+  - "12.1.0"
   - "10.14"
   - "8.14"
   - "6.15"
@@ -15,6 +16,7 @@ script:
   - if [ -n "${COVER}" ]; then npm run cover ; fi
 matrix:
   include:
+    - node_js: 12.1.0
     - node_js: 10.14
       env: COVER=true
     - node_js: 8.14
