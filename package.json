@@ -34,7 +34,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "async": "^2.6.0",
+    "async": "^3.0.1",
     "compare-semver": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
     "minimist": "^1.2.0",
