@@ -35,7 +35,6 @@
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "async": "^3.0.1",
-    "compare-semver": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
     "minimist": "^1.2.0",
     "npm-package-arg": "^6.0.0",
@@ -43,8 +42,7 @@
     "pify": "^4.0.1",
     "read-package-json": "^2.0.12",
     "registry-url": "^5.1.0",
-    "semver": "^6.0.0",
-    "treeify": "^1.1.0"
+    "semver": "^6.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
