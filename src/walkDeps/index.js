@@ -1,7 +1,7 @@
 import getDepends from '../readDependencyFile'
 import collate from '../collate'
 import getRegistryDeps from '../fetchRegistryDependencies'
-import async from 'async'
+import queue from 'async/queue'
 import cleanPrivProps from '../cleanPrivateProps'
 import findNamedModule from '../findNamedModule'
 
@@ -54,8 +54,8 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
   const name = packageJsonDeps.name || dependsFile
   const collatedDeps = collate(packageJsonDeps)
   let results = { __depends: collatedDeps }
-  const q = async.queue(walker, 10)
-  q.drain = () => {
+  const q = queue(walker, 10)
+  const drained = () => {
     results = cleanPrivProps(results)
     const matches = modules.reduce((acc, moduleToFind) => {
       const found = findNamedModule(results, moduleToFind, undefined)
@@ -77,6 +77,7 @@ const walkDeps = async (modules, dependsFile, nodeEnv, done) => {
     }
     done(results)
   }
+  await q.drain(drained)
   // TODO cb error handling
   // TODO take package@version as argument rather than package.json
   // TODO add package.json name to top of the tree
