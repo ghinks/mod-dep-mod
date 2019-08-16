@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "travis": {
+    "enabled": true,
+    "supportPolicy": ["lts_latest", "current"]
+  },
+  "schedule": "before 2am"
+}
