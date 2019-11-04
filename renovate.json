@@ -6,5 +6,5 @@
     "enabled": true,
     "supportPolicy": ["lts_latest", "current"]
   },
-  "schedule": "before 2am"
+  "schedule": "before 3am on the first day of the month"
 }
