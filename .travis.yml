@@ -2,10 +2,9 @@ language: node_js
 os:
   - linux
 node_js:
-  - "12.1.0"
-  - "10.14"
-  - "8.14"
-  - "6.15"
+  - "8"
+  - "10"
+  - "12"
 before_install:
   - nvm install-latest-npm
 install:
@@ -16,8 +15,7 @@ script:
   - if [ -n "${COVER}" ]; then npm run cover ; fi
 matrix:
   include:
-    - node_js: 12.1.0
-    - node_js: 10.14
+    - node_js: 12
+    - node_js: 10
       env: COVER=true
-    - node_js: 8.14
-    - node_js: 6.15
+    - node_js: 8
