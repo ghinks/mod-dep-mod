@@ -36,7 +36,7 @@
     "@babel/runtime": "7.8.7",
     "async": "3.2.0",
     "isomorphic-fetch": "2.2.1",
-    "minimist": "1.2.2",
+    "minimist": "1.2.5",
     "npm-package-arg": "6.1.1",
     "ora": "3.4.0",
     "pify": "4.0.1",
