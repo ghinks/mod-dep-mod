@@ -1,7 +1,7 @@
 # mod-dep-mod
 
-[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/) [![Greenkeeper badge](https://badges.greenkeeper.io/ghinks/mod-dep-mod.svg)](https://greenkeeper.io/)
-
+[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/) 
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 A tool to list which dependencies depend on a module.
 
 Have you ever been doing an install and you see a module being installed and you don't know why it is being pulled in. Do you need to find a dependency that is using a module version that is not safe? What is requiring it? Well this is the tool to tell you.
