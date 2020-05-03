@@ -1,6 +1,5 @@
 # mod-dep-mod
 
-[![NPM](https://nodei.co/npm/mod-dep-mod.png)](https://nodei.co/npm/mod-dep-mod/) 
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 A tool to list which dependencies depend on a module.
 
