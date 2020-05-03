@@ -38,7 +38,7 @@
     "isomorphic-fetch": "2.2.1",
     "minimist": "1.2.5",
     "npm-package-arg": "8.0.1",
-    "ora": "3.4.0",
+    "ora": "4.0.4",
     "pify": "5.0.0",
     "read-package-json": "2.1.1",
     "registry-url": "5.1.0",
