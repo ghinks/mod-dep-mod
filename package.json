@@ -39,7 +39,7 @@
     "minimist": "1.2.5",
     "npm-package-arg": "8.0.1",
     "ora": "3.4.0",
-    "pify": "4.0.1",
+    "pify": "5.0.0",
     "read-package-json": "2.1.1",
     "registry-url": "5.1.0",
     "semver": "6.3.0"
