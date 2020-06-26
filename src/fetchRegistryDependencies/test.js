@@ -34,7 +34,7 @@ describe('Registry Dependencies', () => {
       }
     }
 
-    let cache = {}
+    const cache = {}
 
     beforeEach(() => {
       registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
@@ -80,7 +80,7 @@ describe('Registry Dependencies', () => {
   })
 
   describe('Failing resp empty Object', () => {
-    let response = {}
+    const response = {}
     beforeEach(() => {
       registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
       registryDepsRewireAPI.__Rewire__('cache', {})
