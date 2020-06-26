@@ -17,7 +17,7 @@ export const isCircularDependency = ({ ancestry, dependency }) => {
 const walker = async (task, cb) => {
   const circular = isCircularDependency(task)
   if (circular) {
-    task.results[task.dependency.module] = { circular: `Circular dependency in tree` }
+    task.results[task.dependency.module] = { circular: 'Circular dependency in tree' }
     return cb(null, null, null, null)
   }
 
