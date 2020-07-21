@@ -55,7 +55,7 @@
     "babel-plugin-rewire": "1.2.0",
     "chai": "4.2.0",
     "mocha": "8.0.1",
-    "nock": "12.0.3",
+    "nock": "13.0.2",
     "nodemon": "2.0.4",
     "nyc": "15.1.0",
     "standard": "14.3.4"
