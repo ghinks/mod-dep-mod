@@ -33,7 +33,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/runtime": "7.10.5",
+    "@babel/runtime": "7.11.2",
     "async": "3.2.0",
     "isomorphic-fetch": "2.2.1",
     "minimist": "1.2.5",
@@ -46,10 +46,10 @@
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",
-    "@babel/core": "7.10.5",
-    "@babel/plugin-transform-runtime": "7.10.5",
+    "@babel/core": "7.11.4",
+    "@babel/plugin-transform-runtime": "7.11.0",
     "@babel/polyfill": "7.10.4",
-    "@babel/preset-env": "7.10.4",
+    "@babel/preset-env": "7.11.0",
     "@babel/register": "7.10.5",
     "babel-eslint": "10.1.0",
     "babel-plugin-rewire": "1.2.0",
