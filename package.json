@@ -1,6 +1,6 @@
 {
   "name": "mod-dep-mod",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "",
   "bin": "bin/index.js",
   "scripts": {
