@@ -113,4 +113,3 @@ metrics-registry = "http://registry.bigco.net/"
 ```
 
 mod-dep-mod will use the registry in the npm config.
-
