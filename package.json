@@ -2,7 +2,9 @@
   "name": "mod-dep-mod",
   "version": "2.0.10",
   "description": "",
-  "bin": "bin/index.js",
+  "bin": {
+    "mod-dep-mod": "bin/index.js"
+  },
   "scripts": {
     "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
     "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
