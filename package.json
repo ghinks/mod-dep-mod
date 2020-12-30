@@ -9,9 +9,9 @@
     "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
     "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
     "lint": "npx standard --env mocha src/**/*.js",
-    "test": "NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/*test.js",
-    "cover": "NODE_ENV=test npx nyc mocha --timeout 4000 ./src/**/test.js --require @babel/register",
-    "cover:html": "NODE_ENV=test npx nyc --reporter=html npm run cover "
+    "test": "cross-env NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/*test.js",
+    "cover": "cross-env NODE_ENV=test npx nyc mocha --timeout 4000 ./src/**/test.js --require @babel/register",
+    "cover:html": "cross-env NODE_ENV=test npx nyc --reporter=html npm run cover "
   },
   "engines": {
     "node": ">=6.0.0"
@@ -56,6 +56,7 @@
     "babel-eslint": "10.1.0",
     "babel-plugin-rewire": "1.2.0",
     "chai": "4.2.0",
+    "cross-env": "^7.0.3",
     "mocha": "8.2.1",
     "nock": "13.0.5",
     "nodemon": "2.0.6",
