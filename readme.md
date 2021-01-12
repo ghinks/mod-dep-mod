@@ -7,9 +7,6 @@ Have you ever been doing an install and you see a module being installed and you
 
 **What modules use babel in your package.json?**
 
-<p align="center">
-	<img src="https://ghinks.github.io/mod-dep-mod/mod-dep-mod.gif">
-</p>
 
 ## Usage
 
