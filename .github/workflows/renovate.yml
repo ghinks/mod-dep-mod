@@ -2,6 +2,7 @@ name: renovate
 on:
   pull_request:
     branches:
+      # using an array here did not work
       - 'renovate/**'
       - 'testing/**'
   workflow_dispatch:
