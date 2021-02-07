@@ -1,7 +1,9 @@
 name: renovate
 on:
   pull_request:
-    branches: ['renovate/**']
+    branches:
+      - 'renovate/**'
+      - 'testing/**'
   workflow_dispatch:
 jobs:
   publish:
