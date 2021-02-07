@@ -1,6 +1,6 @@
 name: renovate
 on:
-  pull_request:
+  push:
     branches:
       # using an array here did not work
       - 'renovate/**'
