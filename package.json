@@ -55,7 +55,7 @@
     "@babel/register": "7.12.10",
     "babel-eslint": "10.1.0",
     "babel-plugin-rewire": "1.2.0",
-    "chai": "4.2.0",
+    "chai": "4.3.4",
     "cross-env": "7.0.3",
     "mocha": "8.2.1",
     "nock": "13.0.7",
