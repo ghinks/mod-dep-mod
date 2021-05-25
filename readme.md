@@ -74,7 +74,7 @@ express => supertest --> superagent --> cookiejar
 - takes regular expression string
 - fetches the dependency data from the registry not locally installed modules
 - isolates rogue module inclusion path quickly
-- tested on node 6 onwards
+- tested on node 14 onwards
 - gives total count of all dependencies fetched
 - caches each registry fetch to speed up on duplicates
 - multiple searches with multiple arguments

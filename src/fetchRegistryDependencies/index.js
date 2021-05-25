@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
-import semverMatcher from '../packageMatcher'
+import semverMatcher from '../packageMatcher/index.js'
 import ora from 'ora'
 
 let spinner

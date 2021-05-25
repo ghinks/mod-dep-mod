@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-var argv = require('minimist')(process.argv.slice(2))
-var walk = require('../lib/walkDeps').default
+import minimist from 'minimist'
+import walk from '../src/walkDeps/index.js'
+var argv = minimist(process.argv.slice(2))
 
 if (argv._.length === 0) {
   console.log('no args given')
@@ -11,7 +12,7 @@ if (argv._.length === 0) {
 
 process.on('unhandledRejection', up => { throw new Error('uncaught!') })
 
-var getDependencyTree = function run(modules, fullyQualPck, urlToPck) {
+var getDependencyTree = function run (modules, fullyQualPck, urlToPck) {
   const pck = fullyQualPck || urlToPck || 'package.json'
   walk(modules, pck, process.env.NODE_ENV, () => process.exit())
     .then(() => null)

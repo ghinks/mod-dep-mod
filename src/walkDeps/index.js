@@ -1,9 +1,9 @@
-import getDepends from '../readDependencyFile'
-import collate from '../collate'
-import getRegistryDeps from '../fetchRegistryDependencies'
-import queue from 'async/queue'
-import cleanPrivProps from '../cleanPrivateProps'
-import findNamedModule from '../findNamedModule'
+import getDepends from '../readDependencyFile/index.js'
+import collate from '../collate/index.js'
+import getRegistryDeps from '../fetchRegistryDependencies/index.js'
+import { queue } from 'async'
+import cleanPrivProps from '../cleanPrivateProps/index.js'
+import findNamedModule from '../findNamedModule/index.js'
 
 const circulars = []
 
