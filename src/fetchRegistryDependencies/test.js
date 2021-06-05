@@ -8,8 +8,7 @@ describe('Registry Dependencies', () => {
   const url = `${myRegistry}/${module}`
   const version = '~1.0.1'
   const errorConsole = console.error
-  let registryDeps
-  before(async () => {
+  beforeEach(async () => {
     console.error = () => null
     td.replace('ora', function () {
       return {
@@ -18,14 +17,13 @@ describe('Registry Dependencies', () => {
         })
       }
     })
-    const subject = await import('./index.js')
-    registryDeps = subject.default
   })
-  after(() => {
+  afterEach(() => {
     console.error = errorConsole
     td.reset()
   })
   describe('Passing', () => {
+    let registryDeps
     const dependencies = {
       name1: '0.0.1',
       name2: '0.0.2'
@@ -41,7 +39,9 @@ describe('Registry Dependencies', () => {
 
     const cache = {}
 
-    beforeEach(() => {
+    beforeEach(async () => {
+      const subject = await import('./index.js')
+      registryDeps = subject.default
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
@@ -80,12 +80,15 @@ describe('Registry Dependencies', () => {
     })
   })
   describe('Failing resp empty Object', () => {
+    let registryDeps
     const response = {}
     beforeEach(async () => {
       td.replace('registry-url', td.func())
       // registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
       await td.replaceEsm('./cache.js')
       // registryDepsRewireAPI.__Rewire__('cache', {})
+      const subject = await import('./index.js')
+      registryDeps = subject.default
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
@@ -103,6 +106,7 @@ describe('Registry Dependencies', () => {
     })
   })
   describe('Failing resp object with no matching versions for depend name', () => {
+    let registryDeps
     let response = {
       versions: {
         '1.0.0': {}
@@ -111,6 +115,8 @@ describe('Registry Dependencies', () => {
     beforeEach(async () => {
       await td.replaceEsm('./cache.js')
       td.replace('registry-url', td.func())
+      const subject = await import('./index.js')
+      registryDeps = subject.default
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
@@ -133,6 +139,7 @@ describe('Registry Dependencies', () => {
     })
   })
   describe('Failing due to error thrown', () => {
+    let registryDeps
     beforeEach(async () => {
       td.replace('registry-url', td.func())
       await td.replaceEsm('./cache.js')
