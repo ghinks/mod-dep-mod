@@ -5,21 +5,25 @@ import { queue } from 'async'
 import cleanPrivProps from '../cleanPrivateProps/index.js'
 import findNamedModule from '../findNamedModule/index.js'
 
-const circulars = []
+// const circulars = []
 
+/*
 export const isCircularDependency = ({ ancestry, dependency }) => {
   if (!ancestry) return false
   if (circulars.includes(dependency.module)) return true
   if (!ancestry.includes(dependency.module)) return false
   return true
 }
+*/
 
 const walker = async (task, cb) => {
+  /*
   const circular = isCircularDependency(task)
   if (circular) {
     task.results[task.dependency.module] = { circular: 'Circular dependency in tree' }
     return cb(null, null, null, null)
   }
+*/
 
   let regDeps
   try {

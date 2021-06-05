@@ -1,11 +1,12 @@
+import ora from 'ora'
 import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher/index.js'
-import ora from 'ora'
+import { getCache, setCache } from './cache.js'
 
 let spinner
-const cache = {}
+
 let fetchCount = 0
 
 const registryDeps = async (dependency) => {
@@ -14,20 +15,20 @@ const registryDeps = async (dependency) => {
   const escapedName = npa(`${dependency.module}`).escapedName
   const url = `${registry}${escapedName}`
   let response
-  if (!cache[url]) {
+  if (!getCache(url)) {
     try {
       fetchCount += 1
       spinner.text = `fetch count ${fetchCount} now fetching ${url} `
       const options = { method: 'get', timeout: 20000 }
       const data = await fetch(url, options)
       response = await data.json()
-      cache[url] = response
+      setCache[url] = response
     } catch (err) {
       console.error(`Module ${dependency.module} was not found ${err.message}`)
       return {}
     }
   } else {
-    response = cache[url]
+    response = getCache[url]
   }
   if (response.versions) {
     const match = semverMatcher(Object.keys(response.versions), dependency.version)

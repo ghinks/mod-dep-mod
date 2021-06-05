@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import findNamedModule from './index'
+import findNamedModule from './index.js'
 
 describe('Remove all but named module trees', () => {
   it('expect an empty array with no dep obj passed', () => {

@@ -1,24 +1,29 @@
+import * as td from 'testdouble'
 import { expect } from 'chai'
-import registryDeps, { __RewireAPI__ as registryDepsRewireAPI } from './index'
 import nock from 'nock'
 
 describe('Registry Dependencies', () => {
-  const myRegistry = 'http://registry.npmjs.org'
+  const myRegistry = 'https://registry.npmjs.org'
   const module = 'debug'
   const url = `${myRegistry}/${module}`
   const version = '~1.0.1'
   const errorConsole = console.error
-  before(() => {
+  let registryDeps
+  before(async () => {
     console.error = () => null
-    registryDeps.__Rewire__('ora', () => {
+    td.replace('ora', function () {
       return {
-        start: () => ({})
+        start: () => ({
+          text: ''
+        })
       }
     })
+    const subject = await import('./index.js')
+    registryDeps = subject.default
   })
   after(() => {
     console.error = errorConsole
-    registryDeps.__ResetDependency__('ora')
+    td.reset()
   })
   describe('Passing', () => {
     const dependencies = {
@@ -37,13 +42,9 @@ describe('Registry Dependencies', () => {
     const cache = {}
 
     beforeEach(() => {
-      registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
-      registryDepsRewireAPI.__Rewire__('cache', cache)
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
-      registryDeps.__ResetDependency__('registryUrl')
-      registryDeps.__ResetDependency__('request')
       nock.cleanAll()
     })
 
@@ -78,18 +79,18 @@ describe('Registry Dependencies', () => {
         .catch(err => done(err))
     })
   })
-
   describe('Failing resp empty Object', () => {
     const response = {}
-    beforeEach(() => {
-      registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
-      registryDepsRewireAPI.__Rewire__('cache', {})
+    beforeEach(async () => {
+      td.replace('registry-url', td.func())
+      // registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
+      await td.replaceEsm('./cache.js')
+      // registryDepsRewireAPI.__Rewire__('cache', {})
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
-      registryDeps.__ResetDependency__('registryUrl')
-      registryDeps.__ResetDependency__('request')
       nock.cleanAll()
+      td.reset()
     })
     it('Expect no dependencies', (done) => {
       registryDeps({ module, version })
@@ -101,21 +102,19 @@ describe('Registry Dependencies', () => {
         .catch(err => done(err))
     })
   })
-
   describe('Failing resp object with no matching versions for depend name', () => {
     let response = {
       versions: {
         '1.0.0': {}
       }
     }
-    beforeEach(() => {
-      registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
-      registryDepsRewireAPI.__Rewire__('cache', {})
+    beforeEach(async () => {
+      await td.replaceEsm('./cache.js')
+      td.replace('registry-url', td.func())
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
-      registryDeps.__ResetDependency__('registryUrl')
-      registryDeps.__ResetDependency__('request')
+      td.reset()
       nock.cleanAll()
     })
     it('Expect no dependencies gzp depend', (done) => {
@@ -133,16 +132,25 @@ describe('Registry Dependencies', () => {
         .catch(err => done(err))
     })
   })
-
   describe('Failing due to error thrown', () => {
-    beforeEach(() => {
-      registryDeps.__Rewire__('registryUrl', () => `${myRegistry}/`)
-      registryDeps.__Rewire__('fetch', () => Promise.reject(new Error('Connection Error')))
-      registryDepsRewireAPI.__Rewire__('cache', {})
+    beforeEach(async () => {
+      td.replace('registry-url', td.func())
+      await td.replaceEsm('./cache.js')
+      td.replace('isomorphic-fetch', () => {
+        return async () => Promise.reject(new Error('mock error'))
+      })
+      td.replace('ora', function () {
+        return {
+          start: () => ({
+            text: ''
+          })
+        }
+      })
+      const subject = await import('./index.js')
+      registryDeps = subject.default
     })
     afterEach(() => {
-      registryDeps.__ResetDependency__('registryUrl')
-      registryDeps.__ResetDependency__('fetch')
+      td.reset()
     })
     it('Expect to get dependencies', (done) => {
       registryDeps({ module, version })
@@ -150,7 +158,7 @@ describe('Registry Dependencies', () => {
           expect(data).to.deep.equal({})
           done()
         })
-        .catch((err) => done(err.message))
+        .catch((err) => done(err))
     })
   })
 })

@@ -10,7 +10,7 @@
     "build": "npx babel src --out-dir lib --ignore \"src/**/test.js\"",
     "watch": "npx babel --watch src --out-dir lib --ignore \"src/**/test.js\"",
     "lint": "npx standard --env mocha src/**/*.js",
-    "test": "cross-env NODE_ENV=test npx mocha --timeout 4000 --require @babel/register src/**/*test.js",
+    "test": "cross-env NODE_ENV=test npx mocha --loader=testdouble --timeout 4000 src/**/*test.js",
     "cover": "cross-env NODE_ENV=test npx nyc mocha --timeout 4000 ./src/**/test.js --require @babel/register",
     "cover:html": "cross-env NODE_ENV=test npx nyc --reporter=html npm run cover "
   },
@@ -53,7 +53,8 @@
     "nock": "13.0.11",
     "nodemon": "2.0.7",
     "nyc": "15.1.0",
-    "standard": "16.0.3"
+    "standard": "16.0.3",
+    "testdouble": "^3.16.1"
   },
   "standard": {
     "env": {

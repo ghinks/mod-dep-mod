@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import collate from './index'
+import collate from './index.js'
 
 describe('Collate package.json dependencies', () => {
   const packageJson = {

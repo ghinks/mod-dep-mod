@@ -1,5 +1,6 @@
+import * as td from 'testdouble'
 import { expect } from 'chai'
-import getDepends, { isUrl, getPckFromUrl } from './index'
+import getDepends, { isUrl, getPckFromUrl } from './index.js'
 import nock from 'nock'
 
 describe('Read Package JSON', () => {
@@ -22,11 +23,15 @@ describe('Read Package JSON', () => {
           eslint: '1.0.0'
         }
       }
-      beforeEach(() => getDepends.__Rewire__('promisify', () => () => Promise.resolve(data)))
-      afterEach(() => getDepends.__ResetDependency__('promisify'))
+      let subject
+      beforeEach(async () => {
+        td.replace('pify', () => () => Promise.resolve(data))
+        subject = await import('./index.js')
+      })
+      afterEach(() => td.reset())
 
       it('Expect to get dependencies with read stubbed', (done) => {
-        getDepends('package.json')
+        subject.default('package.json')
           .then(result => {
             expect(result).to.have.property('dependencies')
             done()
