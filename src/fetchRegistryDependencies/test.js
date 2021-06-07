@@ -95,7 +95,7 @@ describe('Registry Dependencies', () => {
       nock.cleanAll()
       td.reset()
     })
-    it('Expect no dependencies', (done) => {
+    it.only('Expect no dependencies', (done) => {
       registryDeps({ module, version })
         .then((dependencies) => {
           expect(dependencies).to.be.an('Object')
