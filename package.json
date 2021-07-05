@@ -39,7 +39,7 @@
     "async": "3.2.0",
     "isomorphic-fetch": "3.0.0",
     "minimist": "1.2.5",
-    "npm-package-arg": "8.1.2",
+    "npm-package-arg": "8.1.5",
     "ora": "5.4.0",
     "pify": "5.0.0",
     "read-package-json": "3.0.1",
