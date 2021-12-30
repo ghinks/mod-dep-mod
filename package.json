@@ -61,7 +61,7 @@
     "nock": "13.1.4",
     "nodemon": "2.0.14",
     "nyc": "15.1.0",
-    "standard": "16.0.3"
+    "standard": "16.0.4"
   },
   "standard": {
     "parser": "babel-eslint",
