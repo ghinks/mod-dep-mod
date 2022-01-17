@@ -73,7 +73,6 @@ describe('Registry Dependencies', () => {
     })
 
     it('Expect no dependencies', async () => {
-      const url = `${myRegistry}/notdebug}`
       nock(`${myRegistry}`).get('/notdebug').reply(200, {})
       const { registryDeps } = await import('./index.js')
       const dependencies = await registryDeps({ module: 'notdebug', version })
