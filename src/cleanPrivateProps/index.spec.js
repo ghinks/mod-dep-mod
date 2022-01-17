@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import cleanPrvProps from './index'
+import cleanPrvProps from './index.js'
 
 describe('Given an object with __propNames remove prv props', () => {
   it('expect empty object', () => {

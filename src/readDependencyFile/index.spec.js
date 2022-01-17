@@ -1,5 +1,6 @@
+import * as td from 'testdouble'
 import { expect } from 'chai'
-import getDepends, { isUrl, getPckFromUrl } from './index'
+import getDepends, { isUrl, getPckFromUrl } from './index.js'
 import nock from 'nock'
 
 describe('Read Package JSON', () => {
@@ -22,18 +23,20 @@ describe('Read Package JSON', () => {
           eslint: '1.0.0'
         }
       }
-      beforeEach(() => getDepends.__Rewire__('promisify', () => () => Promise.resolve(data)))
-      afterEach(() => getDepends.__ResetDependency__('promisify'))
+      beforeEach(async () => {
+        const pify = () => () => Promise.resolve(data)
+        await td.replaceEsm('../thirdPartyMocks/promisify/index.js', { pify })
+      })
+      afterEach(() => td.reset())
 
-      it('Expect to get dependencies with read stubbed', (done) => {
-        getDepends('package.json')
-          .then(result => {
-            expect(result).to.have.property('dependencies')
-            done()
-          })
-          .catch(err => done(err))
+      it('Expect to get dependencies with read stubbed', async () => {
+        const read = (await import('./index.js')).default
+        const result = await read('package.json')
+        expect(result).to.have.property('dependencies')
+        expect(result.dependencies).not.to.have.property('async')
       })
     })
+
     describe('Url as file stubbed via nock', () => {
       let scope
       const response = {

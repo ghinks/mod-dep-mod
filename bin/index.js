@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var argv = require('minimist')(process.argv.slice(2))
-var walk = require('../lib/walkDeps').default
+var walk = require('../src/walkDeps').default
 
 if (argv._.length === 0) {
   console.log('no args given')

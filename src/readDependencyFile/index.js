@@ -1,5 +1,6 @@
 import readPackageJson from 'read-package-json'
-import promisify from 'pify'
+import { pify as promisify } from '../thirdPartyMocks/promisify/index.js'
+// import promisify from 'pify'
 import fs from 'fs'
 import fetch from 'isomorphic-fetch'
 import { URL } from 'url'
@@ -30,8 +31,9 @@ const read = async (file) => {
   if (isUrl(file)) {
     return getPckFromUrl(file)
   } else if (!fs.existsSync(file)) {
-    return Promise.reject(new Error('file not found'))
+    return Promise.reject(new Error('file not found xxxx'))
   }
+
   const pj = promisify(readPackageJson)
   const { dependencies, devDependencies, name } = await pj(file)
   return { dependencies, devDependencies, name }
