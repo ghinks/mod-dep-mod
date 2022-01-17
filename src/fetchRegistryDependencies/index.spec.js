@@ -29,7 +29,7 @@ describe('Registry Dependencies', () => {
     }
 
     beforeEach(async () => {
-      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({ start: () => ({ text: '' }) }) })
+      await td.replaceEsm('../thirdPartyEsmWrapping/ora/index.js', { createOra: () => ({ start: () => ({ text: '' }) }) })
     })
     afterEach(() => {
       td.reset()
@@ -61,7 +61,7 @@ describe('Registry Dependencies', () => {
   })
   describe('Failing resp empty Object', () => {
     beforeEach(async () => {
-      await td.replaceEsm('../thirdPartyMocks/ora/index.js', {
+      await td.replaceEsm('../thirdPartyEsmWrapping/ora/index.js', {
         createOra: () => ({
           start: () => ({ text: '' })
         })
@@ -87,7 +87,7 @@ describe('Registry Dependencies', () => {
       }
     }
     beforeEach(() => {
-      td.replaceEsm('../thirdPartyMocks/ora/index.js', {
+      td.replaceEsm('../thirdPartyEsmWrapping/ora/index.js', {
         createOra: () => ({
           start: () => null
         })

@@ -25,7 +25,7 @@ describe('Read Package JSON', () => {
       }
       beforeEach(async () => {
         const pify = () => () => Promise.resolve(data)
-        await td.replaceEsm('../thirdPartyMocks/promisify/index.js', { pify })
+        await td.replaceEsm('../thirdPartyEsmWrapping/promisify/index.js', { pify })
       })
       afterEach(() => td.reset())
 
