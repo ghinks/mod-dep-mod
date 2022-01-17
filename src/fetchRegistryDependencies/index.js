@@ -18,7 +18,7 @@ const setCache = (key, value) => {
 let fetchCount = 0
 
 const registryDeps = async (dependency) => {
-  const ora = createOra();
+  const ora = createOra()
   if (!spinner) spinner = ora.start()
   const registry = registryUrl()
   const escapedName = npa(`${dependency.module}`).escapedName

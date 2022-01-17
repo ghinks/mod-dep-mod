@@ -61,9 +61,11 @@ describe('Registry Dependencies', () => {
   })
   describe('Failing resp empty Object', () => {
     beforeEach(async () => {
-      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({
+      await td.replaceEsm('../thirdPartyMocks/ora/index.js', {
+        createOra: () => ({
           start: () => null
-        })})
+        })
+      })
     })
     afterEach(() => {
       nock.cleanAll()
@@ -71,7 +73,7 @@ describe('Registry Dependencies', () => {
 
     it('Expect no dependencies', async () => {
       const url = `${myRegistry}/notdebug}`
-      nock(`${myRegistry}`).get('/notdebug'  ).reply(200, {})
+      nock(`${myRegistry}`).get('/notdebug').reply(200, {})
       const { registryDeps } = await import('./index.js')
       const dependencies = await registryDeps({ module: 'notdebug', version })
       expect(dependencies).to.be.an('Object')
@@ -85,9 +87,11 @@ describe('Registry Dependencies', () => {
       }
     }
     beforeEach(() => {
-    td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({
+      td.replaceEsm('../thirdPartyMocks/ora/index.js', {
+        createOra: () => ({
           start: () => null
-        })})
+        })
+      })
       nock(`${myRegistry}`).get('/debug').reply(200, response)
     })
     afterEach(() => {
@@ -108,15 +112,17 @@ describe('Registry Dependencies', () => {
 
   describe('Failing due to error thrown', () => {
     beforeEach(async () => {
-      await td.replaceEsm('./ora/index.js', { createOra: () => ({
+      await td.replaceEsm('./ora/index.js', {
+        createOra: () => ({
           start: () => null
-        })})
-      //registryDeps.__Rewire__('fetch', () => Promise.reject(new Error('Connection Error')))
-//      registryDepsRewireAPI.__Rewire__('cache', {})
+        })
+      })
+      // registryDeps.__Rewire__('fetch', () => Promise.reject(new Error('Connection Error')))
+      //      registryDepsRewireAPI.__Rewire__('cache', {})
     })
     afterEach(() => {
     //  registryDeps.__ResetDependency__('registryUrl')
-     // registryDeps.__ResetDependency__('fetch')
+      // registryDeps.__ResetDependency__('fetch')
     })
     it('Expect to get dependencies', async () => {
       const { registryDeps } = await import('./index.js')
