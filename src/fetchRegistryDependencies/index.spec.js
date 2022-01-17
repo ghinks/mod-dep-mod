@@ -29,15 +29,15 @@ describe('Registry Dependencies', () => {
     }
 
     beforeEach(async () => {
-      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({ start: () => null }) })
+      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({ start: () => ({ text: '' }) }) })
     })
     afterEach(() => {
       td.reset()
       nock.cleanAll()
     })
     it('Expect to get dependencies', async () => {
-      nock(`${myRegistry}`).get('/debug').reply(200, response)
       const { registryDeps } = await import('./index.js')
+      nock(`${myRegistry}`).get('/debug').reply(200, response)
       const dependencies = await registryDeps({ module, version })
       expect(dependencies).to.be.an('Object')
       expect(dependencies).to.have.property('name1')
@@ -63,7 +63,7 @@ describe('Registry Dependencies', () => {
     beforeEach(async () => {
       await td.replaceEsm('../thirdPartyMocks/ora/index.js', {
         createOra: () => ({
-          start: () => null
+          start: () => ({ text: '' })
         })
       })
     })

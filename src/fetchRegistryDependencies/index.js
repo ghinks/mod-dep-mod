@@ -33,7 +33,6 @@ const registryDeps = async (dependency) => {
       response = await data.json()
       setCache(url, response)
     } catch (err) {
-      console.error(`Module ${dependency.module} was not found ${err.message}`)
       return {}
     }
   } else {
