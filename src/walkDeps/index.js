@@ -1,15 +1,14 @@
-import getDepends from '../readDependencyFile'
-import collate from '../collate'
-import getRegistryDeps from '../fetchRegistryDependencies'
-import queue from 'async/queue'
-import cleanPrivProps from '../cleanPrivateProps'
-import findNamedModule from '../findNamedModule'
+import getDepends from '../readDependencyFile/index.js'
+import collate from '../collate/index.js'
+import { registryDeps as getRegistryDeps } from '../fetchRegistryDependencies/index.js'
+import * as asynLib from 'async'
+import cleanPrivProps from '../cleanPrivateProps/index.js'
+import findNamedModule from '../findNamedModule/index.js'
 
-const circulars = []
+const { queue } = asynLib
 
 export const isCircularDependency = ({ ancestry, dependency }) => {
   if (!ancestry) return false
-  if (circulars.includes(dependency.module)) return true
   if (!ancestry.includes(dependency.module)) return false
   return true
 }

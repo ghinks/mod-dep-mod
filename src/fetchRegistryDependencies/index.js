@@ -1,33 +1,42 @@
 import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
-import semverMatcher from '../packageMatcher'
-import ora from 'ora'
+import semverMatcher from '../packageMatcher/index.js'
+import { createOra } from '../thirdPartyMocks/ora/index.js'
 
 let spinner
 const cache = {}
+const getCache = (key) => {
+  if (key) {
+    return cache[key]
+  }
+}
+const setCache = (key, value) => {
+  cache[key] = value
+  return cache
+}
 let fetchCount = 0
 
 const registryDeps = async (dependency) => {
-  if (!spinner) spinner = ora('...fetching').start()
+  const ora = createOra()
+  if (!spinner) spinner = ora.start()
   const registry = registryUrl()
   const escapedName = npa(`${dependency.module}`).escapedName
   const url = `${registry}${escapedName}`
   let response
-  if (!cache[url]) {
+  if (!getCache(url)) {
     try {
       fetchCount += 1
       spinner.text = `fetch count ${fetchCount} now fetching ${url} `
       const options = { method: 'get', timeout: 20000 }
       const data = await fetch(url, options)
       response = await data.json()
-      cache[url] = response
+      setCache(url, response)
     } catch (err) {
-      console.error(`Module ${dependency.module} was not found ${err.message}`)
       return {}
     }
   } else {
-    response = cache[url]
+    response = getCache(url)
   }
   if (response.versions) {
     const match = semverMatcher(Object.keys(response.versions), dependency.version)
@@ -41,4 +50,4 @@ const registryDeps = async (dependency) => {
   return {}
 }
 
-export default registryDeps
+export { registryDeps, getCache, setCache }

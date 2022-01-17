@@ -1,6 +1,6 @@
 import { expect } from 'chai'
-import matcher from './index'
-import versions from './testData/versions'
+import matcher from './index.js'
+import versions from './testData/versions.js'
 
 describe('package matching', () => {
   const reversedVersions = [...versions].reverse()
