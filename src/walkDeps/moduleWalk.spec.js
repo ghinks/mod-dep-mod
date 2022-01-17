@@ -91,6 +91,7 @@ describe('Walk dependency tree', () => {
           }
         })
       })
+      afterEach(() => td.reset())
       it('Expect to get babel depends', async () => {
         await td.replaceEsm('../collate/index.js', undefined, () => [
           { module: 'babel-preset-stage-0', version: '^6.24.1' }

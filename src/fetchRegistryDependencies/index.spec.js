@@ -1,6 +1,5 @@
 import * as td from 'testdouble'
 import { expect } from 'chai'
-import { registryDeps, setCache} from './index.js'
 import nock from 'nock'
 
 describe('Registry Dependencies', () => {
@@ -30,9 +29,7 @@ describe('Registry Dependencies', () => {
     }
 
     beforeEach(async () => {
-      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({
-        start: () => null
-        })})
+      await td.replaceEsm('../thirdPartyMocks/ora/index.js', { createOra: () => ({ start: () => null }) })
     })
     afterEach(() => {
       td.reset()
@@ -47,7 +44,7 @@ describe('Registry Dependencies', () => {
     })
 
     it('Expect to get dependencies via the cache', async () => {
-      const { registryDeps } = await import('./index.js')
+      const { registryDeps, setCache } = await import('./index.js')
       setCache(url, response)
       const dependencies = await registryDeps({ module, version })
       expect(dependencies).to.be.an('Object')
