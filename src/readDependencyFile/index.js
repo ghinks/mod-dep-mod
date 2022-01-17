@@ -1,5 +1,5 @@
 import readPackageJson from 'read-package-json'
-import { pify as promisify } from '../thirdPartyMocks/promisify/index.js'
+import { pify as promisify } from '../thirdPartyEsmWrapping/promisify/index.js'
 // import promisify from 'pify'
 import fs from 'fs'
 import fetch from 'isomorphic-fetch'

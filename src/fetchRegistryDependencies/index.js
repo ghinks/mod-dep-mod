@@ -2,7 +2,7 @@ import fetch from 'isomorphic-fetch'
 import registryUrl from 'registry-url'
 import npa from 'npm-package-arg'
 import semverMatcher from '../packageMatcher/index.js'
-import { createOra } from '../thirdPartyMocks/ora/index.js'
+import { createOra } from '../thirdPartyEsmWrapping/ora/index.js'
 
 let spinner
 const cache = {}
