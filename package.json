@@ -1,6 +1,6 @@
 {
   "name": "mod-dep-mod",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "type": "module",
   "description": "tool to find modules that depend on other modules, comes in handy when you don't know what is pulling in what",
   "bin": {
