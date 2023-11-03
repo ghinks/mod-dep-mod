@@ -32,7 +32,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "3.2.3",
+    "async": "3.2.5",
     "isomorphic-fetch": "3.0.0",
     "minimist": "1.2.6",
     "npm-package-arg": "8.1.5",
